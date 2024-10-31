@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- KCC対象外理由 --></label>
+    <name>KCC_ReasonForExclusion__c</name>
+    <picklistValues>
+        <masterLabel>その他</masterLabel>
+        <translation><!-- その他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>別居親族からの申し出</masterLabel>
+        <translation><!-- 別居親族からの申し出 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>契約者了承なし</masterLabel>
+        <translation><!-- 契約者了承なし --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>期中解約</masterLabel>
+        <translation><!-- 期中解約 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>期日過ぎ</masterLabel>
+        <translation><!-- 期日過ぎ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>法人確認不可</masterLabel>
+        <translation><!-- 法人確認不可 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

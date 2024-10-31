@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 備考欄記入 --></label>
+    <name>RemarksColumn_del__c</name>
+    <picklistValues>
+        <masterLabel>不要</masterLabel>
+        <translation><!-- 不要 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未選択</masterLabel>
+        <translation><!-- 未選択 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>要</masterLabel>
+        <translation><!-- 要 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 計上_入電情報_連番 --></label>
+    <name>Appropriation_Name__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Next Life Event --></label>
+    <name>FinServ__NextLifeEvent__c</name>
+    <picklistValues>
+        <masterLabel>プロモーション</masterLabel>
+        <translation><!-- プロモーション --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>住宅購入</masterLabel>
+        <translation><!-- 住宅購入 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>出産</masterLabel>
+        <translation><!-- 出産 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>労働者</masterLabel>
+        <translation><!-- 労働者 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>学生</masterLabel>
+        <translation><!-- 学生 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>家族の重要な出来事</masterLabel>
+        <translation><!-- 家族の重要な出来事 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>改修工事</masterLabel>
+        <translation><!-- 改修工事 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>職場復帰</masterLabel>
+        <translation><!-- 職場復帰 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>転勤・移住</masterLabel>
+        <translation><!-- 転勤・移住 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>退職</masterLabel>
+        <translation><!-- 退職 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

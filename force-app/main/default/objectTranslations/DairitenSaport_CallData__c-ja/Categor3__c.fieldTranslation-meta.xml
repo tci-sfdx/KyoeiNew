@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- カテゴリ③ --></label>
+    <name>Categor3__c</name>
+    <picklistValues>
+        <masterLabel>01契約・異動照会</masterLabel>
+        <translation><!-- 01契約・異動照会 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>01格納場所</masterLabel>
+        <translation><!-- 01格納場所 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>01登録状況の確認</masterLabel>
+        <translation><!-- 01登録状況の確認 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>02 ID追加・廃止</masterLabel>
+        <translation><!-- 02 ID追加・廃止 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>02利用申込書記載方法</masterLabel>
+        <translation><!-- 02利用申込書記載方法 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>02自動車始期応当契約照会</masterLabel>
+        <translation><!-- 02自動車始期応当契約照会 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>03変更依頼書記載方法</masterLabel>
+        <translation><!-- 03変更依頼書記載方法 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>03拠点追加・削除</masterLabel>
+        <translation><!-- 03拠点追加・削除 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>03質権内容照会</masterLabel>
+        <translation><!-- 03質権内容照会 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>04廃止継承関連</masterLabel>
+        <translation><!-- 04廃止継承関連 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>04計上用代理店コード</masterLabel>
+        <translation><!-- 04計上用代理店コード --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>05別個追加</masterLabel>
+        <translation><!-- 05別個追加 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>05早期申請</masterLabel>
+        <translation><!-- 05早期申請 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>06廃止継承関連</masterLabel>
+        <translation><!-- 06廃止継承関連 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>07枝番・ToDo・お知らせ制御</masterLabel>
+        <translation><!-- 07枝番・ToDo・お知らせ制御 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>08早期申請</masterLabel>
+        <translation><!-- 08早期申請 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>09登録通知書再発行</masterLabel>
+        <translation><!-- 09登録通知書再発行 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自01事故有契約次年度試算</masterLabel>
+        <translation><!-- 自01事故有契約次年度試算 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自01明細付契約</masterLabel>
+        <translation><!-- 自01明細付契約 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自01明細付契約（増車、枝番解約）</masterLabel>
+        <translation><!-- 自01明細付契約（増車、枝番解約） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自01見込客登録</masterLabel>
+        <translation><!-- 自01見込客登録 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自02中途更改</masterLabel>
+        <translation><!-- 自02中途更改 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自02他社移行</masterLabel>
+        <translation><!-- 自02他社移行 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自02明細付契約</masterLabel>
+        <translation><!-- 自02明細付契約 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自02更改番号計上</masterLabel>
+        <translation><!-- 自02更改番号計上 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自03中途更改契約</masterLabel>
+        <translation><!-- 自03中途更改契約 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自03他社移行</masterLabel>
+        <translation><!-- 自03他社移行 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自03解約</masterLabel>
+        <translation><!-- 自03解約 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自04中途更改</masterLabel>
+        <translation><!-- 自04中途更改 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自04車両入替</masterLabel>
+        <translation><!-- 自04車両入替 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自05住所氏名変更</masterLabel>
+        <translation><!-- 自05住所氏名変更 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自05複数所有新規</masterLabel>
+        <translation><!-- 自05複数所有新規 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自06その他の異動事由</masterLabel>
+        <translation><!-- 自06その他の異動事由 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自06中断特則</masterLabel>
+        <translation><!-- 自06中断特則 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自07継続契約</masterLabel>
+        <translation><!-- 自07継続契約 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自08試算対象外（会社計上）</masterLabel>
+        <translation><!-- 自08試算対象外（会社計上） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自09長期ノンフリ多割</masterLabel>
+        <translation><!-- 自09長期ノンフリ多割 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自99その他</masterLabel>
+        <translation><!-- 自99その他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>（未設定）</masterLabel>
+        <translation><!-- （未設定） --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

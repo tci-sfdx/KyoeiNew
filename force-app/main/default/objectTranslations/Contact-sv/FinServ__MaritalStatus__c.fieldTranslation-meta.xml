@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Marital Status --></label>
+    <name>FinServ__MaritalStatus__c</name>
+    <picklistValues>
+        <masterLabel>シングル</masterLabel>
+        <translation><!-- シングル --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>別れた</masterLabel>
+        <translation><!-- 別れた --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>既婚</masterLabel>
+        <translation><!-- 既婚 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未亡人</masterLabel>
+        <translation>Änka/Änkeman</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>離婚した</masterLabel>
+        <translation><!-- 離婚した --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

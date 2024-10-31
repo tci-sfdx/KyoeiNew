@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 追徴・返還有無 --></label>
+    <name>AdditionalReimbursement_Return__c</name>
+    <picklistValues>
+        <masterLabel>なし</masterLabel>
+        <translation><!-- なし --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>返還</masterLabel>
+        <translation><!-- 返還 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>追徴</masterLabel>
+        <translation><!-- 追徴 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

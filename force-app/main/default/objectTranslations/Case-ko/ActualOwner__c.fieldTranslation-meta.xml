@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 実態上の所有者(所有権留保の場合使用者) --></label>
+    <name>ActualOwner__c</name>
+</CustomFieldTranslation>

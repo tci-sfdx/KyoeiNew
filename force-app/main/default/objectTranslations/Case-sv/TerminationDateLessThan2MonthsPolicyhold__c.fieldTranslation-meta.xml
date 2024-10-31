@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 終期日2か月未満契約者説明済 --></label>
+    <name>TerminationDateLessThan2MonthsPolicyhold__c</name>
+</CustomFieldTranslation>

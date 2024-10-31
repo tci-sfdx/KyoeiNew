@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Role --></label>
+    <name>FinServ__Role__c</name>
+    <picklistValues>
+        <masterLabel>Accountant</masterLabel>
+        <translation>רואה חשבון</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Beneficiary</masterLabel>
+        <translation>מוטב</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Manager</masterLabel>
+        <translation>מנהל עסקי</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Corporation</masterLabel>
+        <translation>תאגיד</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foundation</masterLabel>
+        <translation>קרן</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grantor</masterLabel>
+        <translation>מעניק</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trustee</masterLabel>
+        <translation>נאמן</translation>
+    </picklistValues>
+</CustomFieldTranslation>

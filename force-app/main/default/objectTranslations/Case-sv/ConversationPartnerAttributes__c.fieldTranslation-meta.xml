@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 計上_会話相手属性 --></label>
+    <name>ConversationPartnerAttributes__c</name>
+    <picklistValues>
+        <masterLabel>その他</masterLabel>
+        <translation><!-- その他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>代理店</masterLabel>
+        <translation><!-- 代理店 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>契約者</masterLabel>
+        <translation><!-- 契約者 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>販売店等</masterLabel>
+        <translation><!-- 販売店等 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

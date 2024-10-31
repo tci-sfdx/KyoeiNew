@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 満期日と開始日の関係 --></label>
+    <name>DateRelationship__c</name>
+    <picklistValues>
+        <masterLabel>13ヵ月越え</masterLabel>
+        <translation><!-- 13ヵ月越え --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>有効</masterLabel>
+        <translation><!-- 有効 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未選択</masterLabel>
+        <translation><!-- 未選択 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>満期日～7日以内</masterLabel>
+        <translation><!-- 満期日～7日以内 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>８日～13ヵ月</masterLabel>
+        <translation><!-- ８日～13ヵ月 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

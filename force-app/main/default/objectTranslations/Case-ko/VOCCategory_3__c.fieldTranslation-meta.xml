@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- VOCカテゴリ_③ --></label>
+    <name>VOCCategory_3__c</name>
+    <picklistValues>
+        <masterLabel>JA職員＊</masterLabel>
+        <translation><!-- JA職員＊ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WEB約款</masterLabel>
+        <translation><!-- WEB約款 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>その他</masterLabel>
+        <translation><!-- その他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>その他代理店＊</masterLabel>
+        <translation><!-- その他代理店＊ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>その他（付保証明書発行希望など）</masterLabel>
+        <translation><!-- その他（付保証明書発行希望など） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>その他＊</masterLabel>
+        <translation><!-- その他＊ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>クレジットカード払い手続き</masterLabel>
+        <translation><!-- クレジットカード払い手続き --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>コンビニ払い手続き</masterLabel>
+        <translation><!-- コンビニ払い手続き --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>テストコール</masterLabel>
+        <translation><!-- テストコール --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>中断証明書</masterLabel>
+        <translation><!-- 中断証明書 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>代理店に関する問合せ</masterLabel>
+        <translation><!-- 代理店に関する問合せ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>会社へのお礼・賛辞</masterLabel>
+        <translation><!-- 会社へのお礼・賛辞 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>住所変更</masterLabel>
+        <translation><!-- 住所変更 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>保険事故の報告</masterLabel>
+        <translation><!-- 保険事故の報告 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>保険事故事例の相談</masterLabel>
+        <translation><!-- 保険事故事例の相談 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>保険料口座振替の手続き</masterLabel>
+        <translation><!-- 保険料口座振替の手続き --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>保険料払込方法</masterLabel>
+        <translation><!-- 保険料払込方法 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>保険料振替不能の手続き</masterLabel>
+        <translation><!-- 保険料振替不能の手続き --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>保険料支払い方法の変更</masterLabel>
+        <translation><!-- 保険料支払い方法の変更 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>保険料見積り</masterLabel>
+        <translation><!-- 保険料見積り --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>保険金支払いに関する問合せ</masterLabel>
+        <translation><!-- 保険金支払いに関する問合せ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>保険金支払先・支払額・支払時期に関する問合せ</masterLabel>
+        <translation><!-- 保険金支払先・支払額・支払時期に関する問合せ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>保険金請求手続きの問合せ</masterLabel>
+        <translation><!-- 保険金請求手続きの問合せ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>信金職員＊</masterLabel>
+        <translation><!-- 信金職員＊ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>共栄火災について</masterLabel>
+        <translation><!-- 共栄火災について --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>切電、間違い電話＊</masterLabel>
+        <translation><!-- 切電、間違い電話＊ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>加入検討</masterLabel>
+        <translation><!-- 加入検討 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>加入資格に関する問合せ</masterLabel>
+        <translation><!-- 加入資格に関する問合せ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>名義変更</masterLabel>
+        <translation><!-- 名義変更 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>商品内容説明（既契約者）</masterLabel>
+        <translation><!-- 商品内容説明（既契約者） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>商品内容説明（未契約者）</masterLabel>
+        <translation><!-- 商品内容説明（未契約者） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>営業関連へのお礼・賛辞</masterLabel>
+        <translation><!-- 営業関連へのお礼・賛辞 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>団体・団体扱・集団扱制度の問合せ</masterLabel>
+        <translation><!-- 団体・団体扱・集団扱制度の問合せ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>団体保険料支払いに関する問合せ</masterLabel>
+        <translation><!-- 団体保険料支払いに関する問合せ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>契約保全手続きの問合せ</masterLabel>
+        <translation><!-- 契約保全手続きの問合せ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>契約内容の照会</masterLabel>
+        <translation><!-- 契約内容の照会 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>契約存在確認</masterLabel>
+        <translation><!-- 契約存在確認 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>契約者貸付</masterLabel>
+        <translation><!-- 契約者貸付 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>富国職員</masterLabel>
+        <translation><!-- 富国職員 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>必要書類・記載方法</masterLabel>
+        <translation><!-- 必要書類・記載方法 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>担当部署・担当者に関する問い合わせ</masterLabel>
+        <translation><!-- 担当部署・担当者に関する問い合わせ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>担当部署連絡先案内</masterLabel>
+        <translation><!-- 担当部署連絡先案内 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>控除対象可否の確認</masterLabel>
+        <translation><!-- 控除対象可否の確認 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>控除証明書</masterLabel>
+        <translation><!-- 控除証明書 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>控除証明書再発行</masterLabel>
+        <translation><!-- 控除証明書再発行 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>損サ関連のお礼・賛辞</masterLabel>
+        <translation><!-- 損サ関連のお礼・賛辞 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>新規契約</masterLabel>
+        <translation><!-- 新規契約 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>書類未着</masterLabel>
+        <translation><!-- 書類未着 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>本社・営業店の電話番号案内</masterLabel>
+        <translation><!-- 本社・営業店の電話番号案内 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>条件変更</masterLabel>
+        <translation><!-- 条件変更 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>満期おすすめ（補償）内容</masterLabel>
+        <translation><!-- 満期おすすめ（補償）内容 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>満期手続き</masterLabel>
+        <translation><!-- 満期手続き --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>満期手続き方法</masterLabel>
+        <translation><!-- 満期手続き方法 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>満期返戻金手続き</masterLabel>
+        <translation><!-- 満期返戻金手続き --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>申請時の記載方法</masterLabel>
+        <translation><!-- 申請時の記載方法 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>異動手続き方法</masterLabel>
+        <translation><!-- 異動手続き方法 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>約款全般</masterLabel>
+        <translation><!-- 約款全般 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自動（継続）契約</masterLabel>
+        <translation><!-- 自動（継続）契約 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自振・失効</masterLabel>
+        <translation><!-- 自振・失効 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>解約手続き</masterLabel>
+        <translation><!-- 解約手続き --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>解約申出</masterLabel>
+        <translation><!-- 解約申出 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>解約返戻金試算</masterLabel>
+        <translation><!-- 解約返戻金試算 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>証券・加入者証の再発行</masterLabel>
+        <translation><!-- 証券・加入者証の再発行 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>証券・加入者証の発送状況確認（未着含む）</masterLabel>
+        <translation><!-- 証券・加入者証の発送状況確認（未着含む） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>証券・加入者証記載内容</masterLabel>
+        <translation><!-- 証券・加入者証記載内容 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>誤郵便</masterLabel>
+        <translation><!-- 誤郵便 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>請求手続き</masterLabel>
+        <translation><!-- 請求手続き --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>質権</masterLabel>
+        <translation><!-- 質権 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>車両入替</masterLabel>
+        <translation><!-- 車両入替 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>郵便物の内容</masterLabel>
+        <translation><!-- 郵便物の内容 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>関連会社に関する問合せ</masterLabel>
+        <translation><!-- 関連会社に関する問合せ --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

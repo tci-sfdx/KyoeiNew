@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 現在業務グループ --></label>
+    <name>CurrentBusinessGroup__c</name>
+    <picklistValues>
+        <masterLabel>予備1</masterLabel>
+        <translation><!-- 予備1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>予備2</masterLabel>
+        <translation><!-- 予備2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>予備3</masterLabel>
+        <translation><!-- 予備3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>信金窓販</masterLabel>
+        <translation><!-- 信金窓販 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

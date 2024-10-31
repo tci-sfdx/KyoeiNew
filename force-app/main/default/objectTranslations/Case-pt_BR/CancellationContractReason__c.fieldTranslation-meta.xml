@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 解約理由 --></label>
+    <name>CancellationContractReason__c</name>
+    <picklistValues>
+        <masterLabel>その他（別途記載）</masterLabel>
+        <translation><!-- その他（別途記載） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>他社移行</masterLabel>
+        <translation><!-- 他社移行 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>廃車</masterLabel>
+        <translation><!-- 廃車 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>海外渡航</masterLabel>
+        <translation><!-- 海外渡航 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>譲渡</masterLabel>
+        <translation><!-- 譲渡 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>車検切れ</masterLabel>
+        <translation><!-- 車検切れ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>返還</masterLabel>
+        <translation><!-- 返還 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>退職</masterLabel>
+        <translation><!-- 退職 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

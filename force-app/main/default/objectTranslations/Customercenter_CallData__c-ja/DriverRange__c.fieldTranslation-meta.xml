@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 運転者範囲 --></label>
+    <name>DriverRange__c</name>
+    <picklistValues>
+        <masterLabel>未選択</masterLabel>
+        <translation><!-- 未選択 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>範囲内</masterLabel>
+        <translation><!-- 範囲内 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>範囲外</masterLabel>
+        <translation><!-- 範囲外 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

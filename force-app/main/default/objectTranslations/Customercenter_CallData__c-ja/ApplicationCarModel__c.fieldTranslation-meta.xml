@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 用途車種 --></label>
+    <name>ApplicationCarModel__c</name>
+    <picklistValues>
+        <masterLabel>キャンピング</masterLabel>
+        <translation><!-- キャンピング --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>特殊</masterLabel>
+        <translation><!-- 特殊 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自小乗</masterLabel>
+        <translation><!-- 自小乗 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自小貨</masterLabel>
+        <translation><!-- 自小貨 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自普乗</masterLabel>
+        <translation><!-- 自普乗 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自普貨</masterLabel>
+        <translation><!-- 自普貨 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自軽四乗</masterLabel>
+        <translation><!-- 自軽四乗 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自軽四貨</masterLabel>
+        <translation><!-- 自軽四貨 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

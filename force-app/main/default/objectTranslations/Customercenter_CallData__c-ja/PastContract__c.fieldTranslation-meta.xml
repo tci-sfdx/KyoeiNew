@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 過去13ヶ月自動車保険契約有無 --></label>
+    <name>PastContract__c</name>
+    <picklistValues>
+        <masterLabel>あり</masterLabel>
+        <translation><!-- あり --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>なし</masterLabel>
+        <translation><!-- なし --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>中断証明</masterLabel>
+        <translation><!-- 中断証明 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未選択</masterLabel>
+        <translation><!-- 未選択 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>複数所有（他契約）</masterLabel>
+        <translation><!-- 複数所有（他契約） --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

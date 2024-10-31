@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 照会対応（所要時間） --></label>
+    <name>OverMinutes__c</name>
+    <picklistValues>
+        <masterLabel>60分越え</masterLabel>
+        <translation><!-- 60分越え --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>90分越え</masterLabel>
+        <translation><!-- 90分越え --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>予備1</masterLabel>
+        <translation><!-- 予備1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>予備2</masterLabel>
+        <translation><!-- 予備2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>予備3</masterLabel>
+        <translation><!-- 予備3 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

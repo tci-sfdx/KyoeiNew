@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>代理店サポートコールデータ</value>
+    </caseValues>
+    <layouts>
+        <layout>アシストライン（支援事務以外）</layout>
+        <sections>
+            <label><!-- AmiVoice --></label>
+            <section>AmiVoice</section>
+        </sections>
+        <sections>
+            <label><!-- Remote Operator --></label>
+            <section>Remote Operator</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- コールオプション --></label>
+            <section>コールオプション</section>
+        </sections>
+        <sections>
+            <label><!-- システム情報 --></label>
+            <section>システム情報</section>
+        </sections>
+        <sections>
+            <label><!-- システム情報2 --></label>
+            <section>システム情報2</section>
+        </sections>
+        <sections>
+            <label><!-- メモ --></label>
+            <section>メモ</section>
+        </sections>
+        <sections>
+            <label><!-- ロングテキストエリア用 --></label>
+            <section>ロングテキストエリア用</section>
+        </sections>
+        <sections>
+            <label><!-- 二次照会先 --></label>
+            <section>二次照会先</section>
+        </sections>
+        <sections>
+            <label><!-- 画面ショット --></label>
+            <section>画面ショット</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>支援事務</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- コールオプション --></label>
+            <section>コールオプション</section>
+        </sections>
+        <sections>
+            <label><!-- システム情報 --></label>
+            <section>システム情報</section>
+        </sections>
+        <sections>
+            <label><!-- システム情報② --></label>
+            <section>システム情報②</section>
+        </sections>
+        <sections>
+            <label><!-- メモ --></label>
+            <section>メモ</section>
+        </sections>
+        <sections>
+            <label><!-- ロングテキストエリア用 --></label>
+            <section>ロングテキストエリア用</section>
+        </sections>
+        <sections>
+            <label><!-- 二次照会先 --></label>
+            <section>二次照会先</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- メールの送信 --></label>
+        <name>SendingEmail</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- 代理店サポートテンプレート選択 --></label>
+        <name>SettingTemplate</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- A.アシストライン（自動車） --></label>
+        <name>Automobile</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- G.アシストライン（D精算O領収証） --></label>
+        <name>D_reimbursement_O_receipt</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- I.アシストライン（ディーラ） --></label>
+        <name>Dealer</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- C.アシストライン（傷害新種） --></label>
+        <name>DisabilityNew</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- J.アシストライン（E-JIBAI） --></label>
+        <name>E_JIBAI</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- B.アシストライン（火災） --></label>
+        <name>Fire</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- D.アシストライン（全般） --></label>
+        <name>General</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- F.アシストライン（IE） --></label>
+        <name>IE</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- K.アシストライン（生保） --></label>
+        <name>LifeInsurance</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- H.アシストライン（その他） --></label>
+        <name>Other</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- E.アシストライン（パスワード） --></label>
+        <name>Password</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- L.アシストライン（支援事務） --></label>
+        <name>SupportOffice</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- クローズする際にはAmiVoiceログを入力してください --></errorMessage>
+        <name>AmiVoice_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- クローズする際には回答詳細を入力してください --></errorMessage>
+        <name>AnswerDetails_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- クローズする際にはCLOSE日時を入力してください --></errorMessage>
+        <name>CLOSEDateAndTime_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- クローズする際には通話時間を入力してください --></errorMessage>
+        <name>CallTime_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- クローズする際にはカテゴリ③を入力してください --></errorMessage>
+        <name>Categor3_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- クローズする際にはカテゴリ①を入力してください --></errorMessage>
+        <name>Category1_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- クローズする際にはカテゴリ②を入力してください --></errorMessage>
+        <name>Category2_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- クローズする際には問い合わせ詳細を入力してください --></errorMessage>
+        <name>InquiryDetails_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- クローズする際には保険種目を入力してください --></errorMessage>
+        <name>InsuranceEventList_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- クローズする際には保険種類を入力してください --></errorMessage>
+        <name>InsuranceTypeList_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- クローズする際には受付日時を入力してください --></errorMessage>
+        <name>ReceptionDateAndTime_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- クローズする際にはリモートオペレーターにチェックしてください --></errorMessage>
+        <name>RemoteOperator_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- クローズする際には回答担当者を入力してください --></errorMessage>
+        <name>Respondent_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- クローズする際には使用時間（分）を入力してください --></errorMessage>
+        <name>UsageTime_RequiredCheck</name>
+    </validationRules>
+</CustomObjectTranslation>

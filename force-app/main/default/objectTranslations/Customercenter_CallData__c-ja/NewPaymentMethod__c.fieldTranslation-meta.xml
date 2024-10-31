@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 新払込方法 --></label>
+    <name>NewPaymentMethod__c</name>
+    <picklistValues>
+        <masterLabel>クレジットカード</masterLabel>
+        <translation><!-- クレジットカード --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>振込</masterLabel>
+        <translation><!-- 振込 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

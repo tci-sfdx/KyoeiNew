@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 解約完了_入電_担当者 --></label>
+    <name>CancellationCompleted_Incoming_Telephone__c</name>
+    <relationshipLabel><!-- カスタマーセンター_コールデータ_old (解約完了_入電_担当者) --></relationshipLabel>
+</CustomFieldTranslation>

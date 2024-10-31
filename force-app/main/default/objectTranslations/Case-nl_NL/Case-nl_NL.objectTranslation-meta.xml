@@ -1,0 +1,1446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Case Layout</layout>
+        <sections>
+            <label><!-- BBEDORE連携項目 --></label>
+            <section>BBEDORE連携項目</section>
+        </sections>
+        <sections>
+            <label><!-- 判別項目セクション --></label>
+            <section>判別項目セクション</section>
+        </sections>
+        <sections>
+            <label><!-- 管理セクション --></label>
+            <section>管理セクション</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>サポートデスク</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 入電者情報 --></label>
+            <section>入電者情報</section>
+        </sections>
+        <sections>
+            <label><!-- 品質管理 --></label>
+            <section>品質管理</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ --></label>
+            <section>問い合わせ</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ_1列① --></label>
+            <section>問い合わせ_1列①</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ_1列② --></label>
+            <section>問い合わせ_1列②</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ_2列② --></label>
+            <section>問い合わせ_2列②</section>
+        </sections>
+        <sections>
+            <label><!-- 基本情報 --></label>
+            <section>基本情報</section>
+        </sections>
+        <sections>
+            <label><!-- 契約情報 --></label>
+            <section>契約情報</section>
+        </sections>
+        <sections>
+            <label><!-- 後で整理 --></label>
+            <section>後で整理</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>富国異動</layout>
+        <sections>
+            <label><!-- アラート表示 --></label>
+            <section>アラート表示</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 不備内容 --></label>
+            <section>不備内容</section>
+        </sections>
+        <sections>
+            <label><!-- 不備対応 --></label>
+            <section>不備対応</section>
+        </sections>
+        <sections>
+            <label><!-- 保険料返戻口座情報 --></label>
+            <section>保険料返戻口座情報</section>
+        </sections>
+        <sections>
+            <label><!-- 入電者情報 --></label>
+            <section>入電者情報</section>
+        </sections>
+        <sections>
+            <label><!-- 印刷連番情報 --></label>
+            <section>印刷連番情報</section>
+        </sections>
+        <sections>
+            <label><!-- 品質管理 --></label>
+            <section>品質管理</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ --></label>
+            <section>問い合わせ</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ_1列① --></label>
+            <section>問い合わせ_1列①</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ_1列② --></label>
+            <section>問い合わせ_1列②</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ詳細_2列② --></label>
+            <section>問い合わせ詳細_2列②</section>
+        </sections>
+        <sections>
+            <label><!-- 基本情報 --></label>
+            <section>基本情報</section>
+        </sections>
+        <sections>
+            <label><!-- 契約情報 --></label>
+            <section>契約情報</section>
+        </sections>
+        <sections>
+            <label><!-- 契約者・記名被保険者情報 --></label>
+            <section>契約者・記名被保険者情報</section>
+        </sections>
+        <sections>
+            <label><!-- 後で整理 --></label>
+            <section>後で整理</section>
+        </sections>
+        <sections>
+            <label><!-- 業務フロー管理 --></label>
+            <section>業務フロー管理</section>
+        </sections>
+        <sections>
+            <label><!-- 業務フロー管理_事務作業者 --></label>
+            <section>業務フロー管理_事務作業者</section>
+        </sections>
+        <sections>
+            <label><!-- 異動関連情報 --></label>
+            <section>異動関連情報</section>
+        </sections>
+        <sections>
+            <label><!-- 組合員確認情報_団体・集団扱のみ --></label>
+            <section>組合員確認情報_団体・集団扱のみ</section>
+        </sections>
+        <sections>
+            <label><!-- 補償内容情報 --></label>
+            <section>補償内容情報</section>
+        </sections>
+        <sections>
+            <label><!-- 車両情報 --></label>
+            <section>車両情報</section>
+        </sections>
+        <sections>
+            <label><!-- 運転者範囲・年齢条件情報 --></label>
+            <section>運転者範囲・年齢条件情報</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>汎用</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 入電者情報 --></label>
+            <section>入電者情報</section>
+        </sections>
+        <sections>
+            <label><!-- 品質管理 --></label>
+            <section>品質管理</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ --></label>
+            <section>問い合わせ</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ_1列① --></label>
+            <section>問い合わせ_1列①</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ_1列② --></label>
+            <section>問い合わせ_1列②</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ_2列② --></label>
+            <section>問い合わせ_2列②</section>
+        </sections>
+        <sections>
+            <label><!-- 基本情報 --></label>
+            <section>基本情報</section>
+        </sections>
+        <sections>
+            <label><!-- 契約情報 --></label>
+            <section>契約情報</section>
+        </sections>
+        <sections>
+            <label><!-- 後で整理 --></label>
+            <section>後で整理</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>火新異動</layout>
+        <sections>
+            <label><!-- アラート表示 --></label>
+            <section>アラート表示</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 不備内容 --></label>
+            <section>不備内容</section>
+        </sections>
+        <sections>
+            <label><!-- 不備対応 --></label>
+            <section>不備対応</section>
+        </sections>
+        <sections>
+            <label><!-- 入電者情報 --></label>
+            <section>入電者情報</section>
+        </sections>
+        <sections>
+            <label><!-- 品質管理 --></label>
+            <section>品質管理</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ --></label>
+            <section>問い合わせ</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ_1列 --></label>
+            <section>問い合わせ_1列</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ_1列② --></label>
+            <section>問い合わせ_1列②</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ_2列② --></label>
+            <section>問い合わせ_2列②</section>
+        </sections>
+        <sections>
+            <label><!-- 基本情報 --></label>
+            <section>基本情報</section>
+        </sections>
+        <sections>
+            <label><!-- 変更後内容 --></label>
+            <section>変更後内容</section>
+        </sections>
+        <sections>
+            <label><!-- 契約情報 --></label>
+            <section>契約情報</section>
+        </sections>
+        <sections>
+            <label><!-- 後で整理 --></label>
+            <section>後で整理</section>
+        </sections>
+        <sections>
+            <label><!-- 計上G確認用 --></label>
+            <section>計上G確認用</section>
+        </sections>
+        <sections>
+            <label><!-- 計上受付 --></label>
+            <section>計上受付</section>
+        </sections>
+        <sections>
+            <label><!-- 計上完了 --></label>
+            <section>計上完了</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>自動継続停止</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 不備内容 --></label>
+            <section>不備内容</section>
+        </sections>
+        <sections>
+            <label><!-- 不備項目 --></label>
+            <section>不備項目</section>
+        </sections>
+        <sections>
+            <label><!-- 入電者情報 --></label>
+            <section>入電者情報</section>
+        </sections>
+        <sections>
+            <label><!-- 品質管理 --></label>
+            <section>品質管理</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ --></label>
+            <section>問い合わせ</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ_1列① --></label>
+            <section>問い合わせ_1列①</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ_1列② --></label>
+            <section>問い合わせ_1列②</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ_2列② --></label>
+            <section>問い合わせ_2列②</section>
+        </sections>
+        <sections>
+            <label><!-- 基本情報 --></label>
+            <section>基本情報</section>
+        </sections>
+        <sections>
+            <label><!-- 契約情報 --></label>
+            <section>契約情報</section>
+        </sections>
+        <sections>
+            <label><!-- 後で整理 --></label>
+            <section>後で整理</section>
+        </sections>
+        <sections>
+            <label><!-- 自動継続停止_情報 --></label>
+            <section>自動継続停止_情報</section>
+        </sections>
+        <sections>
+            <label><!-- 計上受付 --></label>
+            <section>計上受付</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>自動車新規</layout>
+        <sections>
+            <label><!-- アラート表示 --></label>
+            <section>アラート表示</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 不備内容 --></label>
+            <section>不備内容</section>
+        </sections>
+        <sections>
+            <label><!-- 不備対応 --></label>
+            <section>不備対応</section>
+        </sections>
+        <sections>
+            <label><!-- 入電者情報 --></label>
+            <section>入電者情報</section>
+        </sections>
+        <sections>
+            <label><!-- 印刷連番情報 --></label>
+            <section>印刷連番情報</section>
+        </sections>
+        <sections>
+            <label><!-- 品質管理 --></label>
+            <section>品質管理</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ --></label>
+            <section>問い合わせ</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ_1列 --></label>
+            <section>問い合わせ_1列</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ_1列① --></label>
+            <section>問い合わせ_1列①</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ_2列② --></label>
+            <section>問い合わせ_2列②</section>
+        </sections>
+        <sections>
+            <label><!-- 基本情報 --></label>
+            <section>基本情報</section>
+        </sections>
+        <sections>
+            <label><!-- 契約情報 --></label>
+            <section>契約情報</section>
+        </sections>
+        <sections>
+            <label><!-- 契約者・記名被保険者情報 --></label>
+            <section>契約者・記名被保険者情報</section>
+        </sections>
+        <sections>
+            <label><!-- 後で整理 --></label>
+            <section>後で整理</section>
+        </sections>
+        <sections>
+            <label><!-- 新規見積り関連情報 --></label>
+            <section>新規見積り関連情報</section>
+        </sections>
+        <sections>
+            <label><!-- 旧（他）契約情報 --></label>
+            <section>旧（他）契約情報</section>
+        </sections>
+        <sections>
+            <label><!-- 業務フロー管理 --></label>
+            <section>業務フロー管理</section>
+        </sections>
+        <sections>
+            <label><!-- 業務フロー管理_事務作業者 --></label>
+            <section>業務フロー管理_事務作業者</section>
+        </sections>
+        <sections>
+            <label><!-- 組合員確認情報_団体・集団扱のみ --></label>
+            <section>組合員確認情報_団体・集団扱のみ</section>
+        </sections>
+        <sections>
+            <label><!-- 補償内容情報 --></label>
+            <section>補償内容情報</section>
+        </sections>
+        <sections>
+            <label><!-- 車両情報 --></label>
+            <section>車両情報</section>
+        </sections>
+        <sections>
+            <label><!-- 運転者範囲・年齢条件情報 --></label>
+            <section>運転者範囲・年齢条件情報</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>自動車満期</layout>
+        <sections>
+            <label><!-- アラート表示 --></label>
+            <section>アラート表示</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 不備内容 --></label>
+            <section>不備内容</section>
+        </sections>
+        <sections>
+            <label><!-- 不備対応 --></label>
+            <section>不備対応</section>
+        </sections>
+        <sections>
+            <label><!-- 入電者情報 --></label>
+            <section>入電者情報</section>
+        </sections>
+        <sections>
+            <label><!-- 印刷連番情報 --></label>
+            <section>印刷連番情報</section>
+        </sections>
+        <sections>
+            <label><!-- 品質管理 --></label>
+            <section>品質管理</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ --></label>
+            <section>問い合わせ</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ_1列 --></label>
+            <section>問い合わせ_1列</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ_1列② --></label>
+            <section>問い合わせ_1列②</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ_2列② --></label>
+            <section>問い合わせ_2列②</section>
+        </sections>
+        <sections>
+            <label><!-- 基本情報 --></label>
+            <section>基本情報</section>
+        </sections>
+        <sections>
+            <label><!-- 契約情報 --></label>
+            <section>契約情報</section>
+        </sections>
+        <sections>
+            <label><!-- 契約者・記名被保険者情報 --></label>
+            <section>契約者・記名被保険者情報</section>
+        </sections>
+        <sections>
+            <label><!-- 後で整理 --></label>
+            <section>後で整理</section>
+        </sections>
+        <sections>
+            <label><!-- 業務フロー管理 --></label>
+            <section>業務フロー管理</section>
+        </sections>
+        <sections>
+            <label><!-- 業務フロー管理_事務作業者 --></label>
+            <section>業務フロー管理_事務作業者</section>
+        </sections>
+        <sections>
+            <label><!-- 満期関連情報 --></label>
+            <section>満期関連情報</section>
+        </sections>
+        <sections>
+            <label><!-- 組合員確認情報_団体・集団扱のみ --></label>
+            <section>組合員確認情報_団体・集団扱のみ</section>
+        </sections>
+        <sections>
+            <label><!-- 補償内容情報 --></label>
+            <section>補償内容情報</section>
+        </sections>
+        <sections>
+            <label><!-- 車両情報 --></label>
+            <section>車両情報</section>
+        </sections>
+        <sections>
+            <label><!-- 運転者範囲・年齢条件情報 --></label>
+            <section>運転者範囲・年齢条件情報</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>自動車異動</layout>
+        <sections>
+            <label><!-- アラート表示 --></label>
+            <section>アラート表示</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 不備内容 --></label>
+            <section>不備内容</section>
+        </sections>
+        <sections>
+            <label><!-- 不備対応 --></label>
+            <section>不備対応</section>
+        </sections>
+        <sections>
+            <label><!-- 保険料返戻口座情報 --></label>
+            <section>保険料返戻口座情報</section>
+        </sections>
+        <sections>
+            <label><!-- 入電者情報 --></label>
+            <section>入電者情報</section>
+        </sections>
+        <sections>
+            <label><!-- 印刷連番情報 --></label>
+            <section>印刷連番情報</section>
+        </sections>
+        <sections>
+            <label><!-- 品質管理 --></label>
+            <section>品質管理</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ --></label>
+            <section>問い合わせ</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ_1列① --></label>
+            <section>問い合わせ_1列①</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ_1列② --></label>
+            <section>問い合わせ_1列②</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ詳細_2列② --></label>
+            <section>問い合わせ詳細_2列②</section>
+        </sections>
+        <sections>
+            <label><!-- 基本情報 --></label>
+            <section>基本情報</section>
+        </sections>
+        <sections>
+            <label><!-- 契約情報 --></label>
+            <section>契約情報</section>
+        </sections>
+        <sections>
+            <label><!-- 契約者・記名被保険者情報 --></label>
+            <section>契約者・記名被保険者情報</section>
+        </sections>
+        <sections>
+            <label><!-- 後で整理 --></label>
+            <section>後で整理</section>
+        </sections>
+        <sections>
+            <label><!-- 業務フロー管理 --></label>
+            <section>業務フロー管理</section>
+        </sections>
+        <sections>
+            <label><!-- 業務フロー管理_事務作業者 --></label>
+            <section>業務フロー管理_事務作業者</section>
+        </sections>
+        <sections>
+            <label><!-- 異動関連情報 --></label>
+            <section>異動関連情報</section>
+        </sections>
+        <sections>
+            <label><!-- 組合員確認情報_団体・集団扱のみ --></label>
+            <section>組合員確認情報_団体・集団扱のみ</section>
+        </sections>
+        <sections>
+            <label><!-- 補償内容情報 --></label>
+            <section>補償内容情報</section>
+        </sections>
+        <sections>
+            <label><!-- 車両情報 --></label>
+            <section>車両情報</section>
+        </sections>
+        <sections>
+            <label><!-- 運転者範囲・年齢条件情報 --></label>
+            <section>運転者範囲・年齢条件情報</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>自動車試算SD</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 入電者情報 --></label>
+            <section>入電者情報</section>
+        </sections>
+        <sections>
+            <label><!-- 印刷連番情報 --></label>
+            <section>印刷連番情報</section>
+        </sections>
+        <sections>
+            <label><!-- 品質管理 --></label>
+            <section>品質管理</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ --></label>
+            <section>問い合わせ</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ_1列① --></label>
+            <section>問い合わせ_1列①</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ_1列② --></label>
+            <section>問い合わせ_1列②</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ_2列② --></label>
+            <section>問い合わせ_2列②</section>
+        </sections>
+        <sections>
+            <label><!-- 基本情報 --></label>
+            <section>基本情報</section>
+        </sections>
+        <sections>
+            <label><!-- 契約情報 --></label>
+            <section>契約情報</section>
+        </sections>
+        <sections>
+            <label><!-- 後で整理 --></label>
+            <section>後で整理</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>自賠責解約</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 入電情報_書類不備 --></label>
+            <section>入電情報_書類不備</section>
+        </sections>
+        <sections>
+            <label><!-- 入電情報_書類不備_1列 --></label>
+            <section>入電情報_書類不備_1列</section>
+        </sections>
+        <sections>
+            <label><!-- 入電情報_書類督促 --></label>
+            <section>入電情報_書類督促</section>
+        </sections>
+        <sections>
+            <label><!-- 入電情報_書類督促_1列 --></label>
+            <section>入電情報_書類督促_1列</section>
+        </sections>
+        <sections>
+            <label><!-- 入電情報_解約完了 --></label>
+            <section>入電情報_解約完了</section>
+        </sections>
+        <sections>
+            <label><!-- 入電情報_解約完了_1列 --></label>
+            <section>入電情報_解約完了_1列</section>
+        </sections>
+        <sections>
+            <label><!-- 入電者情報 --></label>
+            <section>入電者情報</section>
+        </sections>
+        <sections>
+            <label><!-- 品質管理 --></label>
+            <section>品質管理</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ --></label>
+            <section>問い合わせ</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ_1列 --></label>
+            <section>問い合わせ_1列</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ_1列② --></label>
+            <section>問い合わせ_1列②</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ_2列② --></label>
+            <section>問い合わせ_2列②</section>
+        </sections>
+        <sections>
+            <label><!-- 基本情報 --></label>
+            <section>基本情報</section>
+        </sections>
+        <sections>
+            <label><!-- 契約情報 --></label>
+            <section>契約情報</section>
+        </sections>
+        <sections>
+            <label><!-- 後で整理 --></label>
+            <section>後で整理</section>
+        </sections>
+        <sections>
+            <label><!-- 書類不備 --></label>
+            <section>書類不備</section>
+        </sections>
+        <sections>
+            <label><!-- 書類不備_1列 --></label>
+            <section>書類不備_1列</section>
+        </sections>
+        <sections>
+            <label><!-- 書類不備_1列_2 --></label>
+            <section>書類不備_1列_2</section>
+        </sections>
+        <sections>
+            <label><!-- 書類不備_2列 --></label>
+            <section>書類不備_2列</section>
+        </sections>
+        <sections>
+            <label><!-- 書類発送 --></label>
+            <section>書類発送</section>
+        </sections>
+        <sections>
+            <label><!-- 書類発送_入電情報 --></label>
+            <section>書類発送_入電情報</section>
+        </sections>
+        <sections>
+            <label><!-- 書類発送_入電情報_1列 --></label>
+            <section>書類発送_入電情報_1列</section>
+        </sections>
+        <sections>
+            <label><!-- 書類督促 --></label>
+            <section>書類督促</section>
+        </sections>
+        <sections>
+            <label><!-- 書類督促_1列 --></label>
+            <section>書類督促_1列</section>
+        </sections>
+        <sections>
+            <label><!-- 自賠責解約_情報 --></label>
+            <section>自賠責解約_情報</section>
+        </sections>
+        <sections>
+            <label><!-- 解約完了 --></label>
+            <section>解約完了</section>
+        </sections>
+        <sections>
+            <label><!-- 解約完了_1列 --></label>
+            <section>解約完了_1列</section>
+        </sections>
+        <sections>
+            <label><!-- 解約完了_2列 --></label>
+            <section>解約完了_2列</section>
+        </sections>
+        <sections>
+            <label><!-- 計上G確認用 --></label>
+            <section>計上G確認用</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>計上グループ_入電</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 入力対象外項目 --></label>
+            <section>入力対象外項目</section>
+        </sections>
+        <sections>
+            <label><!-- 情報 --></label>
+            <section>情報</section>
+        </sections>
+        <sections>
+            <label><!-- 情報_1列 --></label>
+            <section>情報_1列</section>
+        </sections>
+        <sections>
+            <label><!-- 権限非表示項目 --></label>
+            <section>権限非表示項目</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>証券再発行</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 不備内容 --></label>
+            <section>不備内容</section>
+        </sections>
+        <sections>
+            <label><!-- 不備対応 --></label>
+            <section>不備対応</section>
+        </sections>
+        <sections>
+            <label><!-- 入電者情報 --></label>
+            <section>入電者情報</section>
+        </sections>
+        <sections>
+            <label><!-- 品質管理 --></label>
+            <section>品質管理</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ --></label>
+            <section>問い合わせ</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ_1列① --></label>
+            <section>問い合わせ_1列①</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ_1列② --></label>
+            <section>問い合わせ_1列②</section>
+        </sections>
+        <sections>
+            <label><!-- 問い合わせ_2列② --></label>
+            <section>問い合わせ_2列②</section>
+        </sections>
+        <sections>
+            <label><!-- 基本情報 --></label>
+            <section>基本情報</section>
+        </sections>
+        <sections>
+            <label><!-- 契約情報 --></label>
+            <section>契約情報</section>
+        </sections>
+        <sections>
+            <label><!-- 後で整理 --></label>
+            <section>後で整理</section>
+        </sections>
+        <sections>
+            <label><!-- 異動内容 --></label>
+            <section>異動内容</section>
+        </sections>
+        <sections>
+            <label><!-- 計上G --></label>
+            <section>計上G</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- 郵便番号検索 --></label>
+        <name>AddressSearch</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- メール --></label>
+        <name>CaseMail</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- 【火新異動】一括クローズ --></label>
+        <name>FireMassClose</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- 計上グループ帳票出力 --></label>
+        <name>KeijoGroupReport</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewChildCase --></label>
+        <name>NewChildCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- 【再発行】一括クローズ --></label>
+        <name>ReRegisterdMassClose</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- 帳票出力 --></label>
+        <name>ReportCustomer</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- メール --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- テンプレート選択 --></label>
+        <name>SettingTemplate</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- 【自継停止】一括クローズ --></label>
+        <name>StopAutoContinueMassClose</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- 【自動車】到着日一括更新 --></label>
+        <name>UpdateArrivalDate</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- 【自動車】返送フォロー日一括更新 --></label>
+        <name>UpdateReturnFollowDate</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- 計上グループ_入電 --></label>
+        <name>AppropriationCall</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 自動継続停止 --></label>
+        <name>Auto_ContinuationStop</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 自動車満期 --></label>
+        <name>AutomobileMaturity</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 自動車見積 --></label>
+        <name>AutomobileQuotation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 自動車異動 --></label>
+        <name>AutomobileTransfers</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 自動車新規 --></label>
+        <name>AutomotiveNew</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- BEDORE事故受付 --></label>
+        <name>BEDOREAccident</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 火新異動 --></label>
+        <name>Fire</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 汎用 --></label>
+        <name>GeneralPurpose</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 自賠責解約 --></label>
+        <name>IndemnityTermination</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- JAカード傷害・JAトラブル --></label>
+        <name>JA_JA</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 証券再発行 --></label>
+        <name>ReissuanceOfSecurities</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 自動車試算SD --></label>
+        <name>SD</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- サポートデスク --></label>
+        <name>Support_Desk</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 富国異動 --></label>
+        <name>TransferOfWealth</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- 割引あり・なしを入力してください --></errorMessage>
+        <name>ASVDiscount_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 口座名義人の登録変更有無を確認してください --></errorMessage>
+        <name>AccountChange_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 保険料を返還する口座情報を入力してください。 --></errorMessage>
+        <name>AccountName_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 保険料を返還する口座情報を入力してください。 --></errorMessage>
+        <name>AccountNo_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 保険料を返還する口座情報を入力してください。 --></errorMessage>
+        <name>AccountType_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 記名被と実態所有者の関係を入力してください --></errorMessage>
+        <name>ActualOwnerRelationship_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- VOCカテゴリ①が受付の場合、受付項目（事由）で自動継続停止または死亡解約のいずれかを選択してください --></errorMessage>
+        <name>AutoConStop_VOC_1_ReceiptItem_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 受付項目が自動継続停止の場合はVOCカテゴリ①が受付、不備なしにチェックが無いと保存できません --></errorMessage>
+        <name>AutoConStop_VOC_NotDeficiency_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 受付項目（事由）で自動継続停止選択時、KCC対象外理由に入力がある状態で保存できません --></errorMessage>
+        <name>Auto_ConStop_KCC_ReasonForExc_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 受付項目（事由）で自動継続停止選択時、その他＿記入欄に入力がある状態で保存できません --></errorMessage>
+        <name>Auto_ConStop_OtherEntryField_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 元の証券番号を入力してください --></errorMessage>
+        <name>BlowingOut_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 保険料を返還する口座情報を入力してください。 --></errorMessage>
+        <name>BranchName_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 次契約の異動の有無をチェックしてください。 --></errorMessage>
+        <name>ChangeInContinuingContracts_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 転居済と被保険者住所変更有無をチェックしてください --></errorMessage>
+        <name>ChangeOfAddress_No480_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 契約者情報の変更有無をチェックしてください --></errorMessage>
+        <name>ChangeOfSubscriberInformation_AdCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 契約者情報の変更有無をチェックしてください --></errorMessage>
+        <name>ChangeOfSubscriberInformation_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- クローズされたレコードは更新できません --></errorMessage>
+        <name>ClosedRecordNotUpdated_Profile_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 集団扱が継続できるか代理店に確認してください --></errorMessage>
+        <name>Co_OpContinuation_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 保険開始日以前のため、受付できません --></errorMessage>
+        <name>CommencementOfInsurance_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 保険始期を入力してください --></errorMessage>
+        <name>CommencementOfInsurance_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 取引先責任者を入力してください --></errorMessage>
+        <name>ContactId_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 契約者と折返し連絡者の関係を入力してください --></errorMessage>
+        <name>ContactPersonRelationship_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 継続計上済証券番号を入力してください --></errorMessage>
+        <name>ContinuouslyRecordedPolicyNumber_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 契約者住所を入力してください。 --></errorMessage>
+        <name>ContractorAddress_Number_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 契約者住所を入力してください。 --></errorMessage>
+        <name>ContractorAddress_PostCode_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 契約者名を入力してください --></errorMessage>
+        <name>ContractorName_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 入電者が対象外のため、受付できません --></errorMessage>
+        <name>ConversationPartner_Group_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- レコードタイプ：BEDORE事故受付では、登録することができません --></errorMessage>
+        <name>CustomerRole_RecordType_InputCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 計上日を入力してください --></errorMessage>
+        <name>DatePosted_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 不備が解消されていません、不備フォロー結果を入力してください --></errorMessage>
+        <name>DeficiencyFollow_UpResult_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 不備内容を入力してください --></errorMessage>
+        <name>DetailsOfDeficiency_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 排気量（単位：リットル）を入力してください --></errorMessage>
+        <name>Displacement_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 保険終期を入力してください --></errorMessage>
+        <name>EndInsurance_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 保険料返戻による説明有無をチェックしてください --></errorMessage>
+        <name>ExplanationByPremiumRefund_InsertCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 保険料返戻による説明有無をチェックしてください --></errorMessage>
+        <name>ExplanationByPremiumRefund_UpdateCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- （新）被保険者住所カナを入力してください --></errorMessage>
+        <name>Fire_InsuredAddressAfterChangeKana_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- （新）被保険者住所カナは半角で入力してください --></errorMessage>
+        <name>Fire_InsuredAddressChangeKana_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- （新）被保険者住所を入力してください --></errorMessage>
+        <name>Fire_Insured_AddressAfterChange1_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- （新）被保険者郵便番号を入力してください --></errorMessage>
+        <name>Fire_Insured_PostalCodeAfterChange_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- （新）契約者住所カナは半角で入力してください --></errorMessage>
+        <name>Fire_PostChangeAddressKana_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- （新）連絡先は半角数字とハイフン（2つ）で入力してください --></errorMessage>
+        <name>Fire_Post_ChangeContactNumber_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- （新）電話番号は半角数字とハイフン（2つ）で入力してください --></errorMessage>
+        <name>Fire_TelephoneNumberAfterChange_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 異動日を確認してください --></errorMessage>
+        <name>Idobi_JidoKeizoku_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 異動日を確認してください --></errorMessage>
+        <name>Idobi_PastCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 死亡日・原因を入力してください --></errorMessage>
+        <name>Idobi_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 異動日を確認してください --></errorMessage>
+        <name>Idobi_ShiboKaiyaku_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 個賠（個賠特約含む）で被保険者住所変更に伴う被保険者の範囲の変更を両方チェックすることはできません --></errorMessage>
+        <name>Individual_Liability_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 保険種目が正しくありません --></errorMessage>
+        <name>InsuranceItem_1_BusinessGroup_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- （新）被保険者住所は全角で入力してください --></errorMessage>
+        <name>Insured_AddressAfterChange_Full_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 受付項目（事由）契約者住所変更を選択してください --></errorMessage>
+        <name>IsAddresChange_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 受付項目が書類送付の場合、宛名法人名を入力してください --></errorMessage>
+        <name>IsAddresseeCorporateName_BlankCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 受付項目が書類送付の場合、宛名を入力してください --></errorMessage>
+        <name>IsAddresseeName_BlankCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 被保険者住所変更のみの変更はできません --></errorMessage>
+        <name>IsChangeInsuredAddressOnly_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 受付項目が書類送付の場合、送付先住所を入力してください --></errorMessage>
+        <name>IsMailingAddress_BlankCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 受付項目が書類送付の場合、送付先郵便番号を入力してください --></errorMessage>
+        <name>IsPostalCode_BlankCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 受付項目（事由）電話番号変更を選択してください --></errorMessage>
+        <name>IsTelephoneChange_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 保険料を返還する口座情報を入力してください。 --></errorMessage>
+        <name>KinyuKikan_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 個賠有無を両方チェックすることはできません --></errorMessage>
+        <name>Liability_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 免許証有効期限を確認してください --></errorMessage>
+        <name>LicenseExpirationDate_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 最大積載量（単位：トン）を入力してください --></errorMessage>
+        <name>MaximumLoadingCapacity_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 転居済と所在地変更有無をチェックしてください --></errorMessage>
+        <name>MovedOut_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 返戻する口座情報を入力してください --></errorMessage>
+        <name>NameOfFinancialInstitution_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 折返し連絡者名を入力してください --></errorMessage>
+        <name>NameOfReturnCaller_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 記名被と車検証記載の車両所有者の関係を入力してください --></errorMessage>
+        <name>NamedRelationship_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 変更後の契約者の生年月日を入力してください --></errorMessage>
+        <name>NewBirthday_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 新旧契約者の関係を入力してください --></errorMessage>
+        <name>NewOld_Relationship_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 改姓後の契約者名を入力してください --></errorMessage>
+        <name>NewSubscriberName_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- ワンストップを入力してください --></errorMessage>
+        <name>One_StopShop_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 他契約証券番号を入力してください --></errorMessage>
+        <name>OtherContractsAvailable_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 作業者名を入力してください。 --></errorMessage>
+        <name>PersonInChargeOfPosting_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 契約特定方法を入力してください --></errorMessage>
+        <name>PolicyIdentificationMethod_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 証券番号の文字数が20文字を超えています --></errorMessage>
+        <name>PolicyNumberLengthCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 契約者郵便番号を入力してください。 --></errorMessage>
+        <name>PostCode_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- （新）契約者住所カナを入力してください --></errorMessage>
+        <name>Post_ChangeSubscriber_AddressKana_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- （新）契約者郵便番号を入力してください --></errorMessage>
+        <name>Post_ChangeSubscriber_ZipCode_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 計上のステータスを戻すことはできません。 --></errorMessage>
+        <name>PostedStatus_NotReturn</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 受付期日が過ぎているため、受付できません --></errorMessage>
+        <name>Reception_deadline1_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 受付期日が過ぎているため、受付できません --></errorMessage>
+        <name>Reception_deadline2_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 受付期日が過ぎているため、受付できません --></errorMessage>
+        <name>Reception_deadline3_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 関連コール番号を入力してください --></errorMessage>
+        <name>RelatedCallNumber_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 精算日を入力してください --></errorMessage>
+        <name>SettlementDate_BSeisan_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 精算日を入力してください --></errorMessage>
+        <name>SettlementDate_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 作業者名を入力してください。 --></errorMessage>
+        <name>SettlementEntryPerson_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 半角英数カナで入力してください --></errorMessage>
+        <name>Specification_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 指定日時を入力してください --></errorMessage>
+        <name>SpecifiedDateAndTime_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- （新）契約者住所を入力してください --></errorMessage>
+        <name>SubscribersAddressAfterChange1_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 変更後の契約者住所の情報を入力してください --></errorMessage>
+        <name>SubscribersAddressAfterChange2_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- （新）契約者住所は全角で入力してください --></errorMessage>
+        <name>SubscribersAddressAfterChange_Full_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- （新）電話番号を入力してください --></errorMessage>
+        <name>TelephoneNumberAfterChange_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 異動日を入力してください --></errorMessage>
+        <name>TueNewTransfer_DateOfTransfer_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 保険種目①を入力してください --></errorMessage>
+        <name>TypeOfInsurance_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 未計上異動の有無をチェックしてください。 --></errorMessage>
+        <name>UnrecordedTransfe_RequiredCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- VOCカテゴリ①が正しくありません --></errorMessage>
+        <name>VOCCategory_1_BusinessGroup_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 車検満了日を確認してください --></errorMessage>
+        <name>VehicleInspectionExpiryDate_Check</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- ChohyoP1_1 --></label>
+        <name>ChohyoP1_1</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ChohyoP1_2 --></label>
+        <name>ChohyoP1_2</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ChohyoP1_3 --></label>
+        <name>ChohyoP1_3</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ChohyoP1_4 --></label>
+        <name>ChohyoP1_4</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ChohyoP1_5 --></label>
+        <name>ChohyoP1_5</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ChohyoP1_6 --></label>
+        <name>ChohyoP1_6</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ChohyoP1_7 --></label>
+        <name>ChohyoP1_7</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ChohyoP1_8 --></label>
+        <name>ChohyoP1_8</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ChohyoTest --></label>
+        <name>ChohyoTest</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreateNewCase --></label>
+        <name>CreateNewCase</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- NewAppropriationCall --></label>
+        <name>NewAppropriationCall</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SVFLEXCaseButton20240409055516446fDQ --></label>
+        <name>SVFLEXCaseButton20240409055516446fDQ</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SVFLEXCaseButton2024061309543825928t --></label>
+        <name>SVFLEXCaseButton2024061309543825928t</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SVFLEXCaseButton202406130959579530t7 --></label>
+        <name>SVFLEXCaseButton202406130959579530t7</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SVFLEXCaseButton20240613100227120BNq --></label>
+        <name>SVFLEXCaseButton20240613100227120BNq</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SVFLEXCaseButton20240613100252240mAK --></label>
+        <name>SVFLEXCaseButton20240613100252240mAK</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SVFLEXCaseButton20240613100309398Fuw --></label>
+        <name>SVFLEXCaseButton20240613100309398Fuw</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SVFLEXCaseButton20240613100325098Z3c --></label>
+        <name>SVFLEXCaseButton20240613100325098Z3c</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SVFLEXCaseListButton20240409055516446fDQ --></label>
+        <name>SVFLEXCaseListButton20240409055516446fDQ</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SVFLEXCaseListButton2024061309543825928t --></label>
+        <name>SVFLEXCaseListButton2024061309543825928t</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SVFLEXCaseListButton202406130959579530t7 --></label>
+        <name>SVFLEXCaseListButton202406130959579530t7</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SVFLEXCaseListButton20240613100227120BNq --></label>
+        <name>SVFLEXCaseListButton20240613100227120BNq</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SVFLEXCaseListButton20240613100252240mAK --></label>
+        <name>SVFLEXCaseListButton20240613100252240mAK</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SVFLEXCaseListButton20240613100309398Fuw --></label>
+        <name>SVFLEXCaseListButton20240613100309398Fuw</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SVFLEXCaseListButton20240613100325098Z3c --></label>
+        <name>SVFLEXCaseListButton20240613100325098Z3c</name>
+    </webLinks>
+</CustomObjectTranslation>

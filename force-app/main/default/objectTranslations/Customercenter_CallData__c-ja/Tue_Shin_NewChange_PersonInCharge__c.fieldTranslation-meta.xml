@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 火新異動_担当者 --></label>
+    <name>Tue_Shin_NewChange_PersonInCharge__c</name>
+    <relationshipLabel><!-- カスタマーセンター_コールデータ_old (火新異動_担当者) --></relationshipLabel>
+</CustomFieldTranslation>

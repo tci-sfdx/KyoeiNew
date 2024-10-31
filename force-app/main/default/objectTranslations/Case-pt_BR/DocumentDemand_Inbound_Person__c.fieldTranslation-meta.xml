@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 書類督促_入電_担当者 --></label>
+    <name>DocumentDemand_Inbound_Person__c</name>
+    <relationshipLabel><!-- カスタマーセンターコールデータ (書類督促_入電_担当者) --></relationshipLabel>
+</CustomFieldTranslation>

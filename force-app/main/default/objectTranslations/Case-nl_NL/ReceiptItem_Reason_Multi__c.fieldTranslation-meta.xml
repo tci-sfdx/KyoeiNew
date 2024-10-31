@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 受付項目（事由）_複数 --></label>
+    <name>ReceiptItem_Reason_Multi__c</name>
+    <picklistValues>
+        <masterLabel>その他</masterLabel>
+        <translation><!-- その他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>その他変更</masterLabel>
+        <translation><!-- その他変更 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>その他異動</masterLabel>
+        <translation><!-- その他異動 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>その他補償内容・特約変更</masterLabel>
+        <translation><!-- その他補償内容・特約変更 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>名義変更（契約者）</masterLabel>
+        <translation><!-- 名義変更（契約者） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>名義変更（記名被保険者）</masterLabel>
+        <translation><!-- 名義変更（記名被保険者） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>名義変更（車両所有者）</masterLabel>
+        <translation><!-- 名義変更（車両所有者） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>増車</masterLabel>
+        <translation><!-- 増車 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>契約者住所変更</masterLabel>
+        <translation><!-- 契約者住所変更 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>契約者名変更（改姓）</masterLabel>
+        <translation><!-- 契約者名変更（改姓） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>書類送付</masterLabel>
+        <translation><!-- 書類送付 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>死亡解約</masterLabel>
+        <translation><!-- 死亡解約 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>照会</masterLabel>
+        <translation><!-- 照会 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>照会（計上G）</masterLabel>
+        <translation><!-- 照会（計上G） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自動継続停止</masterLabel>
+        <translation><!-- 自動継続停止 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>被保険者住所変更</masterLabel>
+        <translation><!-- 被保険者住所変更 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>解約</masterLabel>
+        <translation><!-- 解約 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>解約（中途更改）</masterLabel>
+        <translation><!-- 解約（中途更改） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>解約（中途解約）</masterLabel>
+        <translation><!-- 解約（中途解約） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>解約（任意）</masterLabel>
+        <translation><!-- 解約（任意） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>記名被保険者住所変更</masterLabel>
+        <translation><!-- 記名被保険者住所変更 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>証券再発行</masterLabel>
+        <translation><!-- 証券再発行 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>車両入替</masterLabel>
+        <translation><!-- 車両入替 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>運転者限定・年齢条件変更</masterLabel>
+        <translation><!-- 運転者限定・年齢条件変更 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>電話番号変更</masterLabel>
+        <translation><!-- 電話番号変更 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

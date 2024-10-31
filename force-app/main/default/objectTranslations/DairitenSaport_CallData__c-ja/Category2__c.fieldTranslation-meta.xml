@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- カテゴリ② --></label>
+    <name>Category2__c</name>
+    <picklistValues>
+        <masterLabel>0010KYOEIInformationExpress</masterLabel>
+        <translation><!-- 0010KYOEIInformationExpress --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0010OSシステム</masterLabel>
+        <translation><!-- 0010OSシステム --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0010PC本体</masterLabel>
+        <translation><!-- 0010PC本体 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0010お客様検索</masterLabel>
+        <translation><!-- 0010お客様検索 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0010アプリ</masterLabel>
+        <translation><!-- 0010アプリ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0010パスワード（ポータル）</masterLabel>
+        <translation><!-- 0010パスワード（ポータル） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0010事前準備作業</masterLabel>
+        <translation><!-- 0010事前準備作業 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0010共同GWログイン</masterLabel>
+        <translation><!-- 0010共同GWログイン --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0010定期提供保有</masterLabel>
+        <translation><!-- 0010定期提供保有 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0010生保オンライン</masterLabel>
+        <translation><!-- 0010生保オンライン --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0010申込書</masterLabel>
+        <translation><!-- 0010申込書 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0010統合メニューパスワード</masterLabel>
+        <translation><!-- 0010統合メニューパスワード --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0010自動車試算（ノンフリ）</masterLabel>
+        <translation><!-- 0010自動車試算（ノンフリ） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0010自賠責証明書作成(e)</masterLabel>
+        <translation><!-- 0010自賠責証明書作成(e) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0010集団扱集金管理(s)</masterLabel>
+        <translation><!-- 0010集団扱集金管理(s) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0010ＴｏＤｏ</masterLabel>
+        <translation><!-- 0010ＴｏＤｏ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0020CSVファイル取込(s)</masterLabel>
+        <translation><!-- 0020CSVファイル取込(s) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0020お知らせ</masterLabel>
+        <translation><!-- 0020お知らせ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0020タブレットその他</masterLabel>
+        <translation><!-- 0020タブレットその他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0020フコクしんらいインフォメーション</masterLabel>
+        <translation><!-- 0020フコクしんらいインフォメーション --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0020プリンター</masterLabel>
+        <translation><!-- 0020プリンター --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0020ポータルサイトメニューその他</masterLabel>
+        <translation><!-- 0020ポータルサイトメニューその他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0020他オフラインソフトその他</masterLabel>
+        <translation><!-- 0020他オフラインソフトその他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0020保険金支払</masterLabel>
+        <translation><!-- 0020保険金支払 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0020共同GWログオフ</masterLabel>
+        <translation><!-- 0020共同GWログオフ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0020再導入</masterLabel>
+        <translation><!-- 0020再導入 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0020契約検索</masterLabel>
+        <translation><!-- 0020契約検索 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0020復号化ツール</masterLabel>
+        <translation><!-- 0020復号化ツール --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0020承認書</masterLabel>
+        <translation><!-- 0020承認書 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0020自動車試算（フリート）</masterLabel>
+        <translation><!-- 0020自動車試算（フリート） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0020集計表作成(e)</masterLabel>
+        <translation><!-- 0020集計表作成(e) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0020電子証明書更新</masterLabel>
+        <translation><!-- 0020電子証明書更新 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0030コード管理(s)</masterLabel>
+        <translation><!-- 0030コード管理(s) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0030タブレット登録状況(支援事務)</masterLabel>
+        <translation><!-- 0030タブレット登録状況(支援事務) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0030パスワード変更</masterLabel>
+        <translation><!-- 0030パスワード変更 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0030一括精算業務(e)</masterLabel>
+        <translation><!-- 0030一括精算業務(e) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0030保険業務</masterLabel>
+        <translation><!-- 0030保険業務 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0030共同GWその他</masterLabel>
+        <translation><!-- 0030共同GWその他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0030勘定書請求</masterLabel>
+        <translation><!-- 0030勘定書請求 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0030満期検索</masterLabel>
+        <translation><!-- 0030満期検索 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0030火・新試算</masterLabel>
+        <translation><!-- 0030火・新試算 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0030環境設定</masterLabel>
+        <translation><!-- 0030環境設定 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0030電子証明書発行</masterLabel>
+        <translation><!-- 0030電子証明書発行 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0030ＡｄｏｂｅＲｅａｄｅｒ</masterLabel>
+        <translation><!-- 0030ＡｄｏｂｅＲｅａｄｅｒ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0030ＴｏＤｏ・お知らせその他</masterLabel>
+        <translation><!-- 0030ＴｏＤｏ・お知らせその他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0040お客様クロスセル検索</masterLabel>
+        <translation><!-- 0040お客様クロスセル検索 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0040ソフトウェアその他</masterLabel>
+        <translation><!-- 0040ソフトウェアその他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0040タブレット利用環境(支援事務)</masterLabel>
+        <translation><!-- 0040タブレット利用環境(支援事務) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0040バックアップ(s)</masterLabel>
+        <translation><!-- 0040バックアップ(s) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0040バージョンアップ</masterLabel>
+        <translation><!-- 0040バージョンアップ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0040代理店計上</masterLabel>
+        <translation><!-- 0040代理店計上 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0040共同GW追加削除(支援事務)</masterLabel>
+        <translation><!-- 0040共同GW追加削除(支援事務) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0040団体被保険者明細</masterLabel>
+        <translation><!-- 0040団体被保険者明細 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0040書損登録(e)</masterLabel>
+        <translation><!-- 0040書損登録(e) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0040生保その他</masterLabel>
+        <translation><!-- 0040生保その他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0040自動車試算（ちょうき）</masterLabel>
+        <translation><!-- 0040自動車試算（ちょうき） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0040通信環境</masterLabel>
+        <translation><!-- 0040通信環境 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0040ｅラーニング</masterLabel>
+        <translation><!-- 0040ｅラーニング --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0050しんらいスマートナビ</masterLabel>
+        <translation><!-- 0050しんらいスマートナビ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0050みつもり一家その他</masterLabel>
+        <translation><!-- 0050みつもり一家その他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0050ハード他その他</masterLabel>
+        <translation><!-- 0050ハード他その他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0050リストア(s)</masterLabel>
+        <translation><!-- 0050リストア(s) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0050他社接続</masterLabel>
+        <translation><!-- 0050他社接続 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0050初期保有</masterLabel>
+        <translation><!-- 0050初期保有 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0050各種照会(e)</masterLabel>
+        <translation><!-- 0050各種照会(e) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0050契約クロスセル検索</masterLabel>
+        <translation><!-- 0050契約クロスセル検索 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0050統合メニューその他</masterLabel>
+        <translation><!-- 0050統合メニューその他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0050計上連絡票</masterLabel>
+        <translation><!-- 0050計上連絡票 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0060インストール</masterLabel>
+        <translation><!-- 0060インストール --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0060ダウンロードサイト</masterLabel>
+        <translation><!-- 0060ダウンロードサイト --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0060フリート更改支援</masterLabel>
+        <translation><!-- 0060フリート更改支援 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0060代理店情報設定(e)</masterLabel>
+        <translation><!-- 0060代理店情報設定(e) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0060収明（KITねっと）</masterLabel>
+        <translation><!-- 0060収明（KITねっと） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0060導入時作業その他</masterLabel>
+        <translation><!-- 0060導入時作業その他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0060生保</masterLabel>
+        <translation><!-- 0060生保 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0060生保登録状況の確認(支援事務)</masterLabel>
+        <translation><!-- 0060生保登録状況の確認(支援事務) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0060直接精算</masterLabel>
+        <translation><!-- 0060直接精算 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0060集団扱集金管理その他(s)</masterLabel>
+        <translation><!-- 0060集団扱集金管理その他(s) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0070KITねっと申請方法(支援事務)</masterLabel>
+        <translation><!-- 0070KITねっと申請方法(支援事務) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0070データ提供その他</masterLabel>
+        <translation><!-- 0070データ提供その他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0070メンテナンス情報</masterLabel>
+        <translation><!-- 0070メンテナンス情報 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0070入力補助設定(e)</masterLabel>
+        <translation><!-- 0070入力補助設定(e) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0070異動試算</masterLabel>
+        <translation><!-- 0070異動試算 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0070精算（KITねっと）</masterLabel>
+        <translation><!-- 0070精算（KITねっと） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0080e-JiBAiその他(e)</masterLabel>
+        <translation><!-- 0080e-JiBAiその他(e) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0080ログアウト</masterLabel>
+        <translation><!-- 0080ログアウト --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0080利用開始日(支援事務)</masterLabel>
+        <translation><!-- 0080利用開始日(支援事務) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0080契約一覧・お客様一覧</masterLabel>
+        <translation><!-- 0080契約一覧・お客様一覧 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0080契約照会</masterLabel>
+        <translation><!-- 0080契約照会 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0090e-JIBAI開始日(支援事務)</masterLabel>
+        <translation><!-- 0090e-JIBAI開始日(支援事務) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0090カレンダー機能</masterLabel>
+        <translation><!-- 0090カレンダー機能 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0090事故照会</masterLabel>
+        <translation><!-- 0090事故照会 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0090満期一覧</masterLabel>
+        <translation><!-- 0090満期一覧 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0090登録状況の確認(支援事務)</masterLabel>
+        <translation><!-- 0090登録状況の確認(支援事務) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0100e-JIBAI申請方法（支援事務）</masterLabel>
+        <translation><!-- 0100e-JIBAI申請方法（支援事務） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0100ご契約案内</masterLabel>
+        <translation><!-- 0100ご契約案内 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0100オリジナルデータ検索・抽出</masterLabel>
+        <translation><!-- 0100オリジナルデータ検索・抽出 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0100一本登録代理店（支援事務）</masterLabel>
+        <translation><!-- 0100一本登録代理店（支援事務） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0100保険会社メニューその他</masterLabel>
+        <translation><!-- 0100保険会社メニューその他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0100保険料試算</masterLabel>
+        <translation><!-- 0100保険料試算 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0110ダイレクト契約照会</masterLabel>
+        <translation><!-- 0110ダイレクト契約照会 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0110営業成績表</masterLabel>
+        <translation><!-- 0110営業成績表 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0110宛名ラベル</masterLabel>
+        <translation><!-- 0110宛名ラベル --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0110自賠責保険契約申込書代理店控（e）</masterLabel>
+        <translation><!-- 0110自賠責保険契約申込書代理店控（e） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0120オフラインソフト用データ</masterLabel>
+        <translation><!-- 0120オフラインソフト用データ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0120入金状況照会</masterLabel>
+        <translation><!-- 0120入金状況照会 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0120募集人サポート</masterLabel>
+        <translation><!-- 0120募集人サポート --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0130デジタルパンフレット（iCata）</masterLabel>
+        <translation><!-- 0130デジタルパンフレット（iCata） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0130代理店実績・成績照会</masterLabel>
+        <translation><!-- 0130代理店実績・成績照会 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0130見込み登録</masterLabel>
+        <translation><!-- 0130見込み登録 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0140代理店登録状況</masterLabel>
+        <translation><!-- 0140代理店登録状況 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0140利用者情報設定</masterLabel>
+        <translation><!-- 0140利用者情報設定 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0140名寄せ訂正</masterLabel>
+        <translation><!-- 0140名寄せ訂正 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0150IEモード設定ツール</masterLabel>
+        <translation><!-- 0150IEモード設定ツール --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0150固定帳票</masterLabel>
+        <translation><!-- 0150固定帳票 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0150定保取込</masterLabel>
+        <translation><!-- 0150定保取込 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0160印刷連番照会</masterLabel>
+        <translation><!-- 0160印刷連番照会 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0160管理</masterLabel>
+        <translation><!-- 0160管理 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0170自動車保険領収証作成</masterLabel>
+        <translation><!-- 0170自動車保険領収証作成 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0170ＷＥＢオンラインその他</masterLabel>
+        <translation><!-- 0170ＷＥＢオンラインその他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0180環境設定</masterLabel>
+        <translation><!-- 0180環境設定 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0180継続管理</masterLabel>
+        <translation><!-- 0180継続管理 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0190団体加入者照会</masterLabel>
+        <translation><!-- 0190団体加入者照会 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0200業務適正照会</masterLabel>
+        <translation><!-- 0200業務適正照会 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0210募集人管理</masterLabel>
+        <translation><!-- 0210募集人管理 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0210洗い替え</masterLabel>
+        <translation><!-- 0210洗い替え --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0220未入金管理</masterLabel>
+        <translation><!-- 0220未入金管理 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0230業務メニューその他</masterLabel>
+        <translation><!-- 0230業務メニューその他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0230練習モード</masterLabel>
+        <translation><!-- 0230練習モード --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0240募集人事前設定</masterLabel>
+        <translation><!-- 0240募集人事前設定 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0250事故進捗状況照会</masterLabel>
+        <translation><!-- 0250事故進捗状況照会 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0260 クレカ払（登録方式）業務</masterLabel>
+        <translation><!-- 0260 クレカ払（登録方式）業務 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0270振替不能契約</masterLabel>
+        <translation><!-- 0270振替不能契約 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0280レジペイ</masterLabel>
+        <translation><!-- 0280レジペイ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0290他社証券等読取り</masterLabel>
+        <translation><!-- 0290他社証券等読取り --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0300オンライン領収証</masterLabel>
+        <translation><!-- 0300オンライン領収証 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0310ネット口振</masterLabel>
+        <translation><!-- 0310ネット口振 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0320返還指図書</masterLabel>
+        <translation><!-- 0320返還指図書 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>（未設定）</masterLabel>
+        <translation><!-- （未設定） --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

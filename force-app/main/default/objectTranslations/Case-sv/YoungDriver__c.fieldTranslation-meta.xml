@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 最若年運転者 --></label>
+    <name>YoungDriver__c</name>
+    <picklistValues>
+        <masterLabel>本人と異なる</masterLabel>
+        <translation><!-- 本人と異なる --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>記名被本人</masterLabel>
+        <translation><!-- 記名被本人 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

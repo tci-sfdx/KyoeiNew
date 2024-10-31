@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 移管日 --></label>
+    <name>TransferDate__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- あいさつ文_罹災失効 --></label>
+    <name>Greeting_Lapse_IncurredLapse__c</name>
+</CustomFieldTranslation>

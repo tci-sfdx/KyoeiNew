@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 使用人運転無し --></label>
+    <name>NoDrivingByEmployer__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Role --></label>
+    <name>FinServ__Role__c</name>
+    <picklistValues>
+        <masterLabel>Accountant</masterLabel>
+        <translation>会计师</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Beneficiary</masterLabel>
+        <translation>受益人</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Business Manager</masterLabel>
+        <translation>业务经理</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Corporation</masterLabel>
+        <translation>公司</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foundation</masterLabel>
+        <translation>基金会</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grantor</masterLabel>
+        <translation>授予人</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trustee</masterLabel>
+        <translation>受托人</translation>
+    </picklistValues>
+</CustomFieldTranslation>

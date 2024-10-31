@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- カテゴリ① --></label>
+    <name>Category1__c</name>
+    <picklistValues>
+        <masterLabel>0010ＷＥＢオンライン</masterLabel>
+        <translation><!-- 0010ＷＥＢオンライン --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0020ポータルサイトメニュー</masterLabel>
+        <translation><!-- 0020ポータルサイトメニュー --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0030業務メニュー</masterLabel>
+        <translation><!-- 0030業務メニュー --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0040ｅ－ＪｉＢＡｉ</masterLabel>
+        <translation><!-- 0040ｅ－ＪｉＢＡｉ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0050導入時作業</masterLabel>
+        <translation><!-- 0050導入時作業 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0060みつもり一家</masterLabel>
+        <translation><!-- 0060みつもり一家 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0070保険会社メニュー</masterLabel>
+        <translation><!-- 0070保険会社メニュー --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0080生保</masterLabel>
+        <translation><!-- 0080生保 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0090統合メニュー</masterLabel>
+        <translation><!-- 0090統合メニュー --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0100ＴｏＤｏ・お知らせ</masterLabel>
+        <translation><!-- 0100ＴｏＤｏ・お知らせ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0110共同ＧＷ</masterLabel>
+        <translation><!-- 0110共同ＧＷ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0120ハード他</masterLabel>
+        <translation><!-- 0120ハード他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0130ソフトウエア</masterLabel>
+        <translation><!-- 0130ソフトウエア --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0140集団扱集金管理</masterLabel>
+        <translation><!-- 0140集団扱集金管理 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0150他オフラインソフト</masterLabel>
+        <translation><!-- 0150他オフラインソフト --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0160データ提供</masterLabel>
+        <translation><!-- 0160データ提供 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0170タブレット</masterLabel>
+        <translation><!-- 0170タブレット --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0800アシストライン照会内容確認（支援事務）</masterLabel>
+        <translation><!-- 0800アシストライン照会内容確認（支援事務） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>0900他部署を案内・転送</masterLabel>
+        <translation><!-- 0900他部署を案内・転送 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>（未設定）</masterLabel>
+        <translation><!-- （未設定） --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

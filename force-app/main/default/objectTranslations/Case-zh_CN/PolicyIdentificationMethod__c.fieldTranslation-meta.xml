@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 契約特定方法 --></label>
+    <name>PolicyIdentificationMethod__c</name>
+    <picklistValues>
+        <masterLabel>証券番号</masterLabel>
+        <translation><!-- 証券番号 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>４項目聴取</masterLabel>
+        <translation><!-- ４項目聴取 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

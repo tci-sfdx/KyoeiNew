@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- ステータス --></label>
+    <name>Status__c</name>
+    <picklistValues>
+        <masterLabel>FAX対応</masterLabel>
+        <translation><!-- FAX対応 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SVへの承認依頼</masterLabel>
+        <translation><!-- SVへの承認依頼 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Webオンラインで計上</masterLabel>
+        <translation><!-- Webオンラインで計上 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>「変更手続き完了のお知らせ（承認書）」の発送</masterLabel>
+        <translation><!-- 「変更手続き完了のお知らせ（承認書）」の発送 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>「契約終了のお知らせ」が契約者宛てに出力</masterLabel>
+        <translation><!-- 「契約終了のお知らせ」が契約者宛てに出力 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>エラー修正</masterLabel>
+        <translation><!-- エラー修正 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>オンライン計上</masterLabel>
+        <translation><!-- オンライン計上 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>クローズ</masterLabel>
+        <translation><!-- クローズ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>コールの内容確認</masterLabel>
+        <translation><!-- コールの内容確認 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>コールクローズ処理</masterLabel>
+        <translation><!-- コールクローズ処理 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>シュレッダー処理</masterLabel>
+        <translation><!-- シュレッダー処理 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>チェックパス</masterLabel>
+        <translation><!-- チェックパス --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ファイリング</masterLabel>
+        <translation><!-- ファイリング --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>プレコール</masterLabel>
+        <translation><!-- プレコール --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>不備フォロー</masterLabel>
+        <translation><!-- 不備フォロー --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>事故受付対応</masterLabel>
+        <translation><!-- 事故受付対応 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>代理店計上</masterLabel>
+        <translation><!-- 代理店計上 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>作成書類のセルフチェック</masterLabel>
+        <translation><!-- 作成書類のセルフチェック --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>作成書類の二次チェック</masterLabel>
+        <translation><!-- 作成書類の二次チェック --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>作成書類の引き渡し・プレコール準備</masterLabel>
+        <translation><!-- 作成書類の引き渡し・プレコール準備 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>保管送付書による承認請求書保管処理</masterLabel>
+        <translation><!-- 保管送付書による承認請求書保管処理 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>保管送付書による申込書保管処理</masterLabel>
+        <translation><!-- 保管送付書による申込書保管処理 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>保管送付書バッチ付け（計上OK後）</masterLabel>
+        <translation><!-- 保管送付書バッチ付け（計上OK後） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>保険料の案内</masterLabel>
+        <translation><!-- 保険料の案内 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>保険証券のお届け</masterLabel>
+        <translation><!-- 保険証券のお届け --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>入電対応</masterLabel>
+        <translation><!-- 入電対応 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>再送FAXを送信</masterLabel>
+        <translation><!-- 再送FAXを送信 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>到着書類の受取と開封</masterLabel>
+        <translation><!-- 到着書類の受取と開封 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>到着書類の受領と開封</masterLabel>
+        <translation><!-- 到着書類の受領と開封 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>到着書類チェック</masterLabel>
+        <translation><!-- 到着書類チェック --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>到着確認</masterLabel>
+        <translation><!-- 到着確認 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>到着確認・督促コール</masterLabel>
+        <translation><!-- 到着確認・督促コール --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>収納</masterLabel>
+        <translation><!-- 収納 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>富国生命職員より入電</masterLabel>
+        <translation><!-- 富国生命職員より入電 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>対応依頼票FAXの返信</masterLabel>
+        <translation><!-- 対応依頼票FAXの返信 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>対応依頼票のファイリング</masterLabel>
+        <translation><!-- 対応依頼票のファイリング --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>廃棄処理</masterLabel>
+        <translation><!-- 廃棄処理 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>当日コールのチェック</masterLabel>
+        <translation><!-- 当日コールのチェック --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>所変更受付のデータ抽出および計上エントリー</masterLabel>
+        <translation><!-- 所変更受付のデータ抽出および計上エントリー --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>承認書のお届けについて</masterLabel>
+        <translation><!-- 承認書のお届けについて --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>承認請求書の作成</masterLabel>
+        <translation><!-- 承認請求書の作成 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>担当オペレーターにフィードバック</masterLabel>
+        <translation><!-- 担当オペレーターにフィードバック --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>更改申込書作成</masterLabel>
+        <translation><!-- 更改申込書作成 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>書類不備</masterLabel>
+        <translation><!-- 書類不備 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>書類発送</masterLabel>
+        <translation><!-- 書類発送 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>書類発送後の電話発信</masterLabel>
+        <translation><!-- 書類発送後の電話発信 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>書類督促</masterLabel>
+        <translation><!-- 書類督促 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>構成員確認書の取付け</masterLabel>
+        <translation><!-- 構成員確認書の取付け --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>申込書の作成と発送</masterLabel>
+        <translation><!-- 申込書の作成と発送 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>異動の受付</masterLabel>
+        <translation><!-- 異動の受付 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>発送</masterLabel>
+        <translation><!-- 発送 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>破棄</masterLabel>
+        <translation><!-- 破棄 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>見積りの受付</masterLabel>
+        <translation><!-- 見積りの受付 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>見積書の作成</masterLabel>
+        <translation><!-- 見積書の作成 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>解約受付</masterLabel>
+        <translation><!-- 解約受付 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>解約完了</masterLabel>
+        <translation><!-- 解約完了 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>計上チェック</masterLabel>
+        <translation><!-- 計上チェック --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>計上チェック・発送チェック</masterLabel>
+        <translation><!-- 計上チェック・発送チェック --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>計上受付</masterLabel>
+        <translation><!-- 計上受付 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>計上完了</masterLabel>
+        <translation><!-- 計上完了 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>試算内容のセルフチェック</masterLabel>
+        <translation><!-- 試算内容のセルフチェック --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>試算回答のFAX送信</masterLabel>
+        <translation><!-- 試算回答のFAX送信 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>送付書類の作成と発送</masterLabel>
+        <translation><!-- 送付書類の作成と発送 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>通知書作成</masterLabel>
+        <translation><!-- 通知書作成 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>通知書作成（計上OK後）</masterLabel>
+        <translation><!-- 通知書作成（計上OK後） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>集金代行口座振替依頼書の処理</masterLabel>
+        <translation><!-- 集金代行口座振替依頼書の処理 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>電話申込受付（Ｔ加入）</masterLabel>
+        <translation><!-- 電話申込受付（Ｔ加入） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ｂ精算エントリー</masterLabel>
+        <translation><!-- Ｂ精算エントリー --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

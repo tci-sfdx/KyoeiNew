@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 再発行_担当者 --></label>
+    <name>Re_Issuance_PersonInCharge__c</name>
+    <relationshipLabel><!-- カスタマーセンターコールデータ (再発行_担当者) --></relationshipLabel>
+</CustomFieldTranslation>

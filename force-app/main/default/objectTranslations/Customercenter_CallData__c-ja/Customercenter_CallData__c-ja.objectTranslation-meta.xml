@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>カスタマーセンター_コールデータ_old</value>
+    </caseValues>
+    <layouts>
+        <layout>JAカード傷害・JAトラブル</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 品質管理 --></label>
+            <section>品質管理</section>
+        </sections>
+        <sections>
+            <label><!-- 品質管理_2 --></label>
+            <section>品質管理_2</section>
+        </sections>
+        <sections>
+            <label><!-- 基本情報 --></label>
+            <section>基本情報</section>
+        </sections>
+        <sections>
+            <label><!-- 対応情報 --></label>
+            <section>対応情報</section>
+        </sections>
+        <sections>
+            <label><!-- 証券情報 --></label>
+            <section>証券情報</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>サポートデスク</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 品質管理 --></label>
+            <section>品質管理</section>
+        </sections>
+        <sections>
+            <label><!-- 品質管理_2 --></label>
+            <section>品質管理_2</section>
+        </sections>
+        <sections>
+            <label><!-- 基本情報 --></label>
+            <section>基本情報</section>
+        </sections>
+        <sections>
+            <label><!-- 対応情報 --></label>
+            <section>対応情報</section>
+        </sections>
+        <sections>
+            <label><!-- 証券情報 --></label>
+            <section>証券情報</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>富国移動</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 品質管理 --></label>
+            <section>品質管理</section>
+        </sections>
+        <sections>
+            <label><!-- 品質管理_2 --></label>
+            <section>品質管理_2</section>
+        </sections>
+        <sections>
+            <label><!-- 基本情報 --></label>
+            <section>基本情報</section>
+        </sections>
+        <sections>
+            <label><!-- 対応情報 --></label>
+            <section>対応情報</section>
+        </sections>
+        <sections>
+            <label><!-- 業務フロー管理項目 --></label>
+            <section>業務フロー管理項目</section>
+        </sections>
+        <sections>
+            <label><!-- 継続管理情報 --></label>
+            <section>継続管理情報</section>
+        </sections>
+        <sections>
+            <label><!-- 証券情報 --></label>
+            <section>証券情報</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>汎用</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 品質管理 --></label>
+            <section>品質管理</section>
+        </sections>
+        <sections>
+            <label><!-- 品質管理_2 --></label>
+            <section>品質管理_2</section>
+        </sections>
+        <sections>
+            <label><!-- 基本情報 --></label>
+            <section>基本情報</section>
+        </sections>
+        <sections>
+            <label><!-- 対応情報 --></label>
+            <section>対応情報</section>
+        </sections>
+        <sections>
+            <label><!-- 証券情報 --></label>
+            <section>証券情報</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>火新異動</layout>
+        <sections>
+            <label><!-- カスタマーセンター入力項目 --></label>
+            <section>カスタマーセンター入力項目</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 受付計上_1列 --></label>
+            <section>受付計上_1列</section>
+        </sections>
+        <sections>
+            <label><!-- 品質管理 --></label>
+            <section>品質管理</section>
+        </sections>
+        <sections>
+            <label><!-- 品質管理_2 --></label>
+            <section>品質管理_2</section>
+        </sections>
+        <sections>
+            <label><!-- 基本情報 --></label>
+            <section>基本情報</section>
+        </sections>
+        <sections>
+            <label><!-- 対応情報 --></label>
+            <section>対応情報</section>
+        </sections>
+        <sections>
+            <label><!-- 計上受付 --></label>
+            <section>計上受付</section>
+        </sections>
+        <sections>
+            <label><!-- 証券情報 --></label>
+            <section>証券情報</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>自動継続停止</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 品質管理 --></label>
+            <section>品質管理</section>
+        </sections>
+        <sections>
+            <label><!-- 品質管理_2 --></label>
+            <section>品質管理_2</section>
+        </sections>
+        <sections>
+            <label><!-- 基本情報 --></label>
+            <section>基本情報</section>
+        </sections>
+        <sections>
+            <label><!-- 対応情報 --></label>
+            <section>対応情報</section>
+        </sections>
+        <sections>
+            <label><!-- 自動継続停止項目 --></label>
+            <section>自動継続停止項目</section>
+        </sections>
+        <sections>
+            <label><!-- 計上受付 --></label>
+            <section>計上受付</section>
+        </sections>
+        <sections>
+            <label><!-- 計上受付_１列 --></label>
+            <section>計上受付_１列</section>
+        </sections>
+        <sections>
+            <label><!-- 証券情報 --></label>
+            <section>証券情報</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>自動車満期</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 品質管理 --></label>
+            <section>品質管理</section>
+        </sections>
+        <sections>
+            <label><!-- 品質管理_2 --></label>
+            <section>品質管理_2</section>
+        </sections>
+        <sections>
+            <label><!-- 基本情報 --></label>
+            <section>基本情報</section>
+        </sections>
+        <sections>
+            <label><!-- 対応情報 --></label>
+            <section>対応情報</section>
+        </sections>
+        <sections>
+            <label><!-- 業務フロー管理項目 --></label>
+            <section>業務フロー管理項目</section>
+        </sections>
+        <sections>
+            <label><!-- 継続管理情報 --></label>
+            <section>継続管理情報</section>
+        </sections>
+        <sections>
+            <label><!-- 証券情報 --></label>
+            <section>証券情報</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>自動車異動</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 品質管理 --></label>
+            <section>品質管理</section>
+        </sections>
+        <sections>
+            <label><!-- 品質管理_2 --></label>
+            <section>品質管理_2</section>
+        </sections>
+        <sections>
+            <label><!-- 基本情報 --></label>
+            <section>基本情報</section>
+        </sections>
+        <sections>
+            <label><!-- 対応情報 --></label>
+            <section>対応情報</section>
+        </sections>
+        <sections>
+            <label><!-- 業務フロー管理項目 --></label>
+            <section>業務フロー管理項目</section>
+        </sections>
+        <sections>
+            <label><!-- 継続管理情報 --></label>
+            <section>継続管理情報</section>
+        </sections>
+        <sections>
+            <label><!-- 証券情報 --></label>
+            <section>証券情報</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>自動車見積り</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 品質管理 --></label>
+            <section>品質管理</section>
+        </sections>
+        <sections>
+            <label><!-- 品質管理_2 --></label>
+            <section>品質管理_2</section>
+        </sections>
+        <sections>
+            <label><!-- 基本情報 --></label>
+            <section>基本情報</section>
+        </sections>
+        <sections>
+            <label><!-- 対応情報 --></label>
+            <section>対応情報</section>
+        </sections>
+        <sections>
+            <label><!-- 業務フロー管理項目 --></label>
+            <section>業務フロー管理項目</section>
+        </sections>
+        <sections>
+            <label><!-- 継続管理情報 --></label>
+            <section>継続管理情報</section>
+        </sections>
+        <sections>
+            <label><!-- 証券情報 --></label>
+            <section>証券情報</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>自賠責解約</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 入電情報_書類不備 --></label>
+            <section>入電情報_書類不備</section>
+        </sections>
+        <sections>
+            <label><!-- 入電情報_書類督促 --></label>
+            <section>入電情報_書類督促</section>
+        </sections>
+        <sections>
+            <label><!-- 入電情報_書類督促_1列 --></label>
+            <section>入電情報_書類督促_1列</section>
+        </sections>
+        <sections>
+            <label><!-- 入電情報_解約完了 --></label>
+            <section>入電情報_解約完了</section>
+        </sections>
+        <sections>
+            <label><!-- 入電情報_解約完了_1列_② --></label>
+            <section>入電情報_解約完了_1列_②</section>
+        </sections>
+        <sections>
+            <label><!-- 品質管理 --></label>
+            <section>品質管理</section>
+        </sections>
+        <sections>
+            <label><!-- 品質管理_2 --></label>
+            <section>品質管理_2</section>
+        </sections>
+        <sections>
+            <label><!-- 基本情報 --></label>
+            <section>基本情報</section>
+        </sections>
+        <sections>
+            <label><!-- 対応情報 --></label>
+            <section>対応情報</section>
+        </sections>
+        <sections>
+            <label><!-- 書類不備 --></label>
+            <section>書類不備</section>
+        </sections>
+        <sections>
+            <label><!-- 書類不備_1列 --></label>
+            <section>書類不備_1列</section>
+        </sections>
+        <sections>
+            <label><!-- 書類不備_1列_② --></label>
+            <section>書類不備_1列_②</section>
+        </sections>
+        <sections>
+            <label><!-- 書類不備_2列 --></label>
+            <section>書類不備_2列</section>
+        </sections>
+        <sections>
+            <label><!-- 書類発送 --></label>
+            <section>書類発送</section>
+        </sections>
+        <sections>
+            <label><!-- 書類発送_入電情報 --></label>
+            <section>書類発送_入電情報</section>
+        </sections>
+        <sections>
+            <label><!-- 書類発送_入電情報_１列 --></label>
+            <section>書類発送_入電情報_１列</section>
+        </sections>
+        <sections>
+            <label><!-- 書類発送用 --></label>
+            <section>書類発送用</section>
+        </sections>
+        <sections>
+            <label><!-- 書類督促 --></label>
+            <section>書類督促</section>
+        </sections>
+        <sections>
+            <label><!-- 書類督促_1列_② --></label>
+            <section>書類督促_1列_②</section>
+        </sections>
+        <sections>
+            <label><!-- 書類督促_2列 --></label>
+            <section>書類督促_2列</section>
+        </sections>
+        <sections>
+            <label><!-- 書類督促_１列 --></label>
+            <section>書類督促_１列</section>
+        </sections>
+        <sections>
+            <label><!-- 業務フロー管理項目 --></label>
+            <section>業務フロー管理項目</section>
+        </sections>
+        <sections>
+            <label><!-- 解約完了 --></label>
+            <section>解約完了</section>
+        </sections>
+        <sections>
+            <label><!-- 解約完了_2列_② --></label>
+            <section>解約完了_2列_②</section>
+        </sections>
+        <sections>
+            <label><!-- 解約完了_１列 --></label>
+            <section>解約完了_１列</section>
+        </sections>
+        <sections>
+            <label><!-- 計上G様　カスタマー追加依頼 --></label>
+            <section>計上G様　カスタマー追加依頼</section>
+        </sections>
+        <sections>
+            <label><!-- 証券情報 --></label>
+            <section>証券情報</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>証券再発行</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 品質管理 --></label>
+            <section>品質管理</section>
+        </sections>
+        <sections>
+            <label><!-- 基本情報 --></label>
+            <section>基本情報</section>
+        </sections>
+        <sections>
+            <label><!-- 対応情報 --></label>
+            <section>対応情報</section>
+        </sections>
+        <sections>
+            <label><!-- 計上受付 --></label>
+            <section>計上受付</section>
+        </sections>
+        <sections>
+            <label><!-- 計上受付_1列 --></label>
+            <section>計上受付_1列</section>
+        </sections>
+        <sections>
+            <label><!-- 証券情報 --></label>
+            <section>証券情報</section>
+        </sections>
+        <sections>
+            <label><!-- 項目 --></label>
+            <section>項目</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- 一括完了 --></label>
+        <name>MassClosing</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- 自動車満期 --></label>
+        <name>AutoMaturity</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 自動車見積り --></label>
+        <name>CarQuote</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 自動車異動 --></label>
+        <name>CarTransfer</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 自動継続停止 --></label>
+        <name>ContinuousStop</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 火新異動 --></label>
+        <name>Fire</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 汎用 --></label>
+        <name>GeneralPurpose</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- JAカード傷害・JAトラブル --></label>
+        <name>JA</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 自賠責解約 --></label>
+        <name>LiabilityCancellation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 証券再発行 --></label>
+        <name>ReissuanceOfSecurities</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 富国異動 --></label>
+        <name>RichCountryTransfer</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- サポートデスク --></label>
+        <name>SupportDesk</name>
+    </recordTypes>
+</CustomObjectTranslation>

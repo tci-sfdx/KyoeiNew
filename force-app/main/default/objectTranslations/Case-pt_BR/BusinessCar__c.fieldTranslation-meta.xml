@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 事業専用車 --></label>
+    <name>BusinessCar__c</name>
+    <picklistValues>
+        <masterLabel>該当</masterLabel>
+        <translation><!-- 該当 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>非該当</masterLabel>
+        <translation><!-- 非該当 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

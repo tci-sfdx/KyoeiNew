@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 車両保険保険金額（万円） --></label>
+    <name>Field1VehicleInsuranceAmount__c</name>
+</CustomFieldTranslation>

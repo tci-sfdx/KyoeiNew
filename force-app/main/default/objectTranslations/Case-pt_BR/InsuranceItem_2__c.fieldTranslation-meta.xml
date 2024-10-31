@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 保険種目② --></label>
+    <name>InsuranceItem_2__c</name>
+    <picklistValues>
+        <masterLabel>JAシニア／安心倶楽部*</masterLabel>
+        <translation><!-- JAシニア／安心倶楽部* --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>JA自転車倶楽部*</masterLabel>
+        <translation><!-- JA自転車倶楽部* --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KAPくるまる</masterLabel>
+        <translation><!-- KAPくるまる --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KAPベーシス</masterLabel>
+        <translation><!-- KAPベーシス --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>がん保険</masterLabel>
+        <translation><!-- がん保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>こども総合保険</masterLabel>
+        <translation><!-- こども総合保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>しんきんシニア*</masterLabel>
+        <translation><!-- しんきんシニア* --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>しんきんフルタイム24*</masterLabel>
+        <translation><!-- しんきんフルタイム24* --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>しんきん標準傷害*</masterLabel>
+        <translation><!-- しんきん標準傷害* --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>しんくみ標準傷害*</masterLabel>
+        <translation><!-- しんくみ標準傷害* --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>その他</masterLabel>
+        <translation><!-- その他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>その他（傷害）</masterLabel>
+        <translation><!-- その他（傷害） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>その他（医療・がん）</masterLabel>
+        <translation><!-- その他（医療・がん） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>その他（新種）</masterLabel>
+        <translation><!-- その他（新種） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>その他（火災）</masterLabel>
+        <translation><!-- その他（火災） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>その他（積立火災）</masterLabel>
+        <translation><!-- その他（積立火災） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>その他（自動車）</masterLabel>
+        <translation><!-- その他（自動車） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>その他（賠償）</masterLabel>
+        <translation><!-- その他（賠償） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>まごネット*</masterLabel>
+        <translation><!-- まごネット* --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ガラス保険</masterLabel>
+        <translation><!-- ガラス保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ゴルファー保険</masterLabel>
+        <translation><!-- ゴルファー保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ドライバー保険</masterLabel>
+        <translation><!-- ドライバー保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ファミリー交通傷害保険</masterLabel>
+        <translation><!-- ファミリー交通傷害保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ヨット・モーターボート総合保険</masterLabel>
+        <translation><!-- ヨット・モーターボート総合保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>交通事故傷害保険</masterLabel>
+        <translation><!-- 交通事故傷害保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>介護費用保険・積立介護費用保険</masterLabel>
+        <translation><!-- 介護費用保険・積立介護費用保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>他社取扱保険・共済</masterLabel>
+        <translation><!-- 他社取扱保険・共済 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>企業総合賠償責任保険（商売の達人）</masterLabel>
+        <translation><!-- 企業総合賠償責任保険（商売の達人） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>企業財産保険</masterLabel>
+        <translation><!-- 企業財産保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>保管物賠償責任保険</masterLabel>
+        <translation><!-- 保管物賠償責任保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>個人用火災総合保険</masterLabel>
+        <translation><!-- 個人用火災総合保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>個人賠償責任保険</masterLabel>
+        <translation><!-- 個人賠償責任保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>借家人賠償責任保険</masterLabel>
+        <translation><!-- 借家人賠償責任保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>債務返済支援付所得補償保険</masterLabel>
+        <translation><!-- 債務返済支援付所得補償保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>傷害</masterLabel>
+        <translation><!-- 傷害 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>入札保証保険</masterLabel>
+        <translation><!-- 入札保証保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>公共工事履行保証（履行ボンド）</masterLabel>
+        <translation><!-- 公共工事履行保証（履行ボンド） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>労働災害総合保険</masterLabel>
+        <translation><!-- 労働災害総合保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>動産総合保険</masterLabel>
+        <translation><!-- 動産総合保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>医療・がん</masterLabel>
+        <translation><!-- 医療・がん --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>医療保険</masterLabel>
+        <translation><!-- 医療保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>国内旅行総合保険</masterLabel>
+        <translation><!-- 国内旅行総合保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>地震保険</masterLabel>
+        <translation><!-- 地震保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>学生総合保険</masterLabel>
+        <translation><!-- 学生総合保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>安心へのそなえ*</masterLabel>
+        <translation><!-- 安心へのそなえ* --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>安心生活総合補償保険</masterLabel>
+        <translation><!-- 安心生活総合補償保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>家族傷害保険</masterLabel>
+        <translation><!-- 家族傷害保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>履行保証保険</masterLabel>
+        <translation><!-- 履行保証保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>年金払積立傷害保険</masterLabel>
+        <translation><!-- 年金払積立傷害保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>店舗休業保険</masterLabel>
+        <translation><!-- 店舗休業保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>店舗総合保険</masterLabel>
+        <translation><!-- 店舗総合保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>建物更新総合保険（まもるくん）</masterLabel>
+        <translation><!-- 建物更新総合保険（まもるくん） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>建設工事保険</masterLabel>
+        <translation><!-- 建設工事保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>所得補償保険</masterLabel>
+        <translation><!-- 所得補償保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>新建物更新総合保険</masterLabel>
+        <translation><!-- 新建物更新総合保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>新種</masterLabel>
+        <translation><!-- 新種 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>施設所有者賠償責任保険</masterLabel>
+        <translation><!-- 施設所有者賠償責任保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>旅館宿泊者賠償責任保険</masterLabel>
+        <translation><!-- 旅館宿泊者賠償責任保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>旅館賠償責任保険</masterLabel>
+        <translation><!-- 旅館賠償責任保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>昇降機賠償責任保険</masterLabel>
+        <translation><!-- 昇降機賠償責任保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>普通傷害保険</masterLabel>
+        <translation><!-- 普通傷害保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>普通傷害保険（げんきっず）</masterLabel>
+        <translation><!-- 普通傷害保険（げんきっず） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>普通火災保険</masterLabel>
+        <translation><!-- 普通火災保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>業務災害補償保険</masterLabel>
+        <translation><!-- 業務災害補償保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>標準傷害保険</masterLabel>
+        <translation><!-- 標準傷害保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>機械保険</masterLabel>
+        <translation><!-- 機械保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>海外旅行保険</masterLabel>
+        <translation><!-- 海外旅行保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>火災</masterLabel>
+        <translation><!-- 火災 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>生産物賠償責任保険（PL保険）</masterLabel>
+        <translation><!-- 生産物賠償責任保険（PL保険） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>盗難保険</masterLabel>
+        <translation><!-- 盗難保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>積立いきいき生活傷害保険</masterLabel>
+        <translation><!-- 積立いきいき生活傷害保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>積立こども総合保険</masterLabel>
+        <translation><!-- 積立こども総合保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>積立ファミリー交通傷害保険</masterLabel>
+        <translation><!-- 積立ファミリー交通傷害保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>積立傷害</masterLabel>
+        <translation><!-- 積立傷害 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>積立女性保険</masterLabel>
+        <translation><!-- 積立女性保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>積立家族傷害保険</masterLabel>
+        <translation><!-- 積立家族傷害保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>積立普通傷害保険</masterLabel>
+        <translation><!-- 積立普通傷害保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>積立火災</masterLabel>
+        <translation><!-- 積立火災 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>窓販シニア*</masterLabel>
+        <translation><!-- 窓販シニア* --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自動車</masterLabel>
+        <translation><!-- 自動車 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自動車管理者賠償責任保険</masterLabel>
+        <translation><!-- 自動車管理者賠償責任保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自治会活動賠償責任保険</masterLabel>
+        <translation><!-- 自治会活動賠償責任保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自賠責</masterLabel>
+        <translation><!-- 自賠責 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自賠責保険</masterLabel>
+        <translation><!-- 自賠責保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自転車総合保険</masterLabel>
+        <translation><!-- 自転車総合保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>請負賠償責任保険</masterLabel>
+        <translation><!-- 請負賠償責任保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>賠責</masterLabel>
+        <translation><!-- 賠責 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>金融住宅火災保険</masterLabel>
+        <translation><!-- 金融住宅火災保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>長期がん保険</masterLabel>
+        <translation><!-- 長期がん保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>長期医療保険（元気快）</masterLabel>
+        <translation><!-- 長期医療保険（元気快） --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

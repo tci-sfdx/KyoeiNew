@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 会話相手グループ --></label>
+    <name>ConversationPartner_Group__c</name>
+    <picklistValues>
+        <masterLabel>予備1</masterLabel>
+        <translation><!-- 予備1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>予備2</masterLabel>
+        <translation><!-- 予備2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>予備3</masterLabel>
+        <translation><!-- 予備3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>個人顧客</masterLabel>
+        <translation><!-- 個人顧客 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>法人顧客</masterLabel>
+        <translation><!-- 法人顧客 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

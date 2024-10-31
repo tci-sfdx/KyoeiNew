@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 車両保険種類 --></label>
+    <name>CarType__c</name>
+    <picklistValues>
+        <masterLabel>一般</masterLabel>
+        <translation><!-- 一般 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>無し</masterLabel>
+        <translation><!-- 無し --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>車対車限定A</masterLabel>
+        <translation><!-- 車対車限定A --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

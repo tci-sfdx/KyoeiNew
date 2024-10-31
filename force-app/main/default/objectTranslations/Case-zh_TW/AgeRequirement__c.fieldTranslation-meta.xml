@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 年齢条件 --></label>
+    <name>AgeRequirement__c</name>
+    <picklistValues>
+        <masterLabel>21歳</masterLabel>
+        <translation><!-- 21歳 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>26歳</masterLabel>
+        <translation><!-- 26歳 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>35歳</masterLabel>
+        <translation><!-- 35歳 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>全年齢</masterLabel>
+        <translation><!-- 全年齢 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>対象外</masterLabel>
+        <translation><!-- 対象外 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>
