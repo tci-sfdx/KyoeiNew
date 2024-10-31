@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ChkReason</fullName>
+    <active>true</active>
+    <description>遅延理由をその他で選択した場合、備考を入力してください。</description>
+    <errorConditionFormula>ISPICKVAL(  Reason__c , &quot;その他&quot;) &amp;&amp;
+ISBLANK(   RemarksReason__c )</errorConditionFormula>
+    <errorDisplayField>Reason__c</errorDisplayField>
+    <errorMessage>遅延理由をその他で選択した場合、備考を入力してください。</errorMessage>
+</ValidationRule>

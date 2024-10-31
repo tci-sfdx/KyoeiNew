@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Enable server-side logging --></help>
+    <label><!-- Enable Server-Side Logging --></label>
+    <name>purecloud__Enable_Server_Side_Logging__c</name>
+</CustomFieldTranslation>

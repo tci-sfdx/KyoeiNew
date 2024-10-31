@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Activez le composant Liste des référents commerciaux générés et Résumé des référents générés.</help>
+    <label><!-- Enable Business Referrals Made --></label>
+    <name>FinServ__EnableBusinessReferralsMade__c</name>
+</CustomFieldTranslation>

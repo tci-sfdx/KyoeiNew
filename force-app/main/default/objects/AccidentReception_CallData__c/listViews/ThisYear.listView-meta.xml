@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ThisYear</fullName>
+    <columns>NAME</columns>
+    <columns>CallerContactInformation1_Text__c</columns>
+    <columns>ContractorName__c</columns>
+    <columns>RegisteredPhoneNumber1_Text__c</columns>
+    <columns>PolicyNumber__c</columns>
+    <columns>IncomingCallDay__c</columns>
+    <columns>IncomingCallTime__c</columns>
+    <columns>AccidentDate__c</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>THIS_YEAR</value>
+    </filters>
+    <label>今年のコールデータ</label>
+</ListView>

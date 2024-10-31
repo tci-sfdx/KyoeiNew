@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Phone number must be numbers only or E.164 format. --></help>
+    <label><!-- Caller ID: Phone Number --></label>
+    <name>purecloud__Caller_ID_Number__c</name>
+</CustomFieldTranslation>

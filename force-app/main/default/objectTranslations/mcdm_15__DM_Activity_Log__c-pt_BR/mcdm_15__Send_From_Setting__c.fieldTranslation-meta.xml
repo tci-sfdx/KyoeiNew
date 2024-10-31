@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Identifica a configuração do remetente do envio usada para esta atividade.</help>
+    <label><!-- Send From Setting --></label>
+    <name>mcdm_15__Send_From_Setting__c</name>
+</CustomFieldTranslation>

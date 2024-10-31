@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Check this setting to allow agents to enter a CallerID Name and Number for an outbound call. --></help>
+    <label><!-- Enable Configurable Caller ID --></label>
+    <name>purecloud__Enable_Configurable_CallerID__c</name>
+</CustomFieldTranslation>

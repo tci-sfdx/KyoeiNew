@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SecuritiesNumberInput1No__c</fullName>
+    <externalId>false</externalId>
+    <formula>SUBSTITUTE(SecuritiesNumberInput1__c, &apos;-&apos;, &apos;&apos;)</formula>
+    <label>証券番号①（ハイフンなし）</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

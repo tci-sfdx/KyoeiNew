@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Identifica l&apos;invio pianificato DM associato all&apos;attività.</help>
+    <label><!-- DM Scheduled Send ID --></label>
+    <name>mcdm_15__DM_Scheduled_Send_ID__c</name>
+</CustomFieldTranslation>

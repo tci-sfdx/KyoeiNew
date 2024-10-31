@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select this setting to access interaction logs from the client and pop interaction logs when interactions are connected. --></help>
+    <label><!-- Enable Interaction Logs --></label>
+    <name>purecloud__Enable_Call_Log_Functionality__c</name>
+</CustomFieldTranslation>

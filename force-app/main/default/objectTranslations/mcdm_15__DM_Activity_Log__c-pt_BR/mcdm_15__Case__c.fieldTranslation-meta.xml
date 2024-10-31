@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>O objeto de caso associado a esta atividade se estiver relacionado a uma atividade de envio rápido.</help>
+    <label><!-- Case --></label>
+    <name>mcdm_15__Case__c</name>
+    <relationshipLabel><!-- DM Activity Log --></relationshipLabel>
+</CustomFieldTranslation>

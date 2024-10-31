@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Quando você atualiza o campo Papel relacionado em um registro de relacionamento conta-conta, o campo Papel relacionado no registro de relacionamento conta-conta relacionado é atualizado.</help>
+    <label><!-- Update Related Role on associated record --></label>
+    <name>FinServ__EnableAARInverseRoleUpdate__c</name>
+</CustomFieldTranslation>

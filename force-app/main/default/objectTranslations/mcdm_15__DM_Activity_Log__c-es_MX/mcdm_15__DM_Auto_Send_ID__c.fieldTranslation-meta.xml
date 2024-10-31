@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Identifica el envío automático de DM relacionado con esta actividad.</help>
+    <label><!-- DM Auto Send ID --></label>
+    <name>mcdm_15__DM_Auto_Send_ID__c</name>
+</CustomFieldTranslation>

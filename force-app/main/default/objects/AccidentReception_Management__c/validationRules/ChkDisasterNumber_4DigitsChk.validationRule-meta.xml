@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ChkDisasterNumber_4DigitsChk</fullName>
+    <active>true</active>
+    <description>災害番号が4桁であるかチェック</description>
+    <errorConditionFormula>NOT(ISBLANK(DisasterNumber__c)) &amp;&amp; LEN(DisasterNumber__c) &lt;&gt; 4</errorConditionFormula>
+    <errorDisplayField>DisasterNumber__c</errorDisplayField>
+    <errorMessage>災害番号は、4桁で入力してください。</errorMessage>
+</ValidationRule>

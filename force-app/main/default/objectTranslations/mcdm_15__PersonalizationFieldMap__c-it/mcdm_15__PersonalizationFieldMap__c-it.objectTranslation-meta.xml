@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Mappa campi di personalizzazione</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Mappe campi di personalizzazione</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Mappa campi di personalizzazione</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BySpecialty__c</fullName>
+    <externalId>false</externalId>
+    <label>専乗別</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>専属</fullName>
+                <default>false</default>
+                <label>専属</label>
+            </value>
+            <value>
+                <fullName>自社申請</fullName>
+                <default>false</default>
+                <label>自社申請</label>
+            </value>
+            <value>
+                <fullName>他社申請</fullName>
+                <default>false</default>
+                <label>他社申請</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

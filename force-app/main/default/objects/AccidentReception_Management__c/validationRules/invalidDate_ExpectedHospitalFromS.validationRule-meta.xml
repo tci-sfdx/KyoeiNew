@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>invalidDate_ExpectedHospitalFromS</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( AccidentDateInput__c &gt; ExpectedHospitalFromS__c, RecordType.Name =&quot;01_火災新種事故受付&quot;)</errorConditionFormula>
+    <errorDisplayField>ExpectedHospitalFrom__c</errorDisplayField>
+    <errorMessage>通院見込み（開始）日が事故日より過去の日付です。</errorMessage>
+</ValidationRule>

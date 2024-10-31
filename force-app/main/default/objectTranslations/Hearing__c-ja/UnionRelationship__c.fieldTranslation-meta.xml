@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 構成員（組合）と（新）契約者との関係 --></label>
+    <name>UnionRelationship__c</name>
+    <picklistValues>
+        <masterLabel>対象外</masterLabel>
+        <translation><!-- 対象外 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未選択</masterLabel>
+        <translation><!-- 未選択 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>集団扱対象</masterLabel>
+        <translation><!-- 集団扱対象 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

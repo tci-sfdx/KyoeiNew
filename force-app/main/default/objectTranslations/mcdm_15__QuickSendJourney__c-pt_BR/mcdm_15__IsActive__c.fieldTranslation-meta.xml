@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indica quando uma jornada de envio rápido está ativa.</help>
+    <label><!-- Active --></label>
+    <name>mcdm_15__IsActive__c</name>
+</CustomFieldTranslation>

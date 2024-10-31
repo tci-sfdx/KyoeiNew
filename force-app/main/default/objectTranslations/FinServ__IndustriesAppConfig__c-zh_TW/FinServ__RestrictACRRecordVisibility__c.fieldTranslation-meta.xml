@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>僅有對帳號至少具有讀取存取權的使用者，和位於帳戶-連絡人關係記錄中的連絡人，可以查看關係元件中的記錄。</help>
+    <label><!-- Restrict ACR Record Visibility --></label>
+    <name>FinServ__RestrictACRRecordVisibility__c</name>
+</CustomFieldTranslation>

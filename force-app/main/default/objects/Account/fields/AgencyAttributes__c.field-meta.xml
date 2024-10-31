@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AgencyAttributes__c</fullName>
+    <externalId>false</externalId>
+    <label>代理店属性</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>3者間・統括</fullName>
+                <default>false</default>
+                <label>3者間・統括</label>
+            </value>
+            <value>
+                <fullName>3者間・統括（計上要）</fullName>
+                <default>false</default>
+                <label>3者間・統括（計上要）</label>
+            </value>
+            <value>
+                <fullName>3者間・統括（管理用）</fullName>
+                <default>false</default>
+                <label>3者間・統括（管理用）</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

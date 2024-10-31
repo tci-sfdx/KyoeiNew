@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unique_Name</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+CONTAINS(
+VLOOKUP(
+$ObjectType.AccidentReception_Management__c.Fields.Name ,
+$ObjectType.AccidentReception_Management__c.Fields.Name, Name
+),
+Name
+),
+OR(
+ISNEW(), ISCHANGED(Name)
+)
+)</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>受付番号は一意の必要があります。</errorMessage>
+</ValidationRule>

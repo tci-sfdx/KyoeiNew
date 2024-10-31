@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Wanneer u het veld Gerelateerde rol voor een account-account-relatierecord bijwerkt, wordt het veld Gerelateerde rol bijgewerkt voor de gerelateerde account-account-relatierecord.</help>
+    <label><!-- Update Related Role on associated record --></label>
+    <name>FinServ__EnableAARInverseRoleUpdate__c</name>
+</CustomFieldTranslation>

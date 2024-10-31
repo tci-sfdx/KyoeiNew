@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select this setting to automatically associate a Salesforce record with the interaction’s call log. --></help>
+    <label><!-- Enable Auto Association on Navigation --></label>
+    <name>purecloud__Enable_Auto_Association__c</name>
+</CustomFieldTranslation>

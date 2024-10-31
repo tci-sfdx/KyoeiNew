@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FileName__c</fullName>
+    <externalId>false</externalId>
+    <formula>ContractorName__r.IdentificationNumber__c &amp;&apos;_&apos;&amp;
+Name &amp;&apos;_&apos;&amp; 
+Left(SUBSTITUTE(SUBSTITUTE( SUBSTITUTE( SUBSTITUTE( TEXT(  LastModifiedDate + (9/24)    ),&apos; &apos;, &apos;&apos;), &apos;-&apos; , &apos;&apos;), &apos;_&apos;, &apos;&apos;),&apos;:&apos;,&apos;&apos; ),12) &amp; 
+IF ( ISBLANK( PostingContractor__c ) ,  IF ( ISBLANK( CallerNameInput__c ) , &quot;&quot;, &apos;_&apos;&amp;CallerNameInput__c) , &apos;_&apos;&amp;PostingContractor__c)</formula>
+    <label>ファイル名</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

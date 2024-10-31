@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WarningBroadcast__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF ( ISBLANK(TEXT( Broadcast__c )) , IMAGE(&quot;/resource/1652356599000/WarningBroadcast&quot; , &quot;同報が未入力です。&quot;), &quot;&quot;)</formula>
+    <label>警告：同報</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

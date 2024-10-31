@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Indicates the Opportunity object related to the quick send activity. --></help>
+    <label><!-- Opportunity --></label>
+    <name>mcdm_15__Opportunity__c</name>
+    <relationshipLabel><!-- DM Activity Log --></relationshipLabel>
+</CustomFieldTranslation>

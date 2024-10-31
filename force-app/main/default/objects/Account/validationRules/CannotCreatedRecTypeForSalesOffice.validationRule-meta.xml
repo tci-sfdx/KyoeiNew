@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CannotCreatedRecTypeForSalesOffice</fullName>
+    <active>true</active>
+    <description>実行ユーザのプロファイルがカスタマーOP、SV、CLのいずれかでは、レコードタイプ「営業店」を新規作成できない</description>
+    <errorConditionFormula>AND(
+ISNEW(),
+RecordType.DeveloperName = &apos;SalesOffice&apos;,
+OR(
+$Profile.Id = $Label.CustomerCLProfileID,
+$Profile.Id = $Label.CustomerSVProfileID,
+$Profile.Id = $Label.CustomerOPProfileID
+)
+)</errorConditionFormula>
+    <errorMessage>営業店の手作成はできません</errorMessage>
+</ValidationRule>

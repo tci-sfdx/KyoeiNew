@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>送信で使用されたケースレコードを示します。</help>
+    <label><!-- Case ID --></label>
+    <name>mcdm_15__Case_ID__c</name>
+</CustomFieldTranslation>

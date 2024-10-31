@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Identifiziert den Benutzer für &quot;Senden von&quot; für diese Aktivität.</help>
+    <label><!-- Send From User --></label>
+    <name>mcdm_15__Send_From_User__c</name>
+    <relationshipLabel><!-- DM アクティビティログ (送信元ユーザー) --></relationshipLabel>
+</CustomFieldTranslation>

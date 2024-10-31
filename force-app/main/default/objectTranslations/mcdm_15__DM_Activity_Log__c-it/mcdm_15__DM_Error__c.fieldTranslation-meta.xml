@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Messaggi di errore specifici di DM che si sono verificati durante o dopo l&apos;inserimento.</help>
+    <label><!-- DM Error --></label>
+    <name>mcdm_15__DM_Error__c</name>
+</CustomFieldTranslation>

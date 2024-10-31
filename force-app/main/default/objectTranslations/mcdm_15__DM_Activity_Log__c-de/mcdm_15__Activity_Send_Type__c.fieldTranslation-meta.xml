@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Identifiziert die E-Mail- oder SMS-Aktivität für diesen Versand.</help>
+    <label><!-- Activity Send Type --></label>
+    <name>mcdm_15__Activity_Send_Type__c</name>
+</CustomFieldTranslation>

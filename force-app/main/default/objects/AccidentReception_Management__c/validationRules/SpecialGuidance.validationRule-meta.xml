@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SpecialGuidance</fullName>
+    <active>false</active>
+    <description>通常時の選択肢を選んだ場合のエラー処理</description>
+    <errorConditionFormula>TEXT(PrecautionsUntilArrival__c )=&quot;不明点等なければ1週間程で書類が届く旨を案内し、了承いただきました。&quot;</errorConditionFormula>
+    <errorDisplayField>PrecautionsUntilArrival__c</errorDisplayField>
+    <errorMessage>選択した文言は、通常時のみ選択可能です。</errorMessage>
+</ValidationRule>

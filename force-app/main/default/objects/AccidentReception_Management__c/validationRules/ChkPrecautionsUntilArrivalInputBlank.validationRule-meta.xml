@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ChkPrecautionsUntilArrivalInputBlank</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL(PrecautionsUntilArrival__c,&quot;フリー入力&quot;)  
+&amp;&amp;  ISBLANK( PrecautionsUntilArrivalInput__c)</errorConditionFormula>
+    <errorDisplayField>PrecautionsUntilArrivalInput__c</errorDisplayField>
+    <errorMessage>到着案内の選択がフリー入力の場合、到着案内（フリー入力）を入力してください。</errorMessage>
+</ValidationRule>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ViewSShogai_DM</fullName>
+    <columns>MasterLabel</columns>
+    <columns>DeveloperName</columns>
+    <columns>InsuranceItem1__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>InsuranceItem1__c</field>
+        <operation>equals</operation>
+        <value>S傷害（改定DM専用）</value>
+    </filters>
+    <label>S傷害（改定DM専用）</label>
+</ListView>

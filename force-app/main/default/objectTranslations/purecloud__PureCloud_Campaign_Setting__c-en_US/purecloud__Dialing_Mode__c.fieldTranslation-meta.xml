@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Dialing Mode --></label>
+    <name>purecloud__Dialing_Mode__c</name>
+    <picklistValues>
+        <masterLabel>Agentless Dialing</masterLabel>
+        <translation><!-- Agentless Dialing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Power Dialing</masterLabel>
+        <translation><!-- Power Dialing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Predictive Dialing</masterLabel>
+        <translation><!-- Predictive Dialing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Preview Dialing</masterLabel>
+        <translation><!-- Preview Dialing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Progressive Dialing</masterLabel>
+        <translation><!-- Progressive Dialing --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

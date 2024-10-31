@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- (Bプラン)保険終期 --></label>
+    <name>InsurancePeriodB__c</name>
+</CustomFieldTranslation>

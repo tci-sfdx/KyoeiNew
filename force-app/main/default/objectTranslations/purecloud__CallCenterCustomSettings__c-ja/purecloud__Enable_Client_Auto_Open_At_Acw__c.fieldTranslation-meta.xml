@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Auto Open Client for After-Call Work --></label>
+    <name>purecloud__Enable_Client_Auto_Open_At_Acw__c</name>
+</CustomFieldTranslation>

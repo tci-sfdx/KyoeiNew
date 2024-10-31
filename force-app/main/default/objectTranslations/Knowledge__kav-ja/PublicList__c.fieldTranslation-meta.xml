@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 公開先 --></label>
+    <name>PublicList__c</name>
+    <picklistValues>
+        <masterLabel>TCI</masterLabel>
+        <translation><!-- TCI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WEL</masterLabel>
+        <translation><!-- WEL --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

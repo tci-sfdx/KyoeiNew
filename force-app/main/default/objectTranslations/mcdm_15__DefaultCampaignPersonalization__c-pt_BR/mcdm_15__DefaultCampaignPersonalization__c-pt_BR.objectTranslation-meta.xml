@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Personalização de campanha padrão</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Personalizações de campanha padrão</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nome de personalização da campanha padrã</nameFieldLabel>
+</CustomObjectTranslation>

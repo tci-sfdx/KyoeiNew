@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Identifies the user who initiated the DM send related to this activity. This value may not match the Send From User value. --></help>
+    <label><!-- Initial Sender --></label>
+    <name>mcdm_15__Initial_Sender__c</name>
+    <relationshipLabel><!-- DM アクティビティログ (初期送信者) --></relationshipLabel>
+</CustomFieldTranslation>

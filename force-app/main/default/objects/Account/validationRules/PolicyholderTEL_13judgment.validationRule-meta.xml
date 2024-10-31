@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PolicyholderTEL_13judgment</fullName>
+    <active>true</active>
+    <description>契約者情報セクションの契約者電話番号が14文字以上の場合はエラー</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+NOT(ISBLANK(PolicyholderTEL__pc)),
+NOT(LEN(PolicyholderTEL__pc) &lt;14),
+RecordType.DeveloperName = &quot;Customer&quot;
+)</errorConditionFormula>
+    <errorDisplayField>PolicyholderTEL__pc</errorDisplayField>
+    <errorMessage>契約者電話番号は13桁以内で保存してください</errorMessage>
+</ValidationRule>

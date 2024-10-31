@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ChkContactDateW</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT( ISPICKVAL(Necessity__c, &quot;要連絡&quot;)),
+NOT(ISBLANK (ContactDateW__c)),
+ OR(RecordType.Name = &quot;01_火災新種事故受付&quot;,RecordType.Name = &quot;04_ヨット・モーターボート&quot;,RecordType.Name = &quot;02_伝言管理&quot;))</errorConditionFormula>
+    <errorDisplayField>ContactDateW__c</errorDisplayField>
+    <errorMessage>担当連絡要否で要連絡以外を選択時に連絡日入力できません。</errorMessage>
+</ValidationRule>

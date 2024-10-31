@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ChkAccidentDate</fullName>
+    <active>true</active>
+    <description>事故日の形式チェック</description>
+    <errorConditionFormula>IF ( ISBLANK (  AccidentDate__c ), FALSE, !REGEX(  AccidentDate__c , &apos;(R|H|S|T|M)\\d{1,2}/\\d{1,2}/\\d{1,2}&apos;) )</errorConditionFormula>
+    <errorDisplayField>AccidentDate__c</errorDisplayField>
+    <errorMessage>日付形式（例：R3/1/1）で入力してください。</errorMessage>
+</ValidationRule>

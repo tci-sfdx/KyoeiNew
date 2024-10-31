@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PhoneNumberAttributes__c</fullName>
+    <externalId>false</externalId>
+    <label>電話番号属性</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>電話属性1</fullName>
+                <default>false</default>
+                <label>電話属性1</label>
+            </value>
+            <value>
+                <fullName>電話属性2</fullName>
+                <default>false</default>
+                <label>電話属性2</label>
+            </value>
+            <value>
+                <fullName>電話属性3</fullName>
+                <default>false</default>
+                <label>電話属性3</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

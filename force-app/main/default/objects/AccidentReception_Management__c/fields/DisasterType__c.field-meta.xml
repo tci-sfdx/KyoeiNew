@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DisasterType__c</fullName>
+    <externalId>false</externalId>
+    <label>災害種別</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>台風</fullName>
+                <default>false</default>
+                <label>台風</label>
+            </value>
+            <value>
+                <fullName>地震</fullName>
+                <default>false</default>
+                <label>地震</label>
+            </value>
+            <value>
+                <fullName>暴風雨</fullName>
+                <default>false</default>
+                <label>暴風雨</label>
+            </value>
+            <value>
+                <fullName>その他</fullName>
+                <default>false</default>
+                <label>その他</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

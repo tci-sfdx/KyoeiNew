@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>启用业务推荐列表和推荐汇总组件。</help>
+    <label><!-- Enable Business Referrals Made --></label>
+    <name>FinServ__EnableBusinessReferralsMade__c</name>
+</CustomFieldTranslation>

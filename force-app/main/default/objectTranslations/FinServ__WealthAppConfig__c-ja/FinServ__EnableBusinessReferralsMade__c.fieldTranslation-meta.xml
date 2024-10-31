@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>作成された企業紹介のリストおよび作成された紹介の概要コンポーネントを有効化</help>
+    <label><!-- Enable Business Referrals Made --></label>
+    <name>FinServ__EnableBusinessReferralsMade__c</name>
+</CustomFieldTranslation>

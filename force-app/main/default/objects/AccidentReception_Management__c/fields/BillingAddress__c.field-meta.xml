@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BillingAddress__c</fullName>
+    <externalId>false</externalId>
+    <label>請求書類の送付先住所</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>端末住所に同じ</fullName>
+                <default>false</default>
+                <label>端末住所に同じ</label>
+            </value>
+            <value>
+                <fullName>被保険者住所に同じ</fullName>
+                <default>false</default>
+                <label>被保険者住所に同じ</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

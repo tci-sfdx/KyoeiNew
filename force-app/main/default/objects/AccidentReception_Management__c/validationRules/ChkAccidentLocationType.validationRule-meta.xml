@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ChkAccidentLocationType</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL( AccidentLocationType__c , &quot;その他&quot;) &amp;&amp;
+ISBLANK( LocationTypeSupplement__c )&amp;&amp; RecordType.Name = &quot;01_火災新種事故受付&quot;</errorConditionFormula>
+    <errorDisplayField>LocationTypeSupplement__c</errorDisplayField>
+    <errorMessage>事故場所種別をその他を選択した場合、事故場所種別（補足）を入力してください。</errorMessage>
+</ValidationRule>

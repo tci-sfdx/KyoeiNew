@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UnknownNumber_Check</fullName>
+    <active>true</active>
+    <description>非通知・電話番号登録なしにチェックがない、かつ電話番号が未入力の場合はエラー（レコードタイプ：顧客）</description>
+    <errorConditionFormula>AND(
+ISBLANK(PhoneNumber__c),
+NOT(UnknownNumber__pc),
+RecordType.DeveloperName = &quot;Customer&quot;
+)</errorConditionFormula>
+    <errorDisplayField>NoBlockedCalls_PhoneNumbersRegist__c</errorDisplayField>
+    <errorMessage>入電者情報の電話番号を入力するか、非通知・電話番号登録なしにチェックを入れて保存してください</errorMessage>
+</ValidationRule>

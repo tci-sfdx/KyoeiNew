@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AdditionalInformation</fullName>
+    <inlineHelpText>このテキスト項目を使用して、質問の追加情報 (開示声明など) を取得します。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- はき出しorすい込み元契約 --></label>
+    <name>ExpelContract__c</name>
+    <picklistValues>
+        <masterLabel>他社</masterLabel>
+        <translation><!-- 他社 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>保険未付保</masterLabel>
+        <translation><!-- 保険未付保 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>当社/証番入力要⇒</masterLabel>
+        <translation><!-- 当社/証番入力要⇒ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未選択</masterLabel>
+        <translation><!-- 未選択 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

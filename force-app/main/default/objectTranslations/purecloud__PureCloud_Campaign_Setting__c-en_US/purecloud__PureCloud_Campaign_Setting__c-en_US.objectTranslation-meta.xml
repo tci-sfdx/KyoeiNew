@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <errorMessage><!-- Agent Owned Dialing is only available with Preview Dialing. --></errorMessage>
+        <name>purecloud__Agent_Owned_Dialing_for_Preview_Only</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A Call Response is required for this Dialing Mode. --></errorMessage>
+        <name>purecloud__CallResponse_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Phone number must be numbers only or E.164 format. --></errorMessage>
+        <name>purecloud__Caller_ID_Number_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- An Edge Group or Site is required for this Dialing Mode. --></errorMessage>
+        <name>purecloud__EdgeGroup_Required</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Alle Listen der Kampagnenmitglieder mit ausstehender Distributed Marketing-Benutzergenehmigung werden nach diesem Feld sortiert. Ordnen Sie es einem Feld im Kampagnenmitgliedsobjekt zu.</help>
+    <label><!-- Sort Field Name --></label>
+    <name>mcdm_15__SortFieldName__c</name>
+</CustomFieldTranslation>

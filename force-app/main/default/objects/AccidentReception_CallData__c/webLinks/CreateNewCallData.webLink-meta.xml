@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CreateNewCallData</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>新規事故コールデータ</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>/lightning/o/AccidentReception_CallData__c/new?defaultFieldValues=Name={!Account.Name},CallerContactInformation1__c={!Account.PhoneNumber__pc},ContractorName__c={!Account.PolicyholderName__pc},RegisteredPhoneNumber1__c={!Account.PolicyholderTEL__pc}&amp;count=1&amp;nooverride=1&amp;useRecordTypeCheck=1&amp;navigationLocation=LIST_VIEW</url>
+</WebLink>

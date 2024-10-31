@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MailSubject__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF ( RecordType.Name = &quot;02_伝言管理&quot;, &quot;&quot; , &quot;【新】&quot;) &amp;  
+IF ( NOT( ISBLANK( IncomingCallDateVerSubject__c ) ) , IncomingCallDateVerSubject__c &amp; &quot;受 &quot;, &quot;受付日不明 &quot;) &amp;
+IF ( NOT(ISBLANK( PostingContractor__c ))  , PostingContractor__c , &quot;契約者名不明&quot;) &amp;
+IF ( NOT(ISBLANK( PostingInsured__c ))  , &quot;（&quot;&amp; PostingInsured__c &amp; &quot;）&quot; , &quot;（被保険者名不明）&quot;)</formula>
+    <label>メール件名</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

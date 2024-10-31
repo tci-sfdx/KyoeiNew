@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Kun brugere med mindst læseadgang til kontoen og kontakten i en konto-kontakt-relationsregistrering kan se registreringen i relationskomponenter.</help>
+    <label><!-- Restrict ACR Record Visibility --></label>
+    <name>FinServ__RestrictACRRecordVisibility__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AgencyCode_8or11</fullName>
+    <active>true</active>
+    <description>代理店コードが8文字か、11文字かチェックする。</description>
+    <errorConditionFormula>And(
+RecordType.Name = &apos;代理店&apos;,
+Not(IsBlank(CounterpartyCode__c)), 
+NOT(LEN( CounterpartyCode__c) = 8 || LEN( CounterpartyCode__c) = 11 ))</errorConditionFormula>
+    <errorDisplayField>CounterpartyCode__c</errorDisplayField>
+    <errorMessage>相手先コードは、8桁もしくは11桁です。</errorMessage>
+</ValidationRule>

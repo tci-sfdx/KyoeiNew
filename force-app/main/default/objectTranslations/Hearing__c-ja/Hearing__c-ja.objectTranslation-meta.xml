@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ヒアリング兼チェックシート</value>
+    </caseValues>
+    <layouts>
+        <layout>ヒアリング兼チェックシートレイアウト</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- テキストエリア用 --></label>
+            <section>テキストエリア用</section>
+        </sections>
+        <sections>
+            <label><!-- 新規Aプラン --></label>
+            <section>新規Aプラン</section>
+        </sections>
+        <sections>
+            <label><!-- 新規ヒアリングシート兼チェックシート --></label>
+            <section>新規ヒアリングシート兼チェックシート</section>
+        </sections>
+        <sections>
+            <label><!-- 新規ヒアリングシート兼チェックシート_2 --></label>
+            <section>新規ヒアリングシート兼チェックシート_2</section>
+        </sections>
+        <sections>
+            <label><!-- 特記事項用 --></label>
+            <section>特記事項用</section>
+        </sections>
+    </layouts>
+    <workflowTasks>
+        <description><!-- コメント --></description>
+        <name>ActionTask</name>
+        <subject><!-- 承認申請 --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

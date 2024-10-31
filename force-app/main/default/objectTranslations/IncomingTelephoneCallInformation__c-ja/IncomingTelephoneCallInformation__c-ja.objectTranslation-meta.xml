@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>入電情報</value>
+    </caseValues>
+    <layouts>
+        <layout>入電情報レイアウト</layout>
+        <sections>
+            <label><!-- 1行表示用 --></label>
+            <section>1行表示用</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

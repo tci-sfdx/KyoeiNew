@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Identifiziert den Benutzer, der den DM-Versand im Zusammenhang mit dieser Aktivität genehmigt hat.</help>
+    <label><!-- Approver --></label>
+    <name>mcdm_15__Approver__c</name>
+    <relationshipLabel><!-- DM アクティビティログ (承認者) --></relationshipLabel>
+</CustomFieldTranslation>

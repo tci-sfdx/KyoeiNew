@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ChkPhase</fullName>
+    <active>true</active>
+    <description>OPプロファイルは、SV承認まちまでのステータス変更となります。</description>
+    <errorConditionFormula>AND(
+ NOT( TEXT( Phase__c ) = &quot;対応中&quot; ||  
+        TEXT( Phase__c ) = &quot;SV承認待ち&quot; ||  
+        TEXT( Phase__c ) = &quot;&quot; ),
+ CONTAINS( $Profile.Name , &quot;事故受付_OP&quot;)
+)</errorConditionFormula>
+    <errorMessage>OPは「SV承認まち」以上のフェーズは選択できません。</errorMessage>
+</ValidationRule>

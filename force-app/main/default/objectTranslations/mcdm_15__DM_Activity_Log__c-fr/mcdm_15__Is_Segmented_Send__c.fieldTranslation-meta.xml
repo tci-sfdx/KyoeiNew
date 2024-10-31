@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indique que l’activité a été envoyée via un flux Envoi segmenté.</help>
+    <label><!-- Is Segmented Send --></label>
+    <name>mcdm_15__Is_Segmented_Send__c</name>
+</CustomFieldTranslation>

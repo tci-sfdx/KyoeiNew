@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Seuls les utilisateurs qui ont au moins accès en lecture au compte et au contact dans un enregistrement de relation compte-contact peuvent visualiser l&apos;enregistrement dans les composants relationnels.</help>
+    <label><!-- Restrict ACR Record Visibility --></label>
+    <name>FinServ__RestrictACRRecordVisibility__c</name>
+</CustomFieldTranslation>

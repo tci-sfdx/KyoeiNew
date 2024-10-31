@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indica que la actividad se envió mediante un flujo de envío automático.</help>
+    <label><!-- Is Auto Send --></label>
+    <name>mcdm_15__Is_Auto_Send__c</name>
+</CustomFieldTranslation>

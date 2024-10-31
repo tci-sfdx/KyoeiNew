@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Wenn Sie das Feld &quot;Verwandte Rolle&quot; in einem Account-Account-Beziehungsdatensatz aktualisieren, wird das Feld &quot;Verwandte Rolle&quot; im zugeordneten Account-Account-Beziehungsdatensatz ebenfalls aktualisiert.</help>
+    <label><!-- Update Related Role on associated record --></label>
+    <name>FinServ__EnableAARInverseRoleUpdate__c</name>
+</CustomFieldTranslation>

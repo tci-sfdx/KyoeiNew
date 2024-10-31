@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WarningInsurance2__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF ( NOT( ISBLANK(   InsurancePeriod2From__c ) ) &amp;&amp; NOT( ISBLANK(  InsurancePeriod2To__c )) , IF ( AccidentDateInput__c&lt;  InsurancePeriod2FromS__c || AccidentDateInput__c&gt;  InsurancePeriod2ToS__c , IMAGE(&quot;/resource/1621565694000/WarningInsurance2&quot;, &quot;入力している事故日は 期間②の範囲外です。&quot;), &quot;&quot;) ,&quot;&quot;)</formula>
+    <label>警告：保険期間②</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

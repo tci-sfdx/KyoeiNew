@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>계정-계정 관계 레코드에서 관련 역할 필드를 업데이트하면 관련 계정-계정 관계 레코드의 관련 역할 필드가 업데이트됩니다.</help>
+    <label><!-- Update Related Role on associated record --></label>
+    <name>FinServ__EnableAARInverseRoleUpdate__c</name>
+</CustomFieldTranslation>

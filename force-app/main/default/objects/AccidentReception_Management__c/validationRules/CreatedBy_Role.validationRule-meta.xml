@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CreatedBy_Role</fullName>
+    <active>true</active>
+    <description>レコード作成者のロールとログインユーザのロールの所属部署が一致しない場合</description>
+    <errorConditionFormula>IF ( NOT( OR($Profile.Name =&quot;共栄火災プロファイル&quot;,$Profile.Name =&quot;システム管理者&quot;) ) , IF ( ISCHANGED(OwnerId) , NOT(CONTAINS(CreatedBy.UserRole.Name, &quot;WEL&quot;) &amp;&amp; CONTAINS($UserRole.Name, &quot;WEL&quot;))&amp;&amp;NOT(CONTAINS(CreatedBy.UserRole.Name, &quot;東京&quot;) &amp;&amp; CONTAINS($UserRole.Name, &quot;東京&quot;)) &amp;&amp; NOT(CONTAINS(CreatedBy.UserRole.Name, &quot;大阪&quot;) &amp;&amp; CONTAINS($UserRole.Name, &quot;大阪&quot;)) &amp;&amp; NOT(CONTAINS(CreatedBy.UserRole.Name, &quot;東京&quot;) &amp;&amp; CONTAINS($UserRole.Name, &quot;大阪&quot;)) &amp;&amp; NOT(CONTAINS(CreatedBy.UserRole.Name, &quot;大阪&quot;) &amp;&amp; CONTAINS($UserRole.Name, &quot;東京&quot;)) , ISBLANK(OwnerId) ), ISBLANK(OwnerId))</errorConditionFormula>
+    <errorDisplayField>OwnerId</errorDisplayField>
+    <errorMessage>所有者変更の権限がありません。</errorMessage>
+</ValidationRule>

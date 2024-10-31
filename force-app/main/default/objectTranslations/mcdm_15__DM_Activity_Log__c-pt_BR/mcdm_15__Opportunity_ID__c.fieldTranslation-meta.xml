@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Identifica o registro Oportunidade associado a esta atividade.</help>
+    <label><!-- Opportunity ID --></label>
+    <name>mcdm_15__Opportunity_ID__c</name>
+</CustomFieldTranslation>

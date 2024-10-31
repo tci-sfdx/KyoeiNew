@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- グループ --></label>
+    <name>Group__c</name>
+    <picklistValues>
+        <masterLabel>JAカード傷害・JAトラブル</masterLabel>
+        <translation><!-- JAカード傷害・JAトラブル --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>アシストライン（D精算O領収証）</masterLabel>
+        <translation><!-- アシストライン（D精算O領収証） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>アシストライン（E-JIBAI）</masterLabel>
+        <translation><!-- アシストライン（E-JIBAI） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>アシストライン（IE）</masterLabel>
+        <translation><!-- アシストライン（IE） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>アシストライン（その他）</masterLabel>
+        <translation><!-- アシストライン（その他） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>アシストライン（ディーラ）</masterLabel>
+        <translation><!-- アシストライン（ディーラ） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>アシストライン（パスワード）</masterLabel>
+        <translation><!-- アシストライン（パスワード） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>アシストライン（傷害新種）</masterLabel>
+        <translation><!-- アシストライン（傷害新種） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>アシストライン（全般）</masterLabel>
+        <translation><!-- アシストライン（全般） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>アシストライン（共通）</masterLabel>
+        <translation><!-- アシストライン（共通） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>アシストライン（支援事務）</masterLabel>
+        <translation><!-- アシストライン（支援事務） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>アシストライン（火災）</masterLabel>
+        <translation><!-- アシストライン（火災） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>アシストライン（生保）</masterLabel>
+        <translation><!-- アシストライン（生保） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>アシストライン（自動車）</masterLabel>
+        <translation><!-- アシストライン（自動車） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>カスタマーセンター（共通）</masterLabel>
+        <translation><!-- カスタマーセンター（共通） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>サポートデスク</masterLabel>
+        <translation><!-- サポートデスク --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ヨット・モーターボート</masterLabel>
+        <translation><!-- ヨット・モーターボート --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>事故受付センター（共通）</masterLabel>
+        <translation><!-- 事故受付センター（共通） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>伝言管理</masterLabel>
+        <translation><!-- 伝言管理 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>富国異動</masterLabel>
+        <translation><!-- 富国異動 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>日整連</masterLabel>
+        <translation><!-- 日整連 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>火新異動</masterLabel>
+        <translation><!-- 火新異動 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>火災新種事故受付</masterLabel>
+        <translation><!-- 火災新種事故受付 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>第三分野受付</masterLabel>
+        <translation><!-- 第三分野受付 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自動継続停止</masterLabel>
+        <translation><!-- 自動継続停止 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自動車新規</masterLabel>
+        <translation><!-- 自動車新規 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自動車満期</masterLabel>
+        <translation><!-- 自動車満期 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自動車異動</masterLabel>
+        <translation><!-- 自動車異動 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自動車試算SD</masterLabel>
+        <translation><!-- 自動車試算SD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自賠責解約</masterLabel>
+        <translation><!-- 自賠責解約 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>計上グループ（共通）</masterLabel>
+        <translation><!-- 計上グループ（共通） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>証券再発行</masterLabel>
+        <translation><!-- 証券再発行 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

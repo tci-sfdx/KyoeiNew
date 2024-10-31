@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Identifica il collegamento tra i dati di coinvolgimento e i record Risultati delle email individuali (IER) nel pacchetto Marketing Cloud Connect.</help>
+    <label><!-- IER Linking ID --></label>
+    <name>mcdm_15__IER_Linking_ID__c</name>
+</CustomFieldTranslation>

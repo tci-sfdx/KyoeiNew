@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Indicates that the activity was sent through a Campaign sending flow. --></help>
+    <label><!-- Is Campaign Send --></label>
+    <name>mcdm_15__Is_Campaign_Send__c</name>
+</CustomFieldTranslation>

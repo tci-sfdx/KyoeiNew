@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 着信電話番号ラベル --></label>
+    <name>CallerPhoneNumberLabel__c</name>
+</CustomFieldTranslation>

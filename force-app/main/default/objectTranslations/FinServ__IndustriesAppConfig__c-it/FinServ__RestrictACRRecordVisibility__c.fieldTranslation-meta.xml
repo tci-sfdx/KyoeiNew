@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Solo gli utenti con almeno l&apos;accesso in lettura all&apos;account e al referente in una relazione referenti-account possono vedere il record nei componenti della relazione.</help>
+    <label><!-- Restrict ACR Record Visibility --></label>
+    <name>FinServ__RestrictACRRecordVisibility__c</name>
+</CustomFieldTranslation>

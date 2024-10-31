@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PostingInsured__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(  RecordType.Name  ,
+&quot;01_火災新種事故受付&quot;, InsuredNameInput__c ,
+&quot;02_伝言管理&quot;,  Insured__c ,
+&quot;03_第三分野受付&quot;,InsuredNameInput__c,
+&quot;04_ヨット・モーターボート&quot;, &quot;&quot; ,
+&quot;05_日整連&quot;,&quot;&quot;,&quot;&quot;)</formula>
+    <label>被保険者（転記）</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

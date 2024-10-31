@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CantEditConnectField</fullName>
+    <active>true</active>
+    <description>オンライン編集不可時以下の編集不可
+【相手先コード】 【氏名カナ】 【氏名】 【FAX番号】 【郵便番号】
+【都道府県】 【住所】 【営業店名】 【専乗別】
+【更新不可対象】</description>
+    <errorConditionFormula>And(OnlineEdit__c, NOT( $Profile.Name = &apos;Admin&apos;),
+Or(
+isChanged(CounterpartyCode__c),
+isChanged(CounterpartyName_Kana__c),
+isChanged(Name),
+isChanged(FAXnumber__c),
+isChanged( PostalCode__c),
+isChanged(State_Province__c),
+isChanged( Address__c),
+isChanged( SalesBranchName__c),
+isChanged( BySpecialty__c),
+isChanged( Non_RenewalTarget__c)
+))</errorConditionFormula>
+    <errorMessage>オンライン編集不可時以下の編集不可
+【相手先コード】 【氏名カナ】 【氏名】 【FAX番号】 【郵便番号】
+【都道府県】 【住所】 【営業店名】 【専乗別】
+【更新不可対象】</errorMessage>
+</ValidationRule>

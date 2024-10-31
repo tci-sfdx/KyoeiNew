@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>P13n de soumission MCDM</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>P13ns de soumission MCDM</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nom de P13n de soumission MCDM</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

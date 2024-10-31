@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BedoreDisasterType__c</fullName>
+    <externalId>false</externalId>
+    <label>災害の種類（BEDORE取得）</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>台風の強風</fullName>
+                <default>false</default>
+                <label>台風の強風</label>
+            </value>
+            <value>
+                <fullName>台風の洪水</fullName>
+                <default>false</default>
+                <label>台風の洪水</label>
+            </value>
+            <value>
+                <fullName>地震</fullName>
+                <default>false</default>
+                <label>地震</label>
+            </value>
+            <value>
+                <fullName>その他</fullName>
+                <default>false</default>
+                <label>その他</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ID exclusivo para a ação de envio do DM. Use esse ID em relatórios para agrupar envios do DM por uma ação de envio.</help>
+    <label><!-- DM Action ID --></label>
+    <name>mcdm_15__DM_Action_ID__c</name>
+</CustomFieldTranslation>

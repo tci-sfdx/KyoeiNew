@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsBlank_PrintForm</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( NOT( ISNEW()), ISBLANK(TEXT( PrintForm__c )), ISBLANK( BedoreSessionID__c ))</errorConditionFormula>
+    <errorDisplayField>PrintForm__c</errorDisplayField>
+    <errorMessage>帳票種別は必ず入力してください。</errorMessage>
+</ValidationRule>

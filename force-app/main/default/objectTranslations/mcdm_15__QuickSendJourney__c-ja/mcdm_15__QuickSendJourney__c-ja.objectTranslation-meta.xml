@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>クイック送信メッセージ</value>
+    </caseValues>
+    <nameFieldLabel>クイック送信メッセージ ID</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- The quick send message end date should not be before the start date. --></errorMessage>
+        <name>mcdm_15__mcdm_date_validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When approval mode is set to target audience size, value must be between 2 and 100000. Otherwise, leave blank --></errorMessage>
+        <name>mcdm_15__threshold_values</name>
+    </validationRules>
+</CustomObjectTranslation>

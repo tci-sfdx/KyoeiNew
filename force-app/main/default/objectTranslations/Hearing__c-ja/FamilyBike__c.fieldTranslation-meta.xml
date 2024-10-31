@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- ファミリーバイク --></label>
+    <name>FamilyBike__c</name>
+    <picklistValues>
+        <masterLabel>なし</masterLabel>
+        <translation><!-- なし --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>人傷あり</masterLabel>
+        <translation><!-- 人傷あり --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>人傷なし</masterLabel>
+        <translation><!-- 人傷なし --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未選択</masterLabel>
+        <translation><!-- 未選択 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

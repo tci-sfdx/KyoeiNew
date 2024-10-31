@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Gibt an, dass die Aktivität über einen Flow &quot;Massenversand&quot; gesendet wurde.</help>
+    <label><!-- Is Bulk Send --></label>
+    <name>mcdm_15__Is_Bulk_Send__c</name>
+</CustomFieldTranslation>

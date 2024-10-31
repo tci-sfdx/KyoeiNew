@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ErrorCastFixedPeriodTo</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( NOT( ISBLANK( CastFixedPeriodTo__c) ) , NOT( ISBLANK(  CastFixedPeriodToFreeInput__c )))</errorConditionFormula>
+    <errorDisplayField>CastFixedPeriodToFreeInput__c</errorDisplayField>
+    <errorMessage>固定期間見込み（終了）が重複しています。</errorMessage>
+</ValidationRule>

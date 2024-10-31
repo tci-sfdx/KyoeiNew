@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DeveloperName</fullName>
+    <inlineHelpText>一意の名前を入力してください。この名前は、文字で開始する必要があり、英数字とアンダースコアのみを使用できます。スペースを含む、アンダースコアで終了する、またはアンダースコアを 2 つ続けることはできません。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

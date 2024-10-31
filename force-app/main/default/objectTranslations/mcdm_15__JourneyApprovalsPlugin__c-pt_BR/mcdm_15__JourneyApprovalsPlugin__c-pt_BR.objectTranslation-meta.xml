@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Interação de personalização personalizada</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Interações de personalização personalizada</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Interação customizada de personalização</nameFieldLabel>
+</CustomObjectTranslation>

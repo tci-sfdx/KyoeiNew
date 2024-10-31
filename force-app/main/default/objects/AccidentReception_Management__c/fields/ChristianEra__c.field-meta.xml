@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ChristianEra__c</fullName>
+    <externalId>false</externalId>
+    <formula>DATE(
+CASE(LEFT( CallDate__c , 1) , &quot;R&quot;, 2018+ VALUE(MID(CallDate__c , 2, FIND(&quot;/&quot;, CallDate__c )-2)) , &quot;H&quot;, 1989+ VALUE(MID(CallDate__c , 2, FIND(&quot;/&quot;, CallDate__c )-2)) ,&quot;S&quot;, 1925+ VALUE(MID(CallDate__c , 2, FIND(&quot;/&quot;, CallDate__c )-2)) ,&quot;T&quot;, 1911+ VALUE(MID(CallDate__c , 2, FIND(&quot;/&quot;, CallDate__c )-2)) ,null),
+VALUE(MID(CallDate__c , FIND(&quot;/&quot;, CallDate__c )+1, FIND(&quot;/&quot;, CallDate__c , 5)-FIND(&quot;/&quot;, CallDate__c )-1)),
+VALUE(MID(CallDate__c , FIND(&quot;/&quot;, CallDate__c , 5)+1, LEN(CallDate__c ) -FIND(&quot;/&quot;, CallDate__c , 5))))</formula>
+    <label>西暦変換</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

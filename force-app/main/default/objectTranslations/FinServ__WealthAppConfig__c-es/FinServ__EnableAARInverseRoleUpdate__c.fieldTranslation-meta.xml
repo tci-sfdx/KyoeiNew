@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Cuando actualiza un campo Función relacionada en un registro de relación cuenta-cuenta, se actualiza el campo Función relacionada en el registro de relación cuenta-cuenta relacionado.</help>
+    <label><!-- Update Related Role on associated record --></label>
+    <name>FinServ__EnableAARInverseRoleUpdate__c</name>
+</CustomFieldTranslation>

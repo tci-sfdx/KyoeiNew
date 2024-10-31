@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 部門 --></label>
+    <name>Department__c</name>
+    <picklistValues>
+        <masterLabel>カスタマーセンター</masterLabel>
+        <translation><!-- カスタマーセンター --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>事故受付センター</masterLabel>
+        <translation><!-- 事故受付センター --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>代理店サポート</masterLabel>
+        <translation><!-- 代理店サポート --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>共通</masterLabel>
+        <translation><!-- 共通 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>計上グループ</masterLabel>
+        <translation><!-- 計上グループ --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

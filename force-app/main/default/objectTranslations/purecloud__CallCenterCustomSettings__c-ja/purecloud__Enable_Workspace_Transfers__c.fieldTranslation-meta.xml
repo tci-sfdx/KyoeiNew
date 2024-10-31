@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select this setting to transfer in Service Cloud the main tab that an agent is viewing and any subtabs for that record that an agent has open. --></help>
+    <label><!-- Enable Workspace Transfers --></label>
+    <name>purecloud__Enable_Workspace_Transfers__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Marketing Cloud Connect パッケージ内のエンゲージメントデータと IER レコード間のリンクを示します。</help>
+    <label><!-- IER Linking ID --></label>
+    <name>mcdm_15__IER_Linking_ID__c</name>
+</CustomFieldTranslation>

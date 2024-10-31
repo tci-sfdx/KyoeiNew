@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Name_Check_TCI</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT( OR($Profile.Name =&quot;共栄火災プロファイル&quot;,$Profile.Name =&quot;システム管理者&quot;) ) &amp;&amp; IF (CONTAINS($UserRole.Name, &quot;東京&quot;)||CONTAINS($UserRole.Name, &quot;大阪&quot;),NOT(OR(ISBLANK( Name ),REGEX( Name , &quot;[T-]-[0-9]{6}&quot;))),ISBLANK( Name ))</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>受付番号はT-000000の形式で入力してください。</errorMessage>
+</ValidationRule>

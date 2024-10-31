@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Indica l&apos;oggetto Messaggio di invio rapido correlato all&apos;attività di invio rapido.</help>
+    <label><!-- Quick Send Message --></label>
+    <name>mcdm_15__Quick_Send_Message__c</name>
+    <relationshipLabel><!-- DM Activity Log --></relationshipLabel>
+</CustomFieldTranslation>

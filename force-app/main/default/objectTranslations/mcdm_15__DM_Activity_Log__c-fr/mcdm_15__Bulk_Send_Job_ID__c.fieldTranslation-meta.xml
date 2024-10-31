@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Identifie la tâche d’envoi en masse si la référence est supprimée.</help>
+    <label><!-- Bulk Send Job ID --></label>
+    <name>mcdm_15__Bulk_Send_Job_ID__c</name>
+</CustomFieldTranslation>

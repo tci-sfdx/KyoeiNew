@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsActive</fullName>
+    <inlineHelpText>調査の質問バージョンが OmniScript に関連付けられている場合、このチェックボックスを選択解除すると、状況は [アーカイブ済み] に変更されます。調査の質問バージョンが OmniScript に関連付けられていない場合、このチェックボックスを選択解除すると、状況は [ドラフト] に変更されます。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

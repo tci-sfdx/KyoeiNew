@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 保険種類 --></label>
+    <name>TypeOfInsurance__c</name>
+    <picklistValues>
+        <masterLabel>くるまる</masterLabel>
+        <translation><!-- くるまる --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ベーシス</masterLabel>
+        <translation><!-- ベーシス --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未選択</masterLabel>
+        <translation><!-- 未選択 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

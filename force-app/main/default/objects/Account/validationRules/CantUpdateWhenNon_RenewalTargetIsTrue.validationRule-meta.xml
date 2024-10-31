@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CantUpdateWhenNon_RenewalTargetIsTrue</fullName>
+    <active>true</active>
+    <errorConditionFormula>And(Non_RenewalTarget__c = true,
+not(ischanged(Non_RenewalTarget__c)))</errorConditionFormula>
+    <errorMessage>更新不可対象がオンの時には、更新できません</errorMessage>
+</ValidationRule>

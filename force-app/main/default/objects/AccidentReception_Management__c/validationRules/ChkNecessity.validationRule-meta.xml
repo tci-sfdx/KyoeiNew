@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ChkNecessity</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL(Necessity__c, &quot;要連絡&quot;)&amp;&amp;ISPICKVAL(RemarksContact__c, &quot;確認事項がある場合の連絡する旨を案内&quot;)</errorConditionFormula>
+    <errorDisplayField>Necessity__c</errorDisplayField>
+    <errorMessage>今後の連絡先について、要否で「要連絡」を選択し、（今後の連絡先欄の）備考で「確認事項がある場合の連絡する旨を案内」は矛盾した入力内容となります。</errorMessage>
+</ValidationRule>

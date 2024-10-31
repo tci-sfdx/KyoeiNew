@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type --></label>
+    <name>purecloud__Type__c</name>
+    <picklistValues>
+        <masterLabel>Language</masterLabel>
+        <translation><!-- Language --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Queue</masterLabel>
+        <translation><!-- Queue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Skill</masterLabel>
+        <translation><!-- Skill --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

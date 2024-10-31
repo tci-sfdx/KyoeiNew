@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllDairiten</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CounterpartyName_Kana__c</columns>
+    <columns>CounterpartyCode__c</columns>
+    <columns>DestinationNumber__c</columns>
+    <columns>displayClosedStore__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Agent</value>
+    </filters>
+    <label>すべての代理店</label>
+</ListView>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 設定根拠 --></label>
+    <name>BasisForSetting__c</name>
+    <picklistValues>
+        <masterLabel>RedBook</masterLabel>
+        <translation><!-- RedBook --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SV</masterLabel>
+        <translation><!-- SV --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>支援スタッフ</masterLabel>
+        <translation><!-- 支援スタッフ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未選択</masterLabel>
+        <translation><!-- 未選択 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>車価表</masterLabel>
+        <translation><!-- 車価表 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

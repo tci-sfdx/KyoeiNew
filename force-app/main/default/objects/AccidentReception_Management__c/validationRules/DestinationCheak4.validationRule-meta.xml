@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DestinationCheak4</fullName>
+    <active>true</active>
+    <errorConditionFormula>destination4__r.Department__c  = &quot;その他&quot;  &amp;&amp;  ISBLANK( DepartmentNameInput4__c )</errorConditionFormula>
+    <errorDisplayField>DepartmentNameInput4__c</errorDisplayField>
+    <errorMessage>宛先④の選択がフリー入力の場合、④（選択不可の場合）を入力してください。</errorMessage>
+</ValidationRule>

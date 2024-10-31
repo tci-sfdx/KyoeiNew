@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SV_ApprovalWaitingList_WEL</fullName>
+    <booleanFilter>1 AND 2</booleanFilter>
+    <columns>NAME</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>CallDate__c</columns>
+    <columns>CallDataIncomingCallTime__c</columns>
+    <columns>EndTime__c</columns>
+    <columns>ArrivalConfirmation__c</columns>
+    <columns>destination__c</columns>
+    <columns>RespondentInfo__c</columns>
+    <columns>RespondentInfoPart__c</columns>
+    <columns>SendSV__c</columns>
+    <columns>PostingContractor__c</columns>
+    <columns>CallerNameInput__c</columns>
+    <columns>SVManagement__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Phase__c</field>
+        <operation>equals</operation>
+        <value>SV承認待ち</value>
+    </filters>
+    <filters>
+        <field>RespondentInfoPart__c</field>
+        <operation>equals</operation>
+        <value>【東京】事故受付センター(WEL)</value>
+    </filters>
+    <label>SV承認待ちリスト(WEL)</label>
+</ListView>

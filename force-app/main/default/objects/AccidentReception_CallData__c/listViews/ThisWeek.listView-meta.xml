@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ThisWeek</fullName>
+    <columns>NAME</columns>
+    <columns>CallerContactInformation1_Text__c</columns>
+    <columns>ContractorName__c</columns>
+    <columns>RegisteredPhoneNumber1_Text__c</columns>
+    <columns>PolicyNumber__c</columns>
+    <columns>IncomingCallDay__c</columns>
+    <columns>IncomingCallTime__c</columns>
+    <columns>AccidentDate__c</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>THIS_WEEK</value>
+    </filters>
+    <label>今週のコールデータ</label>
+</ListView>

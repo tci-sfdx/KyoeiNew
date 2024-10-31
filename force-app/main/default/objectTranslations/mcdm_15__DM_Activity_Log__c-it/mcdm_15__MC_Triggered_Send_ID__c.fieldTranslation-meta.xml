@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Identifica l&apos;invio con trigger Marketing Cloud associato a questa attività.</help>
+    <label><!-- MC Triggered Send ID --></label>
+    <name>mcdm_15__MC_Triggered_Send_ID__c</name>
+</CustomFieldTranslation>

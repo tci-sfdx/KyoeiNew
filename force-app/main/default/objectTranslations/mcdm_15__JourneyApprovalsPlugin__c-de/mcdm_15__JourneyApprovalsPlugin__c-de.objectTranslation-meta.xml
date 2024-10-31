@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Benutzerdefinierte DM-Personalisierungsinteraktion</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Benutzerdefinierte DM-Personalisierungsinteraktionen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Benutzerdefinierte DM-Personalisierungsinteraktion</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Benutzerdefinierte DM-Personalisierungsinteraktionen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Benutzerdefinierter DM-Personalisierungsinteraktion</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Benutzerdefinierter DM-Personalisierungsinteraktionen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Benutzerdefinierter DM-Personalisierungsinteraktion</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Benutzerdefinierten DM-Personalisierungsinteraktionen</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Benutzerdefinierte DM-Personalisierungsi</nameFieldLabel>
+</CustomObjectTranslation>

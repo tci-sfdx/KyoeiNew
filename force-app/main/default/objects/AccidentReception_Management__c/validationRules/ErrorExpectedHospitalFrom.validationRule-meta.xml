@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ErrorExpectedHospitalFrom</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( NOT( ISBLANK( ExpectedHospitalFrom__c )) , NOT( ISBLANK(  ExpectedHospitalFromFreeInput__c  ) ))</errorConditionFormula>
+    <errorDisplayField>ExpectedHospitalFromFreeInput__c</errorDisplayField>
+    <errorMessage>通院見込み（開始）が重複しています。</errorMessage>
+</ValidationRule>

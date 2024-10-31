@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Identifica el tipo de envío de DM entre las combinaciones disponibles.</help>
+    <label><!-- MCDM Send Type --></label>
+    <name>mcdm_15__DM_Send_Type__c</name>
+</CustomFieldTranslation>

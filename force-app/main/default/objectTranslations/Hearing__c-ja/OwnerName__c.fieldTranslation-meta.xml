@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 所有者名義 --></label>
+    <name>OwnerName__c</name>
+    <picklistValues>
+        <masterLabel>入替不可</masterLabel>
+        <translation><!-- 入替不可 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>入替可</masterLabel>
+        <translation><!-- 入替可 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未選択</masterLabel>
+        <translation><!-- 未選択 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 契約情報 --></label>
+    <name>Contract_InformationId__c</name>
+    <relationshipLabel><!-- 印刷連番 --></relationshipLabel>
+</CustomFieldTranslation>

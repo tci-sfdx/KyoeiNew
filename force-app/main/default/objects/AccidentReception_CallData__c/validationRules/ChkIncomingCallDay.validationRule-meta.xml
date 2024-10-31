@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ChkIncomingCallDay</fullName>
+    <active>true</active>
+    <description>第一入電日の形式チェック</description>
+    <errorConditionFormula>IF ( ISBLANK (  IncomingCallDay__c), FALSE, !REGEX( IncomingCallDay__c, &apos;(R|H|S|T|M)\\d{1,2}/\\d{1,2}/\\d{1,2}&apos;) )</errorConditionFormula>
+    <errorDisplayField>IncomingCallDay__c</errorDisplayField>
+    <errorMessage>日付形式（例：R3/1/1）で入力してください。</errorMessage>
+</ValidationRule>

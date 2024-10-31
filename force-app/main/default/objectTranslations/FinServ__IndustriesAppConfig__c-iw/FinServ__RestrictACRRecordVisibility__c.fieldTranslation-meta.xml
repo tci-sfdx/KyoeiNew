@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>רק משתמשים עם לפחות גישת קריאה אל החשבון ואיש הקשר ברשומה של קשר חשבון-איש קשר, יכולים לראות את הרשומה ברכיבי הקשר.</help>
+    <label><!-- Restrict ACR Record Visibility --></label>
+    <name>FinServ__RestrictACRRecordVisibility__c</name>
+</CustomFieldTranslation>

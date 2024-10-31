@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 損保一般試験（自動車）有効期限年月日 --></label>
+    <name>CarExpiryDate__c</name>
+</CustomFieldTranslation>

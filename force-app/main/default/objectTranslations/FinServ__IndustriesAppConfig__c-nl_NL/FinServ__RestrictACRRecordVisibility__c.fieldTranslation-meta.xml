@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Alleen gebruikers met minstens leestoegang tot de account en contactpersoon in een account-/contactspersoonsrelatierecord (ACR-record) kunnen de record zien in relatiecomponenten.</help>
+    <label><!-- Restrict ACR Record Visibility --></label>
+    <name>FinServ__RestrictACRRecordVisibility__c</name>
+</CustomFieldTranslation>

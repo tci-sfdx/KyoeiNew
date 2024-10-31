@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- タイプ --></label>
+    <name>Type__c</name>
+    <picklistValues>
+        <masterLabel>あいさつ文</masterLabel>
+        <translation><!-- あいさつ文 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>あいさつ文補足</masterLabel>
+        <translation><!-- あいさつ文補足 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ご返送いただく書類</masterLabel>
+        <translation><!-- ご返送いただく書類 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ご連絡事項</masterLabel>
+        <translation><!-- ご連絡事項 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>今回お送りした書類</masterLabel>
+        <translation><!-- 今回お送りした書類 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>送付書類</masterLabel>
+        <translation><!-- 送付書類 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>連絡先</masterLabel>
+        <translation><!-- 連絡先 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

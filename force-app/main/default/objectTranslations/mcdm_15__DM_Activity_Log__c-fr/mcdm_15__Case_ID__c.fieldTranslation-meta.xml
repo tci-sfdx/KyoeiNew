@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Identifie l’enregistrement de requête utilisé dans l’envoi.</help>
+    <label><!-- Case ID --></label>
+    <name>mcdm_15__Case_ID__c</name>
+</CustomFieldTranslation>

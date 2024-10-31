@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Link interazione di personalizzazione personalizzata (CPI) DM</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Link interazioni di personalizzazione personalizzate (CPI) DM</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nome link interazione di personalizzazio</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

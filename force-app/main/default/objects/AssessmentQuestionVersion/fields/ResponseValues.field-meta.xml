@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ResponseValues</fullName>
+    <inlineHelpText>調査の質問のデータ型がラジオ、ラジオグループ、選択、または複数選択の場合、[回答値] は必須項目です。各値を改行で区切って回答値を入力してください。または、選択、複数選択、およびラジオの場合、後で OmniStudio デザイナーで回答値をオプションソースとして定義することもできます。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>アクティビティが DM スケジュール済み送信フローに関連するかどうかを示します。</help>
+    <label><!-- DM Scheduled Send --></label>
+    <name>mcdm_15__DM_Scheduled_Send__c</name>
+    <relationshipLabel><!-- DM Activity Log --></relationshipLabel>
+</CustomFieldTranslation>

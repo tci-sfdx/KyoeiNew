@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ContactDateSVF__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (NOT ( ISBLANK (  ContactDateW__c ) ),  TEXT(MONTH(ContactDate__c ))&amp;&quot;月&quot;&amp;TEXT(DAY(ContactDate__c ))&amp;&quot;日&quot;&amp;&quot;（&quot;&amp; ContactDateWeek__c&amp;&quot;）&quot; , &quot;確認事項がある場合のみ連絡する旨を案内&quot;)</formula>
+    <label>連絡日SVF</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

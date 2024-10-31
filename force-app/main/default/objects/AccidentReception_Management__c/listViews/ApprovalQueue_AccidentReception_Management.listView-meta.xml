@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ApprovalQueue_AccidentReception_Management</fullName>
+    <filterScope>Queue</filterScope>
+    <label>承認待ちキュー</label>
+    <queue>ApprovalQueue</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

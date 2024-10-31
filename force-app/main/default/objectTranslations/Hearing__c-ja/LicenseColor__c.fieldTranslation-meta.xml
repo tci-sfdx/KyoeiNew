@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 免許証の色 --></label>
+    <name>LicenseColor__c</name>
+    <picklistValues>
+        <masterLabel>グリーン</masterLabel>
+        <translation><!-- グリーン --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ゴールド</masterLabel>
+        <translation><!-- ゴールド --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ブルー</masterLabel>
+        <translation><!-- ブルー --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未選択</masterLabel>
+        <translation><!-- 未選択 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>
