@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubscribersAddressAfterChange_Full_Check</fullName>
+    <active>true</active>
+    <description>（新）契約者住所、（新）被保険者住所が半角の場合エラー（レコードタイプ：火新異動）</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),OR(
+IF ( ISBLANK ( SubscribersAddressAfterChange1__c), FALSE,
+NOT(REGEX (SubscribersAddressAfterChange1__c, &quot;^[^ -~｡-ﾟ]*$&quot; ) ) )),
+RecordType.DeveloperName = &apos;Fire&apos;
+)</errorConditionFormula>
+    <errorDisplayField>SubscribersAddressAfterChange1__c</errorDisplayField>
+    <errorMessage>（新）契約者住所は全角で入力してください</errorMessage>
+</ValidationRule>

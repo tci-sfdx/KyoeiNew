@@ -1,0 +1,11 @@
+<apex:page standardController="Case" lightningStylesheets="true" showHeader="false" applyBodyTag="false" applyHtmlTag="false">
+    <apex:form >
+    
+    <div class="slds-box slds-theme_default">
+        <div class="item slds-col slds-size_1-of-1">
+        <a target="_blank" href="/apex/ReportDocument1_1?Id={!Case.Id}&cId=1-1" onclick="generatedJs()">1-1（営業店）継続案内DM_対応依頼票</a><br/>
+        <a target="_blank" href="/apex/ReportDocument1_2?Id={!Case.Id}&cId=1-2" onclick="generatedJs()">1-2（営業店）信金窓販_対応依頼票</a><br/>
+        <a target="_blank" href="/apex/ReportDocument1_3?Id={!Case.Id}&cId=1-3" onclick="generatedJs()">1-3（営業店）火新住変_対応依頼票</a><br/>
+    </div></div>
+    </apex:form>
+</apex:page>

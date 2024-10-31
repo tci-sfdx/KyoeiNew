@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mcdm_15__Enabled_For_DM_Tracking__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates if the current logged version is enabled for DM engagement tracking.</description>
+    <externalId>false</externalId>
+    <label>Enabled for Engagement Tracking</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

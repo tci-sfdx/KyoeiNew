@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OtherContractsAvailable_Check</fullName>
+    <active>true</active>
+    <description>「他契約あり」がチェックONの状態かつ「他契約証券番号」が未入力で「保存」ボタンをクリックした場合
+（レコードタイプ：自動継続停止、火新異動）</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+OtherContractsAvailable__c,
+ISBLANK(OtherPolicyNumber__c),
+OR(RecordType.DeveloperName =&apos;Auto_ContinuationStop&apos;,RecordType.DeveloperName =&apos;Fire&apos;
+))</errorConditionFormula>
+    <errorDisplayField>OtherPolicyNumber__c</errorDisplayField>
+    <errorMessage>他契約証券番号を入力してください</errorMessage>
+</ValidationRule>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AccountChange_Check</fullName>
+    <active>true</active>
+    <description>（新）契約者名の入力がある時に口座変更が未入力の場合</description>
+    <errorConditionFormula>AND( NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+NOT(ISBLANK(NewSubscriberName__c)),
+ISBLANK(TEXT(AccountChange__c))
+)</errorConditionFormula>
+    <errorDisplayField>AccountChange__c</errorDisplayField>
+    <errorMessage>口座名義人の登録変更有無を確認してください</errorMessage>
+</ValidationRule>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NameOfReturnCaller_RequiredCheck</fullName>
+    <active>false</active>
+    <description>折返し電話番号に入力がある時、折返し連絡者名（カナ）が未入力の場合
+（全レコードタイプ）</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+ISBLANK(NameOfReturnCaller__c),
+NOT(ISBLANK(ReturnPhoneNumber__c))
+)</errorConditionFormula>
+    <errorDisplayField>NameOfReturnCaller__c</errorDisplayField>
+    <errorMessage>折返し連絡者名を入力してください</errorMessage>
+</ValidationRule>

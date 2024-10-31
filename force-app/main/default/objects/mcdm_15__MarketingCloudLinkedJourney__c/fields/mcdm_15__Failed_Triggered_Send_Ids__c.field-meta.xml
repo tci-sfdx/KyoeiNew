@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mcdm_15__Failed_Triggered_Send_Ids__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Contains a list of all email triggered send IDs that failed to enable for tracking.</description>
+    <externalId>false</externalId>
+    <label>Failed Triggered Send Ids</label>
+    <length>5000</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

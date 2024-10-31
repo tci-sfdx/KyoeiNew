@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>CL（自動車満期・異動）</name>
+    <queueMembers>
+        <users>
+            <user>180747@kyoeikasai.co.jp</user>
+            <user>161112@kyoeikasai.co.jp</user>
+            <user>980456@kyoeikasai.co.jp</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

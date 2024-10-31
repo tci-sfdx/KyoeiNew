@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JurisdictionalStoreCodeFormula__c</fullName>
+    <description>画面営業店コード数式項目</description>
+    <externalId>false</externalId>
+    <formula>SalesBranchName__r.JurisdictionalStoreCode__c</formula>
+    <label>営業店コード</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Individual_Liability_Check</fullName>
+    <active>true</active>
+    <description>個賠（個賠特約含む）で被保険者住所変更に伴う被保険者の範囲の変更_あり/なしのチェックボックスがどちらもTrueの場合はエラー（レコードタイプ：火新異動）</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+Individual_Liability__c,
+IsNotIndividual_Liability__c,
+RecordType.DeveloperName =&apos;Fire&apos;
+)</errorConditionFormula>
+    <errorMessage>個賠（個賠特約含む）で被保険者住所変更に伴う被保険者の範囲の変更を両方チェックすることはできません</errorMessage>
+</ValidationRule>

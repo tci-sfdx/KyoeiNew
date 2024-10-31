@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>CUST_ID</field>
+    </columns>
+    <columns>
+        <field>Customercenter_CallData__c.ConversationPartner__c</field>
+    </columns>
+    <columns>
+        <field>Customercenter_CallData__c.CompletionStatus__c</field>
+    </columns>
+    <columns>
+        <field>CUST_CREATED_DATE</field>
+    </columns>
+    <format>Tabular</format>
+    <name>テスト_計上グループ</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Customercenter_CallData__c</reportType>
+    <scope>user</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Customercenter_CallData__c.AlertDate__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

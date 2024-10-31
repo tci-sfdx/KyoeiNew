@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>計上G</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>クローズ</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>計上</fullName>
+        <default>true</default>
+    </values>
+</BusinessProcess>

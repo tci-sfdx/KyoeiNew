@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DetailsOfDeficiency_RequiredCheck</fullName>
+    <active>true</active>
+    <description>不備に選択されている時、不備内容が未入力の場合
+（レコードタイプ：サポートデスク、汎用、自賠責解約以外）</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+ISBLANK(DetailsOfDeficiency__c),
+Deficiency__c = True,
+NOT(RecordType.DeveloperName =&apos;Support_Desk&apos;), NOT(RecordType.DeveloperName =&apos;GeneralPurpose&apos;), NOT(RecordType.DeveloperName =&apos;IndemnityTermination&apos;)
+)</errorConditionFormula>
+    <errorDisplayField>DetailsOfDeficiency__c</errorDisplayField>
+    <errorMessage>不備内容を入力してください</errorMessage>
+</ValidationRule>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mcdm_15__Opportunity__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Lookup to the Opportunity object if this activity was related to a quick send from Opportunity.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>クイック送信アクティビティに関連する商談オブジェクトを示します。</inlineHelpText>
+    <label>Opportunity</label>
+    <referenceTo>Opportunity</referenceTo>
+    <relationshipLabel>DM Activity Log</relationshipLabel>
+    <relationshipName>DM_Activity_Log</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

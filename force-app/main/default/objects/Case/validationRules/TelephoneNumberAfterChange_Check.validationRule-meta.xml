@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TelephoneNumberAfterChange_Check</fullName>
+    <active>true</active>
+    <description>受付項目（事由）_複数で電話番号変更を選択した時に（新）電話番号が未入力の場合
+(レコードタイプ：火新異動)</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+ISBLANK(TelephoneNumberAfterChange__c),
+INCLUDES(ReceiptItem_Reason_Multi__c,&quot;電話番号変更&quot;),
+RecordType.DeveloperName=&quot;Fire&quot;
+)</errorConditionFormula>
+    <errorDisplayField>TelephoneNumberAfterChange__c</errorDisplayField>
+    <errorMessage>（新）電話番号を入力してください</errorMessage>
+</ValidationRule>

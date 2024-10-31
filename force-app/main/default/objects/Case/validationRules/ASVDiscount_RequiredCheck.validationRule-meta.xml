@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ASVDiscount_RequiredCheck</fullName>
+    <active>true</active>
+    <description>AEB装置がありの時、ASV割引が未入力の場合
+（レコードタイプ：自動車新規、自動車異動、富国異動、自動車満期、JAカード傷害・JAトラブル）</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+OR(ISPICKVAL(ASVDiscount__c,&quot;&quot;), ISPICKVAL(ASVDiscount__c,&quot;未選択&quot;)),
+ISPICKVAL(AEBDevice__c,&quot;有&quot;),
+OR(RecordType.DeveloperName =&apos;AutomotiveNew&apos;, RecordType.DeveloperName =&apos;AutomobileTransfers&apos;, RecordType.DeveloperName =&apos;TransferOfWealth&apos;, RecordType.DeveloperName =&apos;AutomobileMaturity&apos;, RecordType.DeveloperName =&apos;JA_JA&apos;)
+)</errorConditionFormula>
+    <errorDisplayField>ASVDiscount__c</errorDisplayField>
+    <errorMessage>割引あり・なしを入力してください</errorMessage>
+</ValidationRule>

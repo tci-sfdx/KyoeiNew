@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ViewTsumitateKasai</fullName>
+    <columns>MasterLabel</columns>
+    <columns>DeveloperName</columns>
+    <columns>NamespacePrefix</columns>
+    <columns>InsuranceItem1__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>InsuranceItem1__c</field>
+        <operation>equals</operation>
+        <value>積立火災</value>
+    </filters>
+    <label>積立火災</label>
+</ListView>

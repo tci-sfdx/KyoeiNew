@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CustomerRole_RecordType_InputCheck</fullName>
+    <active>true</active>
+    <description>ユーザのロールが「カスタマー」の場合、レコードタイプ：BEDORE事故受付では登録できないようにするため。</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+CONTAINS($UserRole.Name, &apos;カスタマー&apos;),
+RecordType.DeveloperName =&apos;BEDOREAccident&apos;
+)</errorConditionFormula>
+    <errorMessage>レコードタイプ：BEDORE事故受付では、登録することができません</errorMessage>
+</ValidationRule>

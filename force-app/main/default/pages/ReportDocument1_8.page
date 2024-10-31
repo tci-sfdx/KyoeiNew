@@ -1,0 +1,206 @@
+<apex:page controller="ChohyoCreatorPattern1Controller" showHeader="false" applyBodyTag="false" applyHtmlTag="false" 
+    renderAs="PDF">
+
+    <head>
+        <style>
+            body {
+                font-family: Arial Unicode MS;
+                font-size: 10pt;
+                line-height: 1.2;
+            }
+            @page {
+                size: A4;
+                margin: 9mm;
+            }
+
+            table{
+                width: 100%;
+                border-collapse: collapse;
+            }
+            th, td{
+                border: solid 0.5pt #000;
+                padding:0.1em;
+                width: 100px;
+                text-align: center;
+            }
+            .caption_box{
+                position: relative;
+                margin-top: 1em;
+                padding: 1em 2em;
+                border: 1px solid black;
+            }
+            .caption_box .caption{
+                position: absolute;
+                top: -5%;
+                left: 43%;
+                font-size: 1em;
+                padding: 0 1em;
+                margin: 0;
+                background-color: white;
+                /*transform: translateY(-50%) translateX(17em);*/
+            }
+            .textarea{
+                width: 720px;
+                /*height: 150px;*/
+                vertical-align:top;
+                text-align: left;
+                border: none;
+            }
+        </style>
+    </head>
+    
+    <body>
+    <section >
+        <div>
+            <p style="margin-bottom:0px;"><apex:outputText value="{!STAFF_DEPT_NAME}" style="font-size: 16pt;"/>　御中</p>
+            <p style="margin-top:0px;">（　<apex:outputText value="{!CUSTOMER_AGENCY_NAME} " style="font-size: 10pt;"/>　代理店扱）</p>
+        </div>
+        <div  style="text-align: center;">
+            <apex:outputText value="{!PrintName}" style="font-size: 16pt;"/>
+        </div>
+    
+        <p><apex:outputText value="　{!Header}" escape="false"/></p>
+    
+        <!--【保険種目および契約内容】-->
+        <p style="margin-top:0px; margin-bottom:0px;"><apex:outputText value="{!InsuranceItemHeader}"/></p>
+    
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <apex:outputText value="保険種目"/>
+                    </td>
+                    <td>
+                        <apex:outputText value="{!InsuranceItem}"/>
+                    </td>
+                    <td>
+                        <apex:outputText value="証券（加入者証）番号"/>
+                    </td>
+                    <td>
+                        <apex:outputText value="{!SecuritiesNumber}"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <apex:outputText value="契約者名"/>
+                    </td>
+                    <td>
+                        <apex:outputText value="{!ContractorName}"/>
+                    </td>
+                    <td>
+                        <apex:outputText value="電話番号"/>
+                    </td>
+                    <td>
+                        <apex:outputText value="{!PhoneNumber}"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <apex:outputText value="契約特定方法"/>
+                    </td>
+                    <td>
+                        <apex:outputText value="{!PolicyIdentificationMethod}"/>
+                    </td>
+                    <td>
+                        <apex:outputText value="CIFコード"/>
+                    </td>
+                    <td>
+                        <apex:outputText value="{!CifCode}"/>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!--【折り返し連絡先情報】-->
+        <p style="margin-bottom:0px;"><apex:outputText value="【折り返し連絡先情報】"/></p>
+        
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <apex:outputText value="折返し連絡者名"/>
+                    </td>
+                    <td>
+                        <apex:outputText value="{!NameOfReturnCaller}"/>
+                    </td>
+                    <td>
+                        <apex:outputText value="契約者と折返し連絡者との関係" style="font-size: 7pt;"/>
+                    </td>
+                    <td>
+                        <apex:outputText value="{!ContactPersonRelationship}"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <apex:outputText value="折返し電話番号"/>
+                    </td>
+                    <td>
+                        <apex:outputText value="{!ReturnPhoneNumber}"/>
+                    </td>
+                    <td>
+                        <apex:outputText value="連絡希望日時"/>
+                    </td>
+                    <td>
+                        <apex:outputText value="{!DesiredContactDateAndTime}"/>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!--【入電者からの問合せ内容および案内内容】-->
+        <p style="margin-bottom:0px;"><apex:outputText value="{!PROB_TEXT_Header}"/></p>
+    
+        <div style="border: 1px dotted black; padding:5px">
+            <table > 
+                <tbody>
+                    <tr>
+                        <td class='textarea' style="width: 720px; height: 390px;">
+                            <apex:outputText value="{!InquiryDetails}" escape="false" style="font-size: 9pt;"/>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!--【担当者への依頼内容】-->
+        <p style="margin-bottom:0px;"><apex:outputText value="{!ANS_TEXT_Header}"/></p>
+
+        <div style="border: 1px dotted black; padding:5px">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class='textarea' style="width: 720px; height: 75px;">
+                            <apex:outputText value="職員様より上記問合せがございましたので、内容をご確認のうえ、回答のご連絡をお願いいたします。" escape="false"/>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="caption_box">
+            <h1 class="caption">発信者（問合せ先）</h1>
+            <div>
+                <center><p style="margin-bottom:0px;"><apex:outputText value="{!SiteName}" style="font-size: 12pt;"/></p></center>
+                <center><p style="margin-top:0px;">連絡先：<apex:outputText value="{!Extension}"/></p></center>
+            </div>
+            <table >
+                <tbody>
+                    <tr>
+                        <td>
+                            <apex:outputText value="受付番号"/>
+                        </td>
+                        <td>
+                            <apex:outputText value="{!CaseNumber}"/>
+                        </td>
+                        <td>
+                            <apex:outputText value="お問合せの際は<br/>この番号をお伝えください" escape="false"/>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <p style="width: 100%; text-align: right; margin-top:5px; margin-bottom:0px;">用済廃棄</p>
+    </section>
+    </body>
+</apex:page>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JiketsuSuspension_Registration_Date__c</fullName>
+    <description>申込（請求）日時から転記</description>
+    <externalId>false</externalId>
+    <formula>ApplicationRequest__c</formula>
+    <label>自継停止_登録日時</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

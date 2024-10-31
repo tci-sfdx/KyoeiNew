@@ -1,0 +1,65 @@
+<apex:page standardController="Case" tabStyle="Case" extensions="AddressSearchController" lightningStyleSheets="true">
+    <apex:form >
+
+        <apex:pagemessages />
+
+        <apex:pageBlock title="郵便番号検索" mode="edit" rendered="{!IF(ModeFlag == '1', true, false)}">
+            <apex:pageBlockButtons location="bottom">
+                <apex:commandButton action="{!goBack}" value="キャンセル"/>
+                <apex:commandButton action="{!goInsert}" value="次へ" rendered="{!isShowButton}"/>
+            </apex:pageBlockButtons>
+
+            <apex:pageBlockSection columns="1" showHeader="false">
+                <apex:pageBlockSectionItem >
+                    <apex:outputlabel value="対象項目選択"/>
+                    <apex:selectList value="{!TargetField}" multiselect="false" size="1" style="width:200px;">    
+                        <apex:selectOptions value="{!SelectTargetFields}"/>
+                    </apex:selectList>
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+
+        <apex:pageBlock title="郵便番号検索" mode="edit" rendered="{!IF(ModeFlag == '2', true, false)}">
+            <apex:pageBlockButtons location="bottom">
+                <apex:commandButton action="{!goBack}" value="キャンセル"/>
+                <apex:commandButton action="{!goBackSelect}" value="戻る"/>
+                <apex:commandButton action="{!goSearch}" value="次へ"/>
+            </apex:pageBlockButtons>
+
+            <apex:pageBlockSection columns="1" showHeader="false">
+                <apex:pageBlockSectionItem >
+                    <apex:outputlabel value="{!PostCodeLabel}"/>
+                    <apex:inputText value="{!PostCode}" maxlength="7" size="20" />   
+                </apex:pageBlockSectionItem>
+
+                <apex:pageBlockSectionItem >
+                    <apex:outputlabel value="{!JusyoKanjiLabel}"/>
+                    <apex:outputText value="{!JusyoKanji}"/>   
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+
+        <apex:pageBlock title="郵便番号検索" mode="edit" rendered="{!IF(ModeFlag == '3', true, false)}">
+            <apex:pageBlockButtons location="bottom">
+                <apex:commandButton action="{!goBack}" value="キャンセル"/>
+                <apex:commandButton action="{!goBackInsert}" value="戻る"/>
+                <apex:commandButton action="{!confirm}" value="決定"/>
+            </apex:pageBlockButtons>
+
+            <apex:pageBlockSection columns="1" showHeader="false">
+                <apex:pageBlockSectionItem >
+                    <apex:outputlabel value="{!PostCodeLabel}"/>
+                    <apex:outputText value="{!PostCode}"/>   
+                </apex:pageBlockSectionItem>
+
+                <apex:pageBlockSectionItem >
+                    <apex:outputlabel value="{!JusyoKanjiLabel}"/>
+                    <apex:selectList value="{!UniqueKey}" multiselect="false" size="1" style="width:500px;">    
+                        <apex:selectOptions value="{!SelectAddressMasters}"/>
+                    </apex:selectList>
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+
+    </apex:form>
+</apex:page>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Aチーム</name>
+    <queueMembers>
+        <users>
+            <user>sf_training20@kyoei.training.co.jp</user>
+            <user>sf_training12@kyoei.training.co.jp</user>
+            <user>sf_training13@kyoei.training.co.jp</user>
+            <user>sf_training14@kyoei.training.co.jp</user>
+            <user>sf_training15@kyoei.training.co.jp</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>Standard</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Customercenter_CallData__c</sobjectType>
+    </queueSobject>
+</Queue>

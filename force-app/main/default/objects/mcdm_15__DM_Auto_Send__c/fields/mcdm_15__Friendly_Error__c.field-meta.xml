@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mcdm_15__Friendly_Error__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A friendly error is shown to the standard user in this field, if something went wrong with the chunk processing overall and not at the individual member level.</description>
+    <externalId>false</externalId>
+    <label>Friendly Error</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

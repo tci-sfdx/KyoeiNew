@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mcdm_15__Email_Pre_Header__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The email pre header is stored here.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>このアクティビティに関連するメールのプリヘッダー。</inlineHelpText>
+    <label>Email Pre Header</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

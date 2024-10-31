@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DriverRange__c</fullName>
+    <externalId>false</externalId>
+    <label>運転者範囲</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>範囲内</fullName>
+                <default>false</default>
+                <label>範囲内</label>
+            </value>
+            <value>
+                <fullName>範囲外</fullName>
+                <default>false</default>
+                <label>範囲外</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

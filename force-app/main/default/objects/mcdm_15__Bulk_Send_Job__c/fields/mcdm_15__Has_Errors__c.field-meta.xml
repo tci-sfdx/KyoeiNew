@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mcdm_15__Has_Errors__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Is true if any of the associated chunks have errors on them.</description>
+    <externalId>false</externalId>
+    <formula>mcdm_15__Chunk_Error_Count__c  &gt; 0</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Has Errors</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

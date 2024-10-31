@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsChangeInsuredAddressOnly_Check</fullName>
+    <active>true</active>
+    <description>受付項目（事由）_複数が被保険者住所変更のみの場合
+（レコードタイプ：火新異動）</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+IF( INCLUDES(ReceiptItem_Reason_Multi__c, &quot;契約者住所変更&quot; ) , &quot;契約者住所変更;&quot; , &quot;&quot; ) + 
+IF( INCLUDES(ReceiptItem_Reason_Multi__c, &quot;電話番号変更&quot; ) , &quot;電話番号変更;&quot;, &quot;&quot; ) + 
+IF( INCLUDES(ReceiptItem_Reason_Multi__c, &quot;被保険者住所変更&quot; ) , &quot;被保険者住所変更;&quot; , &quot;&quot; ) + 
+IF( INCLUDES(ReceiptItem_Reason_Multi__c, &quot;その他変更&quot; ) , &quot;その他変更;&quot;, &quot;&quot; ) =&quot;被保険者住所変更;&quot;,
+RecordType.DeveloperName =&apos;Fire&apos;
+)</errorConditionFormula>
+    <errorDisplayField>ReceiptItem_Reason_Multi__c</errorDisplayField>
+    <errorMessage>被保険者住所変更のみの変更はできません</errorMessage>
+</ValidationRule>

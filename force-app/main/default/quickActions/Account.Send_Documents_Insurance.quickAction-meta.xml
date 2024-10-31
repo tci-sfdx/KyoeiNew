@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flowDefinition>FinServFlowsExt__Send_Documents_Insurance</flowDefinition>
+    <label>書類送付（保険）</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <type>Flow</type>
+</QuickAction>

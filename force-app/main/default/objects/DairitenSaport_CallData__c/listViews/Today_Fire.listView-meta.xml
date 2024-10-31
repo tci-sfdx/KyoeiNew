@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Today_Fire</fullName>
+    <columns>NAME</columns>
+    <columns>ReceptionDateAndTime__c</columns>
+    <columns>AgencyReference__c</columns>
+    <columns>AgencyCodeReference__c</columns>
+    <columns>Respondent__c</columns>
+    <columns>Status__c</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>InquiryDetails__c</columns>
+    <columns>AnswerDetails__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>DairitenSaport_CallData__c.Fire</value>
+    </filters>
+    <filters>
+        <field>ReceptionDateAndTime__c</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>当日分（火災）</label>
+</ListView>

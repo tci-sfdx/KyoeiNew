@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Insured_AddressAlertImage__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+AND(INCLUDES(ReceiptItem_Reason_Multi__c,&quot;被保険者住所変更&quot;), 
+OR(ISNULL(Insured_PostalCodeAfterChange__c), ISBLANK(Insured_AddressAfterChange_Kana__c), ISBLANK(Insured_AddressAfterChange1__c))),
+IMAGE(&apos;/resource/CustomerAlert/Address_Alert.png&apos;,&apos;変更後被保住所入力要&apos;),
+IMAGE(&apos;/resource/CustomerAlert/Address_Nothing.png&apos;,&apos;アラートなし&apos;)
+)</formula>
+    <label>変更後被保険者住所アラート表示</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

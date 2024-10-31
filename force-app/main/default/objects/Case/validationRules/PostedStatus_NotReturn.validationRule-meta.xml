@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PostedStatus_NotReturn</fullName>
+    <active>false</active>
+    <description>計上ステータス_KCC処理中に戻らなくする</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+      NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+  ISPICKVAL(ApproximationStatus__c , &quot;KCC処理中&quot;),
+  NOT(ISBLANK(PRIORVALUE(ApproximationStatus__c)))
+)</errorConditionFormula>
+    <errorDisplayField>ApproximationStatus__c</errorDisplayField>
+    <errorMessage>計上のステータスを戻すことはできません。</errorMessage>
+</ValidationRule>

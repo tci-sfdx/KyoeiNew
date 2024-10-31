@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mcdm_15__Status__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The status of the bulk send job, Not Started, Processing, Waiting, WaitingOnApprovals, Sending, Completed</description>
+    <externalId>false</externalId>
+    <formula>IF(mcdm_15__Total_Chunks__c = 0, $Label.mcdm_15__csvJobStatusNotStarted, IF( mcdm_15__Chunks_Retry__c &gt; 0, $Label.mcdm_15__bulkJobStatusRetry, IF( AND(mcdm_15__Chunks_Approvals__c = mcdm_15__Total_Chunks__c, NOT(mcdm_15__Is_Rejected__c)), $Label.mcdm_15__requiresApprovalState, IF( mcdm_15__Is_Rejected__c, $Label.mcdm_15__bulkJobStatusRejected, IF( mcdm_15__Chunks_Completed__c=mcdm_15__Total_Chunks__c, $Label.mcdm_15__csvJobStatusCompleted,  IF( AND(mcdm_15__Chunks_Waiting__c = mcdm_15__Total_Chunks__c, mcdm_15__Is_Sendable__c) , $Label.mcdm_15__csvJobStatusWaiting,  IF( mcdm_15__Chunks_Sending__c &gt; 0, $Label.mcdm_15__csvJobStatusSending,  IF( AND(OR(mcdm_15__Chunks_Processing__c &gt; 0, mcdm_15__Chunks_Waiting__c &gt; 0), NOT(mcdm_15__Is_Sendable__c)),  $Label.mcdm_15__csvJobStatusProcessing, $Label.mcdm_15__csvJobStatusNotStarted) ) ) ) ) ) ) )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

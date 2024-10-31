@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsLiability_Formula__c</fullName>
+    <description>変更後内容セクションの個賠有無_ありを転記</description>
+    <externalId>false</externalId>
+    <formula>IsLiability__c</formula>
+    <label>個賠有無_あり</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ConsentCapturedSource</fullName>
+    <inlineHelpText>同意の取得で使用されたソース。たとえば、user@example.com または www.example.com などです。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

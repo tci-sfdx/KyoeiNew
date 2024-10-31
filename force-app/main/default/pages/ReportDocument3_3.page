@@ -1,0 +1,239 @@
+<apex:page controller="ChohyoCreatorPattern1Controller" showHeader="false" applyBodyTag="false" applyHtmlTag="false" 
+ renderAs="PDF">
+
+    <head>
+        <style>
+            body {
+                font-family: Arial Unicode MS;
+                font-size: 10pt;
+                line-height: 1.2;
+            }
+            @page {
+                size: A4;
+                margin: 9mm;
+            }
+
+            table{
+                width: 100%;
+                border-collapse: collapse;
+            }
+            th, td{
+                border: solid 0.5pt #000;
+                padding:0.1em;
+                width: 100px;
+                text-align: center;
+            }
+            .caption_box{
+                position: relative;
+                margin-top: 1em;
+                padding: 1em 2em;
+                border: 1px solid black;
+            }
+            .caption_box .caption{
+                position: absolute;
+                top: -5%;
+                left: 43%;
+                font-size: 1em;
+                padding: 0 1em;
+                margin: 0;
+                background-color: white;
+                /*transform: translateY(-50%) translateX(17em);*/
+            }
+            .textarea{
+                width: 720px;
+                /*height: 150px;*/
+                vertical-align:top;
+                text-align: left;
+                border: none;
+            }
+        </style>
+    </head>
+    
+    <body>
+    <section >
+        <div>
+            <p style="margin-bottom:0px;"><apex:outputText value="{!STAFF_DEPT_NAME}" style="font-size: 16pt;"/>　御中</p>
+            <p style="margin-top:0px;">（　<apex:outputText value="{!CUSTOMER_AGENCY_NAME} " style="font-size: 10pt;"/>　代理店扱）</p>
+        </div>
+        <div  style="text-align: center;">
+            <apex:outputText value="{!PrintName}" style="font-size: 16pt;"/>
+        </div>
+    
+        <p><apex:outputText value="　{!Header}" escape="false"/></p>
+    
+        <!--【保険種目および契約内容】-->
+        <p style="margin-top:0px; margin-bottom:0px;"><apex:outputText value="{!InsuranceItemHeader}"/></p>
+    
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <apex:outputText value="保険種目"/>
+                    </td>
+                    <td>
+                        <apex:outputText value="{!InsuranceItem}"/>
+                    </td>
+                    <td>
+                        <apex:outputText value="証券番号"/>
+                    </td>
+                    <td>
+                        <apex:outputText value="{!SecuritiesNumber}"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <apex:outputText value="契約者名"/>
+                    </td>
+                    <td>
+                        <apex:outputText value="{!ContractorName}"/>
+                    </td>
+                    <td>
+                        <apex:outputText value="契約特定方法"/>
+                    </td>
+                    <td>
+                        <apex:outputText value="{!PolicyIdentificationMethod}"/>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <!--【入電者情報】-->
+        <p style="margin-bottom:0px;"><apex:outputText value="{!ContactInformationHeader}"/></p>
+    
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <!--受付日時-->
+                        <apex:outputText value="{!CreatedDateLabel}"/>
+                    </td>
+                    <td>
+                        <apex:outputText value="{!CreatedDate}"/>
+                    </td>
+                    <td>
+                        <apex:outputText value="契約者との続柄"/>
+                    </td>
+                    <td>
+                        <apex:outputText value="{!ConversationPartner_Group}"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <!--入電者名-->
+                        <apex:outputText value="{!ContactLabel}"/>
+                    </td>
+                    <td>
+                        <apex:outputText value="{!ContactName}"/>
+                    </td>
+                    
+                    <!--<td>-->
+                        <!--着信電話番号-->
+                        <!--<apex:outputText value="{!CallerPhoneNumberLabel}"/>-->
+                    <!--</td>-->
+                    <!--<td>-->
+                        <!--<apex:outputText value="{!Caller_PhoneNumber}"/>-->
+                    <!--</td>-->
+                    <td colspan="2" style="border-bottom-style:none; border-right-style:none"></td> 
+                </tr>
+            </tbody>
+        </table>
+
+        <!--【その他情報】-->
+        <p style="margin-bottom:0px;"><apex:outputText value="【その他情報】"/></p>
+
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <apex:outputText value="満期日"/>
+                    </td>
+                    <td>
+                        <apex:outputtext value="{0, date, yyyy/MM/dd}">
+                            <apex:param value="{!InsurancePeriod}"></apex:param>
+                        </apex:outputtext>
+                    </td>
+                    <td>
+                        <apex:outputText value="書類到着日"/>
+                    </td>
+                    <td>
+                        <apex:outputtext value="{0, date, yyyy/MM/dd}">
+                            <apex:param value="{!ArrivalDate_Latest}"></apex:param>
+                        </apex:outputtext>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <apex:outputText value="補償重複項目"/>
+                    </td>
+                    <td colspan="3" style="text-align: left;"> 
+                        <apex:outputText value="{!DuplicateCoverageItem}" escape="false"/>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!--【ご報告までの経緯】-->
+        <p style="margin-bottom:0px;"><apex:outputText value="【ご報告までの経緯】"/></p>
+
+        <div style="border: 1px dotted black; padding:5px">
+            <table > 
+                <tbody>
+                    <tr>
+                        <td class='textarea' style="width: 720px; height: 195px;">
+                            カスタマーセンターで満期フォローコールを実施。<br/>
+                            補償内容の一部に他契約との補償重複可能性項目あり。<br/>
+                            補償重複の意向確認が未了承の状態で、契約申込書がカスタマーセンターに到着。<br/>
+                            補償重複について口頭で説明するためお客様へ電話発信するもつながりませんでした。
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!--【ご報告内容】-->
+        <p style="margin-bottom:0px;"><apex:outputText value="【ご報告内容】"/></p>
+
+        <div style="border: 1px dotted black; padding:5px">
+            <table > 
+                <tbody>
+                    <tr>
+                        <td class='textarea' style="width: 720px; height: 195px;">
+                            上記補償内容の補償重複の可能性につきまして説明をするため、カスタマーセンターより電話発信を行いましたが<br/>
+                            ご連絡が取れませんでした。<br/>
+                            カスタマーセンターでは、お客様からご返送いただいた申込書内容で計上処理を行い、通知書内（『保険契約のお<br/>
+                            申込受付および保険料の払込に関するご確認のお願い』）に補償重複に関する案内文言を追記した上で、補償重複<br/>
+                            に関する注意喚起チラシ（SZ050300、SZ050200）を同封して契約者住所宛に送付いたしました。今回ご契約いた<br/>
+                            だいたプランには他契約の補償内容と一部重複している可能性がございますことをご報告いたします。<br/>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="caption_box">
+            <h1 class="caption">発信者（問合せ先）</h1>
+            <div>
+                <center><p style="margin-bottom:0px;"><apex:outputText value="{!SiteName}" style="font-size: 12pt;"/></p></center>
+                <center><p style="margin-top:0px;">連絡先：<apex:outputText value="{!Extension}"/></p></center>
+            </div>
+            <table >
+                <tbody>
+                    <tr>
+                        <td>
+                            <apex:outputText value="受付番号"/>
+                        </td>
+                        <td>
+                            <apex:outputText value="{!CaseNumber}"/>
+                        </td>
+                        <td>
+                            <apex:outputText value="お問合せの際は<br/>この番号をお伝えください" escape="false"/>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <p style="width: 100%; text-align: right; margin-top:5px; margin-bottom:0px;">用済廃棄</p>
+    </section>
+    </body>
+</apex:page>

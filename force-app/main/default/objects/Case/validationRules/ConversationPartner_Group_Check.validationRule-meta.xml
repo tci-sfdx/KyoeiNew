@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ConversationPartner_Group_Check</fullName>
+    <active>true</active>
+    <description>「自動継続停止」or「死亡解約」がチェックON時に選択した「契約者との続柄」に 「＃」 が含まれるとき
+（レコードタイプ：自動継続停止）</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),OR(
+ISPICKVAL(ReceiptItem_Reason__c, &quot;死亡解約&quot;),
+ISPICKVAL(ReceiptItem_Reason__c, &quot;自動継続停止&quot;)),
+CONTAINS(TEXT(ConversationPartner_Group__c),&quot;#&quot;),
+RecordType.DeveloperName =&apos;Auto_ContinuationStop&apos;
+)</errorConditionFormula>
+    <errorDisplayField>ConversationPartner_Group__c</errorDisplayField>
+    <errorMessage>入電者が対象外のため、受付できません</errorMessage>
+</ValidationRule>

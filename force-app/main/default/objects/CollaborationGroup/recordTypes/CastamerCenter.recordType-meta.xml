@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CastamerCenter</fullName>
+    <active>true</active>
+    <description>カスタマーセンターの進捗</description>
+    <label>カスタマーセンター_進捗</label>
+</RecordType>

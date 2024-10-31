@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <tasks>
+        <fullName>ActionTask</fullName>
+        <assignedTo>developer@tci.com</assignedTo>
+        <assignedToType>user</assignedToType>
+        <description>コメント</description>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <priority>通常</priority>
+        <protected>false</protected>
+        <status>オープン</status>
+        <subject>承認申請</subject>
+    </tasks>
+</Workflow>

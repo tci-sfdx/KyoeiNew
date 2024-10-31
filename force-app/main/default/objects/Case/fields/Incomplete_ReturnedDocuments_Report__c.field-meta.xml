@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Incomplete_ReturnedDocuments_Report__c</fullName>
+    <externalId>false</externalId>
+    <formula>If(INCLUDES(Incomplete_ReturnedDocuments__c,&apos;自動車保険損害賠償責任保険証明書（原本）&apos;),&apos;■ 自動車保険損害賠償責任保険証明書（原本）\n　 A5版の青色または灰緑色の台紙で右上部に弊社の記載があるもの\n&apos;,&apos;&apos;)
+&amp;
+If(INCLUDES(Incomplete_ReturnedDocuments__c,&apos;自動車損害賠償責任保険承認請求書&apos;),&apos;■ 自動車損害賠償責任保険承認請求書\n&apos;,&apos;&apos;)
+&amp;
+If(INCLUDES(Incomplete_ReturnedDocuments__c,&apos;保険標章（ステッカー）&apos;),&apos;■ 保険標章（ステッカー）\n&apos;,&apos;&apos;)
+&amp;
+If(INCLUDES(Incomplete_ReturnedDocuments__c,&apos;廃車したことを公的に証明できる書類のコピー&apos;),&apos;■ 廃車したことを公的に証明できる書類のコピー\n　 解約の確認書類一覧表をご参照のうえ、いずれか1点を送付してください。\n&apos;,&apos;&apos;)
+&amp;
+If(INCLUDES(Incomplete_ReturnedDocuments__c,&apos;権利譲渡に係わる確認書&apos;),&apos;■ 権利譲渡に係わる確認書\n&apos;,&apos;&apos;)
+&amp;
+If(INCLUDES(Incomplete_ReturnedDocuments__c,&apos;重複分の自賠責証明書写し&apos;),&apos;■ 重複分の自賠責証明書の写し(保険期間終期が現在のものより後のご契約のもの）\n&apos;,&apos;&apos;)
+&amp;
+If(INCLUDES(Incomplete_ReturnedDocuments__c,&apos;罹災確認書または罹災証明書写し&apos;),&apos;■ 罹災確認書または罹災証明書写し\n&apos;,&apos;&apos;)
+&amp;
+If(INCLUDES(Incomplete_ReturnedDocuments__c,&apos;その他&apos;),&apos;■ &apos; &amp; Returneddocuments_Other_Fields_to_be_fil__c,&apos;&apos;)</formula>
+    <label>書類不備_返送書類_帳票用</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

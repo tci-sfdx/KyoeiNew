@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SVFLEXCaseButton2024061309543825928t</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>3-4.（相対店）富国解約試算_対応依頼票</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/apex/svfcloud__PreviewPage?appId=Case&amp;id={!Case.Id}&amp;buttonFullName=SVFCaseButton2024061309543825928t</url>
+</WebLink>

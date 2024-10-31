@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mcdm_15__IsBulkSendPlugin__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Is this plugin for bulk send</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ここをチェックしてプラグインが一括送信フローに表示されるようにしてください</inlineHelpText>
+    <label>Is this a Bulk Send plugin?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

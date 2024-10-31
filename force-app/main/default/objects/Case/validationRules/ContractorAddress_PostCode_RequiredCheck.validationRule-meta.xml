@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ContractorAddress_PostCode_RequiredCheck</fullName>
+    <active>true</active>
+    <description>郵便番号に入力がある時、契約者住所が未入力の場合
+（全レコードタイプ）</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+ISBLANK(ContractorAddress__c),
+NOT(ISBLANK(PostCode__c)),
+NOT(RecordType.DeveloperName =&apos;BEDOREAccident&apos; )
+)</errorConditionFormula>
+    <errorDisplayField>ContractorAddress__c</errorDisplayField>
+    <errorMessage>契約者住所を入力してください。</errorMessage>
+</ValidationRule>

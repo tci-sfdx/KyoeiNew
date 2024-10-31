@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JiketsuSuspension_Registration_DateW__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF ( AND ( JiketsuSuspension_Registration_Date__c&gt;= DATE (1868,09,08), JiketsuSuspension_Registration_Date__c&lt;= DATE (1912,07,29)), 
+  &quot;M&quot; &amp; IF(YEAR ( JiketsuSuspension_Registration_Date__c) - 1867 &lt; 10 ,&quot;0&quot;,&quot;&quot; ) &amp; TEXT ( YEAR ( JiketsuSuspension_Registration_Date__c) - 1867 ) &amp; 
+   IF(MONTH ( JiketsuSuspension_Registration_Date__c) &lt; 10 ,&quot;0&quot;,&quot;&quot; ) &amp; TEXT ( MONTH ( JiketsuSuspension_Registration_Date__c))  &amp;
+   IF(DAY ( JiketsuSuspension_Registration_Date__c) &lt; 10 ,&quot;0&quot;,&quot;&quot; ) &amp; TEXT ( DAY ( JiketsuSuspension_Registration_Date__c)) , 
+
+IF ( AND ( JiketsuSuspension_Registration_Date__c&gt;= DATE (1912,07,30), JiketsuSuspension_Registration_Date__c&lt;= DATE (1926,12,24)), 
+  &quot;T&quot; &amp; IF(YEAR ( JiketsuSuspension_Registration_Date__c) - 1911 &lt; 10 ,&quot;0&quot;,&quot;&quot; ) &amp; TEXT ( YEAR ( JiketsuSuspension_Registration_Date__c) - 1911 ) &amp; 
+   IF(MONTH ( JiketsuSuspension_Registration_Date__c) &lt; 10 ,&quot;0&quot;,&quot;&quot; ) &amp; TEXT ( MONTH ( JiketsuSuspension_Registration_Date__c))  &amp;
+   IF(DAY ( JiketsuSuspension_Registration_Date__c) &lt; 10 ,&quot;0&quot;,&quot;&quot; ) &amp; TEXT ( DAY ( JiketsuSuspension_Registration_Date__c)) , 
+
+IF ( AND ( JiketsuSuspension_Registration_Date__c&gt;= DATE (1926,12,25), JiketsuSuspension_Registration_Date__c&lt;= DATE (1989,01,07)), 
+  &quot;S&quot; &amp; IF(YEAR ( JiketsuSuspension_Registration_Date__c) - 1925 &lt; 10 ,&quot;0&quot;,&quot;&quot; ) &amp; TEXT ( YEAR ( JiketsuSuspension_Registration_Date__c) - 1925 ) &amp; 
+   IF(MONTH ( JiketsuSuspension_Registration_Date__c) &lt; 10 ,&quot;0&quot;,&quot;&quot; ) &amp; TEXT ( MONTH ( JiketsuSuspension_Registration_Date__c))  &amp;
+   IF(DAY ( JiketsuSuspension_Registration_Date__c) &lt; 10 ,&quot;0&quot;,&quot;&quot; ) &amp; TEXT ( DAY ( JiketsuSuspension_Registration_Date__c)) , 
+
+
+IF ( AND ( JiketsuSuspension_Registration_Date__c&gt;= DATE (1989,01,08), JiketsuSuspension_Registration_Date__c&lt;= DATE (2019,04,30)), 
+  &quot;H&quot; &amp; IF(YEAR ( JiketsuSuspension_Registration_Date__c) - 1988 &lt; 10 ,&quot;0&quot;,&quot;&quot; ) &amp; TEXT ( YEAR ( JiketsuSuspension_Registration_Date__c) - 1988 ) &amp; 
+   IF(MONTH ( JiketsuSuspension_Registration_Date__c) &lt; 10 ,&quot;0&quot;,&quot;&quot; ) &amp; TEXT ( MONTH ( JiketsuSuspension_Registration_Date__c))  &amp;
+   IF(DAY ( JiketsuSuspension_Registration_Date__c) &lt; 10 ,&quot;0&quot;,&quot;&quot; ) &amp; TEXT ( DAY ( JiketsuSuspension_Registration_Date__c)) , 
+
+IF ( JiketsuSuspension_Registration_Date__c&gt;= DATE (2019,05,01), 
+
+  &quot;R&quot; &amp; IF(YEAR ( JiketsuSuspension_Registration_Date__c) - 2018 &lt; 10 ,&quot;0&quot;,&quot;&quot; ) &amp; TEXT ( YEAR ( JiketsuSuspension_Registration_Date__c) - 2018 ) &amp; 
+   IF(MONTH ( JiketsuSuspension_Registration_Date__c) &lt; 10 ,&quot;0&quot;,&quot;&quot; ) &amp; TEXT ( MONTH ( JiketsuSuspension_Registration_Date__c))  &amp;
+   IF(DAY ( JiketsuSuspension_Registration_Date__c) &lt; 10 ,&quot;0&quot;,&quot;&quot; ) &amp; TEXT ( DAY ( JiketsuSuspension_Registration_Date__c)) , 
+&quot;&quot;)))))</formula>
+    <label>自継停止_登録日時和暦</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

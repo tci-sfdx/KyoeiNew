@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mcdm_15__Bulk_Send_Job_ID__c</fullName>
+    <deprecated>false</deprecated>
+    <description>ID of the bulk send job, saved in the event the Bulk Send Job lookup is deleted.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>検索が削除されている場合は一括送信ジョブを示します。</inlineHelpText>
+    <label>Bulk Send Job ID</label>
+    <length>25</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

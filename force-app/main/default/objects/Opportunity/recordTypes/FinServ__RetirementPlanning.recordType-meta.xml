@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__RetirementPlanning</fullName>
+    <active>true</active>
+    <businessProcess>FinServ__Wallet Share</businessProcess>
+    <label>Retirement Planning</label>
+    <picklistValues>
+        <picklist>ForecastCategoryName</picklist>
+        <values>
+            <fullName>Best Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pipeline</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>その他</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ウェビナー</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ウェブサイト</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>グーグルアドワーズ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>パートナー</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>展示会</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>広告掲載</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>従業員紹介</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>購入リスト</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>顧客イベント</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Loss_Reason__c</picklist>
+        <values>
+            <fullName>Lost to Competitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Budget %2F Lost Funding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Decision %2F Non-Responsive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Price</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

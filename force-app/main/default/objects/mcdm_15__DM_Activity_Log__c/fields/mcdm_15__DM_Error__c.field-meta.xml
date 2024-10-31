@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mcdm_15__DM_Error__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Stores DM specific error messages that have occured during or after injection.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>挿入中または挿入後に発生した DM 固有のエラーメッセージ。</inlineHelpText>
+    <label>DM Error</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

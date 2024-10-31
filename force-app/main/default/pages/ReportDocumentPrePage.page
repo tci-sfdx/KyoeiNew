@@ -1,0 +1,354 @@
+<apex:page standardController="Case" tabStyle="Case" extensions="ReportDocumentPreController" lightningStyleSheets="true">
+    <apex:form >
+
+        <apex:pagemessages />
+
+        <apex:outputPanel rendered="{!NOT(isInsertMode)}">
+            <apex:outputPanel rendered="{!isShowReport1_1}">
+                <apex:commandButton action="{!displayPDF1_1}" value="1-1（営業店）継続案内DM_対応依頼票"/><br/>
+            </apex:outputPanel>
+    
+            <apex:outputPanel rendered="{!isShowReport1_2}">
+                <apex:commandButton action="{!displayPDF1_2}" value="1-2（営業店）信金窓販_対応依頼票"/><br/>
+            </apex:outputPanel>
+    
+            <apex:outputPanel rendered="{!isShowReport1_3}">
+                <apex:commandButton action="{!displayPDF1_3}" value="1-3（営業店）火新住変_対応依頼票"/><br/>
+            </apex:outputPanel>
+    
+            <apex:outputPanel rendered="{!isShowReport1_4}">
+                <apex:commandButton action="{!displayPDF1_4}" value="1-4（営業店）証券再発行_対応依頼票"/><br/>
+            </apex:outputPanel>
+    
+            <apex:outputPanel rendered="{!isShowReport1_5}">
+                <apex:commandButton action="{!displayPDF1_5}" value="1-5（営統企画）カードテレマインバウンド_対応依頼票"/><br/>
+            </apex:outputPanel>
+    
+            <apex:outputPanel rendered="{!isShowReport1_6}">
+                <apex:commandButton action="{!displayPDF1_6}" value="1-6（本店営一）JAバングカード_対応依頼票"/><br/>
+            </apex:outputPanel>
+    
+            <apex:outputPanel rendered="{!isShowReport1_7}">
+                <apex:commandButton action="{!displayPDF1_7}" value="1-7（関西京都）ニッセンDM_対応依頼票"/><br/>
+            </apex:outputPanel>
+    
+            <apex:outputPanel rendered="{!isShowReport1_8}">
+                <apex:commandButton action="{!displayPDF1_8}" value="1-8（営業店）窓販職員_対応依頼票"/><br/>
+            </apex:outputPanel>
+    
+            <apex:outputPanel rendered="{!isShowReport2_1}">
+                <apex:commandButton action="{!displayPDF2_1}" value="2-1（営業店）お問合せ窓口_対応依頼票"/><br/>
+            </apex:outputPanel>
+    
+            <apex:outputPanel rendered="{!isShowReport2_2}">
+                <apex:commandButton action="{!displayPDF2_2}" value="2-2（営業店）契約確認DM_対応依頼票"/><br/>
+            </apex:outputPanel>
+    
+            <apex:outputPanel rendered="{!isShowReport2_3}">
+                <apex:commandButton action="{!displayPDF2_3}" value="2-3（営業店）長期がん・医療_対応依頼票"/><br/>
+            </apex:outputPanel>
+            
+            <apex:outputPanel rendered="{!isShowReport2_4}">
+                <apex:commandButton action="{!displayPDF2_4}" value="2-4（営業店）自賠責解約受付センター_対応依頼票"/><br/>
+            </apex:outputPanel>
+            
+            <apex:outputPanel rendered="{!isShowReport2_5}">
+                <apex:commandButton action="{!displayPDF2_5}" value="2-5（営業店）文科省問合せ_対応依頼票"/><br/>
+            </apex:outputPanel>
+    
+            <apex:outputPanel rendered="{!isShowReport3_1}">
+                <apex:commandButton action="{!displayPDF3_1}" value="3-1（営業店）自動車全般_対応依頼票"/><br/>
+            </apex:outputPanel>
+    
+            <apex:outputPanel rendered="{!isShowReport3_2}">
+                <apex:commandButton action="{!displayPDF3_2}" value="3-2（営業店）自動車満期_対応依頼票"/><br/>
+            </apex:outputPanel>
+    
+            <apex:outputPanel rendered="{!isShowReport3_3}">
+                <apex:commandButton action="{!displayPDF3_3}" value="3-3（営業店）重複未解消報告_対応依頼票"/><br/>
+            </apex:outputPanel>
+    
+            <apex:outputPanel rendered="{!isShowReport3_4}">
+                <apex:commandButton action="{!displayPDF3_4}" value="3-4（営業店）【発信】自動車全般_対応依頼票"/><br/>
+            </apex:outputPanel>
+    
+            <apex:outputPanel rendered="{!isShowReport3_5}">
+                <apex:commandButton action="{!displayPDF3_5}" value="3-5（相対店）富国解約試算_対応依頼票"/><br/>
+            </apex:outputPanel>
+            
+            <apex:outputPanel rendered="{!isShowReport4_1}">
+                <apex:commandButton action="{!displayPDF4_1}" value="4-1（代理店）富国異動_対応依頼票"/><br/>
+            </apex:outputPanel>
+    
+            <apex:outputPanel rendered="{!isShowReport4_2}">
+                <apex:commandButton action="{!displayPDF4_2}" value="4-2（代理店）富国解約_対応依頼票"/><br/>
+            </apex:outputPanel>
+            
+            <apex:outputPanel rendered="{!isShowReport5_1}">
+                <apex:commandButton action="{!displayPDF5_1}" value="5-1（代理店）自動車満期_対応依頼票"/><br/>
+            </apex:outputPanel>
+    
+            <apex:outputPanel rendered="{!isShowReport5_2}">
+                <apex:commandButton action="{!displayPDF5_2}" value="5-2（代理店）【発信】自動車満期_対応依頼票"/><br/>
+            </apex:outputPanel>
+            
+            <apex:outputPanel rendered="{!isShowReport5_3}">
+                <apex:commandButton action="{!displayPDF5_3}" value="5-3（代理店）【発信・電話不通】自動車満期_対応依頼票"/><br/>
+            </apex:outputPanel>
+
+            <apex:outputPanel rendered="{!isShowReport6_1}">
+                <apex:commandButton action="{!displayPDF6_1}" value="6-1各種書類訂正内容確認書_裏貼用"/><br/>
+            </apex:outputPanel>
+    
+            <apex:outputPanel rendered="{!isShowReport7_1}">
+                <apex:commandButton action="{!displayEntryForm7_1}" value="7-1（顧客）資料請求送付状"/><br/>
+            </apex:outputPanel>
+    
+            <apex:outputPanel rendered="{!isShowReport7_2}">
+                <apex:commandButton action="{!displayEntryForm7_2}" value="7-2（顧客）不備書類再送送付状"/><br/>
+            </apex:outputPanel>
+
+            <apex:outputPanel rendered="{!isShowReport7_3}">
+                <apex:commandButton action="{!displayEntryForm7_3}" value="7-3（顧客）自動車異動フォローレター"/><br/>
+            </apex:outputPanel>
+
+            <apex:outputPanel rendered="{!isShowReport8_1}">
+                <apex:commandButton action="{!displayEntryForm8_1}" value="8-1（顧客）不備入電依頼_期日なし"/><br/>
+            </apex:outputPanel>
+
+            <apex:outputPanel rendered="{!isShowReport8_2}">
+                <apex:commandButton action="{!displayEntryForm8_2}" value="8-2（顧客）自動車新規フォローレター"/><br/>
+            </apex:outputPanel>
+
+            <apex:outputPanel rendered="{!isShowReport8_3}">
+                <apex:commandButton action="{!displayEntryForm8_3}" value="8-3（顧客）自動車満期フォローレター"/><br/>
+            </apex:outputPanel>
+
+            <apex:outputPanel rendered="{!isShowReport9_1}">
+                <apex:commandButton action="{!displayEntryForm9_1}" value="9-1（顧客）不備入電依頼_期日あり"/><br/>
+            </apex:outputPanel>
+
+            <apex:outputPanel rendered="{!isShowReport10_1}">
+                <apex:commandButton action="{!displayEntryForm10_1}" value="10-1（顧客）新規見積り送付状"/><br/>
+            </apex:outputPanel>
+
+            <apex:outputPanel rendered="{!isShowReport11_1}">
+                <apex:commandButton action="{!displayEntryForm11_1}" value="11-1（顧客）自動車送付状_再送用"/><br/>
+            </apex:outputPanel>
+
+            <apex:outputPanel rendered="{!isShowReport11_2}">
+                <apex:commandButton action="{!displayEntryForm11_2}" value="11-2（顧客）自動車送付状_満期初回"/><br/>
+            </apex:outputPanel>
+
+            <apex:outputPanel rendered="{!isShowReport11_3}">
+                <apex:commandButton action="{!displayEntryForm11_3}" value="11-3（顧客）自動車送付状_満期初回NF多割"/><br/>
+            </apex:outputPanel>
+
+            <apex:outputPanel rendered="{!isShowReport12_1}">
+                <apex:commandButton action="{!displayEntryForm12_1}" value="12-1（顧客）通知書"/><br/>
+            </apex:outputPanel>
+
+            <apex:outputPanel rendered="{!isShowReport12_2}">
+                <apex:commandButton action="{!displayEntryForm12_2}" value="12-2（顧客）通知書_重複未解消"/><br/>
+            </apex:outputPanel>
+
+            <apex:outputPanel rendered="{!isShowReport12_3}">
+                <apex:commandButton action="{!displayEntryForm12_3}" value="12-3（顧客）通知書_月ズレ計上"/><br/>
+            </apex:outputPanel>
+
+            <apex:outputPanel rendered="{!isShowReport12_4}">
+                <apex:commandButton action="{!displayEntryForm12_4}" value="12-4（顧客）通知書_コンビニ"/><br/>
+            </apex:outputPanel>
+
+            <apex:outputPanel rendered="{!isShowReport13_1}">
+                <apex:commandButton action="{!displayEntryForm13_1}" value="13-1（代理店SD）試算結果送付状"/><br/>
+            </apex:outputPanel>
+
+            <apex:outputPanel rendered="{!isShowReport13_2}">
+                <apex:commandButton action="{!displayPDF13_2}" value="13-2（代理店）満期対象外書類回送送付状"/><br/>
+            </apex:outputPanel>
+
+            <apex:outputPanel rendered="{!isShowReport14_1}">
+                <apex:commandButton action="{!displayPDF14_1}" value="14-1（代理店）構成員確認書作成依頼状"/><br/>
+            </apex:outputPanel>
+                
+            <apex:outputPanel rendered="{!isShowReport14_2}">
+                <apex:commandButton action="{!displayPDF14_2}" value="14-2（代理店）月ズレ計上連絡票"/><br/>
+            </apex:outputPanel>
+
+            <apex:outputPanel rendered="{!isShowReport15_1}">
+                <apex:commandButton action="{!displayPDF15_1}" value="15-1（営開業務）移管契約計上連絡票"/><br/>
+            </apex:outputPanel>
+
+            <apex:outputPanel >
+                <apex:commandButton action="{!goBack}" value="戻る"/>
+            </apex:outputPanel>
+        </apex:outputPanel>
+
+        <apex:pageBlock title="帳票出力" mode="edit" rendered="{!isInsertMode}">
+            <apex:pageBlockButtons location="both">
+                <apex:commandButton action="{!confirm}" value="確定" rendered="{!NOT(isUpdate)}"/>
+                
+                <apex:commandButton action="{!displayPDF7_1}" value="7-1（顧客）資料請求送付状" rendered="{!isShowButton7_1&&isUpdate}"/>
+                <apex:commandButton action="{!displayPDF7_2}" value="7-2（顧客）不備書類再送送付状" rendered="{!isShowButton7_2&&isUpdate}"/>
+                <apex:commandButton action="{!displayPDF7_3}" value="7-3（顧客）自動車異動フォローレター" rendered="{!isShowButton7_3&&isUpdate}"/>
+                <apex:commandButton action="{!displayPDF8_1}" value="8-1（顧客）不備入電依頼_期日なし" rendered="{!isShowButton8_1&&isUpdate}"/>
+                <apex:commandButton action="{!displayPDF8_2}" value="8-2（顧客）自動車新規フォローレター" rendered="{!isShowButton8_2&&isUpdate}"/>
+                <apex:commandButton action="{!displayPDF8_3}" value="8-3（顧客）自動車満期フォローレター" rendered="{!isShowButton8_3&&isUpdate}"/>
+                <apex:commandButton action="{!displayPDF9_1}" value="9-1（顧客）不備入電依頼_期日あり" rendered="{!isShowButton9_1&&isUpdate}"/>
+                <apex:commandButton action="{!displayPDF10_1}" value="10-1（顧客）新規見積り送付状" rendered="{!isShowButton10_1&&isUpdate}"/>
+                <apex:commandButton action="{!displayPDF11_1}" value="11-1（顧客）自動車送付状_再送用" rendered="{!isShowButton11_1&&isUpdate}"/>
+                <apex:commandButton action="{!displayPDF11_2}" value="11-2（顧客）自動車送付状_満期初回" rendered="{!isShowButton11_2&&isUpdate}"/>
+                <apex:commandButton action="{!displayPDF11_3}" value="11-3（顧客）自動車送付状_満期初回NF多割" rendered="{!isShowButton11_3&&isUpdate}"/>
+                <apex:commandButton action="{!displayPDF12_1}" value="12-1（顧客）通知書" rendered="{!isShowButton12_1&&isUpdate}"/>
+                <apex:commandButton action="{!displayPDF12_2}" value="12-2（顧客）通知書_重複未解消" rendered="{!isShowButton12_2&&isUpdate}"/>
+                <apex:commandButton action="{!displayPDF12_3}" value="12-3（顧客）通知書_月ズレ計上" rendered="{!isShowButton12_3&&isUpdate}"/>
+                <apex:commandButton action="{!displayPDF12_4}" value="12-4（顧客）通知書_コンビニ" rendered="{!isShowButton12_4&&isUpdate}"/>
+                <apex:commandButton action="{!displayPDF13_1}" value="13-1（代理店SD）試算結果送付状" rendered="{!isShowButton13_1&&isUpdate}"/>
+                
+                <apex:commandButton action="{!goSelect}" value="帳票選択に戻る"/>
+            </apex:pageBlockButtons>
+            
+            <apex:pageBlockSection columns="1" showHeader="false">
+                <apex:pageBlockSectionItem rendered="{!And(hasGreetingItems,isShowGreeting)}">
+                    <apex:outputlabel value=""/>
+                    <apex:selectList value="{!GreetingTemplate}" multiselect="false" size="1" onchange="onChangeGreetingTemplate()">
+                        <apex:selectOptions value="{!GreetingItems}"/>
+                    </apex:selectList>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem rendered="{!isShowGreeting}">
+                    <apex:outputlabel value="あいさつ文"/>
+                    <apex:inputTextarea value="{!Greeting}" cols="100" rows="5" html-maxlength="500" id="GreetingArea" />  
+                </apex:pageBlockSectionItem>
+
+                <apex:pageBlockSectionItem rendered="{!And(hasGreetingHosokuItems,isShowGreetingHosoku)}">
+                    <apex:outputlabel value=""/>
+                    <apex:selectList value="{!GreetingHosokuTemplate}" multiselect="false" size="1" onchange="onChangeGreetingHosokuTemplate()">
+                        <apex:selectOptions value="{!GreetingHosokuItems}"/>
+                    </apex:selectList>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem rendered="{!isShowGreetingHosoku}">
+                    <apex:outputlabel value="あいさつ文補足"/>
+                    <apex:inputTextarea value="{!GreetingHosoku}" cols="100" rows="3" html-maxlength="200" id="GreetingHosokuArea"/>  
+                </apex:pageBlockSectionItem>
+                
+                <apex:pageBlockSectionItem rendered="{!And(hasEnclosureItems,isShowEnclosure)}">
+                    <apex:outputlabel value=""/>
+                    <apex:selectList value="{!EnclosureTemplate}" multiselect="false" size="1" onchange="onChangeEnclosureTemplate()">
+                        <apex:selectOptions value="{!EnclosureItems}"/>
+                    </apex:selectList>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem rendered="{!isShowEnclosure}">
+                    <apex:outputlabel value="今回お送りした書類"/>
+                    <apex:inputTextarea value="{!Enclosure}" cols="100" rows="4" html-maxlength="400" id="EnclosureArea" />  
+                </apex:pageBlockSectionItem>
+
+                <apex:pageBlockSectionItem rendered="{!And(hasReplyDocItems,isShowReplyDoc)}">
+                    <apex:outputlabel value=""/>
+                    <apex:selectList value="{!ReplyDocTemplate}" multiselect="false" size="1" onchange="onChangeReplyDocTemplate()">
+                        <apex:selectOptions value="{!ReplyDocItems}"/>
+                    </apex:selectList>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem rendered="{!isShowReplyDoc}">
+                    <apex:outputlabel value="ご返送いただく書類"/>
+                    <apex:inputTextarea value="{!ReplyDoc}" cols="100" rows="4" html-maxlength="400" id="ReplyDocArea" />  
+                </apex:pageBlockSectionItem>
+
+                <apex:pageBlockSectionItem rendered="{!isShowReceptDetails}">
+                    <apex:outputlabel value="受付内容の区分"/>
+                    <!--<apex:inputText value="{!ReceptDetails}" maxlength="20" size="40" />--> 
+                    <apex:selectList value="{!ReceptDetails}" multiselect="false" size="1" style="width:100px;">    
+                        <apex:selectOptions value="{!SelectReceptDetails}"/>
+                    </apex:selectList>
+                </apex:pageBlockSectionItem>
+
+                <apex:pageBlockSectionItem rendered="{!isShowFirstFeeTransDate}">
+                    <apex:outputlabel value="初回保険料振替日"/>
+                    <apex:inputText value="{!FirstFeeTransDate}" maxlength="40" size="40" />   
+                </apex:pageBlockSectionItem>
+                
+                <apex:pageBlockSectionItem rendered="{!And(hasCommunicationColumnItems,isShowCommunicationColumn)}">
+                    <apex:outputlabel value=""/>
+                    <apex:selectList value="{!CommunicationColumnTemplate}" multiselect="false" size="1" onchange="onChangeCommunicationColumnTemplate()">
+                        <apex:selectOptions value="{!CommunicationColumnItems}"/>
+                    </apex:selectList>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem rendered="{!isShowCommunicationColumn}">
+                    <apex:outputlabel value="ご連絡事項"/>
+                    <apex:inputTextarea value="{!CommunicationColumn}" cols="100" rows="4" html-maxlength="400" id="CommunicationColumnArea"/>  
+                </apex:pageBlockSectionItem>
+
+                <!--
+                <apex:pageBlockSectionItem rendered="{!isShowCommunicationColumn2}">
+                    <apex:outputlabel value="ご連絡事項2"/>
+                    <apex:inputTextarea value="{!CommunicationColumn2}" cols="100" rows="4" html-maxlength="400" />  
+                </apex:pageBlockSectionItem>
+                -->
+
+                <apex:pageBlockSectionItem rendered="{!isShowCheckDetail1}">
+                    <apex:outputlabel value="確認項目1"/>
+                    <apex:inputText value="{!CheckItem1}" maxlength="90" size="80" />   
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem rendered="{!isShowCheckDetail1}">
+                    <apex:outputlabel value="確認内容1"/>
+                    <apex:inputText value="{!CheckDetail1}" maxlength="170" size="80" /> 
+                </apex:pageBlockSectionItem>
+
+                <apex:pageBlockSectionItem rendered="{!isShowCheckDetail2}">
+                    <apex:outputlabel value="確認項目2"/>
+                    <apex:inputText value="{!CheckItem2}" maxlength="90" size="80" />   
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem rendered="{!isShowCheckDetail2}">
+                    <apex:outputlabel value="確認内容2"/>
+                    <apex:inputText value="{!CheckDetail2}" maxlength="170" size="80" />  
+                </apex:pageBlockSectionItem>
+
+                <apex:pageBlockSectionItem rendered="{!isShowCheckDetail3}">
+                    <apex:outputlabel value="確認項目3"/>
+                    <apex:inputText value="{!CheckItem3}" maxlength="90" size="80" />   
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem rendered="{!isShowCheckDetail3}">
+                    <apex:outputlabel value="確認内容3"/>
+                    <apex:inputText value="{!CheckDetail3}" maxlength="170" size="80" />   
+                </apex:pageBlockSectionItem>
+
+                <apex:pageBlockSectionItem rendered="{!isShowKigenDate}">
+                    <apex:outputlabel value="期限日"/>
+                    <apex:inputField value="{!conditionCase.KigenDate__c}"/>
+                </apex:pageBlockSectionItem>
+
+                <apex:pageBlockSectionItem rendered="{!And(hasSofuShoruiItems,isShowSofuShorui)}">
+                    <apex:outputlabel value=""/>
+                    <apex:selectList value="{!SofuShoruiTemplate}" multiselect="false" size="1" onchange="onChangeSofuShoruiTemplate()">
+                        <apex:selectOptions value="{!SofuShoruiItems}"/>
+                    </apex:selectList>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem rendered="{!isShowSofuShorui}">
+                    <apex:outputlabel value="送付書類"/>
+                    <apex:inputTextarea value="{!SofuShorui}" cols="42" rows="6" html-maxlength="400" id="SofuShoruiArea" />  
+                </apex:pageBlockSectionItem>
+
+                <apex:pageBlockSectionItem rendered="{!And(hasInquiryItems,isShowInquiry)}">
+                    <apex:outputlabel value=""/>
+                    <apex:selectList value="{!InquiryTemplate}" multiselect="false" size="1" onchange="onChangeInquiryTemplate()">
+                        <apex:selectOptions value="{!InquiryItems}"/>
+                    </apex:selectList>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem rendered="{!isShowInquiry}">
+                    <apex:outputlabel value="連絡先"/>
+                    <!--<apex:inputText value="{!Inquiry}" maxlength="40" size="40" id="InquiryArea" />-->
+                    <apex:inputTextarea value="{!Inquiry}" cols="100" rows="4" html-maxlength="400" id="InquiryArea" />  
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection> 
+        </apex:pageBlock>
+    
+        <apex:actionFunction action="{!changeGreetingTemplate}" name="onChangeGreetingTemplate" reRender="GreetingArea"/>
+        <apex:actionFunction action="{!changeGreetingHosokuTemplate}" name="onChangeGreetingHosokuTemplate" reRender="GreetingHosokuArea"/>
+        <apex:actionFunction action="{!changeEnclosureTemplate}" name="onChangeEnclosureTemplate" reRender="EnclosureArea"/>
+        <apex:actionFunction action="{!changeReplyDocTemplate}" name="onChangeReplyDocTemplate" reRender="ReplyDocArea"/>
+        <apex:actionFunction action="{!changeSofuShoruiTemplate}" name="onChangeSofuShoruiTemplate" reRender="SofuShoruiArea"/>
+        <apex:actionFunction action="{!changeCommunicationColumnTemplate}" name="onChangeCommunicationColumnTemplate" reRender="CommunicationColumnArea"/>
+        <apex:actionFunction action="{!changeInquiryTemplate}" name="onChangeInquiryTemplate" reRender="InquiryArea"/>
+    
+    </apex:form>
+</apex:page>

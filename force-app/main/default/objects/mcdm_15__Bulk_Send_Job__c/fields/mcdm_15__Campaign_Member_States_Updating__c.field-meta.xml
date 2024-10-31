@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mcdm_15__Campaign_Member_States_Updating__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Boolean to indicate campaign member states are not currently in progress for this bulk send.</description>
+    <externalId>false</externalId>
+    <label>Campaign Member States Updating</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

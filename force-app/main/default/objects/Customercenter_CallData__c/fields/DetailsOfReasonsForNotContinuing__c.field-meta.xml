@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DetailsOfReasonsForNotContinuing__c</fullName>
+    <externalId>false</externalId>
+    <label>未継続理由詳細</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>料金不満</fullName>
+                <default>false</default>
+                <label>料金不満</label>
+            </value>
+            <value>
+                <fullName>自動車売却</fullName>
+                <default>false</default>
+                <label>自動車売却</label>
+            </value>
+            <value>
+                <fullName>不明</fullName>
+                <default>false</default>
+                <label>不明</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

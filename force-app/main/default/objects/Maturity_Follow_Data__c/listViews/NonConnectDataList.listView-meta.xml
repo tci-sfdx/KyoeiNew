@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NonConnectDataList</fullName>
+    <columns>NAME</columns>
+    <columns>SecuritiesNumber__c</columns>
+    <columns>ContractorName__c</columns>
+    <columns>ContractorKana__c</columns>
+    <columns>AgencyCode__c</columns>
+    <columns>SpecialAgreementYesNo__c</columns>
+    <columns>PhoneNumber__c</columns>
+    <columns>PaymentMethod__c</columns>
+    <columns>PeriodOfInsurance__c</columns>
+    <columns>InsuranceFrom__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>isSend__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>CustomerCallManagement__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>未連携データ一覧</label>
+</ListView>

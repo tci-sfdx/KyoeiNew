@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mcdm_15__Is_Approved__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This is true if this bulk send is approved on approvals.</description>
+    <externalId>false</externalId>
+    <label>Is Approved</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

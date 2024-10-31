@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MT</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>NAME</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Support_Desk,Case.TransferOfWealth,Case.GeneralPurpose,Case.Fire,Case.Auto_ContinuationStop,Case.AutomotiveNew,Case.AutomobileMaturity,Case.AutomobileTransfers,Case.SD,Case.IndemnityTermination</value>
+    </filters>
+    <filters>
+        <field>AnswerDate__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>N_YEARS_AGO:1</value>
+    </filters>
+    <label>仮）MT集約用</label>
+</ListView>

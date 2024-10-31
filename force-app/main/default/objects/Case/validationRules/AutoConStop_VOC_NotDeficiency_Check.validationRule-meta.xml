@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AutoConStop_VOC_NotDeficiency_Check</fullName>
+    <active>true</active>
+    <description>受付項目（事由）が自動継続停止の場合は、VOCカテゴリ①は受付、不備なしにチェックが無い場合にエラー（レコードタイプ：自継停止）</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+ISPICKVAL(ReceiptItem_Reason__c,&quot;自動継続停止&quot;),
+OR(NOT(ISPICKVAL(VOCCategory_1__c,&quot;受付&quot;)),
+NOT(IsNotDeficiency__c)),
+RecordType.DeveloperName = &apos;Auto_ContinuationStop&apos;
+)</errorConditionFormula>
+    <errorMessage>受付項目が自動継続停止の場合はVOCカテゴリ①が受付、不備なしにチェックが無いと保存できません</errorMessage>
+</ValidationRule>

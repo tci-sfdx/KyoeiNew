@@ -1,0 +1,207 @@
+<apex:page controller="ChohyoCreatorPattern1Controller" showHeader="false" applyBodyTag="false" applyHtmlTag="false" 
+    renderAs="PDF">
+
+    <head>
+        <style>
+            body {
+                font-family: Arial Unicode MS;
+                font-size: 10pt;
+                line-height: 1.2;
+            }
+            @page {
+                size: A4;
+                margin: 9mm;
+            }
+
+            table{
+                width: 100%;
+                border-collapse: collapse;
+                margin: auto;
+                table-layout: fixed;
+            }
+            .nonborder,.nonborder td{
+                border: none;
+            }
+            th, td{
+                border: solid 0.5pt #000;
+                padding:0.1em;
+                width: 100px;
+                text-align: center;
+            }
+            .leftcell,.leftcell td{
+                border: solid 0.5pt #000;
+                padding:0.1em;
+                width: 20px;
+                text-align: center;
+                /*background-color:#d3d3d3;*/
+            }
+            .caption_box{
+                position: relative;
+                margin-top: 1em;
+                padding: 1em 2em;
+                border: 1px solid black;
+            }
+            .caption_box .caption{
+                position: absolute;
+                top: -5%;
+                left: 43%;
+                font-size: 1em;
+                padding: 0 1em;
+                margin: 0;
+                background-color: white;
+                /*transform: translateY(-50%) translateX(17em);*/
+            }
+            .textarea{
+                width: 720px;
+                /*height: 150px;*/
+                vertical-align:top;
+                text-align: left;
+            }
+            
+        </style>
+    </head>
+    
+    <body>
+    <section >
+        <div>
+            <p><apex:outputText value="{!CUSTOMER_AGENCY_NAME}" style="font-size: 16pt;"/>　御中</p>
+        </div>
+
+        <!--空白行-->
+        <div style="height:30px;"></div>
+
+        <div  style="text-align: center;">
+            <!--－カスタマーセンターから代理店様へのご連絡/ご依頼－-->
+            <apex:outputText value="{!PrintName}" style="font-size: 16pt;"/><br/>
+        </div>
+
+        <p><apex:outputText value="　{!Header}" escape="false"/></p>
+
+        <!--空白行-->
+        <div style="height:15px;"></div>
+
+        <table>
+            <tbody>
+                <colgroup>
+                    <col width="30%"></col>
+                    <col width="70%"></col>
+                </colgroup>
+                <tr style="height:30px;">
+                    <td colspan="2" >
+                        <!--計上月が保険開始月の翌月となった契約-->
+                        <apex:outputText value="{!PrintSubHeader}"/>
+                    </td>
+                </tr>
+                <tr style="height:30px;">
+                    <td class="leftcell">
+                        <apex:outputText value="集団名"/>
+                    </td>
+                    <td>
+                        <apex:outputText value="{!ContactGroupName}"/>
+                    </td>
+                </tr>
+                <tr style="height:30px;">
+                    <td class="leftcell">
+                        <apex:outputText value="組合員№"/>
+                    </td>
+                    <td>
+                        <!--<apex:outputText value="{!ContactFukokuBranchCode}"/>-->
+                        <apex:outputText value="{!UnionMemberEmployeeCode}"/>
+                    </td>
+                </tr>
+                <tr style="height:30px;">
+                    <td class="leftcell">
+                        <apex:outputText value="契約者名"/>
+                    </td>
+                    <td>
+                        <apex:outputText value="{!ContactLastFirstName}　様"/>
+                    </td>
+                </tr>
+                <tr style="height:30px;">
+                    <td class="leftcell">
+                        <apex:outputText value="電話番号"/>
+                    </td>
+                    <td>
+                        <!--<apex:outputText value="{!PhoneNumber}"/>-->
+                        <apex:outputText value="{!ContactPhoneNumber}"/>
+                    </td>
+                </tr>
+                <tr style="height:30px;">
+                    <td class="leftcell">
+                        <apex:outputText value="保険種目"/>
+                    </td>
+                    <td>
+                        <apex:outputText value="{!InsuranceItem}"/>
+                    </td>
+                </tr>
+                <tr style="height:30px;">
+                    <td class="leftcell">
+                        <apex:outputText value="証券番号"/>
+                    </td>
+                    <td>
+                        <apex:outputText value="{!SecuritiesNumber}"/>
+                    </td>
+                </tr>
+                <tr style="height:30px;">
+                    <td class="leftcell">
+                        <apex:outputText value="保険開始日"/>
+                    </td>
+                    <td>
+                        <apex:outputtext value="{0, date, yyyy/MM/dd}">
+                            <apex:param value="{!InsuranceFrom}"></apex:param>
+                        </apex:outputtext>
+                    </td>
+                </tr>
+                <tr style="height:30px;">
+                    <td class="leftcell">
+                        <apex:outputText value="払込方法"/>
+                    </td>
+                    <td>
+                        <apex:outputText value="{!PaymentMethod}"/>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!--空白行-->
+        <div style="height:30px;"></div>
+
+        <p style="text-align:left;">
+            <!--※初回のご請求が通常の翌月となる場合や2か月分の請求となる場合がありますので、ご確認いただくとともに契約者様へのご案内等をお願いいたします。-->
+            <apex:outputText value="{!DisplayWord1}" escape="false" />
+        </p>
+
+        <!--空白行-->
+        <div style="height:300px;"></div>
+
+        <div class="caption_box">
+            <h1 class="caption">発信者（問合せ先）</h1>
+            <div>
+                <center><p style="margin-bottom:0px;"><apex:outputText value="{!SiteName}" style="font-size: 12pt;"/></p></center>
+                <center><apex:outputText value="{!SitePhone}"/></center>
+                <center>
+                    <p style="margin-top:0px; font-size: 8pt;">
+                        ※ この電話番号は本件に関する代理店様からのお問合せ専用となっております。<br/>
+                        契約者様へは契約者様専用の電話番号をご案内ください。
+                    </p>
+                </center>
+            </div>
+            <table >
+                <tbody>
+                    <tr>
+                        <td>
+                            <apex:outputText value="受付番号"/>
+                        </td>
+                        <td>
+                            <apex:outputText value="{!CaseNumber}"/>
+                        </td>
+                        <td>
+                            <apex:outputText value="お問合せの際は<br/>この番号をお伝えください" escape="false"/>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    </body>
+</apex:page>

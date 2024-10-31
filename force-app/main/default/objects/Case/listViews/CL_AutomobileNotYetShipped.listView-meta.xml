@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL_AutomobileNotYetShipped</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>NAME</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>EndInsurance__c</columns>
+    <columns>ExpectedShippingDate_Latest__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.AutomobileMaturity</value>
+    </filters>
+    <filters>
+        <field>ArrivalDate_Latest__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>ShipmentRequired__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>NoFollow_UpRequired__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>ExpectedShippingDate_Latest__c</field>
+        <operation>lessOrEqual</operation>
+        <value>TODAY</value>
+    </filters>
+    <filters>
+        <field>Shipping_DateLatest__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>○自動車未発送一覧≪CL≫</label>
+</ListView>

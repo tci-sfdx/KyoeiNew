@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mcdm_15__CPI_Name__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Name of the CPI component</description>
+    <externalId>false</externalId>
+    <formula>mcdm_15__Journey_Approvals_Plugin__r.mcdm_15__Component_Name__c</formula>
+    <label>CPI Name</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

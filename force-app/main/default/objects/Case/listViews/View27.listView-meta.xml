@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>View27</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>PolicyNumber__c</columns>
+    <columns>NAME</columns>
+    <columns>RegisteredBusinessGroup__c</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>ApprovalStatus__c</columns>
+    <columns>isApproval__c</columns>
+    <columns>VOCCategory_1__c</columns>
+    <columns>ApplicationRequest__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>AnswerDate__c</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>●本日分の私のコール</label>
+</ListView>

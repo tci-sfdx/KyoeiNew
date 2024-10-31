@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>【自動車】返送フォロー日一括更新</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <quickActionLayout>
+        <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>ReturnFollow_UpDate_Latest__c</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>ReturnFollow_UpResult__c</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>ReturnFollow_UpDate_Selected__c</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+    </quickActionLayout>
+    <type>Update</type>
+</QuickAction>

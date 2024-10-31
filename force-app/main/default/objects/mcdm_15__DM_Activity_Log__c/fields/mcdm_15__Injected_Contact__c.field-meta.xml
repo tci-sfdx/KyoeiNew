@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mcdm_15__Injected_Contact__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Lookup to the contact that was injected onto the journey.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>ジャーニーに挿入された取引先責任者を示します。</inlineHelpText>
+    <label>Injected Contact</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>DM Activity Log</relationshipLabel>
+    <relationshipName>DM_Activity_Logs</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ContactPersonRelationship_RequiredCheck</fullName>
+    <active>false</active>
+    <description>折返し電話番号に入力がある時、契約者と折返し連絡者の関係が未入力の場合
+（全レコードタイプ）</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+ISPICKVAL(ContactPersonRelationship__c,&quot;&quot;),
+NOT(ISBLANK(ReturnPhoneNumber__c))
+)</errorConditionFormula>
+    <errorDisplayField>ContactPersonRelationship__c</errorDisplayField>
+    <errorMessage>契約者と折返し連絡者の関係を入力してください</errorMessage>
+</ValidationRule>

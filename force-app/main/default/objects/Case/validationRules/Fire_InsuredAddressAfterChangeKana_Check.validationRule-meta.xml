@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fire_InsuredAddressAfterChangeKana_Check</fullName>
+    <active>true</active>
+    <description>受付項目（事由）で被保険者住所変更を選択し、（新）被保険者住所カナが未入力の場合はエラーとする
+（レコードタイプ：火新異動）
+（KCCステータスがコール作成以外）</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+INCLUDES(ReceiptItem_Reason_Multi__c,&quot;被保険者住所変更&quot;), 
+ISBLANK(Insured_AddressAfterChange_Kana__c),
+NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+RecordType.DeveloperName =&apos;Fire&apos;
+)</errorConditionFormula>
+    <errorDisplayField>Insured_AddressAfterChange_Kana__c</errorDisplayField>
+    <errorMessage>（新）被保険者住所カナを入力してください</errorMessage>
+</ValidationRule>

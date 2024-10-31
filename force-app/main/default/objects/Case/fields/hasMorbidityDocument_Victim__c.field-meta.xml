@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>hasMorbidityDocument_Victim__c</fullName>
+    <externalId>false</externalId>
+    <formula>INCLUDES(Documents_Document_Shipping__c,&apos;罹災確認書&apos;)</formula>
+    <label>書類発送_罹災確認書あり</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PresenceUserConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <profiles>
+            <profile>Admin</profile>
+            <profile>代サポOP</profile>
+            <profile>代サポ%EF%BC%88社員%EF%BC%89SV</profile>
+        </profiles>
+        <users>
+            <user>developer@tci.com</user>
+        </users>
+    </assignments>
+    <capacity>20</capacity>
+    <enableAutoAccept>false</enableAutoAccept>
+    <enableDecline>false</enableDecline>
+    <enableDeclineReason>false</enableDeclineReason>
+    <enableDisconnectSound>true</enableDisconnectSound>
+    <enableRequestSound>true</enableRequestSound>
+    <label>アシストライン標準</label>
+</PresenceUserConfig>

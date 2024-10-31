@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AmiVoice_RequiredCheck</fullName>
+    <active>true</active>
+    <description>AmiVoiceログの必須チェック
+（レコードタイプ：支援事務以外）</description>
+    <errorConditionFormula>AND(ISPICKVAL( Status__c ,&quot;クローズ&quot;), ISBLANK(AmiVoice__c), NOT(RecordType.DeveloperName =&apos;SupportOffice&apos;))</errorConditionFormula>
+    <errorDisplayField>AmiVoice__c</errorDisplayField>
+    <errorMessage>クローズする際にはAmiVoiceログを入力してください</errorMessage>
+</ValidationRule>

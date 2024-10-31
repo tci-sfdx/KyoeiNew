@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Liability_Check</fullName>
+    <active>true</active>
+    <description>個賠有無_あり/なしのチェックボックスがどちらもTrueの場合はエラー（レコードタイプ：火新異動）</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+IsLiability__c,
+IsNotLiability__c,
+RecordType.DeveloperName =&apos;Fire&apos;
+)</errorConditionFormula>
+    <errorMessage>個賠有無を両方チェックすることはできません</errorMessage>
+</ValidationRule>

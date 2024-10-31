@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ClosedRecordNotUpdated_Profile_Check</fullName>
+    <active>true</active>
+    <description>ステータスがクローズのレコードをプロファイルに応じて更新できないように制限する</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+NOT(ISNEW()),
+$Profile.Name = &quot;カスタマー_OP&quot;,
+ISPICKVAL(PRIORVALUE(Status),&quot;Merged&quot;),
+NOT(RecordType.DeveloperName =&apos;BEDOREAccident&apos; )
+)</errorConditionFormula>
+    <errorMessage>クローズされたレコードは更新できません</errorMessage>
+</ValidationRule>

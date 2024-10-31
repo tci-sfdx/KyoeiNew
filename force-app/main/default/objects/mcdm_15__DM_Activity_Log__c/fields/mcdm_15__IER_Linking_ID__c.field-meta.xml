@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mcdm_15__IER_Linking_ID__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Will be used in the future to link engagement data with IER records in the Marketing Cloud connect package.</description>
+    <externalId>false</externalId>
+    <formula>mcdm_15__DM_Tracking_ID__c + mcdm_15__Email_ID__c + mcdm_15__SMS_ID__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Marketing Cloud Connect パッケージ内のエンゲージメントデータと IER レコード間のリンクを示します。</inlineHelpText>
+    <label>IER Linking ID</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

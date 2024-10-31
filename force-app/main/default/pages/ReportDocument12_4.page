@@ -1,0 +1,321 @@
+<apex:page controller="ChohyoCreatorPattern1Controller" showHeader="false" applyBodyTag="false" applyHtmlTag="false" 
+ renderAs="PDF">
+
+    <head>
+        <style>
+            body {
+                font-family: Arial Unicode MS;
+                font-size: 10pt;
+                line-height: 1.2;
+            }
+            @page {
+                size: A4;
+                margin: 9mm;
+            }
+
+            table{
+                width: 100%;
+                border-collapse: collapse;
+                margin: auto;
+                table-layout: fixed;
+            }
+            .nonborder,.nonborder td{
+                border: none;
+            }
+            th, td{
+                border: solid 0.5pt #000;
+                padding:0.1em;
+                width: 100px;
+                text-align: center;
+            }
+
+            table.little{
+                width: 80%;
+                border-collapse: collapse;
+                margin: auto;
+                table-layout: fixed;
+            }
+            .little,.little td{
+                border: none;
+            }
+            .caption_box{
+                position: relative;
+                margin-top: 1em;
+                padding: 1em 2em;
+                border: 1px solid black;
+            }
+            .caption_box .caption{
+                position: absolute;
+                top: -5%;
+                left: 43%;
+                font-size: 1em;
+                padding: 0 1em;
+                margin: 0;
+                background-color: white;
+                /*transform: translateY(-50%) translateX(17em);*/
+            }
+            .textarea{
+                width: 720px;
+                /*height: 150px;*/
+                vertical-align:top;
+                text-align: left;
+                border: none;
+            }
+            .area {
+                position: relative;
+                width: 300px;
+                height: 100px;
+                border: solid 1px;
+                border-radius: 5px;
+            }
+            .area__label {
+                position: absolute;
+                top: -5%;
+                left: 20px;
+                font-weight: 600;
+                padding: 0 1em;
+                transform: translateY(-50%);
+                font-size: 1em;
+                margin: 0;
+                border: solid 1px;
+                background-color: silver;
+            }
+            area::before {
+                position: absolute;
+                z-index: -1;  
+                left: 0;
+                bottom: 50%;  
+                width: 100%;  
+                height: 1px;
+                content: '';
+            }
+            .area__content {
+                padding: 20px;
+            }
+            
+        </style>
+    </head>
+    
+    <body>
+    <section >
+        <div>
+            <p style="margin-bottom:0px;">〒　<apex:outputText value="{!ContactPostCode}"/></p>
+            <p style="margin-top:0px;"><apex:outputText value="{!ContactAddress}" escape="false"/></p>
+        </div>
+
+        <table class="nonborder" >
+            <tbody>
+                <tr>
+                    <td rowspan="3" style="text-align: left; width:480px;">
+                        <apex:outputText value="{!ContactLastFirstName}　様" style="font-size: 12pt;"/>
+                    </td>
+                    <td style="text-align: left; ">
+                        <apex:outputText value="{!SenderPostCode}"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: left;">
+                        <apex:outputText value="{!SenderAddress}"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: left;">
+                        <apex:outputText value="{!SenderName}" escape="false"/>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!--空白行-->
+        <div style="height:15px;"></div>
+
+        <div  style="text-align: center;">
+            <!--保険契約のお申込受付および保険料の払込に関する確認のお願い-->
+            <apex:outputText value="{!PrintName}" style="font-size: 16pt;"/>
+        </div>
+
+        <!--空白行-->
+        <div style="height:15px;"></div>
+
+        <!--あいさつ文-->
+        <table>
+            <tbody>
+                <tr>
+                    <td class='textarea' style="width: 720px; height: 150px;">
+                        <apex:outputText value="　{!Greeting}" escape="false" style="font-size: 9pt;"/>
+                        <!--
+                        <span style="font-size: 9pt;">
+                            　この度は、自動車保険をご契約いただきまして誠にありがとうございました。「電話による契約募集」もしくは「通信販売に関<br/>
+                            する特約」に基づき、払込み保険料・初回保険料振替日等についてご案内いたします。<br/>
+                            保険証券は１週間ほどでお届けしますので、到着後、登録内容をご確認ください。また、申込書（控）の送付をご希望の場合や、<br/>
+                            ご不明な点等がございましたら“共栄火災カスタマーセンター”までお問合せください。<br/>
+                            <br/>
+                            保険期間の途中で、 お車の買替え（車両入替）・譲渡（名義変更）や住所変更など保険契約の内容に変更が生じる場合は、速や<br/>
+                            かに【ご契約内容変更の連絡先】 までご連絡ください（ご連絡いただけないと、保険金をお支払いできないことがあります）。
+                        </span>
+                        -->
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!--あいさつ文補足-->
+        <table>
+            <tbody>
+                <tr>
+                    <td class='textarea' style="width: 720px; height: 90px;">
+                        <apex:outputText value="　{!GreetingHosoku}" escape="false" style="font-size: 9pt;"/>
+                        <!--
+                        <span style="font-size: 9pt;">
+                            　【ご契約内容変更の連絡先】<br/>
+                            　電話番号／０１２０－７１９－６５５（自動車保険変更受付専用/通話料無料）<br/>
+                            　受付時間／平日９：００～２０：００ 土曜・日曜・祝日９：００～１７：００　※ 年末年始（12月31日～1月3日）は休業
+                        </span>
+                        -->
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table>
+            <tbody>
+                <colgroup>
+                    <col width="17%"></col>
+                    <col width="33%"></col>
+                    <col width="17%"></col>
+                    <col width="33%"></col>
+                </colgroup>
+                <tr >
+                    <td colspan="4" style="background-color:#d3d3d3;">
+                        <apex:outputText value="ご契約内容＜抜粋＞"/>
+                    </td>
+                </tr>
+                <tr style="height:30px;">
+                    <td style="background-color:#d3d3d3;">
+                        <apex:outputText value="保険種類"/>
+                    </td>
+                    <td colspan="3"> 
+                        <apex:outputText value="{!InsuranceItem}"/>
+                    </td>
+                    <!--
+                    <td style="background-color:#d3d3d3;">
+                        <apex:outputText value="受付担当者"/>
+                    </td>
+                    <td > 
+                        <apex:outputText value="{!CreatedByName}"/>
+                    </td>
+                    -->
+                </tr>
+                <tr style="height:30px;">
+                    <td style="background-color:#d3d3d3;">
+                        <apex:outputText value="お申し込みを<br/>確認した日" escape="false"/>
+                    </td>
+                    <td > 
+                        <!--<apex:outputText value="{!ApplicationRequest}"/>-->
+                        <apex:outputtext value="{0, date, yyyy/MM/dd}">
+                            <apex:param value="{!ArrivalDate_Latest}"></apex:param>
+                        </apex:outputtext>
+                    </td>
+                    <td style="background-color:#d3d3d3;">
+                        <apex:outputText value="受付内容の区分"/>
+                    </td>
+                    <td > 
+                        <apex:outputText value="{!ReceptDetails}"/>
+                    </td>
+                </tr>
+                <tr style="height:30px;">
+                    <td style="background-color:#d3d3d3;">
+                        <apex:outputText value="保険期間"/>
+                    </td>
+                    <td colspan="3"> 
+                        <apex:outputtext value="{0, date, yyyy/MM/dd}">
+                            <apex:param value="{!InsuranceFrom}"></apex:param>
+                        </apex:outputtext>
+                        &nbsp;&nbsp;～&nbsp;&nbsp;
+                        <apex:outputtext value="{0, date, yyyy/MM/dd}">
+                            <apex:param value="{!InsurancePeriod}"></apex:param>
+                        </apex:outputtext>
+                        <apex:outputtext value="　　{!IF(HokenKikan!=null, HokenKikan, '')}年"/>
+                    </td>
+                </tr>
+                <tr style="height:30px;">
+                    <td style="background-color:#d3d3d3;">
+                        <apex:outputText value="保険料"/>
+                    </td>
+                    <td > 
+                        <apex:outputtext value="{0, number, ###,###}円">
+                            <apex:param value="{!InsuranceFee}"></apex:param>
+                        </apex:outputtext>
+                    </td>
+                    <td style="background-color:#d3d3d3;">
+                        <apex:outputText value="払込方法"/>
+                    </td>
+                    <td > 
+                        <apex:outputText value="{!PaymentMethod}"/>
+                    </td>
+                </tr>
+                <tr >
+                    <td rowspan="2" style="background-color:#d3d3d3; ">
+                        <apex:outputText value="初回保険料振替日"/>
+                    </td>
+                    <td colspan="3" style="border-left:none; border-bottom:none;"> 
+                        <!--<apex:outputText value="{!FirstFeeTransDateHosoku}"/>-->
+                        <apex:outputText value="保険開始日の翌月末日"/>
+                    </td>
+                </tr>
+                <tr >
+                    <td colspan="3" style="border-top:none;"> 
+                        <apex:outputText value="※ 保険料は「保険料払込期限」までに別途お送りする保険証券に同封の払込票でお支払いください。" style="font-size: 8pt;"/>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!--ご連絡事項-->
+        <p style="margin-bottom:0px; background-color:#d3d3d3; width:30%; text-align:center; border:1px solid;">
+            <apex:outputText value="【ご連絡事項】"/>
+        </p>
+
+        <div style="border: 1px dotted black; padding:5px">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class='textarea' style="width: 720px; height: 165px;">
+                            <!--TRANSMITTAL_COMMUNICATION_COLUMN-->
+                            <apex:outputText value="{!CommunicationColumn}" escape="false" style="font-size: 9pt;"/>
+                            <!--
+                            ●ご契約のお車を”利用頻度や回数にかかわらず年間を通じて《業務のみ》で使用される”場合は、<br/>
+                            事業専用車欄の登録内容を変更させていただきますので、弊社までご連絡ください。
+                            -->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="caption_box">
+            <h1 class="caption">発信者（問合せ先）</h1>
+            <div>
+                <center><p style="margin-bottom:0px;"><apex:outputText value="{!ShippingPersonName}" style="font-size: 12pt;"/></p></center>
+                <!--TRANSMITTAL_INQUIRY-->
+                <center><p  style="margin-top:0px;"><apex:outputText value="{!Inquiry}" escape="false"/></p></center>
+            </div>
+            <table >
+                <tbody>
+                    <tr>
+                        <td>
+                            <apex:outputText value="受付番号"/>
+                        </td>
+                        <td>
+                            <apex:outputText value="{!CaseNumber}"/>
+                        </td>
+                        <td>
+                            <apex:outputText value="お問合せの際は<br/>この番号をお伝えください" escape="false"/>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    </body>
+</apex:page>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AttachmentChk</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(Contains($Profile.Name,&quot;事故受付&quot;)
+    ,HasAttachment = false , NOT( CONTAINS( Subject , &quot;[添付なし]&quot;) ) , ToAddress  &lt;&gt;  $Label.NotificationAdminMailAddress  )</errorConditionFormula>
+    <errorMessage>ファイルが添付させていません。
+添付ファイル無しで送信する際は[添付なし]を件名に入力してください。</errorMessage>
+</ValidationRule>

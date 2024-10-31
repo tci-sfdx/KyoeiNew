@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PostCode_RequiredCheck</fullName>
+    <active>true</active>
+    <description>契約者住所に入力がある時、契約者郵便番号（ハイフン不要)が未入力の場合
+（全レコードタイプ⇒自動車新規のみ）</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+ISBLANK(PolicyholderZipCode__c),
+NOT(ISBLANK(ContractorAddress__c)),
+NOT(RecordType.DeveloperName =&apos;BEDOREAccident&apos; ),
+RecordType.DeveloperName =&apos;自動車新規&apos;
+)</errorConditionFormula>
+    <errorDisplayField>PolicyholderZipCode__c</errorDisplayField>
+    <errorMessage>契約者郵便番号を入力してください。</errorMessage>
+</ValidationRule>

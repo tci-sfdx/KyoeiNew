@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mcdm_15__threshold_values</fullName>
+    <active>true</active>
+    <description>Ensures the threshold value is valid based on the DM Approval mode. Only allowed when approval mode is set to target audience size and must be set to 2 or above.</description>
+    <errorConditionFormula>OR (
+  AND(
+    ISPICKVAL(mcdm_15__DM_Approval_Mode__c, &quot;nRecipients&quot;),
+    OR(
+      mcdm_15__DM_Manual_Approval_Threshold__c &lt; 2,
+      mcdm_15__DM_Manual_Approval_Threshold__c &gt; 100000,
+      ISBLANK(mcdm_15__DM_Manual_Approval_Threshold__c)
+    )
+  ),
+
+  AND (
+    NOT(ISPICKVAL(mcdm_15__DM_Approval_Mode__c, &quot;nRecipients&quot;)),
+    NOT(ISBLANK(mcdm_15__DM_Manual_Approval_Threshold__c))
+  )
+)</errorConditionFormula>
+    <errorDisplayField>mcdm_15__DM_Manual_Approval_Threshold__c</errorDisplayField>
+    <errorMessage>When approval mode is set to target audience size, value must be between 2 and 100000. Otherwise, leave blank</errorMessage>
+</ValidationRule>

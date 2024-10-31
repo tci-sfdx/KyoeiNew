@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VocCategory__c</fullName>
+    <externalId>false</externalId>
+    <label>VOCカテゴリ</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>VOCカテゴリ1</fullName>
+                <default>false</default>
+                <label>VOCカテゴリ1</label>
+            </value>
+            <value>
+                <fullName>VOCカテゴリ2</fullName>
+                <default>false</default>
+                <label>VOCカテゴリ2</label>
+            </value>
+            <value>
+                <fullName>VOCカテゴリ3</fullName>
+                <default>false</default>
+                <label>VOCカテゴリ3</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

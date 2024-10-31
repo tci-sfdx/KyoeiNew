@@ -1,0 +1,210 @@
+<apex:page controller="ChohyoCreatorPattern1Controller" showHeader="false" applyBodyTag="false" applyHtmlTag="false" 
+ renderAs="PDF">
+
+    <head>
+        <style>
+            body {
+                font-family: Arial Unicode MS;
+                font-size: 10pt;
+                line-height: 1.2;
+            }
+            @page {
+                size: A4;
+                margin: 9mm;
+            }
+
+            table{
+                width: 100%;
+                border-collapse: collapse;
+                margin: auto;
+                table-layout: fixed;
+            }
+            .nonborder,.nonborder td{
+                border: none;
+            }
+            th, td{
+                border: solid 0.5pt #000;
+                padding:0.1em;
+                width: 100px;
+                text-align: center;
+            }
+            .caption_box{
+                position: relative;
+                margin-top: 1em;
+                padding: 1em 2em;
+                border: 1px solid black;
+            }
+            .caption_box .caption{
+                position: absolute;
+                top: -5%;
+                left: 43%;
+                font-size: 1em;
+                padding: 0 1em;
+                margin: 0;
+                background-color: white;
+                /*transform: translateY(-50%) translateX(17em);*/
+            }
+            .textarea{
+                width: 720px;
+                /*height: 150px;*/
+                vertical-align:top;
+                text-align: left;
+                border: none;
+            }
+        </style>
+    </head>
+    
+    <body>
+    <section >
+        <div>
+            <p style="margin-bottom:0px;">〒　<apex:outputText value="{!ContactPostCode}"/></p>
+            <p style="margin-top:0px;"><apex:outputText value="{!ContactAddress}" escape="false"/></p>
+        </div>
+
+        <table class="nonborder">
+            <tbody>
+                <tr>
+                    <td rowspan="3" style="text-align: left; width:480px;">
+                        <apex:outputText value="{!ContactLastFirstName}　様" style="font-size: 12pt;"/>
+                    </td>
+                    <td style="text-align: left; ">
+                        <apex:outputText value="{!SenderPostCode}"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: left;">
+                        <apex:outputText value="{!SenderAddress}"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: left;">
+                        <apex:outputText value="{!SenderName}" escape="false"/>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!--空白行-->
+        <div style="height:15px;"></div>
+
+        <div  style="text-align: center;">
+            <!--自動車保険ご契約手続きについて折返し連絡のお願い-->
+            <apex:outputText value="{!PrintName}" style="font-size: 16pt;"/>
+        </div>
+
+        <!--空白行-->
+        <div style="height:15px;"></div>
+    
+        <table class="nonborder">
+            <tbody>
+                <tr>
+                    <td style="vertical-align:top; text-align:left; width: 720px; height: 150px;">
+                        　平素は共栄火災の自動車保険をご愛顧いただき誠にありがとうございます。<br/>
+                        　さて、今回の自動車保険お申込み内容につきましてご確認させていただきたい項目がございます。ご登録の電話番号<br/>
+                        にお電話差し上げましたが、ご不在でしたので書面にてお知らせいたします。<br/>
+                        　大変お手数ではございますが、<span style="text-decoration:underline;">至急“共栄火災カスタマーセンター”までご連絡くださいますようお願い申し上げます。</span>    
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+            
+        <table>
+            <tbody>
+                <colgroup>
+                    <col width="35%"></col>
+                    <col width="65%"></col>
+                </colgroup>
+                <tr style="height:30px; background-color:#d3d3d3;">
+                    <td >
+                        <apex:outputText value="確認項目"/>
+                    </td>
+                    <td > 
+                        <apex:outputText value="確認内容"/>
+                    </td>
+                </tr>
+                <tr style="height:75px;">
+                    <td style="background-color:#d3d3d3; text-align: left;">
+                        <apex:outputText value="{!CheckItem1}" escape="false"/>
+                    </td>
+                    <td style="text-align: left;"> 
+                        <apex:outputText value="{!CheckDetail1}" escape="false"/>
+                    </td>
+                </tr>
+                <tr style="height:75px;">
+                    <td style="background-color:#d3d3d3; text-align: left;">
+                        <apex:outputText value="{!CheckItem2}" escape="false"/>
+                    </td>
+                    <td style="text-align: left;"> 
+                        <apex:outputText value="{!CheckDetail2}" escape="false"/>
+                    </td>
+                </tr>
+                <tr style="height:75px;">
+                    <td style="background-color:#d3d3d3; text-align: left;">
+                        <apex:outputText value="{!CheckItem3}" escape="false"/>
+                    </td>
+                    <td style="text-align: left;"> 
+                        <apex:outputText value="{!CheckDetail3}" escape="false"/>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p style="text-align:left;">※その他ご不明点等がございましたら、下記“共栄火災カスタマーセンター”までお問合せください。</p>
+        
+        <!--空白行-->
+        <div style="height:60px;"></div>
+
+        <table class="nonborder">
+            <tbody>
+                <tr>
+                    <td style="text-align:left;">
+                        　上記項目について『
+                        <apex:outputtext value="{0, date, yyyy年MM月dd日}" style="font-size: 14pt;">
+                            <apex:param value="{!KigenDate}"></apex:param>
+                        </apex:outputtext>
+                        』までに下記の＜お問合せ＞までご連絡ください。<br/>
+                        期日までにご連絡いただけなかった場合、誠に勝手ながら
+                        <span style="text-decoration:underline; font-size: 14pt;">【ご返送いただいた申込書の内容】</span>で<br/>
+                        契約内容の登録をさせていただきますのでご了承ください。
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!--空白行-->
+        <div style="height:60px;"></div>
+
+        <div class="caption_box">
+            <h1 class="caption">発信者（問合せ先）</h1>
+            <div>
+                <center><p style="margin-bottom:0px;"><apex:outputText value="{!ShippingPersonName}" style="font-size: 12pt;"/></p></center>
+                <!--TRANSMITTAL_INQUIRY-->
+                <center><p  style="margin-top:0px;"><apex:outputText value="{!Inquiry}" escape="false"/></p></center>
+                <!--
+                <center>
+                    <p style="margin-top:0px;">
+                        受付時間／平日９：００～２０：００ 土曜・日曜・祝日９：００～１７：００<br/>
+                        ※ 年末年始（12月31日～1月3日）は休業
+                    </p>
+                </center>
+                -->
+            </div>
+            <table >
+                <tbody>
+                    <tr>
+                        <td>
+                            <apex:outputText value="受付番号"/>
+                        </td>
+                        <td>
+                            <apex:outputText value="{!CaseNumber}"/>
+                        </td>
+                        <td>
+                            <apex:outputText value="お問合せの際は<br/>この番号をお伝えください" escape="false"/>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    </body>
+</apex:page>

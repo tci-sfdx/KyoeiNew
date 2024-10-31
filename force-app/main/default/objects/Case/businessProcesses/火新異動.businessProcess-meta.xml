@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>火新異動</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>クローズ</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>クローズ承認</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>コール作成</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>メール受領確認</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>対応依頼作成</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>対応依頼確認%E3%83%BBメール送信</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

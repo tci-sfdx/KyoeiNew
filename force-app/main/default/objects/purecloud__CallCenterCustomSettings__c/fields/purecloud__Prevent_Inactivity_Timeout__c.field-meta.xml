@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>purecloud__Prevent_Inactivity_Timeout__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Periodically send a network request on behalf of a user to avoid inactivity timeout in Genesys Cloud while the user is active in Salesforce</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Periodically send a network request on behalf of a user to avoid inactivity timeout in Genesys Cloud while the user is active in Salesforce</inlineHelpText>
+    <label>Prevent Inactivity Timeout</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

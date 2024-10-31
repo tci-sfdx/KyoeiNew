@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reissue_ALL</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>ContractorName__c</columns>
+    <columns>SubscriberName_Kana__c</columns>
+    <columns>PolicyNumber__c</columns>
+    <columns>AnswerDate__c</columns>
+    <columns>ApproximationStatus__c</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.ReissuanceOfSecurities</value>
+    </filters>
+    <label>【再発行】すべて</label>
+</ListView>

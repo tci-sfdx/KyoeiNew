@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>48.0</apiVersion>
+    <availableInTouch>true</availableInTouch>
+    <confirmationTokenRequired>false</confirmationTokenRequired>
+    <label>3-3.（営業店）重複未解消報告_対応依頼票</label>
+    <packageVersions>
+        <majorNumber>2</majorNumber>
+        <minorNumber>36</minorNumber>
+        <namespace>svfcloud</namespace>
+    </packageVersions>
+</ApexPage>

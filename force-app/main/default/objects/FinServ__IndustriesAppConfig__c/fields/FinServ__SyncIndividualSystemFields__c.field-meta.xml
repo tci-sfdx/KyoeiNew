@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__SyncIndividualSystemFields__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether Account and Contact system fields are kept in sync when an insert is performed on either entity.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>個人オブジェクトモデルでレコードが作成されると取引先項目と取引先責任者項目を同期します。</inlineHelpText>
+    <label>Sync Individual System Fields</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

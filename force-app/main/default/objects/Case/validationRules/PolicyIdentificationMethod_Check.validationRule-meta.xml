@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PolicyIdentificationMethod_Check</fullName>
+    <active>true</active>
+    <description>「証券番号」または「証券番号　親番」に入力がある時、契約特定方法が未入力の場合
+（BEDORE事故受付以外の全てのレコードタイプ）</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+OR(NOT(ISBLANK(PolicyNumber__c)),NOT(ISBLANK(StockNumberMainNumber__c))),
+ISBLANK(TEXT(PolicyIdentificationMethod__c)),
+NOT(RecordType.DeveloperName =&apos;BEDOREAccident&apos; ),
+NOT(RecordType.DeveloperName =&apos;AutomotiveNew&apos; ),
+NOT(RecordType.DeveloperName =&apos;AutomobileQuotation&apos; ),
+NOT(RecordType.DeveloperName =&apos;AutomobileMaturity&apos; ),
+NOT CONTAINS($Profile.Name, &apos;契約照会&apos;)
+)</errorConditionFormula>
+    <errorDisplayField>PolicyIdentificationMethod__c</errorDisplayField>
+    <errorMessage>契約特定方法を入力してください</errorMessage>
+</ValidationRule>

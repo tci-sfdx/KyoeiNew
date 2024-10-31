@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AnswerDetails_RequiredCheck</fullName>
+    <active>true</active>
+    <description>回答詳細の必須チェック</description>
+    <errorConditionFormula>AND(ISPICKVAL( Status__c ,&quot;クローズ&quot;), ISBLANK(AnswerDetails__c))</errorConditionFormula>
+    <errorDisplayField>AnswerDetails__c</errorDisplayField>
+    <errorMessage>クローズする際には回答詳細を入力してください</errorMessage>
+</ValidationRule>

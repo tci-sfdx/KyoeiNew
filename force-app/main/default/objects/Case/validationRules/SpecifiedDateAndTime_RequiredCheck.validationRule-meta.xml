@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SpecifiedDateAndTime_RequiredCheck</fullName>
+    <active>true</active>
+    <description>お客様指定ありが選択されている時、指定日時が未入力の場合
+（レコードタイプ：サポートデスクおよび汎用以外）</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+ISNULL(SpecifiedDateAndTime__c),
+Customer_Specified__c = True,
+NOT(RecordType.DeveloperName =&apos;Support_Desk&apos;), NOT(RecordType.DeveloperName =&apos;GeneralPurpose&apos;)
+)</errorConditionFormula>
+    <errorDisplayField>SpecifiedDateAndTime__c</errorDisplayField>
+    <errorMessage>指定日時を入力してください</errorMessage>
+</ValidationRule>

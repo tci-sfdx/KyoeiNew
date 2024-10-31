@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CommencementOfInsurance_Check</fullName>
+    <active>true</active>
+    <description>「自動継続停止」or「死亡解約」がチェックON時に現在日時が「保険始期日」より前のとき
+（レコードタイプ：自動継続停止）</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+        OR(
+ISPICKVAL(ReceiptItem_Reason__c, &quot;死亡解約&quot;),
+ISPICKVAL(ReceiptItem_Reason__c, &quot;自動継続停止&quot;)),
+TODAY() &lt; CommencementOfInsurance__c,
+RecordType.DeveloperName =&apos;Auto_ContinuationStop&apos;
+)</errorConditionFormula>
+    <errorDisplayField>CommencementOfInsurance__c</errorDisplayField>
+    <errorMessage>保険開始日以前のため、受付できません</errorMessage>
+</ValidationRule>

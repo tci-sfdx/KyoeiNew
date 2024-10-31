@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Documents_Document_Shipping__c</fullName>
+    <externalId>false</externalId>
+    <label>書類発送</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Document_content</valueSetName>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

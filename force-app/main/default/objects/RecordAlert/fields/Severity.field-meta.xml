@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Severity</fullName>
+    <inlineHelpText>定義された重要度値によって、レコードアラートカテゴリで定義されたデフォルト値が上書きされます。</inlineHelpText>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+</CustomField>

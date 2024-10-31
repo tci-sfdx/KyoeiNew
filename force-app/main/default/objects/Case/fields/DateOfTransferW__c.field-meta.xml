@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DateOfTransferW__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF ( AND ( DateOfTransfer__c &gt;= DATE (1868,09,08), DateOfTransfer__c &lt;= DATE (1912,07,29)), 
+  &quot;M&quot; &amp; IF(YEAR ( DateOfTransfer__c ) - 1867 &lt; 10 ,&quot;0&quot;,&quot;&quot; ) &amp; TEXT ( YEAR ( DateOfTransfer__c ) - 1867 ) &amp; 
+   IF(MONTH ( DateOfTransfer__c ) &lt; 10 ,&quot;0&quot;,&quot;&quot; ) &amp; TEXT ( MONTH ( DateOfTransfer__c ))  &amp;
+   IF(DAY ( DateOfTransfer__c ) &lt; 10 ,&quot;0&quot;,&quot;&quot; ) &amp; TEXT ( DAY ( DateOfTransfer__c )) , 
+
+IF ( AND ( DateOfTransfer__c &gt;= DATE (1912,07,30), DateOfTransfer__c &lt;= DATE (1926,12,24)), 
+  &quot;T&quot; &amp; IF(YEAR ( DateOfTransfer__c ) - 1911 &lt; 10 ,&quot;0&quot;,&quot;&quot; ) &amp; TEXT ( YEAR ( DateOfTransfer__c ) - 1911 ) &amp; 
+   IF(MONTH ( DateOfTransfer__c ) &lt; 10 ,&quot;0&quot;,&quot;&quot; ) &amp; TEXT ( MONTH ( DateOfTransfer__c ))  &amp;
+   IF(DAY ( DateOfTransfer__c ) &lt; 10 ,&quot;0&quot;,&quot;&quot; ) &amp; TEXT ( DAY ( DateOfTransfer__c )) , 
+
+IF ( AND ( DateOfTransfer__c &gt;= DATE (1926,12,25), DateOfTransfer__c &lt;= DATE (1989,01,07)), 
+  &quot;S&quot; &amp; IF(YEAR ( DateOfTransfer__c ) - 1925 &lt; 10 ,&quot;0&quot;,&quot;&quot; ) &amp; TEXT ( YEAR ( DateOfTransfer__c ) - 1925 ) &amp; 
+   IF(MONTH ( DateOfTransfer__c ) &lt; 10 ,&quot;0&quot;,&quot;&quot; ) &amp; TEXT ( MONTH ( DateOfTransfer__c ))  &amp;
+   IF(DAY ( DateOfTransfer__c ) &lt; 10 ,&quot;0&quot;,&quot;&quot; ) &amp; TEXT ( DAY ( DateOfTransfer__c )) , 
+
+
+IF ( AND ( DateOfTransfer__c &gt;= DATE (1989,01,08), DateOfTransfer__c &lt;= DATE (2019,04,30)), 
+  &quot;H&quot; &amp; IF(YEAR ( DateOfTransfer__c ) - 1988 &lt; 10 ,&quot;0&quot;,&quot;&quot; ) &amp; TEXT ( YEAR ( DateOfTransfer__c ) - 1988 ) &amp; 
+   IF(MONTH ( DateOfTransfer__c ) &lt; 10 ,&quot;0&quot;,&quot;&quot; ) &amp; TEXT ( MONTH ( DateOfTransfer__c ))  &amp;
+   IF(DAY ( DateOfTransfer__c ) &lt; 10 ,&quot;0&quot;,&quot;&quot; ) &amp; TEXT ( DAY ( DateOfTransfer__c )) , 
+
+IF ( DateOfTransfer__c &gt;= DATE (2019,05,01), 
+
+  &quot;R&quot; &amp; IF(YEAR ( DateOfTransfer__c ) - 2018 &lt; 10 ,&quot;0&quot;,&quot;&quot; ) &amp; TEXT ( YEAR ( DateOfTransfer__c ) - 2018 ) &amp; 
+   IF(MONTH ( DateOfTransfer__c ) &lt; 10 ,&quot;0&quot;,&quot;&quot; ) &amp; TEXT ( MONTH ( DateOfTransfer__c ))  &amp;
+   IF(DAY ( DateOfTransfer__c ) &lt; 10 ,&quot;0&quot;,&quot;&quot; ) &amp; TEXT ( DAY ( DateOfTransfer__c )) , 
+&quot;#エラー&quot;)))))</formula>
+    <label>異動日（和暦）</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

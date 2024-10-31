@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TransmittalNumber__c</fullName>
+    <description>送付書番号（計算用）の桁数から先頭に0を追加して表示用にテキスト化</description>
+    <externalId>false</externalId>
+    <formula>CASE(LEN(TEXT(TransmittalNumber_Calculation__c)),
+1, &apos;00&apos; &amp; TEXT(TransmittalNumber_Calculation__c),
+2, &apos;0&apos; &amp; TEXT(TransmittalNumber_Calculation__c),
+TEXT(TransmittalNumber_Calculation__c)
+)</formula>
+    <label>送付書番号</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

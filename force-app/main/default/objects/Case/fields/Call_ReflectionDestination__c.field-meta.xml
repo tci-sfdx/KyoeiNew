@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Call_ReflectionDestination__c</fullName>
+    <externalId>false</externalId>
+    <label>計上_対象業務内容</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>火災新規</fullName>
+                <default>false</default>
+                <label>火災新規</label>
+            </value>
+            <value>
+                <fullName>自動継続停止</fullName>
+                <default>false</default>
+                <label>自動継続停止</label>
+            </value>
+            <value>
+                <fullName>証券再発行</fullName>
+                <default>false</default>
+                <label>証券再発行</label>
+            </value>
+            <value>
+                <fullName>自賠責解約</fullName>
+                <default>false</default>
+                <label>自賠責解約</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

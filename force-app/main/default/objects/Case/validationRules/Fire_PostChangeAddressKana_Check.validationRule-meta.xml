@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fire_PostChangeAddressKana_Check</fullName>
+    <active>true</active>
+    <description>（新）契約者住所カナ、（新）被保険者住所カナが半角でない場合エラー（レコードタイプ：火新異動）</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),OR(
+IF ( ISBLANK ( Post_ChangeSubscriber_AddressKana__c), FALSE, NOT ( REGEX (Post_ChangeSubscriber_AddressKana__c, &quot;^[a-zA-Z-0-9ｦ-ﾟ]*$&quot; ) ) )),
+RecordType.DeveloperName = &apos;Fire&apos;
+)</errorConditionFormula>
+    <errorDisplayField>Post_ChangeSubscriber_AddressKana__c</errorDisplayField>
+    <errorMessage>（新）契約者住所カナは半角で入力してください</errorMessage>
+</ValidationRule>

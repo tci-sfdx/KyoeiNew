@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mcdm_15__Has_P13n_Field_Mappings__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This activity has DM P13n Field Mappings applied to it via Extending the Entry Source DE.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>DM P13n フィールドマッピングが「エントリソースの拡張」データエクステンションを介してアクティビティに適用されたことを示します。</inlineHelpText>
+    <label>Has P13n Field Mappings</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

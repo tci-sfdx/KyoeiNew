@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PolicyNumberLengthCheck</fullName>
+    <active>true</active>
+    <description>証券番号の文字数が21文字以上の時、エラー
+（レコードタイプ：BEDORE事故受付以外）</description>
+    <errorConditionFormula>AND(NOT(CONTAINS($Profile.Name , &apos;プロファイル&apos;)),
+NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+LEN(PolicyNumber__c) &gt; 20, 
+NOT(RecordType.DeveloperName =&apos;BEDOREAccident&apos;)
+)</errorConditionFormula>
+    <errorDisplayField>PolicyNumber__c</errorDisplayField>
+    <errorMessage>証券番号の文字数が20文字を超えています</errorMessage>
+</ValidationRule>

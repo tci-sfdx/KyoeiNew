@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__ShowDetailedError__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Shows detailed error messages</description>
+    <externalId>false</externalId>
+    <inlineHelpText>権限のない操作が実行されたときに詳細なエラーメッセージが表示されます。</inlineHelpText>
+    <label>Show Detailed Error Messages</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

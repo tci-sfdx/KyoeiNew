@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mcdm_15__IsBulk__c</fullName>
+    <deprecated>false</deprecated>
+    <description>True if the plugin is a bulk send CPI</description>
+    <externalId>false</externalId>
+    <formula>mcdm_15__Journey_Approvals_Plugin__r.mcdm_15__IsBulkSendPlugin__c</formula>
+    <label>Is Bulk CPI</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

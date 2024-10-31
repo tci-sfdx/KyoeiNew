@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FocusData__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(len(StockNumberMainNumber__c) = 12, StockNumberMainNumber__c &amp; 
+JiketsuSuspension_Registration_DateW__c &amp;
+RPAD(Continuation_Type__c , 3 , &quot; &quot;)  &amp; 
+IF(SuspensionOfJiketsuSuspensionItem_Suspen__c= true,&quot;1&quot;,&quot;&quot;),
+&quot;&quot;)</formula>
+    <label>FOCUS自継停止</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

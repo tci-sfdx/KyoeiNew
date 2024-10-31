@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LicenseExpirationDate_Check</fullName>
+    <active>false</active>
+    <description>免許証有効期限が異動日より先日付でない時
+（レコードタイプ：自動車異動、富国異動）</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+OR(RecordType.DeveloperName =&apos;AutomobileTransfers&apos;, RecordType.DeveloperName =&apos;TransferOfWealth&apos;)
+)</errorConditionFormula>
+    <errorDisplayField>LicenseExpirationDate__c</errorDisplayField>
+    <errorMessage>免許証有効期限を確認してください</errorMessage>
+</ValidationRule>

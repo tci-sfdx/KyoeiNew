@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__WhereClause__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Where 句のサンプル式: (1 OR 2) AND 3。
+各数値は子オブジェク RollUpByLookupFilterCriteria に定義されている検索条件に対応します。</inlineHelpText>
+    <label>Where Clause</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

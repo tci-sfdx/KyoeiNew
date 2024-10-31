@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fire_TelephoneNumberAfterChange_Check</fullName>
+    <active>true</active>
+    <description>（新）電話番号が半角数字とハイフン2つでない場合エラー（レコードタイプ：火新異動）</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+NOT(ISBLANK(TelephoneNumberAfterChange__c)),
+NOT(REGEX(TelephoneNumberAfterChange__c, &quot;^[0-9]{2,4}-[0-9]{2,4}-[0-9]{3,4}$&quot;)),
+RecordType.DeveloperName = &apos;Fire&apos;
+)</errorConditionFormula>
+    <errorDisplayField>TelephoneNumberAfterChange__c</errorDisplayField>
+    <errorMessage>（新）電話番号は半角数字とハイフン（2つ）で入力してください</errorMessage>
+</ValidationRule>

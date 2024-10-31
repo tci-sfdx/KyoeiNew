@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Complete_CorporationName_Report__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(CompletionNoticeMailingAddress__c) == &quot;その他&quot;,Cancellation_Completed_Addressee_SCompan__c,
+IF(TEXT(CompletionNoticeMailingAddress__c) == &quot;請求者&quot;,AddresseeCorporateName__c,
+IF(TEXT(CompletionNoticeMailingAddress__c) == &quot;契約者&quot;,&quot;&quot;,&quot;&quot;)))</formula>
+    <label>解約完了_宛名法人名_帳票用</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

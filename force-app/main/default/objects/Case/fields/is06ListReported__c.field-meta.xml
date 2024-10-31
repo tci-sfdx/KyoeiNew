@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>is06ListReported__c</fullName>
+    <defaultValue>false</defaultValue>
+    <externalId>false</externalId>
+    <label>火新_住所・電話番号変更報告リスト出力済み</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mcdm_15__Chunks_Retry__c</fullName>
+    <deprecated>false</deprecated>
+    <description># of Bulk Send Batches that are up for retry</description>
+    <externalId>false</externalId>
+    <label># Chunks To Retry</label>
+    <summaryFilterItems>
+        <field>mcdm_15__Bulk_Send_Batch__c.mcdm_15__Chunk_Status__c</field>
+        <operation>equals</operation>
+        <value>Retry</value>
+    </summaryFilterItems>
+    <summaryForeignKey>mcdm_15__Bulk_Send_Batch__c.mcdm_15__Bulk_Send_Job__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

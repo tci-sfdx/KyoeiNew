@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DeficiencyFollow_UpDate_Selected__c</fullName>
+    <externalId>false</externalId>
+    <label>不備フォロー日（選択）</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>FollowSelectionList</valueSetName>
+    </valueSet>
+</CustomField>

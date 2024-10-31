@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SettlementDate_RequiredCheck</fullName>
+    <active>false</active>
+    <description>精算エントリー者に入力がある時、精算日が未入力の場合
+（レコードタイプ：自動車異動・富国異動）</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+ISNULL(SettlementDate__c),
+NOT(ISBLANK(SettlementEntryPerson_Delete__c)),
+OR(RecordType.DeveloperName =&apos;AutomobileTransfers&apos;, RecordType.DeveloperName =&apos;TransferOfWealth&apos;)
+)</errorConditionFormula>
+    <errorDisplayField>SettlementDate__c</errorDisplayField>
+    <errorMessage>精算日を入力してください</errorMessage>
+</ValidationRule>

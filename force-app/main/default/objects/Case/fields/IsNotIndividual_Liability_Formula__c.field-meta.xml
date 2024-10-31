@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsNotIndividual_Liability_Formula__c</fullName>
+    <externalId>false</externalId>
+    <formula>IsNotIndividual_Liability__c</formula>
+    <label>個賠（個賠特約含む）で被保険者住所変更に伴う被保険者の範囲の変更_なし</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

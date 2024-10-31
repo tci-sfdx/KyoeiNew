@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ListOfAutomobile_DesignationDates</fullName>
+    <columns>NAME</columns>
+    <columns>counterparty_Kana__c</columns>
+    <columns>PolicyNumber__c</columns>
+    <columns>SpecifiedDateAndTime__c</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>CurrentPerson__c</columns>
+    <columns>Status__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Customercenter_CallData__c.RichCountryTransfer,Customercenter_CallData__c.AutoMaturity,Customercenter_CallData__c.CarTransfer,Customercenter_CallData__c.CarQuote</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>計上受付,計上完了,クローズ,解約受付,書類発送,書類不備,書類督促,解約完了</value>
+    </filters>
+    <label>自動車指定日一覧</label>
+</ListView>

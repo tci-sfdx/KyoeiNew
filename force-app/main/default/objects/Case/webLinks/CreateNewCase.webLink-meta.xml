@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CreateNewCase</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>新規</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>/lightning/o/Case/new?defaultFieldValues=counterparty_Kana__c={!Account.CounterpartyNameKana__pc},Caller_PhoneNumber__c={!Account.PhoneNumber__c},ContractorName__c={!Account.PolicyholderName__pc},ContactId={!Account.ContactId__c},PolicyNumber__c={!Account.PolicyNumber__pc},StockNumberMainNumber__c={!Account.SecurityNumberParentNumber__pc},SecuritiesBranch__c={!Account.SecurityNumberBranchNumber__pc},CommencementOfInsurance__c={!Substitute(Text(Account.CommencementInsurance__pc),&apos;/&apos;,&apos;-&apos;)},EndInsurance__c={!Substitute(Text(Account.TermOfInsurance__pc),&apos;/&apos;,&apos;-&apos;) },ContractorName_Kana__c={!Account.PolicyholderName_Kana__pc},ContractorPhoneNumber__c={!Account.PolicyholderTEL__pc},PostCode__c={!Account.PostalCode__pc},PolicyholderZipCode__c={!Account.PostalCode__pc},ContractorAddress__c={!Text(Account.State_Province__pc) + Account.Address__pc},AgencyName__c={!Account.AgencyName__pc},HasSpecialOrder__c={!Account.AvailabilityHawkerAgreements__c},GroupCode__c={!Account.CollectiveCode__pc},GroupGroupName__c={!Account.GroupName__pc},HasAccident__c={!Account.Accident__pc},FukokuCode__c={!Account.FukokuBranchCode__pc},TypeOfInsurance__c={!Account.LineInsurance__pc},InsuranceFee__c={!Account.InsuranceFee__pc},ContractorBirthday__c={!Substitute(Text(Account.ContractorBirthday__pc),&apos;/&apos;,&apos;-&apos;)},ContractorAge__c={!Account.ContractorAge__pc},ContractorSex__c={!Account.Gender__pc},RelatedBranchCode__c={!Account.OfficeCode__pc},CifCode__c={!Account.CIFCode__pc},ContactInfo__c={!Account.ContactInfo__pc},PaymentMethod__c={!Account.PaymentMethod__pc},Policyholder_SAddressInKana__c={!Account.AddressKana__pc}&amp;count=1&amp;nooverride=1&amp;useRecordTypeCheck=1&amp;navigationLocation=RELATED_LIST&amp;ws=%2Flightning%2Fr%2FAccount%2F{!Account.Id}%2Fview</url>
+</WebLink>

@@ -1,0 +1,11 @@
+<apex:page >
+        <script>
+            window.onload = function(){
+                var xhr = new XMLHttpRequest();
+    
+                xhr.open('POST', 'https://d5i00000dzbuieaz.my.salesforce-sites.com/GetAccountInfo');
+                xhr.setRequestHeader('content-type', 'application/json;charset=UTF-8');
+                xhr.send("foo=bar&lorem=ipsum");
+            }
+        </script>
+</apex:page>

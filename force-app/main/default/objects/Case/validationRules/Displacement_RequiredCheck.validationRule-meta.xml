@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Displacement_RequiredCheck</fullName>
+    <active>true</active>
+    <description>用途車種が「二輪自動車or原動機付自転車」の時に未入力の場合
+（レコードタイプ：自動車新規、自動車異動、富国異動、自動車満期、JAカード傷害・JAトラブル）</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+ISBLANK(Displacement__c),
+OR(ISPICKVAL(ApplicationCarModel__c,&quot;二輪自動車&quot;),
+ISPICKVAL(ApplicationCarModel__c,&quot;原動機付自転車&quot;)),
+OR(RecordType.DeveloperName =&apos;AutomotiveNew&apos;, RecordType.DeveloperName =&apos;AutomobileTransfers&apos;, RecordType.DeveloperName =&apos;TransferOfWealth&apos;, RecordType.DeveloperName =&apos;AutomobileMaturity&apos;, RecordType.DeveloperName =&apos;JA_JA&apos;)
+)</errorConditionFormula>
+    <errorDisplayField>Displacement__c</errorDisplayField>
+    <errorMessage>排気量（単位：リットル）を入力してください</errorMessage>
+</ValidationRule>

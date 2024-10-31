@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mcdm_15__Approver__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Lookup to the user that approved the DM Send for this activity.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>このアクティビティに関連する DM 送信を承認したユーザを示します。</inlineHelpText>
+    <label>Approver</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>DM_Activity_Log_Approver</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

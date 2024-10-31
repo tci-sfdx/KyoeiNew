@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TypeOfInsurance_RequiredCheck</fullName>
+    <active>true</active>
+    <description>「証券番号」または「証券番号　親番」に入力がある時、保険種目①が未入力の場合
+（BEDORE事故受付以外の全てのレコードタイプ）</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+ISPICKVAL(InsuranceItem_1__c,&quot;&quot;),
+OR(NOT(ISBLANK(PolicyNumber__c)),NOT(ISBLANK(StockNumberMainNumber__c))),
+NOT(RecordType.DeveloperName =&apos;BEDOREAccident&apos; ),
+NOT CONTAINS($Profile.Name, &apos;契約照会&apos;)
+)</errorConditionFormula>
+    <errorDisplayField>InsuranceItem_1__c</errorDisplayField>
+    <errorMessage>保険種目①を入力してください</errorMessage>
+</ValidationRule>

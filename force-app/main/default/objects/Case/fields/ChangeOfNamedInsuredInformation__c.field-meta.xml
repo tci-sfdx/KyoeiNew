@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ChangeOfNamedInsuredInformation__c</fullName>
+    <externalId>false</externalId>
+    <label>記名被保険者情報変更の有無</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>記名被の改姓</fullName>
+                <default>false</default>
+                <label>記名被の改姓</label>
+            </value>
+            <value>
+                <fullName>記名被を別人格に変更</fullName>
+                <default>false</default>
+                <label>記名被を別人格に変更</label>
+            </value>
+            <value>
+                <fullName>記名被住所の変更</fullName>
+                <default>false</default>
+                <label>記名被住所の変更</label>
+            </value>
+            <value>
+                <fullName>※複数選択あり</fullName>
+                <default>false</default>
+                <label>※複数選択あり</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

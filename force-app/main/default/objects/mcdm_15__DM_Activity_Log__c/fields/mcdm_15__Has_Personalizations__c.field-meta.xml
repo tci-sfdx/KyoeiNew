@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mcdm_15__Has_Personalizations__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This activity has DM personalizations applied to it.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>DM パーソナライズがこのアクティビティに適用されていることを示します。</inlineHelpText>
+    <label>Has Personalizations</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

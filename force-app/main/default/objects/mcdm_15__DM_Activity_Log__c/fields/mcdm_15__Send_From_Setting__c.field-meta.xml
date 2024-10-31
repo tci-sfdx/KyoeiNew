@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mcdm_15__Send_From_Setting__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Identifies the Send From Setting used for this activity (Running User or Record Owner).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>このアクティビティに使用された送信元設定を示します。</inlineHelpText>
+    <label>Send From Setting</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>mcdm_15__DM_Send_From_Settings</valueSetName>
+    </valueSet>
+</CustomField>

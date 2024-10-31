@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Co_OpContinuation_Check</fullName>
+    <active>false</active>
+    <description>記名被保険者情報変更の有無の「契約者を別人格に変更」を選択した時に契約者情報変更の有無で「無し」を選択した場合</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+ISPICKVAL(ChangeOfNamedInsuredInformation__c,&quot;記名被を別人格に変更&quot;),
+OR(ISPICKVAL(ChangeOfSubscriberInformation__c,&quot;無し&quot;),
+ISBLANK(TEXT(ChangeOfSubscriberInformation__c)))
+)</errorConditionFormula>
+    <errorDisplayField>Co_OpContinuation__c</errorDisplayField>
+    <errorMessage>集団扱が継続できるか代理店に確認してください</errorMessage>
+</ValidationRule>

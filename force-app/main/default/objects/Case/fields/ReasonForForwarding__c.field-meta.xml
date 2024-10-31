@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ReasonForForwarding__c</fullName>
+    <externalId>false</externalId>
+    <label>回送理由</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>会社計上</fullName>
+                <default>false</default>
+                <label>会社計上</label>
+            </value>
+            <value>
+                <fullName>代理店対応</fullName>
+                <default>false</default>
+                <label>代理店対応</label>
+            </value>
+            <value>
+                <fullName>KCC対象外契約</fullName>
+                <default>false</default>
+                <label>KCC対象外契約</label>
+            </value>
+            <value>
+                <fullName>その他</fullName>
+                <default>false</default>
+                <label>その他</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

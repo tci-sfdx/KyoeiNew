@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Customercenter_CallData__c.PrintSerialNumber__c</field>
+    </columns>
+    <columns>
+        <field>Customercenter_CallData__c.ForwardingDate__c</field>
+    </columns>
+    <columns>
+        <field>Customercenter_CallData__c.ResponseType__c</field>
+    </columns>
+    <format>Tabular</format>
+    <name>カスタマーセンター レポートサンプル</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Customercenter_CallData__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Customercenter_CallData__c.AlertDate__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

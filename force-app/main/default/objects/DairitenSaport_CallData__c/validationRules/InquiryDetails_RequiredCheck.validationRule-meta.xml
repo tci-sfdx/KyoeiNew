@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InquiryDetails_RequiredCheck</fullName>
+    <active>true</active>
+    <description>問い合わせ詳細の必須チェック</description>
+    <errorConditionFormula>AND(ISPICKVAL( Status__c ,&quot;クローズ&quot;), ISBLANK(InquiryDetails__c))</errorConditionFormula>
+    <errorDisplayField>InquiryDetails__c</errorDisplayField>
+    <errorMessage>クローズする際には問い合わせ詳細を入力してください</errorMessage>
+</ValidationRule>

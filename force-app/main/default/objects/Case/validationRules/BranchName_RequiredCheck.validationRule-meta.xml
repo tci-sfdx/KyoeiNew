@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BranchName_RequiredCheck</fullName>
+    <active>true</active>
+    <description>追徴・返還有無で返還が選択され、保険料返戻先で登録口座（一般）以外を選択した時、支店名が未入力の場合
+（レコードタイプ：自動車異動・富国異動）</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+ISBLANK(BranchName__c),
+ISPICKVAL(AdditionalReimbursement_Return__c,&quot;返還&quot;),
+NOT(ISPICKVAL(ReturnOfPremiumsTo__c,&quot;登録口座（一般）&quot;)),
+OR(RecordType.DeveloperName =&apos;AutomobileTransfers&apos;, RecordType.DeveloperName =&apos;TransferOfWealth&apos;)
+)</errorConditionFormula>
+    <errorDisplayField>BranchName__c</errorDisplayField>
+    <errorMessage>保険料を返還する口座情報を入力してください。</errorMessage>
+</ValidationRule>

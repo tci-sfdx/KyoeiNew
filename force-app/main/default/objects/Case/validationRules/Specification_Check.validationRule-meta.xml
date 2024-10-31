@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Specification_Check</fullName>
+    <active>false</active>
+    <description>「仕様（グレード＠半角20文字まで）」に半角カナ以外の文字が入力されている場合はエラー</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+OR(IF ( ISBLANK ( Specification__c), FALSE,
+NOT ( REGEX (Specification__c, &quot;^[a-zA-Z0-9ｦ-ﾟ]*$&quot; ) ) )),
+
+OR(RecordType.DeveloperName =&apos;AutomotiveNew&apos;, RecordType.DeveloperName =&apos;AutomobileTransfers&apos;, RecordType.DeveloperName =&apos;TransferOfWealth&apos;, RecordType.DeveloperName =&apos;AutomobileMaturity&apos;, RecordType.DeveloperName =&apos;JA_JA&apos;)
+)</errorConditionFormula>
+    <errorDisplayField>Specification__c</errorDisplayField>
+    <errorMessage>半角英数カナで入力してください</errorMessage>
+</ValidationRule>

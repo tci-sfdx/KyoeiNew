@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SenderRule</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(Contains($Profile.Name,&quot;事故受付&quot;),FromName  &lt;&gt; &quot;事故受付担当&quot;, ToAddress &lt;&gt;  $Label.NotificationAdminMailAddress )</errorConditionFormula>
+    <errorMessage>送信者は、「事故受付担当」以外選択できません。</errorMessage>
+</ValidationRule>

@@ -1,0 +1,101 @@
+<apex:page showHeader="false" applyHtmlTag="false" applyBodyTag="false">
+<html lang="ja">
+    <head>
+        <META http-equiv="X-UA-Compatible" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta http-equiv="Content-Script-Type" content="text/javascript" />
+        <title>コールセンター連携用サンプル画面</title>
+        <link href="style.css" rel="stylesheet" type="text/css" media="screen,print" />
+        <script src="{!$Resource.Jquery}" type="text/javascript"></script>
+        <script type="text/javascript">
+
+            $(function(){
+                // 連携ボタン処理
+                $("#goRenkeiBtn").click(function(){
+                    document.input_form.submit();
+                });
+            });
+        </script>
+        <style>
+        /* CSS Document */
+        
+        * {
+            margin:0;
+            padding: 0;
+        }
+        
+        body {
+            color: #000;
+            backgorund-color: #fff;
+            font-size: 1em;
+            font-family:
+            "ヒラギノ角ゴ Pro W3", 
+            "Hiragino Kaku Gothic Pro", 
+            "メイリオ", Meiryo, Osaka, 
+            "ＭＳ Ｐゴシック", 
+            "MS PGothic", 
+            sans-serif; 
+        }
+        
+        #container {
+        }
+        
+        ul.navi {
+        /*  width: 300px;*/
+            margin: 0px;
+        }
+        
+        li {
+            list-style-type:none;
+        }
+        
+        .category {
+            color: #fff;
+            width:300px;
+            height:40px;
+            background-color:#9292D3;
+            margin: 1px;
+            padding: 0 0px;
+            line-height:40px;
+            cursor:pointer; 
+        }
+        
+        ul.menu li a{
+            height: 35px;
+            line-height:35px;
+            margin-left:20px;
+            text-decoration:none;
+        }
+        
+        ul.menu table {
+            padding-left:10px;
+            background-color:#EEE8F4;
+        }
+        
+        ul.menu li{
+            background-color:#EEE8F4;
+        }
+        
+        input, select, textarea {
+            font-size: 1.2em;
+        }
+        
+        .elements.gray{
+            background-color:#bbbbbb;
+        }
+    </style>
+    </head>
+    <body onload="">
+    POST
+        <form name="input_form" action="http://172.28.225.158:80/third/pages/agol01/div00/kys/com/v000/KYS010.xhtml" method="post" target="test">
+            GCODE：<input id="GCODE" style="height: 30px; width: 200px;" value="3022000001" name="GCODE" jQuery16040315980659861="37"></input> <br/>
+            GDATA：<input name="GDATA" id="GDATA" style="width: 800px; height: 30px;" type="text" 
+            value="USER_ID=3rdipn065   GYOMU_CD=08 DAIRITEN_CD=25579710    UKETSUKE_KBN=1  KEIYAKUSHA_KNJ= KEIYAKUSHA_KANA=    OLD_INSATSURENBAN=  SHOKEN_NO=  HKN_SHIKI="/><br/>
+            <input id="goRenkeiBtn" style="width: 100px; height: 30px;" type="button" value="連携" />
+        </form>
+        GET
+        <a target="_blank" href="http://172.28.225.158:80/third/pages/agol01/div00/kys/com/v000/KYS008.xhtml?hostuid=3RDIPN065&hostpwd=&RENKEI_SHOUBAN=1234567890">getテスト（PW未設定）
+        </a>
+    </body>
+</html>
+</apex:page>

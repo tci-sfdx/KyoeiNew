@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InsuranceItem_1_BusinessGroup_Check</fullName>
+    <active>false</active>
+    <description>登録業務グループ：傷害自動継続（傷害改定）/保険種目①「その他」を選択した場合はエラー（BEDORE事故受付以外の全てのレコードタイプ）</description>
+    <errorConditionFormula>AND(
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+ISPICKVAL(RegisteredBusinessGroup__c,&quot;傷害自動継続（傷害改定）&quot;),
+ISPICKVAL(InsuranceItem_1__c,&quot;その他&quot;),
+NOT(RecordType.DeveloperName =&apos;BEDOREAccident&apos; )
+)</errorConditionFormula>
+    <errorDisplayField>InsuranceItem_1__c</errorDisplayField>
+    <errorMessage>保険種目が正しくありません</errorMessage>
+</ValidationRule>

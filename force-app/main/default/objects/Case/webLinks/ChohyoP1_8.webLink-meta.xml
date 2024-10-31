@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ChohyoP1_8</fullName>
+    <availability>online</availability>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>パターン①-8呼び出し</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/apex/ReportDocument1_8?Id={!Case.Id}&amp;cId=1-8</url>
+</WebLink>

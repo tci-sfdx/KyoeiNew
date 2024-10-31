@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SuspensionOfSuccession_DeathCancellation__c</fullName>
+    <externalId>false</externalId>
+    <formula>ISPICKVAL(ReceiptItem_Reason__c,&quot;死亡解約&quot;)</formula>
+    <label>自継停止項目_死亡解約</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AutoSignupStop</fullName>
+    <columns>NAME</columns>
+    <columns>RECORDTYPE</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Customercenter_CallData__c.ContinuousStop</value>
+    </filters>
+    <label>自動継続停止</label>
+    <queue>Ateam</queue>
+    <sharedTo>
+        <role>Customer</role>
+    </sharedTo>
+</ListView>

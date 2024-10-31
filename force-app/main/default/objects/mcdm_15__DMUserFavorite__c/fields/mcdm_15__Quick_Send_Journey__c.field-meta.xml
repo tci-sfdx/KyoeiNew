@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mcdm_15__Quick_Send_Journey__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The associated quick send journey for this user favorite.</description>
+    <externalId>false</externalId>
+    <label>Quick Send Message</label>
+    <referenceTo>mcdm_15__QuickSendJourney__c</referenceTo>
+    <relationshipLabel>Favorite Quick Send Message</relationshipLabel>
+    <relationshipName>Favorite_Quick_Send_Message</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

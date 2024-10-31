@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TypeCode_3judgment</fullName>
+    <active>true</active>
+    <description>種目コードが３文字か判定します。</description>
+    <errorConditionFormula>AND(Not(IsBlank(TypeCode__c)) ,NOT(LEN(TypeCode__c) = 3 ))</errorConditionFormula>
+    <errorDisplayField>TypeCode__c</errorDisplayField>
+    <errorMessage>種目コードは３文字です。</errorMessage>
+</ValidationRule>

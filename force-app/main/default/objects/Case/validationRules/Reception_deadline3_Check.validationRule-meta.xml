@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reception_deadline3_Check</fullName>
+    <active>true</active>
+    <description>「自動継続停止」or「死亡解約」を選択した時に、以下いずれかのパターンを満たすときエラーとする（レコードタイプ：自動継続停止）
+３．相手先の「証券番号」が12桁の場合
+３－１．相手先の「種目」が「標準傷害保険」、「普通傷害保険」、「安心生活総合（普傷）」、「こども総合保険」「交通事故傷害保険」いずれかのとき
+３－２．受付日が受付締切日（保険終期日の3ヶ月前の28日）を過ぎているとき</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),OR(
+ISPICKVAL(ReceiptItem_Reason__c, &quot;死亡解約&quot;),
+ISPICKVAL(ReceiptItem_Reason__c, &quot;自動継続停止&quot;)),
+
+LEN(StockNumberMainNumber__c) = 12,
+
+OR(TypeOfInsurance__c = &quot;標準傷害保険&quot;,
+TypeOfInsurance__c = &quot;普通傷害保険&quot;,
+TypeOfInsurance__c = &quot;安心生活総合（普傷）&quot;,
+TypeOfInsurance__c = &quot;こども総合保険&quot;,
+TypeOfInsurance__c = &quot;交通事故傷害保険&quot;),
+
+DATEVALUE(ApplicationRequest__c) &gt; 
+if(MONTH(EndInsurance__c)=1, 
+  DATE(
+    YEAR(EndInsurance__c)-1,10,28),
+    if(MONTH(EndInsurance__c)=2, 
+      DATE(
+        YEAR(EndInsurance__c)-1,11,28),
+        if(MONTH(EndInsurance__c)=3, 
+          DATE(
+            YEAR(EndInsurance__c)-1,12,28),
+          DATE(
+            YEAR(EndInsurance__c),
+            MONTH(EndInsurance__c)-3,28)
+        )
+    )
+),
+RecordType.DeveloperName =&apos;Auto_ContinuationStop&apos;
+)</errorConditionFormula>
+    <errorDisplayField>ApplicationRequest__c</errorDisplayField>
+    <errorMessage>受付期日が過ぎているため、受付できません</errorMessage>
+</ValidationRule>

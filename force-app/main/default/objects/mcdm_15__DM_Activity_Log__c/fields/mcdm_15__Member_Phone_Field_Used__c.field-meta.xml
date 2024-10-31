@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mcdm_15__Member_Phone_Field_Used__c</fullName>
+    <deprecated>false</deprecated>
+    <description>API Name of the phone number field used in this activity.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>このアクティビティで使用された電話番号フィールドの API 参照名。</inlineHelpText>
+    <label>Member Phone Field Used</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

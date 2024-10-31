@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>ＪＡ信金</name>
+    <queueMembers>
+        <users>
+            <user>170333@kyoeikasai.co.jp</user>
+            <user>061955@kyoeikasai.co.jp</user>
+            <user>230656@kyoeikasai.co.jp</user>
+            <user>063614@kyoeikasai.co.jp</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

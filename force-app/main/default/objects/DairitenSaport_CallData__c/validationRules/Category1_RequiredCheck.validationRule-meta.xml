@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category1_RequiredCheck</fullName>
+    <active>true</active>
+    <description>カテゴリ①の必須チェック
+（レコードタイプ：その他以外）</description>
+    <errorConditionFormula>AND(ISPICKVAL( Status__c ,&quot;クローズ&quot;), ISPICKVAL( Category1__c ,&quot;&quot;), NOT(RecordType.DeveloperName =&apos;Other&apos;))</errorConditionFormula>
+    <errorDisplayField>Category1__c</errorDisplayField>
+    <errorMessage>クローズする際にはカテゴリ①を入力してください</errorMessage>
+</ValidationRule>

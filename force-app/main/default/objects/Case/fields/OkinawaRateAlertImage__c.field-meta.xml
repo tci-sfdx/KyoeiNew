@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OkinawaRateAlertImage__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+AND(CONTAINS(NewNamedInsured__c, &apos;沖縄県&apos;), OR(ISPICKVAL(OkinawaRate__c,&quot;&quot;), ISPICKVAL(OkinawaRate__c,&quot;未選択&quot;))),
+IMAGE(&apos;/resource/CustomerAlert/OkinawaRate_Alert.png&apos;,&apos;沖縄料率が適用されるか確認してください&apos;),
+IMAGE(&apos;/resource/CustomerAlert/OkinawaRate_Nohting.png&apos;,&apos;アラートなし&apos;)
+)</formula>
+    <label>沖縄料率アラート表示</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

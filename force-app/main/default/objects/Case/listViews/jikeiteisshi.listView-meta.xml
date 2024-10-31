@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>jikeiteisshi</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>PolicyNumber__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>ReceiptItem_Reason__c</columns>
+    <columns>ApproximationStatus__c</columns>
+    <columns>ApprovalStatus__c</columns>
+    <columns>ApplicationRequest__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ReceptionType__c</field>
+        <operation>contains</operation>
+        <value>AI自動応答</value>
+    </filters>
+    <filters>
+        <field>AnswerDate__c</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Auto_ContinuationStop</value>
+    </filters>
+    <label>●自動継続停止（AI）本日分</label>
+</ListView>

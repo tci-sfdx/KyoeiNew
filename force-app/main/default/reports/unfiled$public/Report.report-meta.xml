@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>DairitenSaport_CallData__c.DeviceUsed__c</field>
+    </columns>
+    <columns>
+        <field>DairitenSaport_CallData__c.CLOSEDateAndTime__c</field>
+    </columns>
+    <columns>
+        <field>DairitenSaport_CallData__c.Status__c</field>
+    </columns>
+    <columns>
+        <field>DairitenSaport_CallData__c.ConversationPartner__c</field>
+    </columns>
+    <columns>
+        <field>DairitenSaport_CallData__c.CurrentPerson__c</field>
+    </columns>
+    <format>Tabular</format>
+    <name>テスト_代理店レポート</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$DairitenSaport_CallData__c</reportType>
+    <scope>user</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>DairitenSaport_CallData__c.CLOSEDateAndTime__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ExplanationByPremiumRefund_UpdateCheck</fullName>
+    <active>true</active>
+    <description>保険料返戻による説明のチェック
+登録日から終期日（満期日）までの期間が2ヵ月未満の時にレ点チェックが未入力
+（更新時）
+（レコードタイプ：自賠責解約）</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)) ,
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+NOT(ISNEW()),
+ADDMONTHS(DATEVALUE(CreatedDate), 2) &gt;= EndInsurance__c,
+ExplanationByPremiumRefund__c = False,
+RecordType.DeveloperName =&apos;IndemnityTermination&apos;
+)</errorConditionFormula>
+    <errorDisplayField>ExplanationByPremiumRefund__c</errorDisplayField>
+    <errorMessage>保険料返戻による説明有無をチェックしてください</errorMessage>
+</ValidationRule>

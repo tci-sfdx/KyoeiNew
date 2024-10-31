@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>DairitenSaport_CallData__c.IsOver60Minutes__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>DairitenSaport_CallData__c.IsOver90Minutes__c</field>
+    </columns>
+    <columns>
+        <field>DairitenSaport_CallData__c.OverMinutes__c</field>
+    </columns>
+    <columns>
+        <field>DairitenSaport_CallData__c.ConfirmedGroup__c</field>
+    </columns>
+    <columns>
+        <field>DairitenSaport_CallData__c.ReceptionType__c</field>
+    </columns>
+    <format>Tabular</format>
+    <name>代理店サポートコールデータ 複数選択リストの表示確認</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$DairitenSaport_CallData__c</reportType>
+    <scope>user</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>DairitenSaport_CallData__c.ReceptionType__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>DairitenSaport_CallData__c.CLOSEDateAndTime__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

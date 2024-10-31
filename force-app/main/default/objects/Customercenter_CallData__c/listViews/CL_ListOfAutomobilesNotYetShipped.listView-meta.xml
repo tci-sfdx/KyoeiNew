@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CL_ListOfAutomobilesNotYetShipped</fullName>
+    <columns>NAME</columns>
+    <columns>counterparty_Kana__c</columns>
+    <columns>PolicyNumber__c</columns>
+    <columns>ExpectedShippingDate_Latest__c</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>CurrentPerson__c</columns>
+    <columns>Status__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>ArrivalDate_Latest__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>ShipmentRequired__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>NoFollow_UpRequired__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>【CL用】自動車未発送一覧</label>
+</ListView>

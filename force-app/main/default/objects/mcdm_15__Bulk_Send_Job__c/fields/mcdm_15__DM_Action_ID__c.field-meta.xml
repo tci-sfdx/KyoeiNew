@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mcdm_15__DM_Action_ID__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Unique ID that is the same for an entire DM sending action. Can be used in reports to group DM sends by a sending action.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>DM 送信アクションの一意の ID。レポートでこの ID を使用して DM 送信を送信アクション別にグループ化します。</inlineHelpText>
+    <label>DM Action ID</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

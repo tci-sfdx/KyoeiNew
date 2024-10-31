@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsMailingAddress_BlankCheck</fullName>
+    <active>false</active>
+    <description>受付項目が書類送付の場合、付先住所が未入力の時にエラーメッセージを表示（レコードタイプ：自賠責解約）</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+ISPICKVAL(ReceiptItem_Reason__c, &apos;書類送付&apos;),
+ISBLANK(MailingAddress__c),
+RecordType.DeveloperName =&apos;IndemnityTermination&apos;
+)</errorConditionFormula>
+    <errorDisplayField>MailingAddress__c</errorDisplayField>
+    <errorMessage>受付項目が書類送付の場合、送付先住所を入力してください</errorMessage>
+</ValidationRule>

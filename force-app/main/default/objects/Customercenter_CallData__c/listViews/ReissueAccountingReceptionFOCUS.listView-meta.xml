@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ReissueAccountingReceptionFOCUS</fullName>
+    <columns>NAME</columns>
+    <columns>RecipientName__c</columns>
+    <columns>counterparty_Kana__c</columns>
+    <columns>PolicyNumber__c</columns>
+    <columns>RegistrationDate__c</columns>
+    <columns>Status__c</columns>
+    <columns>RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Customercenter_CallData__c.ReissuanceOfSecurities</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>計上受付</value>
+    </filters>
+    <label>【再発行】計上受付FOCUS</label>
+</ListView>

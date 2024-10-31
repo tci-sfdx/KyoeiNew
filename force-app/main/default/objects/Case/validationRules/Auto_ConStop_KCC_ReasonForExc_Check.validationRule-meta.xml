@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Auto_ConStop_KCC_ReasonForExc_Check</fullName>
+    <active>true</active>
+    <description>受付項目（事由）で自動継続停止選択時、KCC対象外理由とその他＿記入欄に入力がある場合は保存不可（レコードタイプ：自動継続停止）</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+ISPICKVAL(ReceiptItem_Reason__c,&quot;自動継続停止&quot;),
+OR(INCLUDES(KCC_ReasonForExclusion__c,&quot;期日過ぎ&quot;),
+INCLUDES(KCC_ReasonForExclusion__c,&quot;期中解約&quot;),
+INCLUDES(KCC_ReasonForExclusion__c,&quot;別居親族からの申し出&quot;),
+INCLUDES(KCC_ReasonForExclusion__c,&quot;契約者了承なし&quot;),
+INCLUDES(KCC_ReasonForExclusion__c,&quot;法人確認不可&quot;),
+INCLUDES(KCC_ReasonForExclusion__c,&quot;その他&quot;)),
+RecordType.DeveloperName = &apos;Auto_ContinuationStop&apos;
+)</errorConditionFormula>
+    <errorDisplayField>KCC_ReasonForExclusion__c</errorDisplayField>
+    <errorMessage>受付項目（事由）で自動継続停止選択時、KCC対象外理由に入力がある状態で保存できません</errorMessage>
+</ValidationRule>

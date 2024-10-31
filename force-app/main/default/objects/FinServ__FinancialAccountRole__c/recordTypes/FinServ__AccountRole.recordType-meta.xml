@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__AccountRole</fullName>
+    <active>true</active>
+    <description>Role occupied by an organizational entity, such as a corporation or LLC</description>
+    <label>Account Role</label>
+    <picklistValues>
+        <picklist>FinServ__Role__c</picklist>
+        <values>
+            <fullName>Accountant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Beneficiary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corporation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foundation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grantor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trustee</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

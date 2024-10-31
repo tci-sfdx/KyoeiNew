@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AI_ShutdownDeficiency</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>NAME</columns>
+    <columns>PolicyNumber__c</columns>
+    <columns>DeficiencyFollow_UpDate_Latest__c</columns>
+    <columns>SpecifiedDateAndTime__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Auto_ContinuationStop</value>
+    </filters>
+    <filters>
+        <field>ReceiptItem_Reason__c</field>
+        <operation>equals</operation>
+        <value>自動継続停止,死亡解約</value>
+    </filters>
+    <filters>
+        <field>VOCCategory_1__c</field>
+        <operation>equals</operation>
+        <value>受付</value>
+    </filters>
+    <filters>
+        <field>ReceptionType__c</field>
+        <operation>equals</operation>
+        <value>電話</value>
+    </filters>
+    <filters>
+        <field>AnswerDate__c</field>
+        <operation>equals</operation>
+        <value>8/20/2024 12:00 AM</value>
+    </filters>
+    <label>AI自継停止不備管理リスト</label>
+</ListView>

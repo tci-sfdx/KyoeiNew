@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NewSubscriberName_Check</fullName>
+    <active>true</active>
+    <description>記名被保険者情報変更の有無の「契約者の改姓」を選択した時に（新）契約者名が未入力の場合</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+ISPICKVAL(ChangeOfNamedInsuredInformation__c,&quot;記名被の改姓&quot;),
+ISBLANK(NewSubscriberName__c)
+)</errorConditionFormula>
+    <errorDisplayField>NewSubscriberName__c</errorDisplayField>
+    <errorMessage>改姓後の契約者名を入力してください</errorMessage>
+</ValidationRule>

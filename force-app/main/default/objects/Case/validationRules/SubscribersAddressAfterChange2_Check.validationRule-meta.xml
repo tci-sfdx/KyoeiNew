@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SubscribersAddressAfterChange2_Check</fullName>
+    <active>false</active>
+    <description>受付項目（事由）が契約者住所変更の時に変更後契約者住所２が未入力の場合</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+ISBLANK(SubscribersAddressAfterChange2__c),
+ISPICKVAL(ReceiptItem_Reason__c,&quot;契約者住所変更&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>SubscribersAddressAfterChange2__c</errorDisplayField>
+    <errorMessage>変更後の契約者住所の情報を入力してください</errorMessage>
+</ValidationRule>

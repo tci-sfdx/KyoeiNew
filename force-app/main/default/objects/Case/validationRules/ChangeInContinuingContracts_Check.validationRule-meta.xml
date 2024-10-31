@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ChangeInContinuingContracts_Check</fullName>
+    <active>true</active>
+    <description>継続計上済証券番号に入力がある時、継続契約異動が未入力の場合
+（レコードタイプ：自動車異動・富国異動、自動車満期、JAカード傷害・JAトラブル）</description>
+    <errorConditionFormula>AND(NOT(CONTAINS( $Profile.Name , &apos;プロファイル&apos;)),
+        NOT(ISPICKVAL(Status, &quot;コール作成&quot;)),
+ISPICKVAL(ChangeInContinuingContracts__c,&quot;&quot;),
+NOT(ISBLANK(Field1ContinuouslyRecordedPolicyNumber__c)),
+OR(RecordType.DeveloperName =&apos;AutomobileTransfers&apos;, RecordType.DeveloperName =&apos;TransferOfWealth&apos;, RecordType.DeveloperName =&apos;AutomobileMaturity&apos;, RecordType.DeveloperName =&apos;JA_JA&apos;)
+)</errorConditionFormula>
+    <errorDisplayField>ChangeInContinuingContracts__c</errorDisplayField>
+    <errorMessage>次契約の異動の有無をチェックしてください。</errorMessage>
+</ValidationRule>

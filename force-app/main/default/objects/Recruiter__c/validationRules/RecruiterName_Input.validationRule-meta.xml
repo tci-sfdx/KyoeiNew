@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RecruiterName_Input</fullName>
+    <active>true</active>
+    <description>募集人氏名は全角項目</description>
+    <errorConditionFormula>NOT(
+REGEX(Name, &quot;^[^ -~｡-ﾟ]+$&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>全角文字で入力してください</errorMessage>
+</ValidationRule>

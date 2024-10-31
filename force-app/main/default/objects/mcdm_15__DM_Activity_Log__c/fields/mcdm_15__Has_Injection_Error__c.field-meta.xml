@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mcdm_15__Has_Injection_Error__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This activity had errors while injecting onto a journey.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>アクティビティ挿入に関連するエラーを示します。</inlineHelpText>
+    <label>Has Injection Error</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

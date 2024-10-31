@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FOCUS_DissolutionByDeath</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>ContractorName__c</columns>
+    <columns>ContractorName_Kana__c</columns>
+    <columns>StockNumberMainNumber__c</columns>
+    <columns>SecuritiesBranch__c</columns>
+    <columns>AnswerDate__c</columns>
+    <columns>ApproximationStatus__c</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Auto_ContinuationStop</value>
+    </filters>
+    <filters>
+        <field>ApproximationStatus__c</field>
+        <operation>equals</operation>
+        <value>計上受付</value>
+    </filters>
+    <filters>
+        <field>CertificateNumber_Number__c</field>
+        <operation>equals</operation>
+        <value>12</value>
+    </filters>
+    <filters>
+        <field>ReceiptItem_Reason__c</field>
+        <operation>equals</operation>
+        <value>死亡解約</value>
+    </filters>
+    <label>【自継停止】計上受付FOCUS死亡解約</label>
+</ListView>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FamilyBike__c</fullName>
+    <externalId>false</externalId>
+    <label>ファミリーバイク</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>未選択</fullName>
+                <default>true</default>
+                <label>未選択</label>
+            </value>
+            <value>
+                <fullName>人傷なし</fullName>
+                <default>false</default>
+                <label>人傷なし</label>
+            </value>
+            <value>
+                <fullName>人傷あり</fullName>
+                <default>false</default>
+                <label>人傷あり</label>
+            </value>
+            <value>
+                <fullName>なし</fullName>
+                <default>false</default>
+                <label>なし</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

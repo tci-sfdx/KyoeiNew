@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>48.0</apiVersion>
+    <availableInTouch>true</availableInTouch>
+    <confirmationTokenRequired>false</confirmationTokenRequired>
+    <label>11-3.（顧客）自動車送付状_満期初回NF多割</label>
+    <packageVersions>
+        <majorNumber>2</majorNumber>
+        <minorNumber>36</minorNumber>
+        <namespace>svfcloud</namespace>
+    </packageVersions>
+</ApexPage>

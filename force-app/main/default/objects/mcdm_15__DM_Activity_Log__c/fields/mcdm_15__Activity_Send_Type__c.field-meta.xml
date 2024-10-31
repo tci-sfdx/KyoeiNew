@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mcdm_15__Activity_Send_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The type of activity for this send, either Email or SMS.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>この送信のメールまたは SMS アクティビティを示します。</inlineHelpText>
+    <label>Activity Send Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>mcdm_15__DM_Send_Types</valueSetName>
+    </valueSet>
+</CustomField>
