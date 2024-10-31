@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 商品内容 --></label>
+    <name>ProductDetails__c</name>
+    <picklistValues>
+        <masterLabel>あんしん生活</masterLabel>
+        <translation><!-- あんしん生活 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>その他</masterLabel>
+        <translation><!-- その他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>コープおすすめ</masterLabel>
+        <translation><!-- コープおすすめ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ダイレクトメール</masterLabel>
+        <translation><!-- ダイレクトメール --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>テレマ</masterLabel>
+        <translation><!-- テレマ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ユーコープこども</masterLabel>
+        <translation><!-- ユーコープこども --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>大学生協国旅・行事</masterLabel>
+        <translation><!-- 大学生協国旅・行事 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>学賠</masterLabel>
+        <translation><!-- 学賠 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>安心倶楽部</masterLabel>
+        <translation><!-- 安心倶楽部 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>定期積金</masterLabel>
+        <translation><!-- 定期積金 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>日整連</masterLabel>
+        <translation><!-- 日整連 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>火災新種</masterLabel>
+        <translation><!-- 火災新種 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>窓販・その他</masterLabel>
+        <translation><!-- 窓販・その他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>窓販・シニア</masterLabel>
+        <translation><!-- 窓販・シニア --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>窓販・標準傷害（信組）</masterLabel>
+        <translation><!-- 窓販・標準傷害（信組） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>窓販・標準傷害（信金）</masterLabel>
+        <translation><!-- 窓販・標準傷害（信金） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自動車</masterLabel>
+        <translation><!-- 自動車 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>農業大学校・農業共済</masterLabel>
+        <translation><!-- 農業大学校・農業共済 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

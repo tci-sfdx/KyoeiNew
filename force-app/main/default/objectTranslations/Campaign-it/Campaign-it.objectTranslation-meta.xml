@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <quickActions>
+        <label><!-- Child Campaign --></label>
+        <name>Child_Campaign</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- When approval mode is set to target audience size, value must be between 2 and 100000. Otherwise, leave blank --></errorMessage>
+        <name>mcdm_15__threshold_values</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- An end date is required for PureCloud Campaigns --></errorMessage>
+        <name>purecloud__PC_EndDate_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A start date is required for PureCloud Campaigns. Select today&apos;s date to start a PureCloud campaign immediately. --></errorMessage>
+        <name>purecloud__PC_StartDate_Required</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- ViewAllCampaignMembers --></label>
+        <name>ViewAllCampaignMembers</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ViewCampaignInfluenceReport --></label>
+        <name>ViewCampaignInfluenceReport</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 損害箇所（状況図反映） --></label>
+    <name>ObjectiveDamagedPart__c</name>
+    <picklistValues>
+        <masterLabel>ルーフ</masterLabel>
+        <translation><!-- ルーフ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>側面右</masterLabel>
+        <translation><!-- 側面右 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>側面左</masterLabel>
+        <translation><!-- 側面左 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>全体</masterLabel>
+        <translation><!-- 全体 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>前方中央</masterLabel>
+        <translation><!-- 前方中央 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>前方右</masterLabel>
+        <translation><!-- 前方右 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>前方左</masterLabel>
+        <translation><!-- 前方左 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>後方中央</masterLabel>
+        <translation><!-- 後方中央 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>後方右</masterLabel>
+        <translation><!-- 後方右 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>後方左</masterLabel>
+        <translation><!-- 後方左 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

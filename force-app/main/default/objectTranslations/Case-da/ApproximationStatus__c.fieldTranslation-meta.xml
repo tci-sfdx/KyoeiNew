@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 計上ステータス --></label>
+    <name>ApproximationStatus__c</name>
+    <picklistValues>
+        <masterLabel>KCC処理中</masterLabel>
+        <translation><!-- KCC処理中 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>クローズ</masterLabel>
+        <translation><!-- クローズ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>書類不備</masterLabel>
+        <translation><!-- 書類不備 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>書類発送</masterLabel>
+        <translation><!-- 書類発送 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>書類督促</masterLabel>
+        <translation><!-- 書類督促 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>解約受付</masterLabel>
+        <translation><!-- 解約受付 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>解約完了</masterLabel>
+        <translation><!-- 解約完了 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>計上受付</masterLabel>
+        <translation><!-- 計上受付 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>計上完了</masterLabel>
+        <translation><!-- 計上完了 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

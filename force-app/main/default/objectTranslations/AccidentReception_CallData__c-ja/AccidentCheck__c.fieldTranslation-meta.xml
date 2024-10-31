@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 事故か否か --></label>
+    <name>AccidentCheck__c</name>
+    <picklistValues>
+        <masterLabel>事故</masterLabel>
+        <translation><!-- 事故 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>事故以外</masterLabel>
+        <translation><!-- 事故以外 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

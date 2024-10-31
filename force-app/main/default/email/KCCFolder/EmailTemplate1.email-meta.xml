@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-2022-JP</encodingKey>
+    <name>メール【生協新規CP】見積り案内（20231001～20240930）</name>
+    <style>none</style>
+    <subject>【受付番号：{!ExternalMailHistory__c.CaseNumber__c}】共栄火災自動車保険お見積りのご案内</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

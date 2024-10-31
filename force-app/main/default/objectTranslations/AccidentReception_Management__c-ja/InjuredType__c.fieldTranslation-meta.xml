@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 負傷者区分 --></label>
+    <name>InjuredType__c</name>
+    <picklistValues>
+        <masterLabel>相手同乗者</masterLabel>
+        <translation><!-- 相手同乗者 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>相手運転者</masterLabel>
+        <translation><!-- 相手運転者 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自車同乗者</masterLabel>
+        <translation><!-- 自車同乗者 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自車運転者</masterLabel>
+        <translation><!-- 自車運転者 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>車外</masterLabel>
+        <translation><!-- 車外 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

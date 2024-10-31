@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 場所種別 --></label>
+    <name>AccidentLocationType__c</name>
+    <picklistValues>
+        <masterLabel>その他</masterLabel>
+        <translation><!-- その他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>会社</masterLabel>
+        <translation><!-- 会社 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>学校</masterLabel>
+        <translation><!-- 学校 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>目的所在地</masterLabel>
+        <translation><!-- 目的所在地 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自宅</masterLabel>
+        <translation><!-- 自宅 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>道路上</masterLabel>
+        <translation><!-- 道路上 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

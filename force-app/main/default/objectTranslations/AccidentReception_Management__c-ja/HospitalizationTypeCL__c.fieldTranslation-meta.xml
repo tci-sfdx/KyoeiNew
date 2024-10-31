@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 入通院区分 --></label>
+    <name>HospitalizationTypeCL__c</name>
+    <picklistValues>
+        <masterLabel>入院</masterLabel>
+        <translation><!-- 入院 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>通院</masterLabel>
+        <translation><!-- 通院 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 回線 --></label>
+    <name>Line__c</name>
+    <picklistValues>
+        <masterLabel>S11 KY Telema</masterLabel>
+        <translation><!-- S11 KY Telema --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S113 Shinkin Tsumikin</masterLabel>
+        <translation><!-- S113 Shinkin Tsumikin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S119 KY Jiko Saigai</masterLabel>
+        <translation><!-- S119 KY Jiko Saigai --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S125 KY Jiko Kashin</masterLabel>
+        <translation><!-- S125 KY Jiko Kashin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S127 KY Jiko Unknown</masterLabel>
+        <translation><!-- S127 KY Jiko Unknown --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S129 KY Ucoop Kodomo Shougai</masterLabel>
+        <translation><!-- S129 KY Ucoop Kodomo Shougai --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S131 JA Anshin Jiko</masterLabel>
+        <translation><!-- S131 JA Anshin Jiko --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S134 Kyoudou Nyugyou</masterLabel>
+        <translation><!-- S134 Kyoudou Nyugyou --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S135 KY Kyoudou Nyugyou</masterLabel>
+        <translation><!-- S135 KY Kyoudou Nyugyou --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S136 Kyoudou Nyugyou Unknown</masterLabel>
+        <translation><!-- S136 Kyoudou Nyugyou Unknown --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S137 KY Kyoudou Nyugyou Unknown</masterLabel>
+        <translation><!-- S137 KY Kyoudou Nyugyou Unknown --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S138 Direct Mail Jikouke</masterLabel>
+        <translation><!-- S138 Direct Mail Jikouke --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S144 KY Oosaka Tci Orikaeshi</masterLabel>
+        <translation><!-- S144 KY Oosaka Tci Orikaeshi --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S150 Kenkousoudan</masterLabel>
+        <translation><!-- S150 Kenkousoudan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S156 Osusume Seikyo</masterLabel>
+        <translation><!-- S156 Osusume Seikyo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S157 KY Osusume Seikyo</masterLabel>
+        <translation><!-- S157 KY Osusume Seikyo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S16 Daihyoubangou</masterLabel>
+        <translation><!-- S16 Daihyoubangou --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S18 KY Coop Shougai</masterLabel>
+        <translation><!-- S18 KY Coop Shougai --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S180 Tci Orikaeshi</masterLabel>
+        <translation><!-- S180 Tci Orikaeshi --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S181 KY Tci Orikaeshi</masterLabel>
+        <translation><!-- S181 KY Tci Orikaeshi --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S184 KY Nougyou Daigaku</masterLabel>
+        <translation><!-- S184 KY Nougyou Daigaku --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S186 Jiko Rescue</masterLabel>
+        <translation><!-- S186 Jiko Rescue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S188 KY Nougyou Kyousai</masterLabel>
+        <translation><!-- S188 KY Nougyou Kyousai --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S19 KY Jiko Daigaku Seikyou</masterLabel>
+        <translation><!-- S19 KY Jiko Daigaku Seikyou --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S191 Telema</masterLabel>
+        <translation><!-- S191 Telema --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S193 Customer Jikouke250</masterLabel>
+        <translation><!-- S193 Customer Jikouke250 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S194 KY Customer Jikouke250</masterLabel>
+        <translation><!-- S194 KY Customer Jikouke250 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S195 Hokenkin Sodan112</masterLabel>
+        <translation><!-- S195 Hokenkin Sodan112 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S196 KY Hokenkin Sodan112</masterLabel>
+        <translation><!-- S196 KY Hokenkin Sodan112 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S197 Hokenkin Sodan250</masterLabel>
+        <translation><!-- S197 Hokenkin Sodan250 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S198 KY Hokenkin Sodan250</masterLabel>
+        <translation><!-- S198 KY Hokenkin Sodan250 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S20 KY Jiko Jidousya</masterLabel>
+        <translation><!-- S20 KY Jiko Jidousya --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S203 KY Coop Kobai</masterLabel>
+        <translation><!-- S203 KY Coop Kobai --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S208 KY Coop Unknown</masterLabel>
+        <translation><!-- S208 KY Coop Unknown --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S21 KY Jiko Coop</masterLabel>
+        <translation><!-- S21 KY Jiko Coop --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S213 KY Ucoop Kodomo Kobai</masterLabel>
+        <translation><!-- S213 KY Ucoop Kodomo Kobai --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S218 KY Ucoop Kodomo Unknown</masterLabel>
+        <translation><!-- S218 KY Ucoop Kodomo Unknown --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S222 KY JA Anshin Jikouke</masterLabel>
+        <translation><!-- S222 KY JA Anshin Jikouke --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S223 PTAJikouke</masterLabel>
+        <translation><!-- S223 PTAJikouke --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S225 KY Nisseiren Jikouke</masterLabel>
+        <translation><!-- S225 KY Nisseiren Jikouke --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S23 KY PTA Jikouke</masterLabel>
+        <translation><!-- S23 KY PTA Jikouke --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S262 Customer Jikouke112</masterLabel>
+        <translation><!-- S262 Customer Jikouke112 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S263 KY Customer Jikouke112</masterLabel>
+        <translation><!-- S263 KY Customer Jikouke112 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S318 JishinSaigai077</masterLabel>
+        <translation><!-- S318 JishinSaigai077 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S319 KY JishinSaigai</masterLabel>
+        <translation><!-- S319 KY JishinSaigai --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S325 Oosaka Jiko  Jidousha</masterLabel>
+        <translation><!-- S325 Oosaka Jiko  Jidousha --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S326 Oosaka KY Jiko  Jidousha</masterLabel>
+        <translation><!-- S326 Oosaka KY Jiko  Jidousha --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S327 Oosaka Jiko Kashin</masterLabel>
+        <translation><!-- S327 Oosaka Jiko Kashin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S328 Oosaka KY Jiko Kashin</masterLabel>
+        <translation><!-- S328 Oosaka KY Jiko Kashin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S329 Oosaka Madohan</masterLabel>
+        <translation><!-- S329 Oosaka Madohan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S330 Oosaka KY Madohan</masterLabel>
+        <translation><!-- S330 Oosaka KY Madohan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S331 Oosaka JA Anshin Jikouke</masterLabel>
+        <translation><!-- S331 Oosaka JA Anshin Jikouke --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S332 Oosaka KY JA Anshin Jikouke</masterLabel>
+        <translation><!-- S332 Oosaka KY JA Anshin Jikouke --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S54 Madohan</masterLabel>
+        <translation><!-- S54 Madohan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S61 KY Madohan</masterLabel>
+        <translation><!-- S61 KY Madohan --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S63 KY Shinkin Tsumi</masterLabel>
+        <translation><!-- S63 KY Shinkin Tsumi --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S66 Jiko Jidousya</masterLabel>
+        <translation><!-- S66 Jiko Jidousya --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S67 Jiko Kashin</masterLabel>
+        <translation><!-- S67 Jiko Kashin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S68 Jiko Unknown</masterLabel>
+        <translation><!-- S68 Jiko Unknown --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S69　Jiko Saigai</masterLabel>
+        <translation><!-- S69　Jiko Saigai --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S71 KY Kyousai Hoken SD</masterLabel>
+        <translation><!-- S71 KY Kyousai Hoken SD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S77 Jiko Uketsuke C</masterLabel>
+        <translation><!-- S77 Jiko Uketsuke C --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S79 Dairiten Jikouke</masterLabel>
+        <translation><!-- S79 Dairiten Jikouke --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S84 Nougyou Daigaku</masterLabel>
+        <translation><!-- S84 Nougyou Daigaku --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S86 KY Jiko Rescue</masterLabel>
+        <translation><!-- S86 KY Jiko Rescue --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S88 Nougyou Kyousai</masterLabel>
+        <translation><!-- S88 Nougyou Kyousai --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

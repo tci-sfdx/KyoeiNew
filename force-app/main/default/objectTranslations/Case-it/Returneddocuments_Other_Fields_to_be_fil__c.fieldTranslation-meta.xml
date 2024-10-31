@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 書類不備_返送書類_その他_記入欄 --></label>
+    <name>Returneddocuments_Other_Fields_to_be_fil__c</name>
+</CustomFieldTranslation>

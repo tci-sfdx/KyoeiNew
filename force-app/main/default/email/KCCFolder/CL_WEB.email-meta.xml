@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-2022-JP</encodingKey>
+    <name>CL(自動車異動WEB）</name>
+    <style>none</style>
+    <subject>【共栄火災】電話番号変更のお申し出について</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

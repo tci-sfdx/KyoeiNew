@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 旧契約（他契約）用途車種※入替無の場合記入不要 --></label>
+    <name>UseVehicle__c</name>
+    <picklistValues>
+        <masterLabel>その他</masterLabel>
+        <translation><!-- その他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>キャンピング</masterLabel>
+        <translation><!-- キャンピング --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>二輪自動車</masterLabel>
+        <translation><!-- 二輪自動車 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>原動機付自転車</masterLabel>
+        <translation><!-- 原動機付自転車 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>特殊</masterLabel>
+        <translation><!-- 特殊 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自小乗</masterLabel>
+        <translation><!-- 自小乗 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自小貨</masterLabel>
+        <translation><!-- 自小貨 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自普乗</masterLabel>
+        <translation><!-- 自普乗 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自普貨</masterLabel>
+        <translation><!-- 自普貨 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自軽四乗</masterLabel>
+        <translation><!-- 自軽四乗 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自軽四貨</masterLabel>
+        <translation><!-- 自軽四貨 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>装備なし</masterLabel>
+        <translation><!-- 装備なし --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

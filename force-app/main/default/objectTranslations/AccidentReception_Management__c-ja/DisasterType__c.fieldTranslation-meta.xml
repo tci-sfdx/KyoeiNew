@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 災害種別 --></label>
+    <name>DisasterType__c</name>
+    <picklistValues>
+        <masterLabel>その他</masterLabel>
+        <translation><!-- その他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>台風</masterLabel>
+        <translation><!-- 台風 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>地震</masterLabel>
+        <translation><!-- 地震 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>暴風雨</masterLabel>
+        <translation><!-- 暴風雨 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 負傷者の性別 --></label>
+    <name>InjuredSex__c</name>
+    <picklistValues>
+        <masterLabel>女</masterLabel>
+        <translation><!-- 女 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>男</masterLabel>
+        <translation><!-- 男 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

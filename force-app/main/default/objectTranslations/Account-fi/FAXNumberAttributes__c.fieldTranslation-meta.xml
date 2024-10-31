@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- FAX番号属性 --></label>
+    <name>FAXNumberAttributes__c</name>
+    <picklistValues>
+        <masterLabel>FAX属性1</masterLabel>
+        <translation><!-- FAX属性1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FAX属性2</masterLabel>
+        <translation><!-- FAX属性2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FAX属性3</masterLabel>
+        <translation><!-- FAX属性3 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

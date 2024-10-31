@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 回線 --></label>
+    <name>LineData__c</name>
+    <relationshipLabel><!-- 事故受付_コールデータ (回線) --></relationshipLabel>
+</CustomFieldTranslation>

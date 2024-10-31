@@ -1,0 +1,318 @@
+<messaging:emailTemplate subject="【情報連携 アシストライン】代理店より見積書の作成にかかる照会を受けました。" relatedToType="DairitenSaport_CallData__c">
+<messaging:plainTextEmailBody >
+ご担当者 様
+
+お疲れ様です。
+
+営業サポート業務部 代理店サポートグループ ＫＩＴねっとアシストラインです。
+アシストラインに入電のあった見積書作成にかかる代理店様からの照会について、該当営業店に情報連携させていただいております。
+
+今般、貴営業店管下の代理店様より、見積書の作成にかかる照会を受けました。
+詳細は添付の対応履歴（※）のとおりとなります。
+ご確認いただき、必要に応じて代理店様へのフォロー、成約に向けた支援などをお願いいたします。
+（※）対応履歴はグループ内資料をそのまま送付させていただいております。ご了承ください。
+
+以上となります。よろしくお願いします。
+
+営業サポート業務部　代理店サポートグループ　
+
+
+（注）
+この情報は、入電の中から定型的なルールで抽出しており、場合によってはお役に立たない情報もあります
+
+</messaging:plainTextEmailBody>
+
+<messaging:attachment renderas="PDF" filename="{!relatedTo.Name + '.pdf'}">
+    <head>
+        <style>
+          body {
+              font-family: Arial Unicode MS;
+              font-size: 10pt;
+              line-height: 1.2;
+          }
+          @page {
+              size: A4 landscape;
+              margin: 9mm;
+          }
+        
+          table{
+              width: 100%;
+              border-collapse: collapse;
+          }
+          th, td{
+              border: solid 0.5pt #000;
+              padding:0.1em;
+              width: 100px;
+              text-align: center;
+          }
+          .textarea{
+              /*width: 720px;*/
+              height: 420px;
+              vertical-align:top;
+              text-align: left;
+              /*border: none;*/
+          }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tbody>
+                <colgroup>
+                    <col width="14%"></col>
+                    <col width="15%"></col>
+                    <col width="14%"></col>
+                    <col width="14%"></col>
+                    <col width="14%"></col>
+                    <col width="15%"></col>
+                    <col width="14%"></col>
+                </colgroup>
+                <tr>
+                    <td style="background-color:#d3d3d3;">
+                        <apex:outputText value="コール番号"/>
+                    </td>
+                    <td style="background-color:#d3d3d3;"> 
+                        <apex:outputText value="代理店名"/>
+                    </td>
+                    <td style="background-color:#d3d3d3;">
+                        <apex:outputText value="代理店名カナ"/>
+                    </td>
+                    <td style="background-color:#d3d3d3;">
+                        <apex:outputText value="相手先コード"/>
+                    </td>
+                    <td style="background-color:#d3d3d3;">
+                        <apex:outputText value="会話相手"/>
+                    </td>
+                    <td style="background-color:#d3d3d3;">
+                        <apex:outputText value="営業店名"/>
+                    </td>
+                    <td style="background-color:#d3d3d3;">
+                        <apex:outputText value="部署コード"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <!--コール番号-->
+                        <apex:outputText value="{!relatedTo.Name}"/>
+                    </td>
+                    <td>
+                        <!--代理店名-->
+                        <apex:outputText value="{!relatedTo.AgencyReference__r.Name}"/>
+                    </td>
+                    <td>
+                        <!--代理店名カナ-->
+                        <apex:outputText value="{!relatedTo.AgencyReference__r.CounterpartyName_Kana__c}"/>
+                    </td>
+                    <td>
+                        <!--相手先コード-->
+                        <apex:outputText value="{!relatedTo.AgencyCodeReference__c}"/>
+                    </td>
+                    <td>
+                        <!--会話相手-->
+                        <apex:outputText value="{!relatedTo.ConversationPartner__c}"/>
+                    </td>
+                    <td>
+                        <!--営業店名-->
+                        <apex:outputText value="{!relatedTo.AgencyReference__r.SalesBranchName__r.Name}"/>
+                    </td>
+                    <td>
+                        <!--部署コード-->
+                        <apex:outputText value="{!relatedTo.AgencyReference__r.SalesBranchName__r.JurisdictionalStoreCode__c}"/>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!--空白行-->
+        <div style="height:15px;"></div>
+
+        <table>
+            <tbody>
+                <colgroup>
+                    <col width="14%"></col>
+                    <col width="15%"></col>
+                    <col width="13%"></col>
+                    <col width="15%"></col>
+                    <col width="14%"></col>
+                    <col width="29%"></col>
+                </colgroup>
+                <tr >
+                    <td style="background-color:#d3d3d3;">
+                        <apex:outputText value="登録担当者"/>
+                    </td>
+                    <td style="background-color:#d3d3d3;">
+                        <apex:outputText value="登録日時"/>
+                    </td>
+                    <td style="background-color:#d3d3d3;">
+                        <apex:outputText value="通話時間"/>
+                    </td>
+                    <td style="background-color:#d3d3d3;">
+                        <apex:outputText value="現在サポートグループ名"/>
+                    </td>
+                    <td style="background-color:#d3d3d3;">
+                        <apex:outputText value="種目"/>
+                    </td>
+                    <td style="background-color:#d3d3d3;">
+                        <apex:outputText value="商品名"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <!--登録担当者-->
+                        <apex:outputText value="{!relatedTo.Respondent__r.name}"/>
+                    </td>
+                    <td>
+                        <!--登録日時-->
+                        <apex:outputText value="{0,date,yyyy/MM/dd HH:mm:ss}">
+                            <apex:param value="{!relatedTo.ReceptionDateAndTime__c + 9/24}"/>
+                        </apex:outputText>
+                    </td>
+                    <td>
+                        <!--通話時間-->
+                        <apex:outputtext value="{0, number, ###,###}">
+                            <apex:param value="{!relatedTo.CallTime__c}"></apex:param>
+                        </apex:outputtext>
+                    </td>
+                    <td>
+                        <!--現在サポートグループ名-->
+                        <apex:outputText value="{!relatedTo.RecordType.Name}"/>
+                    </td>
+                    <td>
+                        <!--種目-->
+                        <apex:outputText value="{!relatedTo.InsuranceEventList__c}"/>
+                    </td>
+                    <td>
+                        <!--商品名-->
+                        <apex:outputText value="{!relatedTo.InsuranceTypeList__c}"/>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!--空白行-->
+        <div style="height:15px;"></div>
+
+        <table>
+            <tbody>
+                <colgroup>
+                    <col width="13%"></col>
+                    <col width="29%"></col>
+                    <col width="29%"></col>
+                    <col width="29%"></col>
+                </colgroup>
+                <tr>
+                    <td style="background-color:#d3d3d3;">
+                        <apex:outputText value="受付種別"/>
+                    </td>
+                    <td style="background-color:#d3d3d3;">
+                        <apex:outputText value="大カテゴリ"/>
+                    </td>
+                    <td style="background-color:#d3d3d3;">
+                        <apex:outputText value="中カテゴリ"/>
+                    </td>
+                    <td style="background-color:#d3d3d3;">
+                        <apex:outputText value="小カテゴリ"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <!--受付種別-->
+                        <apex:outputText value="{!relatedTo.ReceptionType__c}"/>
+                    </td>
+                    <td>
+                        <!--大カテゴリ-->
+                        <apex:outputText value="{!relatedTo.Category1__c}"/>
+                    </td>
+                    <td>
+                        <!--中カテゴリ-->
+                        <apex:outputText value="{!relatedTo.Category2__c}"/>
+                    </td>
+                    <td>
+                        <!--小カテゴリ-->
+                        <apex:outputText value="{!relatedTo.Categor3__c}"/>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!--空白行-->
+        <div style="height:15px;"></div>
+
+        <table style="width: 42%;">
+            <tbody>
+                <tr>
+                    <td style="background-color:#d3d3d3;">
+                        <apex:outputText value="問合せタイプ"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <apex:outputText value="{!relatedTo.InquiryType__c}"/>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!--空白行-->
+        <div style="height:15px;"></div>
+
+        <table>
+            <tbody>
+                <colgroup>
+                    <col width="42%"></col>
+                    <col width="58%"></col>
+                </colgroup>
+                <tr>
+                    <td style="background-color:#d3d3d3;">
+                        <apex:outputText value="問合せ詳細"/>
+                    </td>
+                    <td style="background-color:#d3d3d3;">
+                        <apex:outputText value="回答詳細"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class='textarea' >
+                        <!--問合せ詳細-->
+                        <c:InquiryDetailsMailComponent targetAgencyId="{!relatedTo.Id}" />
+                    </td>
+                    <td class='textarea' >
+                        <!--回答詳細-->
+                        <c:AnswerDetailsMailComponent targetAgencyId="{!relatedTo.Id}" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!--空白行-->
+        <div style="height:15px;"></div>
+
+        <table style="width: 42%;">
+            <tbody>
+                <colgroup>
+                    <col width="50%"></col>
+                    <col width="50%"></col>
+                </colgroup>
+                <tr>
+                    <td style="background-color:#d3d3d3;">
+                        <apex:outputText value="ＰＣ／タブレット"/>
+                    </td>
+                    <td style="background-color:#d3d3d3;">
+                        <apex:outputText value="ステータス１"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <!--ＰＣ／タブレット-->
+                        <apex:outputText value="{!relatedTo.DeviceUsed__c}"/>
+                    </td>
+                    <td>
+                        <!--ステータス１-->
+                        <apex:outputText value="{!relatedTo.Status__c}"/>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </body>
+</messaging:attachment>
+
+</messaging:emailTemplate>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 自継停止_登録日時_削除予定 --></label>
+    <name>JiketsuSuspension_Registration_Date_Del__c</name>
+</CustomFieldTranslation>

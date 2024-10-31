@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 帳票種別 --></label>
+    <name>FormType__c</name>
+    <picklistValues>
+        <masterLabel>事故受付（その他）</masterLabel>
+        <translation><!-- 事故受付（その他） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>事故受付（ヨット）</masterLabel>
+        <translation><!-- 事故受付（ヨット） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>事故受付（傷害）</masterLabel>
+        <translation><!-- 事故受付（傷害） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>事故受付（携行品/用品）</masterLabel>
+        <translation><!-- 事故受付（携行品/用品） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>事故受付（日整連）</masterLabel>
+        <translation><!-- 事故受付（日整連） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>事故受付（物損）</masterLabel>
+        <translation><!-- 事故受付（物損） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>事故受付（第三分野）</masterLabel>
+        <translation><!-- 事故受付（第三分野） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>事故受付（自動車）</masterLabel>
+        <translation><!-- 事故受付（自動車） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>事故受付（賠償）</masterLabel>
+        <translation><!-- 事故受付（賠償） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>伝言</masterLabel>
+        <translation><!-- 伝言 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>雑件</masterLabel>
+        <translation><!-- 雑件 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

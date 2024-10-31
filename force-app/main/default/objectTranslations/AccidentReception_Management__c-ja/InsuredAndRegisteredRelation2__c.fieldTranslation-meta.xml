@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 記名被保②との関係 --></label>
+    <name>InsuredAndRegisteredRelation2__c</name>
+    <picklistValues>
+        <masterLabel>1.本人</masterLabel>
+        <translation><!-- 1.本人 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2.配偶者</masterLabel>
+        <translation><!-- 2.配偶者 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3.同居親族</masterLabel>
+        <translation><!-- 3.同居親族 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4.別居親族</masterLabel>
+        <translation><!-- 4.別居親族 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5.別居未婚の子</masterLabel>
+        <translation><!-- 5.別居未婚の子 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>6.同居の子</masterLabel>
+        <translation><!-- 6.同居の子 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ⅰ</masterLabel>
+        <translation><!-- Ⅰ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ⅱ</masterLabel>
+        <translation><!-- Ⅱ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ⅲ</masterLabel>
+        <translation><!-- Ⅲ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ⅳ</masterLabel>
+        <translation><!-- Ⅳ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>その他</masterLabel>
+        <translation><!-- その他 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

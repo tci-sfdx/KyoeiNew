@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 【削除予定】個人情報の同意確認者（氏名） --></label>
+    <name>PersonInfoConfirmType__c</name>
+    <picklistValues>
+        <masterLabel>フリー入力</masterLabel>
+        <translation><!-- フリー入力 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ログイン者</masterLabel>
+        <translation><!-- ログイン者 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>入電者</masterLabel>
+        <translation><!-- 入電者 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>契約者</masterLabel>
+        <translation><!-- 契約者 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>被保険者</masterLabel>
+        <translation><!-- 被保険者 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

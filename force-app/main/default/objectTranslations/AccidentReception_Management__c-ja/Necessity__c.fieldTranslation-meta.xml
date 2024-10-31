@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 担当連絡要否 --></label>
+    <name>Necessity__c</name>
+    <picklistValues>
+        <masterLabel>不要</masterLabel>
+        <translation><!-- 不要 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>要</masterLabel>
+        <translation><!-- 要 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

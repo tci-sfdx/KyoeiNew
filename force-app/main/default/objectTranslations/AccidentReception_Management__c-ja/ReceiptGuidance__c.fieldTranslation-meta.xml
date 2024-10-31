@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 入庫誘導 --></label>
+    <name>ReceiptGuidance__c</name>
+    <picklistValues>
+        <masterLabel>未案内：その他</masterLabel>
+        <translation><!-- 未案内：その他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未案内：ファミリーバイク受付</masterLabel>
+        <translation><!-- 未案内：ファミリーバイク受付 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未案内：人傷・搭傷受付</masterLabel>
+        <translation><!-- 未案内：人傷・搭傷受付 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未案内：他車運転受付</masterLabel>
+        <translation><!-- 未案内：他車運転受付 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未案内：代理店がモーターチャネル</masterLabel>
+        <translation><!-- 未案内：代理店がモーターチャネル --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未案内：入庫済み</masterLabel>
+        <translation><!-- 未案内：入庫済み --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未案内：全損見込み</masterLabel>
+        <translation><!-- 未案内：全損見込み --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未案内：外車</masterLabel>
+        <translation><!-- 未案内：外車 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未案内：小損害</masterLabel>
+        <translation><!-- 未案内：小損害 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未案内：年齢条件・運転者限定対象外</masterLabel>
+        <translation><!-- 未案内：年齢条件・運転者限定対象外 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未案内：故障代車受付</masterLabel>
+        <translation><!-- 未案内：故障代車受付 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未案内：日賠・弁護士特約受付</masterLabel>
+        <translation><!-- 未案内：日賠・弁護士特約受付 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未案内：有効な契約確認出来ず</masterLabel>
+        <translation><!-- 未案内：有効な契約確認出来ず --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未案内：緊急端末を使用</masterLabel>
+        <translation><!-- 未案内：緊急端末を使用 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未案内：被害事故</masterLabel>
+        <translation><!-- 未案内：被害事故 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未案内：車×車+Aで車両保険対象外</masterLabel>
+        <translation><!-- 未案内：車×車+Aで車両保険対象外 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未案内：車両保険付帯なし</masterLabel>
+        <translation><!-- 未案内：車両保険付帯なし --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未案内：車両保険請求無し</masterLabel>
+        <translation><!-- 未案内：車両保険請求無し --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未案内：車両保険金額20万円未満</masterLabel>
+        <translation><!-- 未案内：車両保険金額20万円未満 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>案内し損じ</masterLabel>
+        <translation><!-- 案内し損じ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>案内済：不要</masterLabel>
+        <translation><!-- 案内済：不要 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>案内済：希望</masterLabel>
+        <translation><!-- 案内済：希望 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>案内済：相談希望</masterLabel>
+        <translation><!-- 案内済：相談希望 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

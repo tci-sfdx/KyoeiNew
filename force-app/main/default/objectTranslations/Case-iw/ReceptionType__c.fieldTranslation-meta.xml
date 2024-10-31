@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 受付種別 --></label>
+    <name>ReceptionType__c</name>
+    <picklistValues>
+        <masterLabel>AI自動応答</masterLabel>
+        <translation><!-- AI自動応答 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WEB</masterLabel>
+        <translation><!-- WEB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>その他</masterLabel>
+        <translation><!-- その他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>メール</masterLabel>
+        <translation><!-- メール --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>電話</masterLabel>
+        <translation><!-- 電話 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

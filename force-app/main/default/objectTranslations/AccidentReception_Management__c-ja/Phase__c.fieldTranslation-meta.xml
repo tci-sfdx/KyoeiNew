@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- フェーズ --></label>
+    <name>Phase__c</name>
+    <picklistValues>
+        <masterLabel>SV承認待ち</masterLabel>
+        <translation><!-- SV承認待ち --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SV確認中</masterLabel>
+        <translation><!-- SV確認中 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>クローズ</masterLabel>
+        <translation><!-- クローズ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>メール送信済み</masterLabel>
+        <translation><!-- メール送信済み --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>対応中</masterLabel>
+        <translation><!-- 対応中 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

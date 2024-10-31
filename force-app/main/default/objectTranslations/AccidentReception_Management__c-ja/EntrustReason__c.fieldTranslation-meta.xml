@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 委託理由 --></label>
+    <name>EntrustReason__c</name>
+    <picklistValues>
+        <masterLabel>その他</masterLabel>
+        <translation><!-- その他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>レッカーのみ</masterLabel>
+        <translation><!-- レッカーのみ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>一般整備</masterLabel>
+        <translation><!-- 一般整備 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>加工</masterLabel>
+        <translation><!-- 加工 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>塗装</masterLabel>
+        <translation><!-- 塗装 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>定期点検整備</masterLabel>
+        <translation><!-- 定期点検整備 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>板金</masterLabel>
+        <translation><!-- 板金 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>車検整備</masterLabel>
+        <translation><!-- 車検整備 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

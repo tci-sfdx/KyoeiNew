@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 変更後被保険者住所アラート表示 --></label>
+    <name>Insured_AddressAlertImage__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowTest xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flowApiName>DefaultSetRespondent</flowApiName>
+    <label>回答担当者デフォルト設定テスト</label>
+    <testPoints>
+        <elementApiName>Start</elementApiName>
+        <parameters>
+            <leftValueReference>$Record</leftValueReference>
+            <type>InputTriggeringRecordInitial</type>
+            <value>
+                <sobjectValue>{&quot;attributes&quot;:{&quot;type&quot;:&quot;DairitenSaport_CallData__c&quot;},&quot;InquiryType__c&quot;:&quot;照会&quot;,&quot;InsuranceEventList__c&quot;:&quot;A02-自動車&quot;,&quot;NotApplicable__c&quot;:false,&quot;Defect__c&quot;:&quot;マイページ&quot;,&quot;Agency__c&quot;:&quot;操作不慣れ&quot;,&quot;OwnerId&quot;:&quot;0055i00000B22DnAAJ&quot;,&quot;ConfirmedBySuperior__c&quot;:false,&quot;RecordTypeId&quot;:&quot;0125i000000W1nSAAS&quot;,&quot;Applicable__c&quot;:false,&quot;RemoteOperator__c&quot;:false,&quot;SalesOffice__c&quot;:&quot;事務処理（案内不可）&quot;,&quot;Others__c&quot;:&quot;予備1&quot;,&quot;Over60Minutes__c&quot;:false,&quot;Over90Minutes__c&quot;:false,&quot;OtherYesNo__c&quot;:false,&quot;ASLInquiryYesNo__c&quot;:false,&quot;ReceptionDateAndTime__c&quot;:&quot;2024-02-15T04:36:16.000+0000&quot;,&quot;DirectPhoneCheck__c&quot;:false,&quot;RecordYesNo__c&quot;:false,&quot;SecondaryInquiry__c&quot;:false,&quot;Regulations__c&quot;:&quot;既定・パンフレット案内&quot;,&quot;Re_inquiry__c&quot;:false,&quot;DeviceUsed__c&quot;:&quot;01未確認&quot;,&quot;Unconfirmed__c&quot;:false,&quot;R_Contact__c&quot;:&quot;0035i00009rRIkuAAG&quot;,&quot;Confirmed__c&quot;:false}</sobjectValue>
+            </value>
+        </parameters>
+    </testPoints>
+    <testPoints>
+        <assertions>
+            <conditions>
+                <leftValueReference>SetRespondent</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+        </assertions>
+        <elementApiName>Finish</elementApiName>
+    </testPoints>
+</FlowTest>

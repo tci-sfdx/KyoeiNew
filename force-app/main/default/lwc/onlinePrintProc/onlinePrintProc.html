@@ -1,0 +1,53 @@
+<template>
+	<div class="slds-box slds-theme_default">
+		<div class="item slds-col slds-size_1-of-1">
+			<lightning-input data-id="DAIRITEN_CD" label="代理店コード" type="text" max-length="11" value={ReferenceAccountCode} pattern="^[0-9]{8,11}$"
+				message-when-pattern-mismatch="半角数字8桁から11桁で入力してください。">
+			</lightning-input>
+			<lightning-input data-id="SHOKEN_NO" label="証券番号" type="text" max-length="15" value={PolicyNumber} pattern="^[0-9]{9,15}$"
+				message-when-pattern-mismatch="半角数字15桁以内で入力してください。" >
+			</lightning-input>
+			<lightning-input data-id="PrintSerialNumber" label="印刷連番" type="text" max-length="12" value={PrintSerialNumber} >
+			</lightning-input>
+			<div class="slds-p-around_medium lgc-bg">
+				<lightning-button-menu alternative-text="Show menu" onselect={handleOnselect}>
+					<lightning-menu-item value="pattern0_1" label="トップメニュー（自動車・火災）"></lightning-menu-item>
+					<lightning-menu-item value="pattern0_2" label="トップメニュー(傷害）"></lightning-menu-item>
+					<lightning-menu-item value="pattern1_1" label="自動車見積書作成【純新規】"></lightning-menu-item>
+					<lightning-menu-item value="pattern1_2" label="自動車見積書作成【新規】"></lightning-menu-item>
+					<!-- <lightning-menu-item value="pattern1_3" label="自動車見積書作成【再作成】"></lightning-menu-item> -->
+					<!-- <lightning-menu-item value="pattern1_4" label="自動車見積書作成【更改】"></lightning-menu-item> -->
+					<lightning-menu-item value="pattern2_1" label="自動車申込書作成"></lightning-menu-item>
+					<!-- <lightning-menu-item value="pattern2_2" label="自動車申込書作成【再作成】"></lightning-menu-item> -->
+					<lightning-menu-item value="pattern2_3" label="自動車申込書作成【試算用】"></lightning-menu-item>
+					<lightning-menu-item value="pattern3_1" label="自動車承認請求書作成"></lightning-menu-item>
+					<lightning-menu-item value="pattern3_2" label="自動車承認請求書再作成"></lightning-menu-item>
+				</lightning-button-menu>
+			</div>
+		</div>
+	</div>
+	<div class="slds-box slds-theme_default">
+		<div class="item slds-col slds-size_1-of-2">
+			<p>保険始期</p>
+			<div class="slds-m-bottom_small slds-box slds-box_small slds-scrollable_y">
+				{StartInsurance}
+			</div>
+		</div>
+		<div class="item slds-col slds-size_1-of-2">
+			<p>保険終期</p>
+			<div class="slds-m-bottom_small slds-box slds-box_small slds-scrollable_y">
+				{EndInsurance}
+			</div>
+		</div>
+	</div>
+	<div id="link" data-id="link"></div>
+	<div if:true={hasPrintDatas} class="slds-box slds-theme_default">
+		<lightning-datatable
+			key-field="id"
+			data={printSerialNumbers}
+			columns={columns}
+			onrowaction={handleRowAction}
+			>
+		</lightning-datatable>
+	</div>
+</template>

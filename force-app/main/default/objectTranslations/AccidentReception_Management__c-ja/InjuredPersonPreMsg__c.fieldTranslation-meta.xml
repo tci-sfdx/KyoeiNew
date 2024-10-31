@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- ケガ人の有無 --></label>
+    <name>InjuredPersonPreMsg__c</name>
+    <picklistValues>
+        <masterLabel>不明</masterLabel>
+        <translation><!-- 不明 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>契約者側に有</masterLabel>
+        <translation><!-- 契約者側に有 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>無</masterLabel>
+        <translation><!-- 無 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>相手側に有</masterLabel>
+        <translation><!-- 相手側に有 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

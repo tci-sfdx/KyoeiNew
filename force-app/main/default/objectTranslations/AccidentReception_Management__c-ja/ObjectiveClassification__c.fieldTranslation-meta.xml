@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 対物区分 --></label>
+    <name>ObjectiveClassification__c</name>
+    <picklistValues>
+        <masterLabel>受託車両と異なる</masterLabel>
+        <translation><!-- 受託車両と異なる --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>受託車両に同じ</masterLabel>
+        <translation><!-- 受託車両に同じ --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

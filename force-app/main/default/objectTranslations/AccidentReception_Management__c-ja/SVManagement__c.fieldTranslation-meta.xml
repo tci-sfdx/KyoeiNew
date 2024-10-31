@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- SV管理欄 --></label>
+    <name>SVManagement__c</name>
+</CustomFieldTranslation>

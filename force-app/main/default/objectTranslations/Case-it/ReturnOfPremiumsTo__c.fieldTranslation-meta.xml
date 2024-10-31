@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 保険料返戻先 --></label>
+    <name>ReturnOfPremiumsTo__c</name>
+    <picklistValues>
+        <masterLabel>登録一般口座（一般）以外</masterLabel>
+        <translation><!-- 登録一般口座（一般）以外 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>登録口座（一般）</masterLabel>
+        <translation><!-- 登録口座（一般） --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

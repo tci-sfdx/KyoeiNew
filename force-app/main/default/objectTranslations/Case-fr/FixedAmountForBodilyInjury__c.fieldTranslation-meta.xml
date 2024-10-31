@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 人傷定額払 --></label>
+    <name>FixedAmountForBodilyInjury__c</name>
+    <picklistValues>
+        <masterLabel>傷害一時金</masterLabel>
+        <translation><!-- 傷害一時金 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>無し</masterLabel>
+        <translation><!-- 無し --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>部位症状(ベーシス)</masterLabel>
+        <translation><!-- 部位症状(ベーシス) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

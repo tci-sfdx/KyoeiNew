@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 不備フォロー時間帯（選択） --></label>
+    <name>DeficiencyFollow_UpDate_Selected__c</name>
+</CustomFieldTranslation>

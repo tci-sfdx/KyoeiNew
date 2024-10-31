@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 宛先① --></label>
+    <name>destination__c</name>
+    <relationshipLabel><!-- 事故受付・伝言管理 (宛先①) --></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 個賠Ａ欄被保険者住所カナ（項番454） --></label>
+    <name>Insured_SAddressKanaInCaliA_ItemNo454__c</name>
+</CustomFieldTranslation>

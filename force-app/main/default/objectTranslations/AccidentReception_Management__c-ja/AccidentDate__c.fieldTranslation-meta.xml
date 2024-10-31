@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 事故日 --></label>
+    <name>AccidentDate__c</name>
+    <picklistValues>
+        <masterLabel>フリー入力</masterLabel>
+        <translation><!-- フリー入力 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>事故の事故日に同じ</masterLabel>
+        <translation><!-- 事故の事故日に同じ --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

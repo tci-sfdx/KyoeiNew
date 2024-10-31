@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- ロードサービス --></label>
+    <name>RoadService__c</name>
+    <picklistValues>
+        <masterLabel>不要</masterLabel>
+        <translation><!-- 不要 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>他社手配済</masterLabel>
+        <translation><!-- 他社手配済 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>発信対応依頼済</masterLabel>
+        <translation><!-- 発信対応依頼済 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自身で連絡済</masterLabel>
+        <translation><!-- 自身で連絡済 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>転送済</masterLabel>
+        <translation><!-- 転送済 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>電話番号案内済</masterLabel>
+        <translation><!-- 電話番号案内済 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

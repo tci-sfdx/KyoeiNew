@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>Shift_JIS</encodingKey>
+    <name>カスタマーセンター：営業店用</name>
+    <style>none</style>
+    <subject>【受付番号：{!Case.CaseNumber}】KCC対応依頼シートの送付（担当）</subject>
+    <textOnly>いつもお世話になっております。
+カスタマーセンターにて、お客様より添付のファイルの申し出を受付しました。
+内容を確認のうえ、必要に応じて代理店へ連携・お客様対応をお願いします。
+
+ご不明な点は、下記に記載の照会先まで連絡願います。
+
+＜メール返信のお願い＞
+メール返信をもって到着確認としますので、「全員返信」にて、メール受領したことを返信ください。
+メール返信をいただけない場合、メール再送もしくは電話にて到着確認をさせていただきます。
+
+【照会先】
+コンタクトセンター企画部・カスタマーセンター
+TEL:03-6373-1441(自動車)
+TEL:03-6373-1440（問合せ）
+TEL:03-6373-1442（アグレックス）
+TEL:03-6373-1439（JA信金）</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

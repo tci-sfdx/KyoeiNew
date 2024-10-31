@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Financial Accounts Summary --></label>
+        <name>FSC_Banker_Profile_Fin_Acct_Summary</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Client_Info --></label>
+        <name>WM_Client_Edit_Section_1</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Phone_and_Email --></label>
+        <name>WM_Client_Edit_Section_2</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Mailing_Address --></label>
+        <name>WM_Client_Edit_Section_3</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Permanent_Address --></label>
+        <name>WM_Client_Edit_Section_31</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Seasonal_Address --></label>
+        <name>WM_Client_Edit_Section_32</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Other_Address --></label>
+        <name>WM_Client_Edit_Section_33</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Client_Services --></label>
+        <name>WM_Client_Edit_Section_4</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Know_Your_Client --></label>
+        <name>WM_Client_Edit_Section_5</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Employment_Info --></label>
+        <name>WM_Client_Edit_Section_6</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Client_Info --></label>
+        <name>WM_Client_New_Section_1</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Client_Services --></label>
+        <name>WM_Client_New_Section_3</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Know_Your_Client --></label>
+        <name>WM_Client_New_Section_4</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Employment_Info --></label>
+        <name>WM_Client_New_Section_5</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Phone_and_Email --></label>
+        <name>WM_Client_New_Section_6</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Mailing_Address --></label>
+        <name>WM_Client_New_Section_7</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Permanent_Address --></label>
+        <name>WM_Client_New_Section_71</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Seasonal_Address --></label>
+        <name>WM_Client_New_Section_72</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Other_Address --></label>
+        <name>WM_Client_New_Section_73</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Client_Info --></label>
+        <name>WM_Client_Profile_Details_Section_1</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Phone_and_Email --></label>
+        <name>WM_Client_Profile_Details_Section_2</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Addresses --></label>
+        <name>WM_Client_Profile_Details_Section_3</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Client_Services --></label>
+        <name>WM_Client_Profile_Details_Section_4</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Know_Your_Client --></label>
+        <name>WM_Client_Profile_Details_Section_5</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Employment_Info --></label>
+        <name>WM_Client_Profile_Details_Section_6</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Financial_Summary --></label>
+        <name>WM_Client_Profile_Details_Section_7</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_System_Info --></label>
+        <name>WM_Client_Profile_Details_Section_8</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Financial_Accounts_Summary --></label>
+        <name>WM_Client_Profile_Fin_Acct_Summary</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Client_Header --></label>
+        <name>WM_Client_Profile_Header</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Household_Summary --></label>
+        <name>WM_Client_Profile_Relations_HH_Summary</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Relationship_Group_Members --></label>
+        <name>WM_Client_Relationship_Group_Members</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Relationship_Groups --></label>
+        <name>WM_Client_Relationship_Groups</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Household_Info --></label>
+        <name>WM_HH_Profile_Details_Section_1</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Addresses --></label>
+        <name>WM_HH_Profile_Details_Section_2</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Financial_Accounts_Summary --></label>
+        <name>WM_HH_Profile_Fin_Acct_Summary</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- LBL.Label_Field_Set_Household_Header --></label>
+        <name>WM_HH_Profile_Header</name>
+    </fieldSets>
+    <layouts>
+        <layout>Person Account Layout</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Client Services --></label>
+            <section>Client Services</section>
+        </sections>
+        <sections>
+            <label>Finanzübersicht</label>
+            <section>Financial Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Know Your Customer --></label>
+            <section>Know Your Customer</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>代理店</layout>
+        <sections>
+            <label><!-- その他情報 --></label>
+            <section>その他情報</section>
+        </sections>
+        <sections>
+            <label><!-- その他情報_2列 --></label>
+            <section>その他情報_2列</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 代理店　情報 --></label>
+            <section>代理店　情報</section>
+        </sections>
+        <sections>
+            <label><!-- 代理店サポート使用 --></label>
+            <section>代理店サポート使用</section>
+        </sections>
+        <sections>
+            <label><!-- 代理店住所 --></label>
+            <section>代理店住所</section>
+        </sections>
+        <sections>
+            <label><!-- 代理店連絡先 --></label>
+            <section>代理店連絡先</section>
+        </sections>
+        <sections>
+            <label><!-- 営業店情報 --></label>
+            <section>営業店情報</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>代理店＆郵便局_バックアップ</layout>
+        <sections>
+            <label><!-- 1列表示 --></label>
+            <section>1列表示</section>
+        </sections>
+        <sections>
+            <label><!-- その他情報 --></label>
+            <section>その他情報</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 代理店＆郵便局情報 --></label>
+            <section>代理店＆郵便局情報</section>
+        </sections>
+        <sections>
+            <label><!-- 住所 --></label>
+            <section>住所</section>
+        </sections>
+        <sections>
+            <label><!-- 送付先 --></label>
+            <section>送付先</section>
+        </sections>
+        <sections>
+            <label><!-- 連絡先等 --></label>
+            <section>連絡先等</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>営業店</layout>
+        <sections>
+            <label><!-- その他情報 --></label>
+            <section>その他情報</section>
+        </sections>
+        <sections>
+            <label><!-- その他情報_2列 --></label>
+            <section>その他情報_2列</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 営業店住所 --></label>
+            <section>営業店住所</section>
+        </sections>
+        <sections>
+            <label><!-- 営業店情報 --></label>
+            <section>営業店情報</section>
+        </sections>
+        <sections>
+            <label><!-- 営業店連絡先 --></label>
+            <section>営業店連絡先</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>郵便局</layout>
+        <sections>
+            <label><!-- その他情報 --></label>
+            <section>その他情報</section>
+        </sections>
+        <sections>
+            <label><!-- その他情報_2列 --></label>
+            <section>その他情報_2列</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 代理店サポート使用 --></label>
+            <section>代理店サポート使用</section>
+        </sections>
+        <sections>
+            <label><!-- 住所 --></label>
+            <section>住所</section>
+        </sections>
+        <sections>
+            <label><!-- 営業店情報 --></label>
+            <section>営業店情報</section>
+        </sections>
+        <sections>
+            <label><!-- 連絡先等 --></label>
+            <section>連絡先等</section>
+        </sections>
+        <sections>
+            <label><!-- 郵便局　情報 --></label>
+            <section>郵便局　情報</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>顧客</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- その他 --></label>
+            <section>その他</section>
+        </sections>
+        <sections>
+            <label><!-- 契約情報 --></label>
+            <section>契約情報</section>
+        </sections>
+        <sections>
+            <label><!-- 連絡先 --></label>
+            <section>連絡先</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- 保険証券に受取人を追加する --></label>
+        <name>Add_Beneficiary_to_Policy</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Child Account --></label>
+        <name>Child_Account</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- 書類送付（保険） --></label>
+        <name>Send_Documents_Insurance</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- 代理店 --></label>
+        <name>Agent</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- A business or an organization --></description>
+        <label><!-- Business --></label>
+        <name>FinServ__IndustriesBusiness</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- A grouping of related people and institutions --></description>
+        <label><!-- Household --></label>
+        <name>FinServ__IndustriesHousehold</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- A person who is a prospect or a client --></description>
+        <label><!-- Individual --></label>
+        <name>FinServ__IndustriesIndividual</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- An institution that is a prospect or a client --></description>
+        <label><!-- Institution --></label>
+        <name>FinServ__IndustriesInstitution</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 郵便局 --></label>
+        <name>PostOffice</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 営業店 --></label>
+        <name>SalesOffice</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- 相手先コードは、8桁もしくは11桁です。 --></errorMessage>
+        <name>AgencyCode_8or11</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 営業店の手作成はできません --></errorMessage>
+        <name>CannotCreatedRecTypeForSalesOffice</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>
+            <!-- オンライン編集不可時以下の編集不可
+【相手先コード】 【氏名カナ】 【氏名】 【FAX番号】 【郵便番号】
+【都道府県】 【住所】 【営業店名】 【専乗別】
+【更新不可対象】 -->
+        </errorMessage>
+        <name>CantEditConnectField</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 更新不可対象がオンの時には、更新できません --></errorMessage>
+        <name>CantUpdateWhenNon_RenewalTargetIsTrue</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Internal referrers must be internal Salesforce users. --></errorMessage>
+        <name>FinServ__NonPortalUserReferrer</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Individual record type can&apos;t be changed --></errorMessage>
+        <name>FinServ__NotAllowingConversionFromIndividual</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The record type can&apos;t be changed to Individual. --></errorMessage>
+        <name>FinServ__NotAllowingConversionToIndividual</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Enter an internal referrer or an external referrer. You can list only one referrer for each referral. --></errorMessage>
+        <name>FinServ__SingleReferredByEntryByRecord</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 契約者電話番号は13桁以内で保存してください --></errorMessage>
+        <name>PolicyholderTEL_13judgment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 入電者情報の電話番号を入力するか、非通知・電話番号登録なしにチェックを入れて保存してください --></errorMessage>
+        <name>UnknownNumber_Check</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- AddMember --></label>
+        <name>FinServ__AddMember</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- AddRelation --></label>
+        <name>FinServ__AddRelation</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- BulkQuickSend --></label>
+        <name>mcdm_15__BulkQuickSend</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- QuickSend --></label>
+        <name>mcdm_15__QuickSend</name>
+    </webLinks>
+</CustomObjectTranslation>

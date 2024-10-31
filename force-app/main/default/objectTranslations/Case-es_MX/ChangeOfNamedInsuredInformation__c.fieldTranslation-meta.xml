@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 記名被保険者情報変更の有無 --></label>
+    <name>ChangeOfNamedInsuredInformation__c</name>
+    <picklistValues>
+        <masterLabel>※複数選択あり</masterLabel>
+        <translation><!-- ※複数選択あり --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>記名被の改姓</masterLabel>
+        <translation><!-- 記名被の改姓 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>記名被を別人格に変更</masterLabel>
+        <translation><!-- 記名被を別人格に変更 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>記名被住所の変更</masterLabel>
+        <translation><!-- 記名被住所の変更 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

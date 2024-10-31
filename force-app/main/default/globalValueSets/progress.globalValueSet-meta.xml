@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>OPEN</fullName>
+        <default>true</default>
+        <label>OPEN</label>
+    </customValue>
+    <customValue>
+        <fullName>エスカレ</fullName>
+        <default>false</default>
+        <label>エスカレ</label>
+    </customValue>
+    <customValue>
+        <fullName>CLOSE</fullName>
+        <default>false</default>
+        <label>CLOSE</label>
+    </customValue>
+    <masterLabel>進捗</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

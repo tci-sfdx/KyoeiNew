@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>事務処理（案内不可）</fullName>
+        <default>false</default>
+        <label>事務処理（案内不可）</label>
+    </customValue>
+    <customValue>
+        <fullName>規定</fullName>
+        <default>false</default>
+        <label>規定</label>
+    </customValue>
+    <customValue>
+        <fullName>引受</fullName>
+        <default>false</default>
+        <label>引受</label>
+    </customValue>
+    <customValue>
+        <fullName>処理依頼</fullName>
+        <default>false</default>
+        <label>処理依頼</label>
+    </customValue>
+    <customValue>
+        <fullName>念のため営業店を案内</fullName>
+        <default>false</default>
+        <label>念のため営業店を案内</label>
+    </customValue>
+    <customValue>
+        <fullName>予備1</fullName>
+        <default>false</default>
+        <label>予備1</label>
+    </customValue>
+    <customValue>
+        <fullName>予備2</fullName>
+        <default>false</default>
+        <label>予備2</label>
+    </customValue>
+    <customValue>
+        <fullName>予備3</fullName>
+        <default>false</default>
+        <label>予備3</label>
+    </customValue>
+    <masterLabel>コールオプション　営業店照会依頼</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

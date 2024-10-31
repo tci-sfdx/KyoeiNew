@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionNumber>19</activeVersionNumber>
+    <description>受付種別が電話(自動継続停止、火新異動、証券再発行、自動車異動、富国異動、自動車新規、自動車満期)または電話受付にチェックが入った場合（自動車新規、自動車満期）、「登録日時（対応依頼用）」と「申込（請求）日時」を自動反映する</description>
+    <masterLabel>登録日時、申込（請求）日時の自動反映</masterLabel>
+</FlowDefinition>

@@ -1,0 +1,7 @@
+<apex:component access="global" controller="AgencyMailCompController">
+
+    <apex:attribute name="targetAgencyId" type="Id" description="代理店コールデータのID" assignTo="{!agencyId}" />
+
+    <apex:outputText value="{!InquiryDetails}" escape="false"/>
+    
+</apex:component>

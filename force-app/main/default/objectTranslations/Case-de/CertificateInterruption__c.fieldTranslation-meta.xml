@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 中断証明書 --></label>
+    <name>CertificateInterruption__c</name>
+    <picklistValues>
+        <masterLabel>発行不要</masterLabel>
+        <translation><!-- 発行不要 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>発行対象外</masterLabel>
+        <translation><!-- 発行対象外 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>発行希望（その他）</masterLabel>
+        <translation><!-- 発行希望（その他） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>発行希望（国内特則）</masterLabel>
+        <translation><!-- 発行希望（国内特則） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>発行希望（海外特則）</masterLabel>
+        <translation><!-- 発行希望（海外特則） --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

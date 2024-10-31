@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 遅延理由 --></label>
+    <name>Reason__c</name>
+    <picklistValues>
+        <masterLabel>その他</masterLabel>
+        <translation><!-- その他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>保険に入っていることを忘れていた。</masterLabel>
+        <translation><!-- 保険に入っていることを忘れていた。 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>保険金が出ると思わなかった。</masterLabel>
+        <translation><!-- 保険金が出ると思わなかった。 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>治療が済んでからで良いと思った。</masterLabel>
+        <translation><!-- 治療が済んでからで良いと思った。 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 事故届出先区分 --></label>
+    <name>PoliceSignature__c</name>
+    <picklistValues>
+        <masterLabel>交番</masterLabel>
+        <translation><!-- 交番 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>警察署</masterLabel>
+        <translation><!-- 警察署 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>駐在所</masterLabel>
+        <translation><!-- 駐在所 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>高速交通隊</masterLabel>
+        <translation><!-- 高速交通隊 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

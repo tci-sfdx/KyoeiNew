@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>Shift_JIS</encodingKey>
+    <name>カスタマーセンター：代理店用（外部メール用）</name>
+    <style>none</style>
+    <subject>【受付番号：{!ExternalMailHistory__c.CaseNumber__c}】KCC対応依頼シートの送付（担当：）</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

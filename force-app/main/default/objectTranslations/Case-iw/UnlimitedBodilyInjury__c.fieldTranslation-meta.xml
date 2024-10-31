@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 人身傷害無制限 --></label>
+    <name>UnlimitedBodilyInjury__c</name>
+</CustomFieldTranslation>

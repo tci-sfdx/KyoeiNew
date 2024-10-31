@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 搭乗中限定 --></label>
+    <name>LimitedBoarding__c</name>
+    <picklistValues>
+        <masterLabel>有</masterLabel>
+        <translation><!-- 有 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>無し</masterLabel>
+        <translation><!-- 無し --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

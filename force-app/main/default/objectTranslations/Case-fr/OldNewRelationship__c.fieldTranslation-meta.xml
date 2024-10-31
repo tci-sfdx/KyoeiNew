@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 新旧記名被保険者の関係 --></label>
+    <name>OldNewRelationship__c</name>
+    <picklistValues>
+        <masterLabel>その他</masterLabel>
+        <translation><!-- その他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>同居家族</masterLabel>
+        <translation><!-- 同居家族 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>本人/改性</masterLabel>
+        <translation><!-- 本人/改性 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>配偶者</masterLabel>
+        <translation><!-- 配偶者 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

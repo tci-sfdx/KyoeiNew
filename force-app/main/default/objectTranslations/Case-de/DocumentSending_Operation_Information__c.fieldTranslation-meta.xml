@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 書類発送_業務連絡 --></label>
+    <name>DocumentSending_Operation_Information__c</name>
+</CustomFieldTranslation>

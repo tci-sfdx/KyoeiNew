@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 受付窓口名 --></label>
+    <name>ReceptionWindowName__c</name>
+    <picklistValues>
+        <masterLabel>KSSあんしんダイヤル:トラブル（個別）</masterLabel>
+        <translation><!-- KSSあんしんダイヤル:トラブル（個別） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>お問い合せ窓口</masterLabel>
+        <translation><!-- お問い合せ窓口 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>お客様相談室（選択無）</masterLabel>
+        <translation><!-- お客様相談室（選択無） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>個人情報開示</masterLabel>
+        <translation><!-- 個人情報開示 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>協会HP意向確認</masterLabel>
+        <translation><!-- 協会HP意向確認 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>問合せD（選択無）</masterLabel>
+        <translation><!-- 問合せD（選択無） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>問合せ（問合選択無）</masterLabel>
+        <translation><!-- 問合せ（問合選択無） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>問合せ（相談選択無）</masterLabel>
+        <translation><!-- 問合せ（相談選択無） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>地震保険</masterLabel>
+        <translation><!-- 地震保険 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>新・個人情報開示</masterLabel>
+        <translation><!-- 新・個人情報開示 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>本社問合せ（代表選択）</masterLabel>
+        <translation><!-- 本社問合せ（代表選択） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>火新問合せ</masterLabel>
+        <translation><!-- 火新問合せ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>火新問合せ（問合選択）</masterLabel>
+        <translation><!-- 火新問合せ（問合選択） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>火新問合せ（相談選択）</masterLabel>
+        <translation><!-- 火新問合せ（相談選択） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自動車問合せ</masterLabel>
+        <translation><!-- 自動車問合せ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自動車問合せ（問合選択）</masterLabel>
+        <translation><!-- 自動車問合せ（問合選択） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自動車問合せ（相談選択）</masterLabel>
+        <translation><!-- 自動車問合せ（相談選択） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>苦情受付（問合選択無）</masterLabel>
+        <translation><!-- 苦情受付（問合選択無） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>苦情受付（問合選択）</masterLabel>
+        <translation><!-- 苦情受付（問合選択） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>苦情受付（相談選択無）</masterLabel>
+        <translation><!-- 苦情受付（相談選択無） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>苦情受付（相談選択）</masterLabel>
+        <translation><!-- 苦情受付（相談選択） --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>（未設定）</masterLabel>
+        <translation><!-- （未設定） --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

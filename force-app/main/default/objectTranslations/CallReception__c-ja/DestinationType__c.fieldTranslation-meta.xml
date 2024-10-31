@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 相手先タイプ --></label>
+    <name>DestinationType__c</name>
+    <picklistValues>
+        <masterLabel>タイプA</masterLabel>
+        <translation><!-- タイプA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>タイプB</masterLabel>
+        <translation><!-- タイプB --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>タイプC</masterLabel>
+        <translation><!-- タイプC --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

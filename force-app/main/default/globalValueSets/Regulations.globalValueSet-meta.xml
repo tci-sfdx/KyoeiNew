@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>規定・パンフレット案内</fullName>
+        <default>false</default>
+        <label>規定・パンフレット案内</label>
+    </customValue>
+    <customValue>
+        <fullName>事務処理</fullName>
+        <default>false</default>
+        <label>事務処理</label>
+    </customValue>
+    <customValue>
+        <fullName>予備1</fullName>
+        <default>false</default>
+        <label>予備1</label>
+    </customValue>
+    <customValue>
+        <fullName>予備2</fullName>
+        <default>false</default>
+        <label>予備2</label>
+    </customValue>
+    <customValue>
+        <fullName>予備3</fullName>
+        <default>false</default>
+        <label>予備3</label>
+    </customValue>
+    <masterLabel>コールオプション　既定・パンフレット案内</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 配偶者の補償が無くなることを説明済（夫婦型） --></label>
+    <name>SpouseSecurityDisappear__c</name>
+</CustomFieldTranslation>

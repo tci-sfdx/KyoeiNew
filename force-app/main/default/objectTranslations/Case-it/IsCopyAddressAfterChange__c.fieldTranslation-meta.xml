@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- 火新ではチェックを入れて保存すると被保険者の情報へ転記されます
+自賠責解約の場合はチェックを入れて保存すると送付先の情報へ転記されます -->
+    </help>
+    <label><!-- 契約者住所をコピー --></label>
+    <name>IsCopyAddressAfterChange__c</name>
+</CustomFieldTranslation>

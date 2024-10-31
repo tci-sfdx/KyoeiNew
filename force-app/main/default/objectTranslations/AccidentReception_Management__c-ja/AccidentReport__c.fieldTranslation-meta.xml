@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 事故届出（扱い） --></label>
+    <name>AccidentReport__c</name>
+    <picklistValues>
+        <masterLabel>人身扱</masterLabel>
+        <translation><!-- 人身扱 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>扱不明</masterLabel>
+        <translation><!-- 扱不明 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>未届</masterLabel>
+        <translation><!-- 未届 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>物損扱</masterLabel>
+        <translation><!-- 物損扱 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

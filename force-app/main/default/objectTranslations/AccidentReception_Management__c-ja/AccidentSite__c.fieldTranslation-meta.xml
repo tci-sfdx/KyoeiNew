@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 事故地 --></label>
+    <name>AccidentSite__c</name>
+    <picklistValues>
+        <masterLabel>三重</masterLabel>
+        <translation><!-- 三重 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>不明</masterLabel>
+        <translation><!-- 不明 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>京都</masterLabel>
+        <translation><!-- 京都 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>佐賀</masterLabel>
+        <translation><!-- 佐賀 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>兵庫</masterLabel>
+        <translation><!-- 兵庫 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>北海道</masterLabel>
+        <translation><!-- 北海道 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>千葉</masterLabel>
+        <translation><!-- 千葉 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>和歌山</masterLabel>
+        <translation><!-- 和歌山 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>埼玉</masterLabel>
+        <translation><!-- 埼玉 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>大分</masterLabel>
+        <translation><!-- 大分 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>大阪</masterLabel>
+        <translation><!-- 大阪 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>奈良</masterLabel>
+        <translation><!-- 奈良 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>宮城</masterLabel>
+        <translation><!-- 宮城 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>宮崎</masterLabel>
+        <translation><!-- 宮崎 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>富山</masterLabel>
+        <translation><!-- 富山 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>山口</masterLabel>
+        <translation><!-- 山口 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>山形</masterLabel>
+        <translation><!-- 山形 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>山梨</masterLabel>
+        <translation><!-- 山梨 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>岐阜</masterLabel>
+        <translation><!-- 岐阜 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>岡山</masterLabel>
+        <translation><!-- 岡山 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>岩手</masterLabel>
+        <translation><!-- 岩手 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>島根</masterLabel>
+        <translation><!-- 島根 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>広島</masterLabel>
+        <translation><!-- 広島 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>徳島</masterLabel>
+        <translation><!-- 徳島 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>愛媛</masterLabel>
+        <translation><!-- 愛媛 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>愛知</masterLabel>
+        <translation><!-- 愛知 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>新潟</masterLabel>
+        <translation><!-- 新潟 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>東京</masterLabel>
+        <translation><!-- 東京 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>栃木</masterLabel>
+        <translation><!-- 栃木 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>沖縄</masterLabel>
+        <translation><!-- 沖縄 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>滋賀</masterLabel>
+        <translation><!-- 滋賀 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>熊本</masterLabel>
+        <translation><!-- 熊本 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>石川</masterLabel>
+        <translation><!-- 石川 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>神奈川</masterLabel>
+        <translation><!-- 神奈川 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>福井</masterLabel>
+        <translation><!-- 福井 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>福岡</masterLabel>
+        <translation><!-- 福岡 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>福島</masterLabel>
+        <translation><!-- 福島 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>秋田</masterLabel>
+        <translation><!-- 秋田 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>群馬</masterLabel>
+        <translation><!-- 群馬 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>茨城</masterLabel>
+        <translation><!-- 茨城 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>長崎</masterLabel>
+        <translation><!-- 長崎 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>長野</masterLabel>
+        <translation><!-- 長野 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>青森</masterLabel>
+        <translation><!-- 青森 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>静岡</masterLabel>
+        <translation><!-- 静岡 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>香川</masterLabel>
+        <translation><!-- 香川 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>高知</masterLabel>
+        <translation><!-- 高知 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>鳥取</masterLabel>
+        <translation><!-- 鳥取 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>鹿児島</masterLabel>
+        <translation><!-- 鹿児島 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

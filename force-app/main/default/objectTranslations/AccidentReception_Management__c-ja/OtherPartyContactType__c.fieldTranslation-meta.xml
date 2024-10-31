@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 相手方の連絡先（種別） --></label>
+    <name>OtherPartyContactType__c</name>
+    <picklistValues>
+        <masterLabel>会社</masterLabel>
+        <translation><!-- 会社 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>携帯</masterLabel>
+        <translation><!-- 携帯 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自宅</masterLabel>
+        <translation><!-- 自宅 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

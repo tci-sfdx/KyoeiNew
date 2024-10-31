@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 固定期間見込み（開始）西暦 --></label>
+    <name>CastFixedPeriodFromS__c</name>
+</CustomFieldTranslation>

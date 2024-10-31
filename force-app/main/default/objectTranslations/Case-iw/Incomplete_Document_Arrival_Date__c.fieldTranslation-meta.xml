@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 不備書類到着日 --></label>
+    <name>Incomplete_Document_Arrival_Date__c</name>
+</CustomFieldTranslation>

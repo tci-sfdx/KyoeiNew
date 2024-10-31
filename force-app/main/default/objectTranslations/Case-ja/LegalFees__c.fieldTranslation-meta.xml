@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 弁護士費用 --></label>
+    <name>LegalFees__c</name>
+    <picklistValues>
+        <masterLabel>なし</masterLabel>
+        <translation><!-- なし --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>日常＋自動車</masterLabel>
+        <translation><!-- 日常＋自動車 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自動車のみ</masterLabel>
+        <translation><!-- 自動車のみ --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

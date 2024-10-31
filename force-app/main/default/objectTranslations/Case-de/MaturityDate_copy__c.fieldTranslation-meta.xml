@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 満期日（契約画面からのコピー） --></label>
+    <name>MaturityDate_copy__c</name>
+</CustomFieldTranslation>

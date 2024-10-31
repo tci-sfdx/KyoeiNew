@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>事故受付・伝言管理</value>
+    </caseValues>
+    <layouts>
+        <layout>伝言管理レイアウト</layout>
+        <sections>
+            <label><!-- Bedore連携項目 --></label>
+            <section>Bedore連携項目</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- コールデータ --></label>
+            <section>コールデータ</section>
+        </sections>
+        <sections>
+            <label><!-- システム情報 --></label>
+            <section>システム情報</section>
+        </sections>
+        <sections>
+            <label><!-- ネットワーク情報 --></label>
+            <section>ネットワーク情報</section>
+        </sections>
+        <sections>
+            <label><!-- 事務処理欄 --></label>
+            <section>事務処理欄</section>
+        </sections>
+        <sections>
+            <label><!-- 事務処理欄一列 --></label>
+            <section>事務処理欄一列</section>
+        </sections>
+        <sections>
+            <label><!-- 今後の連絡先 --></label>
+            <section>今後の連絡先</section>
+        </sections>
+        <sections>
+            <label><!-- 伝言カード --></label>
+            <section>伝言カード</section>
+        </sections>
+        <sections>
+            <label><!-- 受付管理 --></label>
+            <section>受付管理</section>
+        </sections>
+        <sections>
+            <label><!-- 基本情報 --></label>
+            <section>基本情報</section>
+        </sections>
+        <sections>
+            <label><!-- 契約内容相違 --></label>
+            <section>契約内容相違</section>
+        </sections>
+        <sections>
+            <label><!-- 契約情報 --></label>
+            <section>契約情報</section>
+        </sections>
+        <sections>
+            <label><!-- 新規セクション --></label>
+            <section>新規セクション</section>
+        </sections>
+        <sections>
+            <label><!-- 補記 --></label>
+            <section>補記</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>日整連受付レイアウト</layout>
+        <sections>
+            <label><!-- Bedore連携項目 --></label>
+            <section>Bedore連携項目</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- コールデータ --></label>
+            <section>コールデータ</section>
+        </sections>
+        <sections>
+            <label><!-- ネットワーク情報 --></label>
+            <section>ネットワーク情報</section>
+        </sections>
+        <sections>
+            <label><!-- 今後の連絡先 --></label>
+            <section>今後の連絡先</section>
+        </sections>
+        <sections>
+            <label><!-- 個人情報同意 --></label>
+            <section>個人情報同意</section>
+        </sections>
+        <sections>
+            <label><!-- 備考 --></label>
+            <section>備考</section>
+        </sections>
+        <sections>
+            <label><!-- 受付管理 --></label>
+            <section>受付管理</section>
+        </sections>
+        <sections>
+            <label><!-- 受託内容 --></label>
+            <section>受託内容</section>
+        </sections>
+        <sections>
+            <label><!-- 基本情報 --></label>
+            <section>基本情報</section>
+        </sections>
+        <sections>
+            <label><!-- 契約情報 --></label>
+            <section>契約情報</section>
+        </sections>
+        <sections>
+            <label><!-- 完納車車両 --></label>
+            <section>完納車車両</section>
+        </sections>
+        <sections>
+            <label><!-- 新規セクション --></label>
+            <section>新規セクション</section>
+        </sections>
+        <sections>
+            <label><!-- 火新対人 --></label>
+            <section>火新対人</section>
+        </sections>
+        <sections>
+            <label><!-- 火新対物 --></label>
+            <section>火新対物</section>
+        </sections>
+        <sections>
+            <label><!-- 状況概要 --></label>
+            <section>状況概要</section>
+        </sections>
+        <sections>
+            <label><!-- 自動車人損（対人・搭乗者共通） --></label>
+            <section>自動車人損（対人・搭乗者共通）</section>
+        </sections>
+        <sections>
+            <label><!-- 自動車対物 --></label>
+            <section>自動車対物</section>
+        </sections>
+        <sections>
+            <label><!-- 要求・ 要望 --></label>
+            <section>要求・ 要望</section>
+        </sections>
+        <sections>
+            <label><!-- 運転者 --></label>
+            <section>運転者</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>浜のヨット・モーターボートレイアウト</layout>
+        <sections>
+            <label><!-- Bedore連携項目 --></label>
+            <section>Bedore連携項目</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- コールデータ --></label>
+            <section>コールデータ</section>
+        </sections>
+        <sections>
+            <label><!-- ネットワーク情報 --></label>
+            <section>ネットワーク情報</section>
+        </sections>
+        <sections>
+            <label><!-- 事故情報 --></label>
+            <section>事故情報</section>
+        </sections>
+        <sections>
+            <label><!-- 今後の連絡先 --></label>
+            <section>今後の連絡先</section>
+        </sections>
+        <sections>
+            <label><!-- 備考 --></label>
+            <section>備考</section>
+        </sections>
+        <sections>
+            <label><!-- 傷害事故 --></label>
+            <section>傷害事故</section>
+        </sections>
+        <sections>
+            <label><!-- 受付管理 --></label>
+            <section>受付管理</section>
+        </sections>
+        <sections>
+            <label><!-- 基本情報 --></label>
+            <section>基本情報</section>
+        </sections>
+        <sections>
+            <label><!-- 契約情報 --></label>
+            <section>契約情報</section>
+        </sections>
+        <sections>
+            <label><!-- 対人事故 --></label>
+            <section>対人事故</section>
+        </sections>
+        <sections>
+            <label><!-- 操縦者 --></label>
+            <section>操縦者</section>
+        </sections>
+        <sections>
+            <label><!-- 新規セクション --></label>
+            <section>新規セクション</section>
+        </sections>
+        <sections>
+            <label><!-- 物損情報（対物・船体事故共通） --></label>
+            <section>物損情報（対物・船体事故共通）</section>
+        </sections>
+        <sections>
+            <label><!-- 相手情報 --></label>
+            <section>相手情報</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>火災新種受付レイアウト</layout>
+        <sections>
+            <label><!-- Bedore連携項目 --></label>
+            <section>Bedore連携項目</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- コールデータ --></label>
+            <section>コールデータ</section>
+        </sections>
+        <sections>
+            <label><!-- ネットワーク情報 --></label>
+            <section>ネットワーク情報</section>
+        </sections>
+        <sections>
+            <label><!-- メッセージ --></label>
+            <section>メッセージ</section>
+        </sections>
+        <sections>
+            <label><!-- 人損情報（傷害・対人共通） --></label>
+            <section>人損情報（傷害・対人共通）</section>
+        </sections>
+        <sections>
+            <label><!-- 今後の連絡先 --></label>
+            <section>今後の連絡先</section>
+        </sections>
+        <sections>
+            <label><!-- 他保険情報 --></label>
+            <section>他保険情報</section>
+        </sections>
+        <sections>
+            <label><!-- 個人情報同意 --></label>
+            <section>個人情報同意</section>
+        </sections>
+        <sections>
+            <label><!-- 備考 --></label>
+            <section>備考</section>
+        </sections>
+        <sections>
+            <label><!-- 受付管理 --></label>
+            <section>受付管理</section>
+        </sections>
+        <sections>
+            <label><!-- 基本情報 --></label>
+            <section>基本情報</section>
+        </sections>
+        <sections>
+            <label><!-- 報告遅延理由 --></label>
+            <section>報告遅延理由</section>
+        </sections>
+        <sections>
+            <label><!-- 契約情報 --></label>
+            <section>契約情報</section>
+        </sections>
+        <sections>
+            <label><!-- 対物 --></label>
+            <section>対物</section>
+        </sections>
+        <sections>
+            <label><!-- 新規セクション --></label>
+            <section>新規セクション</section>
+        </sections>
+        <sections>
+            <label><!-- 物損情報 --></label>
+            <section>物損情報</section>
+        </sections>
+        <sections>
+            <label><!-- 状況概要 --></label>
+            <section>状況概要</section>
+        </sections>
+        <sections>
+            <label><!-- 相手情報 --></label>
+            <section>相手情報</section>
+        </sections>
+        <sections>
+            <label><!-- 被保険者 --></label>
+            <section>被保険者</section>
+        </sections>
+        <sections>
+            <label><!-- 請求書類 --></label>
+            <section>請求書類</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>火災新種受付レイアウトシス管</layout>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- コールデータ --></label>
+            <section>コールデータ</section>
+        </sections>
+        <sections>
+            <label><!-- ネットワーク情報 --></label>
+            <section>ネットワーク情報</section>
+        </sections>
+        <sections>
+            <label><!-- メッセージ --></label>
+            <section>メッセージ</section>
+        </sections>
+        <sections>
+            <label><!-- 人損情報（傷害・対人共通） --></label>
+            <section>人損情報（傷害・対人共通）</section>
+        </sections>
+        <sections>
+            <label><!-- 今後の連絡先 --></label>
+            <section>今後の連絡先</section>
+        </sections>
+        <sections>
+            <label><!-- 他保険情報 --></label>
+            <section>他保険情報</section>
+        </sections>
+        <sections>
+            <label><!-- 個人情報同意 --></label>
+            <section>個人情報同意</section>
+        </sections>
+        <sections>
+            <label><!-- 備考 --></label>
+            <section>備考</section>
+        </sections>
+        <sections>
+            <label><!-- 受付管理 --></label>
+            <section>受付管理</section>
+        </sections>
+        <sections>
+            <label><!-- 基本情報 --></label>
+            <section>基本情報</section>
+        </sections>
+        <sections>
+            <label><!-- 報告遅延理由 --></label>
+            <section>報告遅延理由</section>
+        </sections>
+        <sections>
+            <label><!-- 契約情報 --></label>
+            <section>契約情報</section>
+        </sections>
+        <sections>
+            <label><!-- 対物 --></label>
+            <section>対物</section>
+        </sections>
+        <sections>
+            <label><!-- 新規セクション --></label>
+            <section>新規セクション</section>
+        </sections>
+        <sections>
+            <label><!-- 物損情報 --></label>
+            <section>物損情報</section>
+        </sections>
+        <sections>
+            <label><!-- 状況概要 --></label>
+            <section>状況概要</section>
+        </sections>
+        <sections>
+            <label><!-- 相手情報 --></label>
+            <section>相手情報</section>
+        </sections>
+        <sections>
+            <label><!-- 被保険者 --></label>
+            <section>被保険者</section>
+        </sections>
+        <sections>
+            <label><!-- 請求種類 --></label>
+            <section>請求種類</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>第三分野受付レイアウト</layout>
+        <sections>
+            <label><!-- Bedore連携項目 --></label>
+            <section>Bedore連携項目</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- コールデータ --></label>
+            <section>コールデータ</section>
+        </sections>
+        <sections>
+            <label><!-- ネットワーク情報 --></label>
+            <section>ネットワーク情報</section>
+        </sections>
+        <sections>
+            <label><!-- 今後の連絡先 --></label>
+            <section>今後の連絡先</section>
+        </sections>
+        <sections>
+            <label><!-- 他保険情報 --></label>
+            <section>他保険情報</section>
+        </sections>
+        <sections>
+            <label><!-- 備考 --></label>
+            <section>備考</section>
+        </sections>
+        <sections>
+            <label><!-- 受付管理 --></label>
+            <section>受付管理</section>
+        </sections>
+        <sections>
+            <label><!-- 基本情報 --></label>
+            <section>基本情報</section>
+        </sections>
+        <sections>
+            <label><!-- 契約情報 --></label>
+            <section>契約情報</section>
+        </sections>
+        <sections>
+            <label><!-- 情報取り扱い同意 --></label>
+            <section>情報取り扱い同意</section>
+        </sections>
+        <sections>
+            <label><!-- 新規セクション --></label>
+            <section>新規セクション</section>
+        </sections>
+        <sections>
+            <label><!-- 状況概要 --></label>
+            <section>状況概要</section>
+        </sections>
+        <sections>
+            <label><!-- 被保険者 --></label>
+            <section>被保険者</section>
+        </sections>
+        <sections>
+            <label><!-- 警告 --></label>
+            <section>警告</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- 帳票出力 --></label>
+        <name>LEX</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- メール --></label>
+        <name>SendMail</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- 同報伝言作成 --></label>
+        <name>createCallManagement</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- 02_伝言管理 --></label>
+        <name>CallManagementType</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 05_日整連 --></label>
+        <name>JASPARecordType</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 01_火災新種事故受付 --></label>
+        <name>NewTypeFire</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 03_第三分野受付 --></label>
+        <name>ThirdFieldRecordType</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 04_ヨット・モーターボート --></label>
+        <name>YachtBoatRecordType</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- 事故場所種別をその他を選択した場合、事故場所種別（補足）を入力してください。 --></errorMessage>
+        <name>ChkAccidentLocationType</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 担当連絡要否で要連絡以外を選択時に連絡日入力できません。 --></errorMessage>
+        <name>ChkContactDateW</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 災害番号は、4桁で入力してください。 --></errorMessage>
+        <name>ChkDisasterNumber_4DigitsChk</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 災害番号は数字で入力してください。 --></errorMessage>
+        <name>ChkDisasterNumber_NumbersChk</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 今後の連絡先について、要否で「要連絡」を選択し、（今後の連絡先欄の）備考で「確認事項がある場合の連絡する旨を案内」は矛盾した入力内容となります。 --></errorMessage>
+        <name>ChkNecessity</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 所有者変更の権限がありません。 --></errorMessage>
+        <name>ChkOwnerChangeOP</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 所有者変更の権限がありません。(SV) --></errorMessage>
+        <name>ChkOwnerChangeSV</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- OPは「SV承認まち」以上のフェーズは選択できません。 --></errorMessage>
+        <name>ChkPhase</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 到着案内で（フリー）以外を選択時に到着案内（フリー）入力できません。 --></errorMessage>
+        <name>ChkPrecautionsUntilArrivalInput</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 到着案内の選択がフリー入力の場合、到着案内（フリー入力）を入力してください。 --></errorMessage>
+        <name>ChkPrecautionsUntilArrivalInputBlank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 遅延理由をその他で選択した場合、備考を入力してください。 --></errorMessage>
+        <name>ChkReason</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 所有者変更の権限がありません。 --></errorMessage>
+        <name>CreatedBy_Role</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 宛先①の選択がフリー入力の場合、①（選択不可の場合）を入力してください。 --></errorMessage>
+        <name>DestinationCheak1</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 宛先②の選択がフリー入力の場合、②（選択不可の場合）を入力してください。 --></errorMessage>
+        <name>DestinationCheak2</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 宛先③の選択がフリー入力の場合、③（選択不可の場合）を入力してください。 --></errorMessage>
+        <name>DestinationCheak3</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 宛先④の選択がフリー入力の場合、④（選択不可の場合）を入力してください。 --></errorMessage>
+        <name>DestinationCheak4</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 事故日が重複しています。 --></errorMessage>
+        <name>ErrorAccidentDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 固定期間見込み（開始）が重複しています。 --></errorMessage>
+        <name>ErrorCastFixedPeriodFrom</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 固定期間見込み（終了）が重複しています。 --></errorMessage>
+        <name>ErrorCastFixedPeriodTo</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 通院見込み（開始）が重複しています。 --></errorMessage>
+        <name>ErrorExpectedHospitalFrom</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 通院見込み（終了）が重複しています。 --></errorMessage>
+        <name>ErrorExpectedHospitalTo</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 入院見込み（開始）が重複しています。 --></errorMessage>
+        <name>ErrorExpectedHospitalizationFrom</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 入院見込み（終了）が重複しています。 --></errorMessage>
+        <name>ErrorExpectedHospitalizationTo</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 伝言・雑件詳細は必ず入力してください。 --></errorMessage>
+        <name>IsBlank_MessageMiscellaneousDetails</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 帳票種別は必ず入力してください。 --></errorMessage>
+        <name>IsBlank_PrintForm</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 商品内容は必ず入力してください。 --></errorMessage>
+        <name>IsBlank_ProductDetails</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 受付番号はT-000000の形式で入力してください。 --></errorMessage>
+        <name>Name_Check_TCI</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 受付番号はW-000000の形式で入力してください。 --></errorMessage>
+        <name>Name_Check_WEL</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 選択した文言は、特別時のみ選択可能です。 --></errorMessage>
+        <name>NormalGuidance</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 選択した文言は、通常時のみ選択可能です。 --></errorMessage>
+        <name>SpecialGuidance</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 受付番号は一意の必要があります。 --></errorMessage>
+        <name>Unique_Name</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 固定期間見込み（開始）日が事故日より過去の日付です。 --></errorMessage>
+        <name>invalidDate_CastFixedPeriodFromS</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 通院見込み（開始）日が事故日より過去の日付です。 --></errorMessage>
+        <name>invalidDate_ExpectedHospitalFromS</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 入院見込み（開始）日が事故日より過去の日付です。 --></errorMessage>
+        <name>invalidDate_ExpectedHospitalizationFromS</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- SVFManagementcButton20210323061014476TkX --></label>
+        <name>SVFManagementcButton20210323061014476TkX</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SVFManagementcListButton20210323061014476TkX --></label>
+        <name>SVFManagementcListButton20210323061014476TkX</name>
+    </webLinks>
+</CustomObjectTranslation>

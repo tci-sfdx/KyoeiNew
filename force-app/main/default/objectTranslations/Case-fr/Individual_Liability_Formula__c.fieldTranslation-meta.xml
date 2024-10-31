@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 個賠（個賠特約含む）で被保険者住所変更に伴う被保険者の範囲の変更_あり --></label>
+    <name>Individual_Liability_Formula__c</name>
+</CustomFieldTranslation>

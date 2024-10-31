@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 車両の取得区分 --></label>
+    <name>VehicleClassification__c</name>
+    <picklistValues>
+        <masterLabel>はき出された車</masterLabel>
+        <translation><!-- はき出された車 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>入替無</masterLabel>
+        <translation><!-- 入替無 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>廃車譲渡返還盗難</masterLabel>
+        <translation><!-- 廃車譲渡返還盗難 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>新規取得</masterLabel>
+        <translation><!-- 新規取得 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

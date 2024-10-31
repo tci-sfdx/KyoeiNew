@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 完了ステータス --></label>
+    <name>CompletionStatus__c</name>
+    <picklistValues>
+        <masterLabel>完了A</masterLabel>
+        <translation><!-- 完了A --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>完了B</masterLabel>
+        <translation><!-- 完了B --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>完了C</masterLabel>
+        <translation><!-- 完了C --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

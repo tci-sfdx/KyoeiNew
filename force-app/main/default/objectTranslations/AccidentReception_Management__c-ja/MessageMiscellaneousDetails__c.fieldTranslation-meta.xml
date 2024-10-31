@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 伝言・雑件詳細 --></label>
+    <name>MessageMiscellaneousDetails__c</name>
+    <picklistValues>
+        <masterLabel>(代)契約内容照会</masterLabel>
+        <translation><!-- (代)契約内容照会 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>その他</masterLabel>
+        <translation><!-- その他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ロードサービス</masterLabel>
+        <translation><!-- ロードサービス --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>契約相違</masterLabel>
+        <translation><!-- 契約相違 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>契約関連</masterLabel>
+        <translation><!-- 契約関連 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>対象外・被害事故</masterLabel>
+        <translation><!-- 対象外・被害事故 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>後報告</masterLabel>
+        <translation><!-- 後報告 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>既報事故</masterLabel>
+        <translation><!-- 既報事故 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>現場急行</masterLabel>
+        <translation><!-- 現場急行 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>請求書類</masterLabel>
+        <translation><!-- 請求書類 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>車両入替</masterLabel>
+        <translation><!-- 車両入替 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>追加報告</masterLabel>
+        <translation><!-- 追加報告 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>間違い電話・直切れ</masterLabel>
+        <translation><!-- 間違い電話・直切れ --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

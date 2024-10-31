@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 火新異動_入力日 --></label>
+    <name>NewFireChange_DateOfEntry__c</name>
+</CustomFieldTranslation>

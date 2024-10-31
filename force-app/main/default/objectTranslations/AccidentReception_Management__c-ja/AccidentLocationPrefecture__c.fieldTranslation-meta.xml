@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- ※不明時は「不明」と入力。 --></help>
+    <label><!-- 事故場所（都道府県） --></label>
+    <name>AccidentLocationPrefecture__c</name>
+    <picklistValues>
+        <masterLabel>01.北海道</masterLabel>
+        <translation><!-- 01.北海道 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>02.青森県</masterLabel>
+        <translation><!-- 02.青森県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>03.岩手県</masterLabel>
+        <translation><!-- 03.岩手県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>04.宮城県</masterLabel>
+        <translation><!-- 04.宮城県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>10.秋田県</masterLabel>
+        <translation><!-- 10.秋田県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>11.山形県</masterLabel>
+        <translation><!-- 11.山形県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>12.福島県</masterLabel>
+        <translation><!-- 12.福島県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>20.茨城県</masterLabel>
+        <translation><!-- 20.茨城県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>21.栃木県</masterLabel>
+        <translation><!-- 21.栃木県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>22.群馬県</masterLabel>
+        <translation><!-- 22.群馬県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>23.埼玉県</masterLabel>
+        <translation><!-- 23.埼玉県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>24.千葉県</masterLabel>
+        <translation><!-- 24.千葉県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>25.東京都</masterLabel>
+        <translation><!-- 25.東京都 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>26.神奈川県</masterLabel>
+        <translation><!-- 26.神奈川県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>30.新潟県</masterLabel>
+        <translation><!-- 30.新潟県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>31.富山県</masterLabel>
+        <translation><!-- 31.富山県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>32.石川県</masterLabel>
+        <translation><!-- 32.石川県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>33.福井県</masterLabel>
+        <translation><!-- 33.福井県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>34.山梨県</masterLabel>
+        <translation><!-- 34.山梨県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>40.長野県</masterLabel>
+        <translation><!-- 40.長野県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>41.岐阜県</masterLabel>
+        <translation><!-- 41.岐阜県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>42.静岡県</masterLabel>
+        <translation><!-- 42.静岡県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>43.愛知県</masterLabel>
+        <translation><!-- 43.愛知県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>44.三重県</masterLabel>
+        <translation><!-- 44.三重県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>50.滋賀県</masterLabel>
+        <translation><!-- 50.滋賀県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>57.京都府</masterLabel>
+        <translation><!-- 57.京都府 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>58.大阪府</masterLabel>
+        <translation><!-- 58.大阪府 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>59.兵庫県</masterLabel>
+        <translation><!-- 59.兵庫県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>60.奈良県</masterLabel>
+        <translation><!-- 60.奈良県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>61.和歌山県</masterLabel>
+        <translation><!-- 61.和歌山県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>62.鳥取県</masterLabel>
+        <translation><!-- 62.鳥取県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>63.島根県</masterLabel>
+        <translation><!-- 63.島根県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>64.岡山県</masterLabel>
+        <translation><!-- 64.岡山県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>70.広島県</masterLabel>
+        <translation><!-- 70.広島県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>71.山口県</masterLabel>
+        <translation><!-- 71.山口県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>72.徳島県</masterLabel>
+        <translation><!-- 72.徳島県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>73.香川県</masterLabel>
+        <translation><!-- 73.香川県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>74.愛媛県</masterLabel>
+        <translation><!-- 74.愛媛県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>80.高知県</masterLabel>
+        <translation><!-- 80.高知県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>81.福岡県</masterLabel>
+        <translation><!-- 81.福岡県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>82.佐賀県</masterLabel>
+        <translation><!-- 82.佐賀県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>83.長崎県</masterLabel>
+        <translation><!-- 83.長崎県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>84.熊本県</masterLabel>
+        <translation><!-- 84.熊本県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>90.大分県</masterLabel>
+        <translation><!-- 90.大分県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>91.宮崎県</masterLabel>
+        <translation><!-- 91.宮崎県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>92.鹿児島県</masterLabel>
+        <translation><!-- 92.鹿児島県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>93.沖縄県</masterLabel>
+        <translation><!-- 93.沖縄県 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>不明</masterLabel>
+        <translation><!-- 不明 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

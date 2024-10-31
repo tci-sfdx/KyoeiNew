@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 修理工場 --></label>
+    <name>OtherRepairShopName__c</name>
+    <picklistValues>
+        <masterLabel>加入修理工場</masterLabel>
+        <translation><!-- 加入修理工場 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

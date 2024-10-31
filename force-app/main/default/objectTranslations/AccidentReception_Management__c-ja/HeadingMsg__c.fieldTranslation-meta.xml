@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 見出し --></label>
+    <name>HeadingMsg__c</name>
+    <picklistValues>
+        <masterLabel>◆補償対象外の事故連絡◆</masterLabel>
+        <translation><!-- ◆補償対象外の事故連絡◆ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>◆請求書類の再送付希望◆</masterLabel>
+        <translation><!-- ◆請求書類の再送付希望◆ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>【後報告】事故発生のご連絡がありましたが、下記理由により受付には至りませんでした。</masterLabel>
+        <translation><!-- 【後報告】事故発生のご連絡がありましたが、下記理由により受付には至りませんでした。 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>上記事故番号の件で連絡が御座いました。</masterLabel>
+        <translation><!-- 上記事故番号の件で連絡が御座いました。 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>下記内容で入電がある可能性が御座います。</masterLabel>
+        <translation><!-- 下記内容で入電がある可能性が御座います。 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>下記内容の連絡が御座いました。</masterLabel>
+        <translation><!-- 下記内容の連絡が御座いました。 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>事故受付時、下記申告がありました。</masterLabel>
+        <translation><!-- 事故受付時、下記申告がありました。 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>事故受付済みの件で下記内容の連絡が御座いました。</masterLabel>
+        <translation><!-- 事故受付済みの件で下記内容の連絡が御座いました。 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>内線で伝達済みの件ですが、書面でも伝言致します。</masterLabel>
+        <translation><!-- 内線で伝達済みの件ですが、書面でも伝言致します。 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>折り返し連絡希望の入電が御座いました。</masterLabel>
+        <translation><!-- 折り返し連絡希望の入電が御座いました。 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

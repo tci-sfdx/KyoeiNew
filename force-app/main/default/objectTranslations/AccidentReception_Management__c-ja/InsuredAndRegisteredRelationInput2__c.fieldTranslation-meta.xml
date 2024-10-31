@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 被保険者と記名被保険者②の関係（フリー入力） --></label>
+    <name>InsuredAndRegisteredRelationInput2__c</name>
+</CustomFieldTranslation>

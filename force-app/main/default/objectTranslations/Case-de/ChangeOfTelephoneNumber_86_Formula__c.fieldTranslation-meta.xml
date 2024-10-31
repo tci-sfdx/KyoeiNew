@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 86（電話番号変更） --></label>
+    <name>ChangeOfTelephoneNumber_86_Formula__c</name>
+</CustomFieldTranslation>

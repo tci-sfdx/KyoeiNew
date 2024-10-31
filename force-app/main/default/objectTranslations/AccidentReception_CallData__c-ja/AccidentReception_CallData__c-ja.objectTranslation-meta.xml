@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>事故受付_コールデータ</value>
+    </caseValues>
+    <layouts>
+        <layout>コールデータレイアウト</layout>
+        <sections>
+            <label><!-- BEDORE連携項目 --></label>
+            <section>BEDORE連携項目</section>
+        </sections>
+        <sections>
+            <label><!-- カスタムリンク --></label>
+            <section>カスタムリンク</section>
+        </sections>
+        <sections>
+            <label><!-- 情報_1列 --></label>
+            <section>情報_1列</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- 日付形式（例：R3/1/1）で入力してください。 --></errorMessage>
+        <name>ChkAccidentDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 日付形式（例：R3/1/1）で入力してください。 --></errorMessage>
+        <name>ChkIncomingCallDay</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- カタカナで入力してください --></errorMessage>
+        <name>ChkName</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- CreateNewCallData --></label>
+        <name>CreateNewCallData</name>
+    </webLinks>
+</CustomObjectTranslation>

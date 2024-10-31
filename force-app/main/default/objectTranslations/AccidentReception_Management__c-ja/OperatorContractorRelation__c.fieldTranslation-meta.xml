@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 操縦者と契約者の関係 --></label>
+    <name>OperatorContractorRelation__c</name>
+    <picklistValues>
+        <masterLabel>その他</masterLabel>
+        <translation><!-- その他 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>別居未婚の子</masterLabel>
+        <translation><!-- 別居未婚の子 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>別居親族</masterLabel>
+        <translation><!-- 別居親族 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>同居親族</masterLabel>
+        <translation><!-- 同居親族 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>本人</masterLabel>
+        <translation><!-- 本人 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>配偶者</masterLabel>
+        <translation><!-- 配偶者 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 搭乗者傷害 --></label>
+    <name>OnBoardLimited__c</name>
+    <picklistValues>
+        <masterLabel>あり</masterLabel>
+        <translation><!-- あり --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>なし</masterLabel>
+        <translation><!-- なし --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

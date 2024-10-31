@@ -1,0 +1,44 @@
+<template>
+	<lightning-card title="契約照会" icon-name="standard:contact">
+		<div class="slds-p-horizontal_small">
+			
+			<lightning-input data-id="DAIRITEN_CD" label="代理店コード" type="text" max-length="11" value={DAIRITEN_CD} pattern="^[0-9]{8,11}$"
+			message-when-pattern-mismatch="半角数字8桁から11桁で入力してください。">
+			</lightning-input>
+			<lightning-input data-id="SHOKEN_NO_OYA" label="証券番号親番" type="text" max-length="12" value={SHOKEN_NO_OYA} >
+			</lightning-input>
+			<lightning-input data-id="SHOKEN_NO_EDA" label="証券番号枝番" type="text" max-length="5" value={SHOKEN_NO_EDA} pattern="^[0-9]{1,5}$"
+			message-when-pattern-mismatch="半角数字で入力してください。">
+			</lightning-input>
+			<lightning-input data-id="SHUMOKU" label="種目" type="text" max-length="3" value={SHUMOKU}  >
+			</lightning-input>
+			<lightning-input data-id="PolicyholderName__pc" label="契約者名" type="text" value={PolicyholderName__pc}  >
+			</lightning-input>
+			<lightning-input data-id="AgencyName__c" label="代理店名" type="text" value={AgencyName__c}  >
+			</lightning-input>
+			<lightning-input data-id="ContractorPostalCode__pc" label="契約者郵便番号" type="text" value={ContractorPostalCode__pc}  >
+			</lightning-input>
+			<lightning-input data-id="ContractorAddress__c" label="契約者住所" type="text" value={ContractorAddress__c}  >
+			</lightning-input>
+			<lightning-input data-id="ContractorAge__pc" label="契約者年齢" type="text" value={ContractorAge__pc}  >
+			</lightning-input>
+			<lightning-input data-id="GroupGroupName__c" label="団体集団名" type="text" value={GroupGroupName__c}  >
+			</lightning-input>
+			<lightning-input data-id="GroupCode__c" label="集団コード" type="text" value={GroupCode__c}  >
+			</lightning-input>
+			<lightning-input data-id="RelatedBranchCode__c" label="相対支社コード" type="text" value={RelatedBranchCode__c}  >
+			</lightning-input>
+			<lightning-input data-id="FukokuCode__c" label="富国支社コード" type="text" value={FukokuCode__c}  >
+			</lightning-input>
+			<lightning-button variant="brand-outline" label="契約者情報取込"
+				onclick={doConnectPattern1}></lightning-button>
+			
+			<lightning-button variant="brand-outline" label="FOCUS契約者情報取込"
+				onclick={doConnectPattern2}></lightning-button>
+			
+			<lightning-button variant="brand-outline" label="自賠責契約者情報取込"
+				onclick={doConnectPattern3}></lightning-button>
+			<div id="link" data-id="link"></div>
+		</div>
+	</lightning-card>
+</template>

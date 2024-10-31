@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 運転者氏名（漢字） --></label>
+    <name>DriverNameHishin__c</name>
+</CustomFieldTranslation>

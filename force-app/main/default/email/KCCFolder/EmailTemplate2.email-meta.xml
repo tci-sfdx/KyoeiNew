@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>x-SJIS_0213</encodingKey>
+    <name>自動車　保険開始月翌月計上ご報告（担当ＣＬ）</name>
+    <style>none</style>
+    <subject>【受付番号：{!Case.CaseNumber}】自動車　保険開始月翌月計上ご報告（担当ＣＬ）</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

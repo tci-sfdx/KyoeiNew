@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 備考（削除予定） --></label>
+    <name>RemarksContact__c</name>
+    <picklistValues>
+        <masterLabel>確認事項がある場合の連絡する旨を案内</masterLabel>
+        <translation><!-- 確認事項がある場合の連絡する旨を案内 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

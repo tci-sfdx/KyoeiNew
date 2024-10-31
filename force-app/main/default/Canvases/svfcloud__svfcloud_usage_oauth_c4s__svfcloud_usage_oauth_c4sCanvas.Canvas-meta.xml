@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CanvasMetadata xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessMethod>Post</accessMethod>
+    <canvasUrl>https://sfdc3.svfcloud.com/svf-cloud-service/sfdc/admin</canvasUrl>
+    <locationOptions>VF</locationOptions>
+    <samlInitiationMethod>0</samlInitiationMethod>
+</CanvasMetadata>

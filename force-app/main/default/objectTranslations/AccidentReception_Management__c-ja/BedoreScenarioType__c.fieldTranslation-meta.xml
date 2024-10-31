@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- BEDOREシナリオタイプ --></label>
+    <name>BedoreScenarioType__c</name>
+    <picklistValues>
+        <masterLabel>その他事故シナリオ</masterLabel>
+        <translation><!-- その他事故シナリオ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>その他問合せシナリオ</masterLabel>
+        <translation><!-- その他問合せシナリオ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>傷害事故シナリオ</masterLabel>
+        <translation><!-- 傷害事故シナリオ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>台風事故シナリオ</masterLabel>
+        <translation><!-- 台風事故シナリオ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>地震事故シナリオ</masterLabel>
+        <translation><!-- 地震事故シナリオ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>契約関連シナリオ</masterLabel>
+        <translation><!-- 契約関連シナリオ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>携行品・用品事故シナリオ</masterLabel>
+        <translation><!-- 携行品・用品事故シナリオ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>既報事故シナリオ</masterLabel>
+        <translation><!-- 既報事故シナリオ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>火災新種受付</masterLabel>
+        <translation><!-- 火災新種受付 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>物損事故シナリオ</masterLabel>
+        <translation><!-- 物損事故シナリオ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>第三分野事故シナリオ</masterLabel>
+        <translation><!-- 第三分野事故シナリオ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>自然災害受付</masterLabel>
+        <translation><!-- 自然災害受付 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>賠償事故シナリオ</masterLabel>
+        <translation><!-- 賠償事故シナリオ --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

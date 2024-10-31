@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- 契約者との続柄 --></label>
+    <name>ConversationPartner_Group__c</name>
+    <picklistValues>
+        <masterLabel>(富国)内務職員_#</masterLabel>
+        <translation><!-- (富国)内務職員_# --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>(富国)営業職員_#</masterLabel>
+        <translation><!-- (富国)営業職員_# --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>その他_#</masterLabel>
+        <translation><!-- その他_# --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>代理店_#</masterLabel>
+        <translation><!-- 代理店_# --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>別居／その他親族_#</masterLabel>
+        <translation><!-- 別居／その他親族_# --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>別居／婿・嫁_#</masterLabel>
+        <translation><!-- 別居／婿・嫁_# --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>別居／子_#</masterLabel>
+        <translation><!-- 別居／子_# --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>別居／父母_#</masterLabel>
+        <translation><!-- 別居／父母_# --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>同居／その他親族</masterLabel>
+        <translation><!-- 同居／その他親族 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>同居／婿・嫁</masterLabel>
+        <translation><!-- 同居／婿・嫁 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>同居／子</masterLabel>
+        <translation><!-- 同居／子 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>同居／父母</masterLabel>
+        <translation><!-- 同居／父母 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>契約者本人</masterLabel>
+        <translation><!-- 契約者本人 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>業者</masterLabel>
+        <translation><!-- 業者 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>法定相続人</masterLabel>
+        <translation><!-- 法定相続人 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>親権者</masterLabel>
+        <translation><!-- 親権者 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>譲受人</masterLabel>
+        <translation><!-- 譲受人 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>配偶者</masterLabel>
+        <translation><!-- 配偶者 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>
